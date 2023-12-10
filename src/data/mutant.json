@@ -1,0 +1,93 @@
+{
+  "benefits": "Increase HP by 5.",
+  "skills": [
+    {
+      "name": "Akromorphosis",
+      "info": "Max SL - 3",
+      "description": "Your unarmed strikes deal【6 + (SL × 2)】extra damage, and you gain a bonus equal to【SL】to your Accuracy Checks with them. At the start of your turn during a conflict, you may choose a weapon Category other than brawling. If you do, your unarmed strikes now belong to the chosen Category; if you choose bow, firearm or thrown, they become ranged weapons instead of melee; if you choose dagger or sword, they cannot be used with Triple Slash. These changes last until the start of your next turn."
+    },
+    {
+      "name": "Biophagy",
+      "info": "Max SL - 4",
+      "description": "After one of your attacks or offensive spells (r) causes one or more enemies to lose Hit Points, if you are in Crisis, you may recove【r SL × 5】Hit Points."
+    },
+    {
+      "name": "Ecdysis",
+      "info": "Max SL - 1",
+      "description": "After you lose Hit Points due to damage, if that damage had a type other than physical, you may spend 10 Hit Points to gain Resistance to that damage type until you use this Skill again. You cannot use this Skill if doing so would reduce you to 0 HP."
+    },
+    {
+      "name": "Genoclepsis",
+      "info": "Max SL - 2",
+      "description": "When you deal damage to one or more NPCs, you learn their Species and the GM chooses【SL】therioforms they find thematic to those NPCs (see next page): you may immediately use the Theriomorphosis Skill (if you have acquired it, and paying its HP cost) to manifest those therioforms (even if they are not among those you learned)."
+    },
+    {
+      "name": "Biophagy",
+      "info": "Max SL - 6",
+      "description": "Each time you acquire this Skill, you learn a therioform. You may use an action and spend one third of your current Hit Points (rounded down) to manifest the effects of up to two therioforms you have learned: the details of this transformation are explained on the next page."
+    }
+  ],
+  "therioform": "Therioforms are mutations that grant powerful abilities; the way they manifest on your character is completely up to you - pterotheria, for instance, might turn you into a person-sized bat or simply give you feathered wings. * Once you use the Theriomorphosis Skill, the effects of your therioform(s) last until the end of the scene; these effects also end if you die or fall unconscious, if you perform the Guard action, or if you use the Theriomorphosis Skill again (this includes using it through Genoclepsis). * You may end the effects of your Theriomorphosis at any time, but during a conflict you can only do so on your turn, before or after an action. * When the scene ends, if you are under the effects of your Theriomorphosis, you may spend 10 Mind Points to extend your current therioform(s) to the next scene you will be a part of.",
+  "therioforms": [
+    {
+      "name": "Amphibia",
+      "info": "Frogs, salamanders, regenerating creatures, aquatic monsters.",
+      "description": "You may breathe underwater and your eyes can see perfectly in dim light. When you recover Hit Points, you recover 5 additional Hit Points and you may immediately recover from a single status effect of your choice."
+    },
+    {
+      "name": "Arpaktida",
+      "info": "Wolves, birds of prey, creatures with sharp hunting senses.",
+      "description": "You treat your Insight as if it were one die size higher (to a maximum of d12). When you deal damage to one or more creatures for the first time during your turn, if at least one of them is in Crisis, you deal 5 extra damage to each of those creatures."
+    },
+    {
+      "name": "Dynamotheria",
+      "info": "Bears, dinosaurs, creatures of massive size and strength.",
+      "description": "You treat your Might as if it were one die size higher (to a maximum of d12). When you succeed on a Check to advance or turn back a Clock, if that Check includes Might, you may fill or erase 1 additional section of that Clock."
+    },
+    {
+      "name": "Electrophora",
+      "info": "Electric creatures, lightning elementals, robots.",
+      "description": "When you deal damage with an attack or spell, you may have all that damage become bolt. While your unarmed strikes deal bolt damage, any enemy who loses 20 or more Hit Points due to one of your unarmed strikes also suffers slow."
+    },
+    {
+      "name": "Neurophagoida",
+      "info": "Parasites, undead, creatures who feed on souls.",
+      "description": "When you use the Biophagy Skill, you also recover an amount of Mind Points equal to 【4 + (your Skill Level in Theriomorphosis)】."
+    },
+    {
+      "name": "Placophora",
+      "info": "Crustaceans, turtles, armored creatures and vehicles.",
+      "description": "You may treat your Defense score as being equal to【13 + (half your Skill Level in Theriomorphosis)】(you may still use your normal scores if better)."
+    },
+    {
+      "name": "Pneumophora",
+      "info": "Jet-propulsion mollusks, great winged beasts, rockets.",
+      "description": "As the Electophora therioform, but the damage is air and the status effect is weak."
+    },
+    {
+      "name": "Polypoda",
+      "info": "Squids, octopi, creatures with tendrils or vines.",
+      "description": "Your attacks with unarmed strikes gain multi (3)."
+    },
+    {
+      "name": "Pterotheria",
+      "info": "Bats, birds, winged insects, flying creatures.",
+      "description": "You are able to fly. In addition to the obvious advantages in mobility, your melee attacks can target flying creatures and you cannot be targeted by melee attacks unless the attacker is flying or is somehow able to reach flying targets. These benefits do not apply while you are unable to fly freely (such as when inside a vehicle designed for human-sized creatures, or inside a narrow corridor). Additionally, when you suffer air, bolt or ice damage during a conflict scene, you lose these benefits until the start of your next turn."
+    },
+    {
+      "name": "Pyrophora",
+      "info": "Bombardier beetles, pistol shrimps, fire elementals.",
+      "description": "As the Electophora therioform, but the damage is fire and the status effect is dazed."
+    },
+    {
+      "name": "Tachytheria",
+      "info": "Cats, gazelles, hares, creatures that are agile and quick.",
+      "description": "You treat your Dexterity as if it were one die size higher (to a maximum of d12). When you succeed on a Check to advance or turn back a Clock, if that Check includes Dexterity, you may fill or erase 1 additional section of that Clock."
+    },
+    {
+      "name": "Toxicophora",
+      "info": "Spiders, snakes, toxic slimes and other venomous creatures.",
+      "description": "As the Electophora therioform, but the damage is poison and the status effect is poisoned."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "benefits": "Increase MP by 5.",
+  "skills": [
+    {
+      "name": "Magichant",
+      "info": "Max SL - 10",
+      "description": "On your turn during a conflict scene, you may use an action and spend a variable amount of MP to weave voice and music into a magical effect known as a verse. You may only sing one verse per turn, even if you have access to multiple actions; the full rules for verses can be found starting on the next page. When you first acquire this Skill, you learn all three volumes, plus one key and one tone (see next page). Whenever you acquire this Skill again, you may learn one key or one tone (your choice)."
+    },
+    {
+      "name": "Resonance",
+      "info": "Max SL - 3",
+      "description": "After you affect one or more enemies with a verse, if you have an arcane weapon equipped, you may choose one option: until the start of your next turn, your allies deal 【SL】extra damage to those enemies; or until the start of your next turn, you recover 【SL】Mind Points every time one of those enemies suffers damage (if the same source deals damage to two or more of those enemies at the same time, you recover【SL】MP for each damaged enemy)."
+    },
+    {
+      "name": "Siren's Song",
+      "info": "Max SL - 1",
+      "description": "You gain the ability to perform Rituals of the Ritualism discipline; additionally, you may use Ritualism to create hearing-based illusions."
+    },
+    {
+      "name": "Sound Barrier",
+      "info": "Max SL - 5",
+      "description": "After you sing a verse with medium or high volume, all physical damage you suffer until the start of your next turn is reduced by【SL】(applied before Affinities)."
+    },
+    {
+      "name": "Vibrato",
+      "info": "Max SL - 1",
+      "description": "After you sing a verse with low or medium volume, you may perform a free attack with a weapon you have equipped; treat your High Roll (HR) as 0 when calculating damage dealt by this attack."
+    }
+  ],
+  "singing": "When you sing a verse, you combine a volume, a key and a tone you learned. These three aspects determine the verse’s MP cost, targets and effect. The volume determines the sound intensity of your verse (and the creatures you can reach with it). Each tone determines the general effects of your verse.Each key has an associated damage type, status effect, Attribute and recovery. These modify the effects determined by the tone of your verse. Example: you might combine a low volume with the key of Flame and a haunting tone to inflict shaken on a single creature for 10 Mind Points, or you could combine a medium volume with the key of Iron and an energetic tone to allow your allies to make additional progress on Clocks when using Willpower.",
+  "verses": {
+    "volume": [
+      ["Volume", "MP", "Targets"],
+      [
+        "Low",
+        "10",
+        "Yourself or another creature you can see who can hear you."
+      ],
+      ["Low", "10", "Every ally who can hear you."],
+      ["Low", "10", "Every enemy who can hear you."]
+    ],
+    "key": [
+      ["Key", "Type", "Status Effect", "Attribute", "Recovery"],
+      ["Flame", "Fire", "Shaken", "Might", "Mind Points"],
+      ["Frost", "Ice", "Weak", "Willpower", "Mind Points"],
+      ["Iron", "Physical", "Slow", "Willpower", "Hit Points"],
+      ["Radiance", "Light", "Dazed", "Insight", "Hit Points"],
+      ["Shadow", "Dark", "Weak", "Dexterity", "Mind Points"],
+      ["Stone", "Earth", "Dazed", "Might", "Hit Points"],
+      ["Thunder", "Bolt", "Shaken", "Dexterity", "Hit Points"],
+      ["Wind", "Arcanist", "Slow", "Insight", "Mind Points"]
+    ],
+    "tone": [
+      {
+        "name": "Calm",
+        "info": "Tone",
+        "description": "Each target recovers【key recovery】equal to【10 + twice your current Willpower die size】. This amount increases by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher. If this tone causes MP recovery, it has no effect on the character who sings it."
+      },
+      {
+        "name": "Energetic",
+        "info": "Tone",
+        "description": "Until the start of your next turn, when a target succeeds on a Check that includes【key Attribute】and that Check allows them to advance or turn back a Clock, they may fill or erase an additional section of that Clock."
+      },
+      {
+        "name": "Energetic",
+        "info": "Tone",
+        "description": "Each target suffers【key type】damage equal to twice your current Willpower die size. This tone deals 10 extra damage if you are level 20 or higher, or 20 extra damage if you are level 40 or higher."
+      },
+      {
+        "name": "Frantic",
+        "info": "Tone",
+        "description": "Each target recovers【key recovery】equal to【10 + twice your current Willpower die size】. This amount increases by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher. If this tone causes MP recovery, it has no effect on the character who sings it."
+      },
+      {
+        "name": "Haunting",
+        "info": "Tone",
+        "description": "Each target suffers【key status effect】. Each target also loses Resistance to【key type】damage (if they have it) until the start of your next turn."
+      },
+      {
+        "name": "Lively",
+        "info": "Tone",
+        "description": "Each target treats thei【r key Attribute】as being one die size higher (up to a maximum of d12) until the start of your next turn."
+      },
+      {
+        "name": "Menacing",
+        "info": "Tone",
+        "description": "The first time each target suffers damage before the start of your next turn, that damage becomes【key type】. This can trigger once for each target of the verse, separately."
+      },
+      {
+        "name": "Solemn",
+        "info": "Tone",
+        "description": "Each target recovers from【key status effect】. Each target also gains Resistance to【key type】damage until the start of your next turn."
+      }
+    ]
+  }
+}

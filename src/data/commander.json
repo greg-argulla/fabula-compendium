@@ -1,0 +1,30 @@
+{
+  "benefits": "Increase HP by 5. Equip Martial Melee and Ranged.",
+  "skills": [
+    {
+      "name": "Bishop's Edict",
+      "info": "Max SL - 5",
+      "description": "During a conflict, you may use an action and spend 10 Mind Points to choose one option: all MP costs are doubled; or all sources of damage deal【SL × 3】extra damage. The chosen effect lasts until the start of your next turn."
+    },
+    {
+      "name": "Charging Cavalry",
+      "info": "Max SL - 5",
+      "description": "During a conflict, you may use an action and spend 10 MP to choose one ally that can hear you. That ally may immediately perform a free attack with a weapon they have equipped (or with a basic attack if they are an NPC). They gain a bonus equal to【SL 3】 to the Accuracy Check, but treat their High Roll (HR) as 0 when calculating damage."
+    },
+    {
+      "name": "Crushing Chariot",
+      "info": "Max SL - 1",
+      "description": "After you use Bishop’s Edict, Charging Cavalry or King’s Castle, you may choose another Player Character that can hear you who has yet to take a turn during this round. That character may take their turn immediately after yours during this round."
+    },
+    {
+      "name": "King's Castle",
+      "info": "Max SL - 4",
+      "description": "During a conflict, you may use an action and spend 10 Mind Points to choose one option: no creature can recover Hit Points or Mind Points; or all effects that restore Mind Points restore【SL × 5】additional Mind Points. The chosen effect lasts until the start of your next turn."
+    },
+    {
+      "name": "Queen's Gambit",
+      "info": "Max SL - 6",
+      "description": "During a conflict, you may use an action to perform a free attack with a weapon you have equipped, treating your High Roll (HR) as 0 when calculating damage. After the attack is resolved, choose one option: one ally who is able to hear you recovers【5 + (SL × 5)】Hit Points; or you may immediately use a Skill you acquired among Bishop’s Edict, Charging Cavalry or King’s Castle for free (spending the appropriate MP)."
+    }
+  ]
+}

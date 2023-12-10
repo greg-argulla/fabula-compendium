@@ -1,0 +1,117 @@
+{
+  "benefits": "Increase HP or MP by 5 (your choice).",
+  "skills": [
+    {
+      "name": "Dance",
+      "info": "Max SL - 10",
+      "description": "Each time you take this Skill, you learn a dance. On your turn during a conflict scene, if you have no martial armor equipped, you may spend 10 Mind Points to perform a dance you have learned. This doesn’t require an action, but it can only be done before or after an action, and only once per turn. If you already performed a different dance during your previous turn in this scene, the cost of the new dance is reduced to 5 Mind Points. Some dances are instantaneous and resolve immediately, while others have effects that last until the start of your next turn."
+    },
+    {
+      "name": "Follow My Lead",
+      "info": "Max SL - 1",
+      "description": "When you perform a dance with a duration of “Until the start of your next turn”, you may spend 10 additional Mind Points. If you do, choose one ally you can see towards whom you have a Bond of affection: apply the benefits of the dance to that ally as well as yourself (the benefits still last until the start of your next turn)."
+    },
+    {
+      "name": "Frenetic Footwork",
+      "info": "Max SL - 2",
+      "description": "After you perform a dance with a duration of “Until the start of your next turn”, you gain a bonus equal to【SL × 2】to all Opposed Checks that rely on acrobatics, coordination or speed until the start of your next turn."
+    },
+    {
+      "name": "Quick-Change",
+      "info": "Max SL - 1",
+      "description": "After you perform a dance, you may perform the Equipment action for free."
+    },
+    {
+      "name": "Queen's Gambit",
+      "info": "Max SL - 5",
+      "description": "After you perform a dance, your attacks with brawling, dagger, flail and thrown weapons deal【SL】extra damage until the start of your next turn. If you have an arcane weapon equipped, offensive spells you cast also deal【 SL】extra damage until the start of your next turn."
+    }
+  ],
+  "dances": [
+    {
+      "name": "Angel Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to light damage; or all damage dealt by your attacks and spells becomes light."
+    },
+    {
+      "name": "Banshee Dance",
+      "info": "Instantaneous",
+      "description": "Choose another creature that is able to see you. If that creature is already slow, they immediately suffer shaken."
+    },
+    {
+      "name": "Bat Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to dark damage; or all damage dealt by your attacks and spells becomes dark."
+    },
+    {
+      "name": "Golem Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to bolt damage; or all damage dealt by your attacks and spells becomes bolt."
+    },
+    {
+      "name": "Griffin Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to air damage; or all damage dealt by your attacks and spells becomes air."
+    },
+    {
+      "name": "Hydra Dance",
+      "info": "Until the start of your next turn",
+      "description": "After you suffer damage, choose one option: you recover 5 Hit Points, or you recover 5 Mind Points."
+    },
+    {
+      "name": "Kraken Dance",
+      "info": "Instantaneous",
+      "description": "Choose another creature that is able to see you. If that creature is already dazed, they immediately suffer slow."
+    },
+    {
+      "name": "Lion Dance",
+      "info": "Instantaneous",
+      "description": "You immediately recover from a single status effect of your choice."
+    },
+    {
+      "name": "Maenad Dance",
+      "info": "Instantaneous",
+      "description": "Choose another creature that is able to see you. That creature loses an amount of Mind Points equal to your current Dexterity die size."
+    },
+    {
+      "name": "Myrmidon Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to earth damage; or all damage dealt by your attacks and spells becomes earth."
+    },
+    {
+      "name": "Nightmare Dance",
+      "info": "Instantaneous",
+      "description": "Choose another creature that is able to see you. If that creature is already shaken, they immediately suffer weak."
+    },
+    {
+      "name": "Ouroboros Dance",
+      "info": "Instantaneous",
+      "description": "Choose one ally you can see who has yet to take a turn during this round. That ally may take their turn immediately after yours during this round."
+    },
+    {
+      "name": "Peacock Dance",
+      "info": "Instantaneous",
+      "description": "Choose another creature that is able to see you. The next time that creature performs an attack or casts an offensive spell during this scene, that attack or spell must include you among its targets if possible."
+    },
+    {
+      "name": "Phoenix Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to fire damage; or all damage dealt by your attacks and spells becomes fire."
+    },
+    {
+      "name": "Satyr Dance",
+      "info": "Instantaneous",
+      "description": "Choose another creature that is able to see you. If that creature is already weak, they immediately suffer dazed."
+    },
+    {
+      "name": "Unicorn Dance",
+      "info": "Instantaneous",
+      "description": "Choose an ally that is able to see you and has a Bond towards you: you and that ally both recover an amount of Hit Points equal to your current Dexterity die size. The restored amount increases by 5 Hit Points if you are level 20 or higher, or by 10 Hit Points if you are level 40 or higher."
+    },
+    {
+      "name": "Yeti Dance",
+      "info": "Until the start of your next turn",
+      "description": "Choose one option: you gain Resistance to ice damage; or all damage dealt by your attacks and spells becomes ice."
+    }
+  ]
+}

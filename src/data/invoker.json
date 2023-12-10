@@ -1,0 +1,88 @@
+{
+  "benefits": "Increase MP by 5",
+  "skills": [
+    {
+      "name": "Elemental Harmony",
+      "info": "Max SL - 2",
+      "description": "You may verbally communicate with creatures of the elemental Species. When you restore a creature's Hit Points with an invocation or spell, if an elemental is present on the scene, the restored amount is increased by【SL × 5】"
+    },
+
+    {
+      "name": "Invocation",
+      "info": "Max SL - 3",
+      "description": "You may use an action and spend 5 Mind Points to perform an invocation, drawing energy from one of the wellsprings present on the scene (see next page). Your【SL】in this Skill determines which invocations you have access to."
+    },
+
+    {
+      "name": "Linked Invocation",
+      "info": "Max SL - 3",
+      "description": "When you perform an invocation, you may spend up to【SL × 10】additional Mind Points. For every 10 Mind Points you spend this way, the invocation may target an additional creature you can see."
+    },
+
+    {
+      "name": "Ripples",
+      "info": "Max SL - 5",
+      "description": "After an enemy loses Hit Points due to damage dealt by one of your allies, if that damage was increased by one or more of your \"hex\" invocations, you may perform a free attack with a weapon you have equipped; this attack may only target that enemy. If this attack is successful, all damage dealt by it becomes of the same type that was dealt by your ally, you recover【SL × 2】Mind Points, and all \"hex\" invocations present on its target end immediately after the attack has been resolved. If two or more enemies trigger this Skill at the same time, you can perform a free attack against each of them, in whatever order you prefer."
+    },
+
+    {
+      "name": "Wellspring Expansion",
+      "info": "Max SL - 5",
+      "description": "As long as you have a weapon belonging to the arcane, bow, brawling, sword, or thrown Category equipped, your \"blast\" invocations deal【SL】extra damage, and the extra damage granted by your \"hex\" invocations is increased by【SL】."
+    }
+  ],
+  "availablewellsprings": "During each scene, your surroundings grant you two different wellsprings: the Game Master tells you what they are. Remember to describe how wellsprings manifest in the scene; they may be natural features, objects, or even creatures. Example: during a battle taking place on a steam-powered airship amidst stormy clouds, any two of air, fire, lightning and water would make sense.",
+  "performinginvocation": "When you perform an invocation, choose one option you have access to among those in the table below (provided the corresponding wellspring is available in the scene); then, apply its effects to one creature you can see. Your Skill Level in the Invocation Skill determines which invocations you have access to:【SL 1】enables \"blast\" invocations,【SL 2】enables \"blast\" and \"hex\" invocations, and【SL 3】gives you access to all invocations. Example: if air and earth wellsprings are available and your Skill Level is 2, you have access to Aero Blast, Aero Hex, Geo Blast, and Geo Hex. If an invocation deals damage, it will deal 5 extra damage if you are level 20 or higher, or 10 extra damage if you are level 40 or higher. Similarly, if an invocation causes the target to recover Hit Points or lose Mind Points, the amount will increase by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher.",
+  "wellspring&invocations": [
+    ["Air Wellspring", "damage type: air"],
+    ["Aero Blast", "The target suffers 20 air damage."],
+    [
+      "Aero Hex",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal bolt and fire damage"
+    ],
+    ["Breeze", "The target recovers 30 Hit Points."],
+    ["Twister", "The target suffers 10 air damage and also suffers dazed."],
+
+    ["Earth Wellspring", "damage type: earth"],
+    ["Geo Blast", "The target suffers 20 earth damage."],
+    [
+      "Geo Hex",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal air and ice damage."
+    ],
+    ["Growth", "The target recovers 30 Hit Points."],
+    ["Quicksand", "The target suffers 10 earth damage and also suffers slow"],
+
+    ["Fire Wellspring", "damage type: fire"],
+    ["Fire Blast", "The target suffers 20 fire damage."],
+    [
+      "Fire Hex",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal earth and ice damage."
+    ],
+    [
+      "Burst",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal earth and ice damage."
+    ],
+    ["Smoke", "The target loses 20 Mind Points and also suffers weak."],
+
+    ["Lighting Wellspring", "damage type: bolt"],
+    ["Electro Blast", "The target suffers 20 bolt damage."],
+    [
+      "Electro Hex",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal earth and fire damage"
+    ],
+    ["Static", "The target suffers 10 bolt damage and also suffers slow"],
+    ["Thunder", "The target loses 20 Mind Points and also suffers dazed."],
+
+    ["Water Wellspring", "damage type: ice"],
+    [
+      "Hydro Blast",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal air and bolt damage."
+    ],
+    [
+      "Hydro Hex",
+      "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal air and bolt damage"
+    ],
+    ["Chill", "The target loses 20 Mind Points and also suffers shaken"],
+    ["Frostbite", "The target suffers 10 ice damage and also suffers weak"]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "benefits": "Increase HP by 5. Gain the ability to equip martial melee weapons and martial ranged weapons.",
+  "skills": [
+    {
+      "name": "Compression Tech",
+      "info": "Max SL - 1",
+      "description": "As long as there is no one aboard your personal vehicle, you may have it safely disappear from the game world at any time. What magic or technology allows it? If your personal vehicle is not present in the game world and you are in a space big enough to contain it, you may perform the Inventory action and spend 2 Inventory Points to have the vehicle appear near you and enter it for free."
+    },
+
+    {
+      "name": "Flexible Configuration",
+      "info": "Max SL - 4",
+      "description": "When you perform the Equipment or Guard action while driving your personal vehicle, you may choose up to【SL】of its active modules and make them inactive; if you do, choose an equal amount of its inactive modules and make them active."
+    },
+
+    {
+      "name": "Heart in the Engine",
+      "info": "Max SL - 3",
+      "description": "At the start of your turn during a conflict, if you are driving your personal vehicle, you may spend 10 Mind Points. If you do, choose one option: the next time you deal damage during this turn, deal【SL × 2】extra damage; or, the next time you suffer damage before the start of your next turn, that damage is reduced by【SL × 2】(applied before damage Affinities); or, you recover from a status effect of your choice among slow and weak."
+    },
+    {
+      "name": "Personal Vehicle",
+      "info": "Max SL - 5",
+      "description": "When you acquire this Skill, you gain a personal vehicle with a frame of your choice and three different modules of your choice (see next page). Whenever you acquire this Skill again, you acquire two modules of your choice."
+    },
+    {
+      "name": "Strong Grip",
+      "info": "Max SL - 1",
+      "description": "When you perform an Accuracy Check with a weapon module, you may replace one of the Attributes with Might (such as【MIG + WLP】for an Arcane module)."
+    }
+  ],
+  "pilotsvehicle": "A Pilot's personal vehicle follows a set of special rules. Entering the vehicle during a conflict requires the Objective action; normally there is no Check required, but the Game Master may introduce a Clock in case of serious dangers or obstacles. If the vehicle is accessible when the conflict begins, characters may enter it immediately (during step 2 on page 59 of the Core Rulebook). Leaving the vehicle doesn't require an action, but during a conflict it can only be done on your turn, before or after an action. w The vehicle can hold a variable number of human-sized creatures depending on its frame and modules, but only its Pilot may drive it. Additionally, the other passengers cannot cover creatures when they perform the Guard action. The maximum number of modules active at the same time on the vehicle is equal to 【3 + its Pilot's Skill Level in Personal Vehicle】. The Pilot may freely reassign their vehicle's active and inactive modules outside conflicts. The standard frames and modules are listed in the upcoming pages. Note that whenever a module's text mentions \"you\", it is referring to the Pilot that the module's vehicle belongs to. Example: you might create an armored motorbike by combining the Steed frame with the Heavy Plating and Turbo modules; or create a flying combat armor by combining an Exoskeleton frame with the Aerial, Runic Plating, Rifle and Sword modules.",
+  "armormodules": "While driving a vehicle with an active armor module, a Pilot does not have access to the normal contents of their armor slot. Instead, that slot is considered occupied by the vehicle's armor module. If the vehicle has no active armor modules, the Pilot can keep using their equipped armor as normal. As soon as the Pilot is no longer driving a vehicle with an active armor module, they immediately regain access to their normal equipped armor. Armor modules marked with E are considered martial armors for the sake of Skills and other effects, and they set the Pilot's Defense and Magic Defense to fixed scores (bonuses from shields and other effects still apply). Note that a Pilot can still equip these modules even if they normally lack the ability to equip martial armors. For instance, a Pilot with the Guardian Class can gain the benefits of Defensive Mastery while driving a vehicle with an active Heavy Plating module; at the same time, that Pilot would not be able to benefit from the Rogue's Dodge Skill",
+  "weaponmodules": "While driving a vehicle with one or more active weapon modules, a Pilot does not have access to the normal contents of their hand slots. Instead, those slots are considered occupied by the vehicle's weapon modules. If the vehicle has no active weapon modules, the Pilot can keep using their equipped items as normal. As soon as the Pilot is no longer driving a vehicle with active weapon modules, they immediately regain access to their normal equipped weapons and shields. Each weapon module counts as a one-handed weapon for the sake of character Skills and effects (with the exception of the Shield module, which is treated as a shield). When you set up your vehicle's weapon modules, declare which module will occupy your main hand slot and which module will occupy your off-hand slot. Some weapon modules are complex or cumbersome and prevent you from having other weapon modules (including Shield modules!) active on the same vehicle. For instance, an Axe module can be used to Counterattack, and a Rifle module can be used for Crossfire (pages XXX and XXX of the Core Rulebook). Because each weapon module is treated as a one-handed weapon, a Pilot driving a vehicle with two active weapon modules that share the same Category benefits from the rules for two-weapon fighting - and if they have the Ambidexterous Heroic Skill, this can be done with any two weapon modules"
+}

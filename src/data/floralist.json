@@ -1,0 +1,321 @@
+{
+  "benefits": "Increase HP or MP by 5",
+  "skills": [
+    {
+      "name": "Battle Gardening",
+      "info": "Max SL - 3",
+      "description": "After you plant a magiseed through the Chloromancy Skill (not Graft), you may choose one option: you perform a free attack with an equipped weapon; or you immediately perform the Spell action for free, casting an offensive spell with a total Mind Point cost equal to or lower than【5 + (SL × 5)】(you must still pay its MP cost). Treat the High Roll (HR) of your Accuracy Check or Magic Check as being equal to 0 when determining damage dealt by this attack or spell."
+    },
+    {
+      "name": "Chloromacy",
+      "info": "Max SL - 10",
+      "description": "Each time you acquire this Skill, you discover a new type of magiseed. The rules for discovering magiseeds can be found in the next pages. During a conflict, if there are no magiseeds in your garden, you may use an action and spend 10 Mind Points to plant a magiseed among those you have discovered. The rules for the garden and for growing magiseeds can be found in the next pages."
+    },
+    {
+      "name": "Graft",
+      "info": "Max SL - 1",
+      "description": "As long as there is a magiseed in your garden and 1 or more sections of your Growth Clock are filled, you may use an action and spend 10 Mind Points to remove that magiseed: if you do, you may immediately plant a different magiseed among those you have discovered (while keeping the current filled sections of your Growth Clock)."
+    },
+    {
+      "name": "Tree of Life",
+      "info": "Max SL - 5",
+      "description": "When you remove a magiseed from your garden, if you are in Crisis, you may recover【SL × 2】Hit Points and【SL × 2】Mind Points"
+    },
+    {
+      "name": "Verdant Sway",
+      "info": "Max SL - 1",
+      "description": "You gain the ability to perform Rituals of the Ritualism discipline; additionally, you may use Ritualism to create, animate, and/or control vegetation (but you cannot create nor control plant-Species NPCs this way)."
+    }
+  ],
+  "magiseeds": {
+    "the garden": "When you plant a magiseed, it takes root in your garden until removed. Your garden can only contain one magiseed at a time, and any magiseed within it is automatically removed at the end of the scene",
+    "growth clock": "When you acquire the Chloromancy Skill, you also receive a Growth Clock which is present only during conflict scenes and represents the cycle of life in your garden. Your Growth Clock has 4 sections, and it begins each scene empty. At the end of your turn, if a magiseed is present in your garden, fill 1 section of your Growth Clock; then, if the magiseed in your garden has an \"at the end of your turn\" effect (see below), apply that effect. When you fill the fourth section of your Growth Clock, remove any magiseeds in your garden, then erase all sections of your Growth Clock. Sections of your Growth Clock may not be filled nor erased in any way other than described above, through Brambleheart and Green Thumb, or through effects that explicitly affect Growth Clocks.",
+    "magiseed effects": "Magiseeds can have passive effects, or have effects that trigger at the end of your turn, after your Growth Clock has increased. The effects of a magiseed apply only while it is present in your garden, and they vary depending on the current number of filled sections in your Growth Clock. You only apply the effect corresponding to the exact number of currently filled sections in your Growth Clock, not any effect above or below it. If a magiseed deals damage, it will deal 5 extra damage if you are level 20 or higher, or 10 extra damage if you are level 40 or higher. If a magiseed causes Hit Point or Mind Point loss or recovery, the amount will increase by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher.",
+    "magiseed list desc": "Below and in the next pages you will find a list of standard magiseeds that each Floralist can discover by investing levels into the Chloromancy Skill. The Game Master can also include custom magiseeds among play rewards; each of these can be treated as an item worth approximately 1000 zenit, and should be created collaboratively with the rest of the group. Make sure these new magiseeds have a power level similar to those in the standard list.",
+    "magiseed list": [
+      {
+        "name": "Arctic Narcissus",
+        "info": "It stubbornly survives in frozen territories.",
+        "effect": [
+          ["1", "You are Resistant to earth and ice damage."],
+          [
+            "2-3",
+            "You and your allies present on the scene are Resistant to earth and ice damage."
+          ]
+        ]
+      },
+      {
+        "name": "Blazing Chrysanthemum",
+        "info": "Its thick petals resemble an erupting volcano.",
+        "effect": [
+          [
+            "1",
+            "When you deal damage, choose earth or fire. All damage dealt becomes of the chosen type, its type cannot change, and it ignores Resistances"
+          ],
+          [
+            "2-3",
+            "When you or an ally you can see deal damage, choose earth or fire. All damage dealt becomes of the chosen type, its type cannot change, and it ignores Resistances."
+          ]
+        ]
+      },
+      {
+        "name": "Desert Dahila",
+        "info": "A tenacious plant, it doesn't fear the dryness of dunes.",
+        "effect": [
+          ["1", "You are Resistant to air and fire damage."],
+          [
+            "2",
+            "You and your allies present on the scene are Resistant to air and fire damage."
+          ]
+        ]
+      },
+      {
+        "name": "Golden Gingko",
+        "info": "Its vibrantly colored leaves represent tenacity.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, you and every ally you can see recover from dazed, enraged, and shaken."
+          ],
+          [
+            "2-3",
+            "At the end of your turn, you and every ally you can see recover an amount of Mind Points equal to【10 + your Skill Level in Chloromancy】"
+          ]
+        ]
+      },
+      {
+        "name": "Grave Asphodel",
+        "info": "Solemn and elegant, it embodies death's ineluctability.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, you may choose an enemy you can see. If you do, that enemy suffers shaken."
+          ],
+          [
+            "2",
+            "At the end of your turn, every enemy you can see suffers shaken."
+          ],
+          [
+            "3",
+            "At the end of your turn, you deal an amount of dark damage equal to【10 + your Skill Level in Chloromancy】to each enemy you can see who is suffering from shaken"
+          ]
+        ]
+      },
+      {
+        "name": "Hermit Iris",
+        "info": "Its leaves carry whispers of ancient knowledge.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, choose an enemy you can see. The Game Master reveals its Level, Rank, Species, maximum Hit Points, maximum Mind Points, Traits, Attributes, Defense, and Magic Defense."
+          ],
+          [
+            "2-3",
+            "At the end of your turn, choose an enemy you can see. The Game Master reveals its Level, Rank, Species, maximum Hit Points, maximum Mind Points, Traits, Attributes, Defense, Magic Defense, and Affinities."
+          ]
+        ]
+      },
+      {
+        "name": "Hookleaf Nightshade",
+        "info": "Its purplish berries contain a deadly magical venom.",
+        "effect": [
+          [
+            "1",
+            "All damage you deal becomes poison, its type cannot change, and it ignores Immunities and Resistances."
+          ],
+          [
+            "2-3",
+            "All damage you deal becomes poison, its type cannot change, and it ignores Immunities and Resistances. Additionally, when you deal poison damage for the first time during your turn, you deal extra damage equal to【your Skill Level in Chloromancy】"
+          ]
+        ]
+      },
+      {
+        "name": "Horned Hawthorne",
+        "info": "Favored by witches and surgeons alike for its purifying properties.",
+        "effect": [
+          ["1", "You are Resistant to dark and poison damage."],
+          [
+            "2-3",
+            "You and your allies present on the scene are Resistant to dark and poison damage."
+          ]
+        ]
+      },
+      {
+        "name": "Lunar Magnolia",
+        "info": "It blooms in the darkest hours of the night",
+        "effect": [
+          [
+            "1",
+            "1 When you deal damage, choose ice or light. All damage dealt becomes of the chosen type, its type cannot change, and it ignores Resistances."
+          ],
+          [
+            "2-3",
+            "When you or an ally you can see deal damage, choose ice or light. All damage dealt becomes of the chosen type, its type cannot change, and it ignores Resistances."
+          ]
+        ]
+      },
+      {
+        "name": "Ocean Lotus",
+        "info": "A graceful symbol of serenity and wisdom.",
+        "effect": [
+          ["1", "You are immune to dazed and slow."],
+          [
+            "2",
+            "You treat your Dexterity and Insight as being one die size higher (up to a maximum of d12)."
+          ],
+          [
+            "3",
+            "You and every ally you can see treat your Dexterity and Insight as being one die size higher (up to a maximum of d12)."
+          ]
+        ]
+      },
+      {
+        "name": "Pilgrim Gazalia",
+        "info": "Its flamboyant corolla is synonymous with abundance.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, choose yourself or another Player Character you can see. The chosen character regains 1 Inventory Point."
+          ],
+          [
+            "2",
+            "At the end of your turn, you and every other Player Character you can see regain 1 Inventory Point."
+          ]
+        ]
+      },
+      {
+        "name": "Prancing Dandelion",
+        "info": "A symbol of energy and vivacity, it spreads seeds through stormy winds.",
+        "effect": [
+          [
+            "1",
+            "When you deal damage, choose air or bolt. All damage dealt becomes of the chosen type, its type cannot change, and it ignores Resistances."
+          ],
+          [
+            "2-3",
+            "When you or an ally you can see deal damage, choose air or bolt. All damage dealt becomes of the chosen type, its type cannot change, and it ignores Resistances"
+          ]
+        ]
+      },
+      {
+        "name": "Regal Protea",
+        "info": "A colorful and tenacious flower, favored by an ancient dynasty.",
+        "effect": [
+          ["1", "You are immune to shaken and weak."],
+          [
+            "2",
+            "You treat your Might and Willpower as being one die size higher (up to a maximum of d12)."
+          ],
+          [
+            "3",
+            "You and every ally you can see treat your Might and Willpower as being one die size higher (up to a maximum of d12)."
+          ]
+        ]
+      },
+      {
+        "name": "Remedy Lily",
+        "info": "Its elegant flowers filter and purify spiritual energy.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, you and every ally you can see recover from poisoned, slow, and weak."
+          ],
+          [
+            "2-3",
+            "At the end of your turn, you and every ally you can see recover an amount of Hit Points equal to【20 + your Skill Level in Chloromancy"
+          ]
+        ]
+      },
+      {
+        "name": "Serrated Rose",
+        "info": "Its thorns form a tangle equally breathtaking and dangerous.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, you may choose an enemy you can see. If you do, tha enemy suffers slow."
+          ],
+          [
+            "2",
+            " At the end of your turn, every enemy you can see suffers slow."
+          ],
+          [
+            "3",
+            "At the end of your turn, you deal an amount of physical damage equal to【10 + your Skill Level in Chloromancy】to each enemy you can see who is suffering from slow."
+          ]
+        ]
+      },
+      {
+        "name": "Silver Strelitzia",
+        "info": "Its silver blossoms are easily mistaken for jewels.",
+        "effect": [
+          ["1 You are Resistant to bolt and light damage."],
+          [
+            "2-3",
+            "You and your allies present on the scene are Resistant to bolt and light damage"
+          ]
+        ]
+      },
+      {
+        "name": "Star Peony",
+        "info": "It silently gazes into celestial depths.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, you may choose an enemy you can see. If you do, that enemy suffers dazed."
+          ],
+          [
+            "2",
+            "At the end of your turn, every enemy you can see suffers dazed."
+          ],
+          [
+            "3",
+            "At the end of your turn, you deal an amount of light damage equal to【10 + your Skill Level in Chloromancy】to each enemy you can see who is suffering from dazed."
+          ]
+        ]
+      },
+      {
+        "name": "Striped Orchid",
+        "info": "Each segment of this plant is covered in toxins.",
+        "effect": [
+          [
+            "1",
+            "At the end of your turn, you may choose an enemy you can see. If you do, that enemy suffers weak."
+          ],
+          [
+            "2",
+            "At the end of your turn, every enemy you can see suffers weak."
+          ],
+          [
+            "3",
+            "At the end of your turn, you deal an amount of poison damage equal to【15 + your Skill Level in Chloromancy】to each enemy you can see who is suffering from weak."
+          ]
+        ]
+      },
+      {
+        "name": "Wardwhattle",
+        "info": "A tangle of robust branches, whose thorns spread powerful poison.",
+        "effect": [
+          ["1", "You are Resistant to physical damage."],
+          [
+            "2",
+            "You are Resistant to physical damage. Additionally, after a creature hits you with a melee attack, you deal an amount of physical damage to that creature equal to【5 + your Skill Level in Chloromancy】(after their attack was resolved)."
+          ],
+          [
+            "3",
+            "You are Resistant to physical damage. Additionally, after a creature hits you with a melee attack, you deal an amount of physical damage to that creature equal to【5 + your Skill Level in Chloromancy】, and then deal an amount of poison damage to that creature equal to【5 + your Skill Level in Chloromancy】(after their attack was resolved)."
+          ]
+        ]
+      },
+      {
+        "name": "Wrathful Carnation",
+        "info": "Despite their beauty, its yellow flowers emit an irritatingly pungent smell.",
+        "effect": [
+          [
+            "1-3",
+            "At the end of your turn, choose one enemy you can see. Until the end of your next turn, when that enemy performs an attack or casts an offensive spell, if they are suffering from one or more status effects, they must include you among the targets of that attack of spell (if able)."
+          ]
+        ]
+      }
+    ]
+  }
+}

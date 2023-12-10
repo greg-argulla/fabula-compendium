@@ -1,0 +1,30 @@
+{
+  "benefits": "Increase HP by 5. Equip Martial Ranged and Shields.",
+  "skills": [
+    {
+      "name": "Barrage",
+      "info": "Max SL - 1",
+      "description": "When you perform a ranged attack, you may spend 10 Mind Points to choose one option: the attack gains multi (2); or you increase the attack's multi property by one, up to a maximum of multi (3)."
+    },
+    {
+      "name": "Crossfire",
+      "info": "Max SL - 1",
+      "description": "After a creature you can see performs a ranged attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success."
+    },
+    {
+      "name": "Hawkeye",
+      "info": "Max SL - 5",
+      "description": "When you perform the Guard action, if you choose not to provide cover to another creature, you may choose one option: the next ranged attack you perform before the end of the current scene will deal【SL × 2】extra damage; or you may immediately perform a free attack with a bow or firearm you have equipped, treating your High Roll (HR) as 0 when calculating damage dealt by this attack."
+    },
+    {
+      "name": "Ranged Weapon Mastery",
+      "info": "Max SL - 4",
+      "description": "You gain a bonus equal to【SL】to all Accuracy Checks with ranged weapons."
+    },
+    {
+      "name": "Warning Shot",
+      "info": "Max SL - 4",
+      "description": "When you hit one or more targets with a ranged attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict shaken on each target hit by the attack; or inflict slow on each target hit by the attack; or each target hit by the attack loses【SL × 10】Mind Points. Describe your maneuver!"
+    }
+  ]
+}

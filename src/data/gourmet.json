@@ -1,0 +1,72 @@
+{
+  "benefits": "Increase IP by 2. You may start projects.",
+  "skills": [
+    {
+      "name": "Cooking",
+      "info": "Max SL - 5",
+      "description": "When you rest inside a settlement, you gain【SL】ingredients (see next page). You may use an action and combine 2 or 3 ingredients to prepare a delicacy (see next page) and choose one option: you apply its effects to yourself or an ally you can see; or you perform a free attack with a weapon you have equipped. This attack deals no damage, but you apply the delicacy's effects to each enemy hit by the attack. You may carry up to 10 +【SL × 5】ingredients, and they will never spoil until you use them; if you take this Skill during character creation, you begin play with ten ingredients with random tastes"
+    },
+
+    {
+      "name": "Knife and Fork",
+      "info": "Max SL - 1",
+      "description": "When you perform the free attack granted by the Cooking Skill, you may have the attack deal damage as normal. If you do, you treat your High Roll (HR) as 0 when calculating damage dealt by this attac"
+    },
+
+    {
+      "name": "Made with love",
+      "info": "Max SL - 1",
+      "description": "When you use the Cooking Skill and choose to apply the effects of the delicacy to yourself or an ally you can see, you may spend up to【SL × 10】MP. For every 10 MP you spend this way, you also apply the delicacy's effects to another ally you can see."
+    },
+
+    {
+      "name": "Salt and Pepper",
+      "info": "Max SL - 1",
+      "description": "When you prepare a delicacy, you may spend 2 Inventory Points: if you do, change the taste of one ingredient to a different taste of your choice"
+    },
+
+    {
+      "name": "Traveling Cook",
+      "info": "Max SL - 3",
+      "description": "After each travel roll, if you acquired the Cooking Skill, you gain【SL × 2】ingredients."
+    }
+  ],
+  "ingredients": "When you gain an ingredient, you're not sure what you'll get - roll a d6 to determine the ingredient's taste (see below), then describe what it looks like and give it a name. Always record the name and taste of each ingredient you find. INGREDIENT TASTE 1. Bitter 2. Salty 3. Sour 4. Sweet 5. Umami 6. Your choice Example: you gain two ingredients after traveling through the Petrified Forest. You roll a 1 and 5 for taste, which means one is bitter and the other is umami. You decide to call the first ingredient \"Fossil Honey\" and the second ingredient \"Stonebark Slime\". You record both ingredients and their tastes. You may also purchase ingredients from shops: the price is 10 zenit for an ingredient with a random taste, or 20 zenit for an ingredient with a taste of your choice",
+  "delicacies&cookbooks": "When you use the Cooking Skill, you create a delicacy with powerful effects. Every different combination of two tastes (even if it's the same taste twice!) will add an effect to the delicacy. When you combine two tastes you never combined before, determine the effect of that combination by rolling a d10 and consulting the chart on the right. Then, record the result you rolled in your Cookbook - from now on, that specific combination of tastes will always produce that specific effect. When completed, your Cookbook will have a total of 15 combinations. Example: you combine three ingredients, one of them salty and two of them bitter. The resulting delicacy has two combinations (bitter + bitter and salty + bitter), which means it will have two different effects. You previously combined bitter + bitter and rolled a 4, choosing MP recovery for the effect; but you never combined salty + bitter, so you need to determine its effect rolling dice. You now roll a 1, and choose dazed. Thus, the resulting delicacy will allow the target to recover from the dazed status effect and also recover 30 Mind Points.",
+  "delicacyeffect": [
+    [
+      "1",
+      "The target recovers from (choose one: dazed; enraged; poisoned; shaken; slow; weak)."
+    ],
+    ["2", "The target suffers (choose one: dazed; shaken; slow; weak)."],
+    [
+      "3-4",
+      "The target recovers 40 (choose one: Hit Points; Mind Points). This amount increases to 50 if you are level 30 or higher"
+    ],
+    [
+      "5",
+      "The target suffers 15 (choose one: air; bolt; earth; fire; ice; poison) damage. This amount increases to 20 if you are level 30 or higher"
+    ],
+    [
+      "6",
+      "Until the end of your next turn, the target suffers 5 extra damage from all sources that deal (choose one: air; bolt; earth; fire; ice; poison) damage."
+    ],
+    [
+      "7",
+      "The target cannot perform the (choose one: Guard; Spell; Skill) action on their next turn."
+    ],
+    [
+      "8",
+      "The target gains Resistance to (choose one: air; bolt; earth; fire; ice; poison) damage until the end of your next turn."
+    ],
+    [
+      "9",
+      "The target treats their (choose one: Dexterity; Insight; Might; Willpower) as if it were one die size higher (up to a maximum of d12) until the end of your next turn."
+    ],
+    [
+      "10",
+      "During the target's next turn, all damage they deal becomes (choose one: air; bolt; earth; fire; ice; poison) and its type cannot change."
+    ]
+  ],
+  "delicacyeffectdesc": "When creating a delicacy you obtain 2 or 3 effects, depending on which ingredient combinations you use (the effects may also be 4 or 6 when using the All You Can Eat) you decide in which order to apply these effects, and may choose to forgo any number of them. Effects 5 to 10 can only be applied during conflict scenes. Record your choice for each particular combination of tastes in your Cookbook. If you create that same combination in the future, it will retain that specific version of the effect (for instance, if you roll an 8 for sour + sweet and choose earth, your future uses of the sour + sweet combination will always grant Resistance to earth damage). No two combinations of tastes in your Cookbook may have the same effect: when you determine the effect of a combination you never tried before, make your choice  in such a way as to create an effect with no precedents; if you can't, reroll the d10. Delicacies are created, used and destroyed within the same action."
+}

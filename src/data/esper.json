@@ -1,0 +1,78 @@
+{
+  "benefits": "Increase MP by 5.",
+  "skills": [
+    {
+      "name": "Cognative Focus",
+      "info": "Max SL - 5",
+      "description": "At the start of your turn during a conflict, you may choose one ally who is able to hear you or one enemy you can see that is suffering from dazed, enraged, and/or shaken. Until the start of your next turn, the chosen creature becomes your focus. You gain a bonus equal to【SL】to Checks you perform to examine your focus, as well as to your Accuracy Checks and Magic Checks for attacks and offensive spells (r) that include your focus among the targets. When you cause your focus to recover Hit Points and/or Mind Points, they recove【r SL × 2】additional HP and/or MP, respectively."
+    },
+    {
+      "name": "Hypercognition",
+      "info": "Max SL - 5",
+      "description": "The total MP cost of your spells and verses that include your focus among their targets is reduced by【SL】, or by【SL × 2】if your focus is the only target (up to a minimum cost of 0 Mind Points)."
+    },
+    {
+      "name": "Navigator",
+      "info": "Max SL - 1",
+      "description": "You and any non-unconscious ally within 1 travel day of you may comunicate telepathically; you are able to hear each other for the sake of Skills and effects. You gain the ability to perform Rituals of the Ritualism discipline; additionally, you may use Ritualism to transport creatures in and out of the Soul Network, as well as to gain information and track entities while inside the Soul Network."
+    },
+    {
+      "name": "Psychic Gifts",
+      "info": "Max SL - 5",
+      "description": "Each time you take this Skill, you gain a gift. The rules for gifts and for the brainwave clock can be found in the next page."
+    },
+    {
+      "name": "Psychokinesis",
+      "info": "Max SL - 1",
+      "description": "When you perform an Accuracy Check, you may replace one of the Attribute dice with Willpower (such as【DEX + WLP】for a shortbow). Additionally, your attacks with weapons belonging to the arcane or sword category may target flying creatures."
+    }
+  ],
+  "gift": "USING A GIFT - Each gift may be used when a specific event takes place. When this happens, you may spend an amount of Mind Points equal to【the number of filled sections in your Brainwave Clock, multiplied by 5】(minimum 5 Mind Points) in order to apply the effects of that gift to that event. * You may only use a single gift per event, and the same gift can only be used once per event. * If a gift causes HP or MP recovery, or if it causes MP loss, the amounts increase by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher. THE BRAINWAVE CLOCK - When you first acquire the Psychic Gifts Skill, you receive a Brainwave Clock. * Your Brainwave Clock has 4 sections, and it begins each scene empty. * After you resolve one of your gifts, fill 1 section of your Brainwave Clock (you do so after the effects of the Gift have been calculated and applied). * Your Brainwave Clock determines your gifts' cost in Mind Points, as well as their effectiveness (see above). You can still use your gifts when the Clock is full. * Sections of your Brainwave Clock may not be filled in any way other than described above, and they may only be erased through a change of scene or through the Brainwave Discharge Heroic Skill.",
+  "gifts": [
+    {
+      "name": "Atmokinesis",
+      "info": "When you deal damage",
+      "description": "That damage becomes air or bolt, and its source deals extra damage equal to【2 + the number of filled sections in your Brainwave Clock】."
+    },
+    {
+      "name": "Clairvoyance",
+      "info": "When an NPC becomes your focus or when you create a Bond towards an NPC",
+      "description": "You ask the Game Master a single question about that NPC, and the Game Master answers truthfully; then, you describe what sensation revealed this information to you. You may only use this gift once on the same NPC."
+    },
+    {
+      "name": "Gravitokinesis",
+      "info": "When you deal damage",
+      "description": "That damage becomes earth or physical, and its source deals extra damage equal to 【2 + the number of filled sections in your Brainwave Clock】. If the source deals damage to one or more flying creatures, they are forced to land immediately."
+    },
+    {
+      "name": "Life Transference",
+      "info": "When you cause one or more creatures to lose HP",
+      "description": "Choose yourself or an ally who is your focus: if the chosen creature is in Crisis, they recover an amount of Hit Points equal to【5 + (the number of filled sections in your Brainwave Clock, multiplied by 5)】."
+    },
+    {
+      "name": "Photokinesis",
+      "info": "When you deal damage",
+      "description": "That damage becomes dark or light, and its source deals extra damage equal to【2 + the number of filled sections in your Brainwave Clock】."
+    },
+    {
+      "name": "Psychic Backlash",
+      "info": "After an enemy succeeds on an Opposed Check against you or causes you to lose Hit Points",
+      "description": "That enemy loses an amount of Mind Points equal to【5 + (the number of filled sections in your Brainwave Clock, multiplied by 5)】. Then, choose one option: that enemy suffers dazed; or that enemy suffers shaken."
+    },
+    {
+      "name": "Psychic Shield",
+      "info": "After an enemy you can see performs an Accuracy Check or a Magic Check",
+      "description": "You may treat your Defense and Magic Defense scores as being equal to【your current Willpower die size + (the number of filled sections in your Brainwave Clock, multiplied by 2)】against that Check (you may still use your normal scores if better)."
+    },
+    {
+      "name": "Reassuring Presence",
+      "info": "After you cover an ally with the Guard action",
+      "description": "That ally recovers an amount of Mind Points equal to【10 + (the number of filled sections in your Brainwave Clock, multiplied by 5)】; if they are your focus, they also recover from a single status effect of their choice among dazed, enraged, and shaken."
+    },
+    {
+      "name": "Thermokinesis",
+      "info": "When you deal damage",
+      "description": "That damage becomes fire or ice, and its source deals extra damage equal to【2 + the number of filled sections in your Brainwave Clock】."
+    }
+  ]
+}

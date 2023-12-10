@@ -1,0 +1,34 @@
+{
+  "benefits": "Increase IP by 2.",
+  "skills": [
+    {
+      "name": "Expiration Date",
+      "info": "Max SL - 5",
+      "description": "When you restore the Hit Points of one or more creatures with a potion or delicacy that does not deal damage, you may instead deal poison damage to each of them equal to【SL × 2, plus half the amount of HP that creature would have recovered】. The type of this damage cannot change; apply all sources of extra HP recovery (halved), all sources of extra damage, and any other effects of that potion or delicacy."
+    },
+
+    {
+      "name": "I've Heard It!",
+      "info": "Max SL - 3",
+      "description": "When you or an ally who is able to hear and understand you perform a Check to examine a creature, item, or location, you may spend 1 Trade Point to grant a bonus equal to【SL × 2】to the Result of that Check"
+    },
+
+    {
+      "name": "Private Stock",
+      "info": "Max SL - 3",
+      "description": "At the start of your turn during a conflict scene, you may spend 1 Trade Point. If you do, choose yourself or another Player Character present on the scene: the chosen character regains【SL × 2】Inventory Points."
+    },
+
+    {
+      "name": "Real Treasure",
+      "info": "Max SL - 1",
+      "description": "Once per session, when you help an NPC or community defeat greed and corruption, improve their quality of life, or coexist with other creatures, if you have acquired the Winds of Trade Skill, gain 2 Trade Points."
+    },
+
+    {
+      "name": "Winds of Trade",
+      "info": "Max SL - 3",
+      "description": "After you rest in an area where commerce is possible, you gain【SL × 200】zenit and【SL + 1】Trade Points. You may never have more than【SL + 3】Trade Points; if you acquire this Skill during character creation, begin play with 2 Trade Points. During a non-conflict scene, you may spend 2 Trade Points to create an NPC that lives and operates in the nearby area, giving them a name and occupation; you describe how you met them, and the GM tells you what they require in exchange for their services."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "benefits": "Increase IP by 2.",
+  "skills": [
+    {
+      "name": "Faithful Companion",
+      "info": "Max SL - 5",
+      "description": "Together with the rest of your group, design a level 5 beast, construct, elemental or plant creature (see page 302) that becomes your companion. This creature has no Initiative score and does not level up, can have up to two basic attacks, gains a bonus equal to【SL】to Accuracy Checks and Magic Checks, and their maximum Hit Points are equal to【(SL multiplied by the companion's base Might die size) + half your level】. Your companion doesn't get a turn during conflicts, but on your turn you can use an action to have the companion perform an action (only once per turn). If you leave a scene, your companion leaves with you. If your companion falls to 0 Hit Points, they flee and rejoin you at the start of the next scene in which you are present, with HP equal to their Crisis score. When you rest, your companion also gains the full benefits of resting."
+    },
+    {
+      "name": "Resourceful",
+      "info": "Max SL - 4",
+      "description": "You recover【SL】Inventory Points after each travel roll."
+    },
+    {
+      "name": "Tavern Talk",
+      "info": "Max SL - 3",
+      "description": "When you rest inside an inn or tavern, you may ask the Game Master up to【SL】 questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information."
+    },
+    {
+      "name": "Treasure Hunter",
+      "info": "Max SL - 2",
+      "description": "When your group journeys on the world map, you will make a discovery on a roll of 【SL + 1】or lower on the travel roll (instead of only on a 1)."
+    },
+    {
+      "name": "Well-Traveled",
+      "info": "Max SL - 1",
+      "description": "You reduce the die rolled for your travel rolls by one size (to a minimum of d6). If multiple characters have this Skill, the effects are not cumulative."
+    }
+  ]
+}
