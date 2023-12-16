@@ -1,12 +1,12 @@
 {
-  "name": "Ultimate Story Extension",
+  "name": "Fabula Compedium",
   "version": "1.0.0",
   "manifest_version": 1,
   "action": {
-    "title": "Ultimate Story",
+    "title": "Fabula Compedium",
     "icon": "/icon.svg",
     "popover": "/",
-    "height": 594,
-    "width": 605
+    "height": 540,
+    "width": 550
   }
 }

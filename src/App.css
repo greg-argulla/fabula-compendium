@@ -28,18 +28,12 @@ hr {
   padding: 0;
 }
 
-.bonds {
-  display: grid;
-  grid-template-columns: 250px 250px;
-}
-
-.dice-result {
-  color: #ffd433;
-  font-size: 12px;
-  font-weight: 800;
-  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,
-    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
+.skill-detail {
+  font-size: 10px;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ddd;
 }
 
 .button {

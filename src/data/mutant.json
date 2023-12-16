@@ -9,7 +9,7 @@
     {
       "name": "Biophagy",
       "info": "Max SL - 4",
-      "description": "After one of your attacks or offensive spells (r) causes one or more enemies to lose Hit Points, if you are in Crisis, you may recove【r SL × 5】Hit Points."
+      "description": "After one of your attacks or *Offensive*. spells causes one or more enemies to lose Hit Points, if you are in Crisis, you may recove【r SL × 5】Hit Points."
     },
     {
       "name": "Ecdysis",
@@ -52,7 +52,7 @@
     {
       "name": "Neurophagoida",
       "info": "Parasites, undead, creatures who feed on souls.",
-      "description": "When you use the Biophagy Skill, you also recover an amount of Mind Points equal to 【4 + (your Skill Level in Theriomorphosis)】."
+      "description": "When you use the Biophagy Skill, you also recover an amount of Mind Points equal to【4 + (your Skill Level in Theriomorphosis)】."
     },
     {
       "name": "Placophora",

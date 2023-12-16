@@ -1,78 +1,105 @@
 {
-  "benefits": "Increase MP by 5.",
-  "skills": [
+  "name": "Arcanist",
+  "info": "Increase MP by 5.",
+  "data": [
     {
-      "name": "Arcanist Circle",
-      "info": "Max SL - 4",
-      "description": "After you willingly dismiss an Arcanum on your turn during a conflict (see next page), if that Arcanum had not been summoned during this same turn and you have an arcane weapon equipped, you may immediately perform the Spell action for free. The spell you cast this way must have a total Mind Point cost of【SL × 5】or lower (you must still pay the spell's MP cost)."
+      "name": "Skills",
+      "data": [
+        {
+          "name": "Arcanist Regeneration",
+          "info": "Max SL - 5",
+          "description": "After you ~willingly dismiss~ an Arcanum you are ~merged~ with, if you are in ~Crisis~, you and every ally present on the scene recover~【5 + (SL × 5)】~Hit Points."
+        },
+        {
+          "name": "Bind And Summon",
+          "info": "Max SL - 1",
+          "description": "You may ~bind~ Arcana to your soul and ~summon~ them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question.\nYou may use an action and spend 30 Mind Points to ~summon~ an Arcanum you have bound.\nIf you take this Skill at character creation, you begin play with one Arcanum bound to you (you may ~choose it~ from the sample Arcana or ~create it~ with your group). Any further Arcana must be obtained through exploration and story progression."
+        },
+        {
+          "name": "Phantom Strength",
+          "info": "Max SL - 5",
+          "description": "When you deal damage with a ~pulse~ or ~dismiss~ effect, if you have an ~arcane~, ~bow~, or ~sword~ weapon equipped, you may have that damage lose its type and be unable to gain a type (thus ignoring Affinities). If you do, you deal~【SL × 2】~extra damage."
+        },
+        {
+          "name": "Emergency Arcanum",
+          "info": "Max SL - 6",
+          "description": "As long as you are in ~Crisis~, the cost for summoning your Arcana is reduced by~【SL × 5】~Mind Points."
+        },
+        {
+          "name": "Ritual Arcanism",
+          "maxSL": "Max SL - 1",
+          "description": "You may perform Rituals of the ~Arcanism~ discipline, as long as their effects fall within the ~domains~ of one or more Arcana you have bound. Arcanism Rituals use~【WLP + WLP】~for the Magic Check."
+        }
+      ]
     },
     {
-      "name": "Arcane Regeneration",
-      "info": "Max SL - 2",
-      "description": "When you summon an Arcanum, you immediately recover【SL × 5】Hit Points."
+      "name": "Arcanum",
+      "description": "*Merging with an Arcanum*\nWhen you summon an Arcanum, you gain its ~merge~ benefits; those benefits last until the Arcanum is dismissed.\n You cannot summon an Arcanum while already merged with one; you must first dismiss the current Arcanum.\n\n*Dismissing an Arcanum*\nIf you are merged with an Arcanum, they will be ~automatically dismissed~ at the end of the scene, if you die or fall unconscious, or if you leave the scene.\n You may also ~willingly dismiss~ the Arcanum you are currently merged with: this never requires an action, but during a conflict it can only be done on your turn, ~before or after~ an action.\n\n*Pulse and Dismiss Effects*\nIn addition to their ~merge~ effects, most Arcana also grant the Arcanist a ~pulse~ effect and a ~dismiss~ effect.\n\n- As long as you are merged with a given Arcanum, you may use an action to unleash that Arcanum's ~pulse~ effect. You may ~only~ do so during a conflict scene, and ~only once~ per turn.\n\n- When you ~willingly~ dismiss an Arcanum, you may use their ~dismiss~ effect - if the Arcanum is dismissed for any other reason, this effect cannot be used. You are also free to ignore a ~dismiss~ effect if you don't want to use it.\n\n- If a ~pulse~ or ~dismiss~ effect deals damage, it will deal 5 extra damage if you are ~level 20 or higher~, or 10 extra damage if you are ~level 40 or higher~.\n\n Some effects follow unique rules, explained within the Arcanum's text.\n\n*Domains*\nEach Arcanum is associated with a few key concepts or ~domains~. The Game Master should use these to establish the trials or conditions needed for the Arcanum to lend their power, and to adjudicate Rituals performed through the ~Ritual Arcanism~ Skill once that Arcanum has been bound."
     },
     {
-      "name": "Bind And Summon",
-      "info": "Max SL - 1",
-      "description": "You may bind Arcana to your soul and summon them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 Mind Points to summon an Arcanum you have bound: the details of this process are explained on the next page. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression."
-    },
-    {
-      "name": "Emergency Arcanum",
-      "info": "Max SL - 6",
-      "description": "As long as you are in Crisis, the cost for summoning your Arcana is reduced by【SL × 5】Mind Points."
-    },
-    {
-      "name": "Ritual Arcanism",
-      "maxSL": "Max SL - 1",
-      "description": "You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound. Arcanism Rituals use【WLP + WLP】for the Magic Check."
-    }
-  ],
-  "arcana": "When you summon an Arcanum, you gain its merge benefits; those benefits last until the Arcanum is dismissed (see below). You cannot summon an Arcanum while already merged with one; you must first dismiss the current Arcanum. DISMISSING AN ARCANUM - An Arcanum can be dismissed in several ways: *Once the current scene ends, all Arcana are automatically dismissed. *If you die or fall unconscious while merged with an Arcanum, they are dismissed. *If you leave the scene while merged with an Arcanum, they are dismissed. *You may willingly dismiss your Arcanum: this doesn't require an action, but during a conflict it can only be done on your turn, before or after an action. DISMISS EFFECTS - Most Arcana have a powerful dismiss effect, which may only be activated when you willingly dismiss the Arcanum as described above — if the Arcanum is dismissed for any other reason, the dismiss effect cannot be triggered. If the dismiss effect of an Arcanum deals damage, it will deal 10 extra damage if you are level 20 or higher, or 20 extra damage if you are level 40 or higher. You are also free to ignore the dismiss effect if you don't want to use it. DOMAINS -Each Arcanum is associated with a few key concepts or domains. The Game Master should use these to establish the trials needed to bind the Arcanum, and to adjudicate Rituals performed through the Ritual Arcanism Skill. If you create new Arcana for your world, make sure to associate them with domains that allow for interesting Rituals.",
-  "arcanum": [
-    {
-      "name": "Arcanum Of The Forge",
-      "info": "Domain: fire, heat, metal.",
-      "description": "MERGE: You have Resistance to fire damage. Any fire damage you deal ignores Resistances. DISMISS: When you dismiss this Arcanum, choose Forge or Inferno: Forge. You create a basic armor, shield or weapon of your choice (see pages 130 to 133). If you select this option again, the previously created item vanishes. If you create a weapon this way, it deals fire damage instead of physical. Inferno. Choose any number of creatures you can see: each of them suffers 30 fire damage. This damage ignores Resistances."
-    },
-    {
-      "name": "Arcanum Of The Frost",
-      "info": "Domains: cold, ice, silence.",
-      "description": "MERGE: You have Resistance to ice damage and are immune to enraged. Any ice damage you deal ignores Resistances. DISMISS: Ice Age. Choose any number of creatures you can see: each of them suffers 30 ice damage. This damage ignores Resistances."
-    },
-    {
-      "name": "Arcanum Of The Gate",
-      "info": "Domains: space, travel, void.",
-      "description": "MERGE: You have Resistance to dark damage. You gain a +1 bonus to your Magic Defense. DISMISS: When you dismiss this Arcanum, choose Oblivion or Warp: Oblivion. Choose any number of creatures you can see: each of them suffers 30 dark damage. This damage ignores Resistances. Warp. You teleport yourself and up to five other nearby willing creatures to a location you previously visited, if that location is within 1 travel day."
-    },
-    {
-      "name": "Arcanum Of The Grimoire",
-      "info": "Domains: knowledge, revelations, understanding.",
-      "description": "MERGE: You are able to read, write, speak and understand all languages. You treat your Insight as if it were one die size higher (up to a maximum of d12). DISMISS: Oracle. You ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by the Grimoire. Once used, this dismiss effect will not be available until the next dawn. Furthermore, the same question may never be asked more than once. The Game Master has final say on which questions are too similar to be asked again."
-    },
-    {
-      "name": "Arcanum Of The Oak",
-      "info": "Domains: earth, plants, poison.",
-      "description": "MERGE: You have Resistance to earth and poison damage and are immune to poisoned. Whenever you recover Hit Points, you recover 5 extra Hit Points. DISMISS: Blossom. Choose any number of creatures you can see (you may also choose yourself): each of them recovers from the poisoned status effect and recovers 40 Hit Points. This amount increases to 50 Hit Points if you are level 20 or higher, or to 60 Hit Points if you are level 40 or higher."
-    },
-    {
-      "name": "Arcanum Of The Sky",
-      "info": "Domains: fog, rain, storms.",
-      "description": "MERGE: You have Resistance to air and bolt damage. You may use an action to accurately predict weather conditions for the next day within a range of two travel days — the Game Master will tell you what the weather conditions will be. DISMISS: Thunderstorm. Choose any number of creatures you can see: each of them suffers 30 bolt damage. This damage ignores Resistances."
-    },
-    {
-      "name": "Arcanum Of The Sword",
-      "info": "Domains: conquest, heroism, leadership.",
-      "description": "MERGE: Your attacks deal 5 extra damage, and all damage dealt by your attacks is treated as having no type (thus being unaffected by damage Affinities). Damage dealt by your attacks cannot gain a type as long as you are merged with this Arcanum. When you perform an attack, you may have that attack gain the multi (any number of targets) property. If you do, this Arcanum will be automatically dismissed after the attack is resolved (this is not considered a willing dismiss)."
-    },
-    {
-      "name": "Arcanum Of The Tower",
-      "info": "Domains: judgment, protection, sacrifice.",
-      "description": "MERGE: When you summon this Arcanum, choose a damage type: air, bolt, dark, earth, fire, or ice. Until this Arcanum is dismissed, each of your allies present on the scene has Resistance to the chosen damage type (you do not gain this Resistance). DISMISS: Judgment. Choose any number of creatures you can see: each of them suffers 30 light damage. This damage ignores Resistances."
-    },
-    {
-      "name": "Arcanum Of The Wheel",
-      "info": "Domains: destiny, speed, time.",
-      "description": "MERGE: You are immune to slow. You gain a +1 bonus to your Defense. DISMISS: Time Freeze. Choose any number of creatures you can see: each of them suffers slow. If a creature chosen this way is already slow, that creature will instead perform one fewer action during their next turn (to a minimum of 0 actions)."
+      "name": "Arcana",
+      "data": [
+        {
+          "name": "Antikythera",
+          "info": "The enigmatic custodian of time and space. Domains: space, time, void.",
+          "description": "*MERGE: Kaleidoscope Veil*\nAfter you lose Hit Points due to damage, if that damage has a type and that type is not ~physical~, you gain Resistance to that damage type and lose any previous Resistance granted by this effect.When this Arcanum is ~dismissed~, you lose any Resistance gained through this effect.\n\n*PULSE: Binary Stars*\nYou deal 10 ~fire~ damage to a creature you can see; then, you deal 10 ~ice~ damage to a creature you can see (the same or a different one).\n\n*DISMISS: Spacetime subtraction*\nChoose one option: every enemy present on the scene suffers slow; or every enemy present on the scene who is suffering from ~slow~ will perform one fewer action during their next turn (to a minimum of 0 actions); ~or~ you teleport yourself and up to five other nearby allies you can see to a location you visited in the past, provided that location is within ~1 travel day~ of your position.\nOnce the second or third option is chosen, this ~dismiss~ effect will not be available until the next dawn."
+        },
+        {
+          "name": "Banshee",
+          "info": "The ominous tyrant lord of winds. Domains: birds, storms, winds.",
+          "description": "*MERGE: Impeding catastrophe*\n You have Resistance to ~air~ damage, and when you deal ~air~ or ~physical~ damage, you deal extra damage equal to your current ~Whirlwind Points~. When this Arcanum is dismissed, you lose all ~Whirlwind Points~.\n\n*PULSE: Zephyr Blades*\nYou deal 10 ~air~ damage to each of up to two creatures you can see. Then, you gain ~1 Whirlwind Point~, or ~2 Whirlwind Points~ if you dealt damage to ~only one~ creature\n\n*DISMISS: Hurricane Screech*\nYou deal an amount of ~air~ damage equal to~【the amount of Whirlwind Points you lost by dismissing this Arcanum, multiplied by 5】~to every enemy present on the scene. This damage ignores Resistances."
+        },
+        {
+          "name": "Caladrius",
+          "info": "The winged master of healing magic. Domains: exorcism, healing, sunlight.",
+          "description": "*MERGE: Protective Gaze*\nWhen you summon this Arcanum, choose a status effect: ~dazed~, ~enraged~, ~poisoned~, ~shaken~, ~slow~, or ~weak~. As long as you are merged with this Arcanum, you and every ally present on the scene are immune to the chosen status effect.\n\n*PULSE: Cleansing Sunlight*\nChoose one option: you deal 10 ~light~ damage to each of up to two creatures you can see; ~or~ one creature you can see recovers from all status effects.\n\n*DISMISS: Healing Feathers*\nYou and every ally present on the scene recover 30 Hit Points. This amount increases to 40 if you are ~level 20 or higher~, or to 50 if you are ~level 40 or higher~."
+        },
+        {
+          "name": "Dahaka",
+          "info": "The slithering prince of desert sands. Domains: earth, poison, sandstorms.",
+          "description": "*MERGE: Hardened Scales*\nYou have Resistance to ~earth~ damage and are immune to ~poisoned~.\nYour ~melee~ attacks can target flying creatures.\n\n*PULSE: Numbing Bite*\nYou deal 10 ~poison~ damage to each of up to two creatures you can see. Then, each creature who lost Hit Points due to this damage suffers ~slow~.\n\n*DISMISS: Tectonic Crush*\nYou deal 20 ~earth~ damage to every enemy present on the scene who isn't flying, floating, falling, or otherwise in mid-air. This damage ignores Resistances, and also ignores Immunities and Absorptions of creatures afflicted by ~slow~."
+        },
+        {
+          "name": "Kuzunoha",
+          "info": "The fierce protector of witches and beasts. Domains: animals, lightning, sorcery.",
+          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to ~bolt~ damage.\nYou can communicate with creatures of the ~beast~, ~monster~, and ~plant~ Species.\n\n*PULSE: Spellstorm*\nYou may spend 5 Mind Points. If you do, you immediately perform the ~Spell~ action for free, casting an ~offensive~ spell you have learned without paying its MP cost. The spell you cast this way must have a ~total Mind Point cost of 10 or lower~; if it deals damage, you may change its type to ~bolt~.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 ~bolt~ damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers ~dazed~."
+        },
+        {
+          "name": "Lilith",
+          "info": "She who wages war against Celestial Spheres. Domains: chaos, rebellion, revelation.",
+          "description": "*MERGE: Wings Of Eden*\nYou have Resistance to ~dark~ and ~light~ damage.\nYou may never have more than 10 ~Gnosis Points~, and you lose all ~Gnosis Points~ when this Arcanum is dismissed.\n\n*PULSE: Claws Of The Fallen*\nYou perform a ~free attack~ with a weapon you have equipped; if it is a ~melee~ attack, it can target ~flying~ creatures. This attack deals extra damage equal to your current ~Gnosis Points~, and an additional 5 extra damage against creatures who Absorb ~light~ damage or are Immune to it. After this attack is resolved, you gain ~1 Gnosis Point~ for every creature who lost Hit Points due to its damage.\n\n*DISMISS: Paradise lost*\n Every enemy present on the scene loses an amount of Hit Points equal to~【the amount of Gnosis Points you lost by dismissing this Arcanum, multiplied by 5】~. This Hit Point loss increases by 10 against ~Villains~; additionally, it increases by 10 if you are ~level 20 or higher~, or by 20 if you are ~level 40 or higher~."
+        },
+        {
+          "name": "Lorelei",
+          "info": "The serene and inscrutable fey ruler of the glaciers. Domains: cold, ice, silence.",
+          "description": "*MERGE: Subzero Silence*\nYou have Resistance to ~ice~ damage and are immune to ~enraged~. When you deal damage, you may change its type to ~ice~.\n\n*PULSE: Winter Melody*\nYou deal 10 ~ice~ damage to each of up to two creatures you can see. Then, each creature who lost Hit Points due to this damage suffers ~weak~.\n\n*DISMISS: Glacier's Disdain*\nYou deal 20 ~ice~ damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage also loses an equal amount of Mind Points."
+        },
+        {
+          "name": "Nimue",
+          "info": "The wielder of ninety-nine swords. Domains: conquest, heroism, leadership.",
+          "description": "*MERGE: Royal Armaments*\nWhen you deal damage, you deal 5 extra damage; all damage you deal loses its type and cannot gain a type (thus being unaffected by damage Affinities).\n\n*PULSE:Arondight*\nYou perform a ~free attack~ with a weapon you have equipped. This attack targets Magic Defense instead of Defense.\n\n*DISMISS: Gordian Slice*\nOne creature you can see loses an amount of Hit Points equal to your ~Crisis~ score. Then, if that creature ~is not a Villain~ and their current Hit Points are ~equal to or lower than your Crisis score~, you reduce that creature to 0 Hit Points."
+        },
+        {
+          "name": "Qilin",
+          "info": "The elusive herald of wisdom and good fortune. Domains: knowledge, prosperity, temperance.",
+          "description": "*MERGE: Enlightened Serenity*\nYou treat your ~Insight~ as if it were one die size higher (up to a maximum of ~d12~).\n\n*PULSE: Steps of Prosperity*\nYou may spend 5 Mind Points. If you do, you immediately perform the ~Spell~ action for free, casting a ~non-offensive~ spell you have learned without paying its MP cost. The spell you cast this way must have a ~total Mind Point cost of 10 or lower~.\n\n*DISMISS: Oracle*\nYou ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by this Arcanum. Once used, this ~dismiss~ effect will not be available until the next dawn."
+        },
+        {
+          "name": "Seraph",
+          "info": "The guardian of one hundred gates. Domains: judgment, protection, sacrifice.",
+          "description": "*MERGE: Gentle Bastion*\nWhen you summon this Arcanum, choose a damage type: ~air~, ~bolt~, ~dark~, ~earth~, ~fire~, ~ice~, or ~poison~. As long as you are merged with this Arcanum, your allies present on the scene have Resistance to the chosen type (you ~do not~ gain this Resistance).\n\n*PULSE: Exorcism Bolt*\nChoose one option: you deal 20 ~light~ damage to a creature you can see; ~or~ one creature you can see that is affected by one or more spells with a ~duration~ of 'Scene' is no longer affected by any of those spells instead.\n\n*DISMISS: Twilight Of Judgement*\nYou deal 20 ~light~ damage to every enemy present on the scene. This damage ignores Resistances and Immunities."
+        },
+        {
+          "name": "Tubalcain",
+          "info": "The blazing guardian of the forge. Domains: fire, heat, metal.",
+          "description": "*MERGE: Blessings Of The Anvil*\nYou have Resistance to ~fire~ damage, and ~fire~ damage you deal ignores Resistances. When you deal damage, you may change its type to ~fire~.\n\n*PULSE: Forge Hammer*\nChoose one weapon you have equipped; you may change that weapon's Category to another Category of your choice until the end of your next turn. Then, perform a ~free attack~ with that weapon: this attack gains ~multi (2)~.\n\n*DISMISS: Molten Wave*\nChoose one option: you deal 20 ~fire~ damage to every enemy present on the scene, and this damage ignores Resistances; ~or~, until the start of your next turn all damage dealt by you and your allies present on the scene becomes ~fire~ and its type cannot be changed."
+        },
+        {
+          "name": "Vanagandr",
+          "info": "The dark wolf of the End Times. Domains: death, despair, hunger.",
+          "description": "*MERGE: Shroud of Hunger*\nYou have Resistance to ~dark~ damage, and all damage you deal ignores Resistances.\n\n*PULSE: Devourer of men*\nYou deal 10 ~dark~ damage to each of up to two creatures you can see. This effect deals 5 extra damage against ~humanoids~.\n\n*DISMISS: Devourer Of Gods*\nYou deal 30 ~dark~ damage to a creature you can see; this damage ignores Resistances and Immunities. Then, if that creature is in ~Crisis~ and lost Hit Points due to this damage, you recover an amount of Hit Points equal to ~half~ the HP loss they suffered."
+        }
+      ]
     }
   ]
 }
