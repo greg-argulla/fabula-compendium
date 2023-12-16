@@ -25,6 +25,11 @@ import heroicskills from "./data/heroicskills.json";
 import basicweapons from "./data/basicweapons.json";
 import basicarmor from "./data/basicarmor.json";
 
+import chanter from "./data/chanter.json";
+import commander from "./data/commander.json";
+import dancer from "./data/dancer.json";
+import symbolist from "./data/symbolist.json";
+
 const Text = (props) => {
   const { children } = props;
   return <span className="outline">{children}</span>;
@@ -47,6 +52,11 @@ const collection = [
   tinkerer,
   wayfarer,
   weaponmaster,
+  "High Fantasy",
+  chanter,
+  commander,
+  dancer,
+  symbolist,
   "Basic Items",
   basicweapons,
   basicarmor,
