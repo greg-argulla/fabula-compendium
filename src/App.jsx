@@ -295,7 +295,6 @@ function App() {
           style={{
             display: "flex",
             alignItems: "center",
-            marginBottom: 10,
             marginBottom: 5,
             marginLeft: 2,
           }}
