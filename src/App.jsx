@@ -22,6 +22,8 @@ import tinkerer from "./data/tinkerer.json";
 import wayfarer from "./data/wayfarer.json";
 import weaponmaster from "./data/weaponmaster.json";
 import heroicskills from "./data/heroicskills.json";
+import basicweapons from "./data/basicweapons.json";
+import basicarmor from "./data/basicarmor.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -45,6 +47,9 @@ const collection = [
   tinkerer,
   wayfarer,
   weaponmaster,
+  "Basic Items",
+  basicweapons,
+  basicarmor,
   "Heroic Skills",
   heroicskills,
 ];
@@ -59,7 +64,7 @@ function App() {
     const skillData = {
       skillName: skill.name ? skill.name : "Blank skill",
       info: skill.info,
-      detail: skill.detail,
+      detail: skill.description,
       characterName: "Compedium",
       userId: id,
       username: name,
@@ -138,6 +143,14 @@ function App() {
     });
   };
 
+  const copyToClipboard = (info, string) => {
+    navigator.clipboard.writeText(string);
+    setMessage("Copied " + info + " to clipboard.");
+    setTimeout(() => {
+      setMessage("");
+    }, 1500);
+  };
+
   const skillInstance = (item, index) => {
     const categorySearched =
       searchSkills === "" ||
@@ -150,8 +163,41 @@ function App() {
         style={{ marginTop: 10, marginBottom: 10 }}
       >
         <div className="skill-detail">
-          <div style={{ fontSize: 13, color: "darkorange" }}>{item.name}</div>
-          {item.info && <div style={{ color: "darkgrey" }}>{item.info}</div>}
+          <div style={{ fontSize: 13, color: "darkorange" }}>
+            <span
+              style={{ cursor: "copy" }}
+              onClick={() => {
+                copyToClipboard("name", item.name);
+              }}
+            >
+              {item.name}
+            </span>
+            <button
+              className="button"
+              style={{
+                float: "right",
+                font: 10,
+                padding: 4,
+              }}
+              onClick={() => {
+                sendSkill(item);
+              }}
+            >
+              Send
+            </button>
+          </div>
+          {item.info ? (
+            <div
+              style={{ color: "darkgrey", cursor: "copy" }}
+              onClick={() => {
+                copyToClipboard("info", item.info);
+              }}
+            >
+              {item.info}
+            </div>
+          ) : (
+            <div>&nbsp;</div>
+          )}
           <hr
             style={{
               marginTop: 6,
@@ -161,7 +207,14 @@ function App() {
               color: "grey",
             }}
           ></hr>
-          <div>{parseDetail(item.description)}</div>
+          <div
+            style={{ cursor: "copy" }}
+            onClick={() => {
+              copyToClipboard("description", item.description);
+            }}
+          >
+            {parseDetail(item.description)}
+          </div>
         </div>
       </div>
     );
@@ -239,11 +292,25 @@ function App() {
         >
           <span
             className="outline"
-            style={{ fontSize: 16, color: "red", marginRight: 5 }}
+            style={{
+              fontSize: 16,
+              color: "red",
+              marginRight: 5,
+              cursor: "copy",
+            }}
+            onClick={() => {
+              copyToClipboard("category name", item.name);
+            }}
           >
             {item.name}
           </span>
-          <span className="outline" style={{ fontSize: 11 }}>
+          <span
+            className="outline"
+            style={{ fontSize: 11, cursor: "copy" }}
+            onClick={() => {
+              copyToClipboard("category info", item.info);
+            }}
+          >
             {item.info}
           </span>
         </div>
@@ -359,6 +426,12 @@ function App() {
       }}
     >
       <div style={{ marginTop: 30, paddingLeft: 30, paddingRight: 10 }}>
+        <span
+          className="outline"
+          style={{ color: "orange", fontSize: 14, marginRight: 10 }}
+        >
+          | Fabula Ultima Compedium |
+        </span>
         <Text>Search By Name: </Text>
         <input
           className="input-stat"

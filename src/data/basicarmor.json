@@ -1,0 +1,59 @@
+{
+  "name": "Armor and Shields",
+  "data": [
+    {
+      "name": "Basic Armors",
+      "data": [
+        {
+          "name": "No Armor",
+          "description": "No Armor DEF: DEX die M.DEF: INS die"
+        },
+        {
+          "name": "Silk Shirt",
+          "description": "Silk Shirt 100z DEF: DEX die M.DEF: INS die +2"
+        },
+        {
+          "name": "Travel Garb",
+          "description": "Travel Garb 100z DEF: DEX die +1 M.DEF: INS die +1"
+        },
+        {
+          "name": "Combat Tunic",
+          "description": "Combat Tunic 150z DEF: DEX die +2 M.DEF: INS die"
+        },
+        {
+          "name": "Sage Robe",
+          "description": "Sage Robe 200z DEF: DEX die +1 M.DEF: INS die +2"
+        },
+        {
+          "name": "Brigandine",
+          "description": "Brigandine 150z DEF: 10 M.DEF: INS die *Martial*"
+        },
+        {
+          "name": "Bronze Plate",
+          "description": "Bronze Plate 200z DEF: 11 M.DEF: INS die *Martial*"
+        },
+        {
+          "name": "Runic Plate",
+          "description": "Runic Plate 250z DEF: 11 M.DEF: INS die +1 *Martial*"
+        },
+        {
+          "name": "Steel Plate",
+          "description": "Steel Plate 300z DEF: 12 M.DEF: INS die *Martial*"
+        }
+      ]
+    },
+    {
+      "name": "Basic Shields",
+      "data": [
+        {
+          "name": "Bronze Shield",
+          "description": "Bronze Shield 100z DEF: +2"
+        },
+        {
+          "name": "Runic Shield",
+          "description": "Runic Shield 150z DEF: +2 M.DEF: +2 *Martial*"
+        }
+      ]
+    }
+  ]
+}
