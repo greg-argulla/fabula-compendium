@@ -21,7 +21,7 @@ import spritist from "./data/spiritist.json";
 import tinkerer from "./data/tinkerer.json";
 import wayfarer from "./data/wayfarer.json";
 import weaponmaster from "./data/weaponmaster.json";
-import merchant from "./data/merchant.json";
+import heroicskills from "./data/heroicskills.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -45,8 +45,8 @@ const collection = [
   tinkerer,
   wayfarer,
   weaponmaster,
-  //"High Fantasy",
-  //merchant,
+  "Heroic Skills",
+  heroicskills,
 ];
 
 function App() {
@@ -243,7 +243,7 @@ function App() {
           >
             {item.name}
           </span>
-          <span className="outline" style={{ fontSize: 12 }}>
+          <span className="outline" style={{ fontSize: 11 }}>
             {item.info}
           </span>
         </div>
