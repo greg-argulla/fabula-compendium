@@ -18,7 +18,7 @@
         {
           "name": "Sprititual Magic",
           "info": "Max SL - 10",
-          "description": "Each time you acquire this Skill, learn one Spiritist spell. Offensive Spiritist spells use~【INS + WLP】~for the Magic Check."
+          "description": "Each time you acquire this Skill, learn one Spiritist spell. Offensive Spiritist spells (*ϟ*) use~【INS + WLP】~for the Magic Check."
         },
         {
           "name": "Support Magic",
@@ -58,12 +58,12 @@
         {
           "name": "Enrage",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "*Offensive*. You cause a creature to lose any semblance of temper and act brazenly. The target suffers enraged and cannot perform the ~Guard~ or ~Spell~ actions during their next turn."
+          "description": "(*ϟ*) You cause a creature to lose any semblance of temper and act brazenly. The target suffers enraged and cannot perform the ~Guard~ or ~Spell~ actions during their next turn."
         },
         {
           "name": "Hallucination",
           "info": "5 MP × T - Up to three creatures - Instantaneous",
-          "description": "*Offensive*. You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations. Choose ~dazed~ or ~shaken~: you inflict the chosen status effect on each target hit by this spell."
+          "description": "(*ϟ*) You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations. Choose ~dazed~ or ~shaken~: you inflict the chosen status effect on each target hit by this spell."
         },
         {
           "name": "Heal",
@@ -73,7 +73,7 @@
         {
           "name": "Lux",
           "info": "10 MP × T Up to three creatures Instantaneous",
-          "description": "*Offensive*. You focus your inner energy into a barrage of blinding soul rays. Each target hit by this spell suffers~【HR + 15】light~ damage. ~Opportunity~: Each target hit by this spell suffers ~dazed~."
+          "description": "(*ϟ*) You focus your inner energy into a barrage of blinding soul rays. Each target hit by this spell suffers~【HR + 15】light~ damage. ~Opportunity~: Each target hit by this spell suffers ~dazed~."
         },
         {
           "name": "Mercy",
@@ -98,7 +98,7 @@
         {
           "name": "Torpor",
           "info": "5 × T MP - Up to three creatures - Instantaneous",
-          "description": "*Offensive*. You smother the soul energy coursing through the bodies of your foes, hindering their movements. Choose ~slow~ or ~weak~: you inflict the chosen status effect on each target hit by this spell."
+          "description": "(*ϟ*) You smother the soul energy coursing through the bodies of your foes, hindering their movements. Choose ~slow~ or ~weak~: you inflict the chosen status effect on each target hit by this spell."
         }
       ]
     }

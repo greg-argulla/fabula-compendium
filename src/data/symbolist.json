@@ -67,7 +67,7 @@
         {
           "name": "Symbol of Enmity",
           "info": "Symbol",
-          "description": "As long as the creature bearing this ~symbol~ is in ~Crisis~, any of that creature’s enemies who are able to see them must include them among the targets of their attacks and offensive spells, if possible."
+          "description": "As long as the creature bearing this ~symbol~ is in ~Crisis~, any of that creature’s enemies who are able to see them must include them among the targets of their attacks and offensive spells (*ϟ*), if possible."
         },
         {
           "name": "Symbol of Flux",
@@ -112,7 +112,7 @@
         {
           "name": "Symbol of Revenge",
           "info": "Symbol",
-          "description": "When a creature in ~Crisis~ hits the creature bearing this ~symbol~ with an attack or offensive spell, the creature in ~Crisis~ recovers 5 Hit Points and 5 Mind Points."
+          "description": "When a creature in ~Crisis~ hits the creature bearing this ~symbol~ with an attack or offensive spell (*ϟ*), the creature in ~Crisis~ recovers 5 Hit Points and 5 Mind Points."
         },
         {
           "name": "Symbol of Sacrifice",
@@ -127,7 +127,7 @@
         {
           "name": "Symbol of Truth",
           "info": "Symbol",
-          "description": "Checks performed to examine or locate the creature bearing this ~symbol~, as well as Accuracy Checks and Magic Checks for attacks and -Offensive-. spells that include the creature bearing this ~symbol~ among their targets, gain a +2 bonus. If an attack or spell targets multiple creatures bearing this ~symbol~, the effect will be ~cumulative~."
+          "description": "Checks performed to examine or locate the creature bearing this ~symbol~, as well as Accuracy Checks and Magic Checks for attacks and offensive spells (*ϟ*) that include the creature bearing this ~symbol~ among their targets, gain a +2 bonus. If an attack or spell targets multiple creatures bearing this ~symbol~, the effect will be ~cumulative~."
         },
         {
           "name": "Symbol of Weakness",

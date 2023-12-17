@@ -28,7 +28,7 @@
         {
           "name": "Queen's Gambit",
           "info": "Max SL - 5",
-          "description": "After you perform a ~dance~, your attacks with ~brawling~, ~dagger~, ~flail~ and ~thrown~ weapons deal~【SL】~extra damage until the start of your next turn. If you have an ~arcane~ weapon equipped, offensive spells you cast also deal~【SL】~extra damage until the start of your next turn."
+          "description": "After you perform a ~dance~, your attacks with ~brawling~, ~dagger~, ~flail~ and ~thrown~ weapons deal~【SL】~extra damage until the start of your next turn. If you have an ~arcane~ weapon equipped, offensive spells (*ϟ*) you cast also deal~【SL】~extra damage until the start of your next turn."
         }
       ]
     },
@@ -98,7 +98,7 @@
         {
           "name": "Peacock Dance",
           "info": "Instantaneous",
-          "description": "Choose another creature that is able to see you. The next time that creature performs an attack or casts an offensive spell during this scene, that attack or spell must include you among its targets if possible."
+          "description": "Choose another creature that is able to see you. The next time that creature performs an attack or casts an offensive spell (*ϟ*) during this scene, that attack or spell must include you among its targets if possible."
         },
         {
           "name": "Phoenix Dance",

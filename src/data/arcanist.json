@@ -62,7 +62,7 @@
         {
           "name": "Kuzunoha",
           "info": "The fierce protector of witches and beasts. Domains: animals, lightning, sorcery.",
-          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to ~bolt~ damage.\nYou can communicate with creatures of the ~beast~, ~monster~, and ~plant~ Species.\n\n*PULSE: Spellstorm*\nYou may spend 5 Mind Points. If you do, you immediately perform the ~Spell~ action for free, casting an ~offensive~ spell you have learned without paying its MP cost. The spell you cast this way must have a ~total Mind Point cost of 10 or lower~; if it deals damage, you may change its type to ~bolt~.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 ~bolt~ damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers ~dazed~."
+          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to ~bolt~ damage.\nYou can communicate with creatures of the ~beast~, ~monster~, and ~plant~ Species.\n\n*PULSE: Spellstorm*\nYou may spend 5 Mind Points. If you do, you immediately perform the ~Spell~ action for free, casting an ~offensive~ spell (*ϟ*) spell you have learned without paying its MP cost. The spell you cast this way must have a ~total Mind Point cost of 10 or lower~; if it deals damage, you may change its type to ~bolt~.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 ~bolt~ damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers ~dazed~."
         },
         {
           "name": "Lilith",

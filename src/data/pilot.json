@@ -1,32 +1,38 @@
 {
-  "benefits": "Increase HP by 5. Gain the ability to equip martial melee weapons and martial ranged weapons.",
-  "skills": [
+  "name": "Pilot",
+  "info": "Increase HP by 5. Gain the ability to equip martial melee weapons and martial ranged weapons.",
+  "data": [
     {
-      "name": "Compression Tech",
-      "info": "Max SL - 1",
-      "description": "As long as there is no one aboard your personal vehicle, you may have it safely disappear from the game world at any time. What magic or technology allows it? If your personal vehicle is not present in the game world and you are in a space big enough to contain it, you may perform the Inventory action and spend 2 Inventory Points to have the vehicle appear near you and enter it for free."
-    },
+      "name": "Skills",
+      "data": [
+        {
+          "name": "Compression Tech",
+          "info": "Max SL - 1",
+          "description": "As long as there is no one aboard your personal vehicle, you may have it safely disappear from the game world at any time. What magic or technology allows it? If your personal vehicle is not present in the game world and you are in a space big enough to contain it, you may perform the Inventory action and spend 2 Inventory Points to have the vehicle appear near you and enter it for free."
+        },
 
-    {
-      "name": "Flexible Configuration",
-      "info": "Max SL - 4",
-      "description": "When you perform the Equipment or Guard action while driving your personal vehicle, you may choose up to【SL】of its active modules and make them inactive; if you do, choose an equal amount of its inactive modules and make them active."
-    },
+        {
+          "name": "Flexible Configuration",
+          "info": "Max SL - 4",
+          "description": "When you perform the Equipment or Guard action while driving your personal vehicle, you may choose up to【SL】of its active modules and make them inactive; if you do, choose an equal amount of its inactive modules and make them active."
+        },
 
-    {
-      "name": "Heart in the Engine",
-      "info": "Max SL - 3",
-      "description": "At the start of your turn during a conflict, if you are driving your personal vehicle, you may spend 10 Mind Points. If you do, choose one option: the next time you deal damage during this turn, deal【SL × 2】extra damage; or, the next time you suffer damage before the start of your next turn, that damage is reduced by【SL × 2】(applied before damage Affinities); or, you recover from a status effect of your choice among slow and weak."
-    },
-    {
-      "name": "Personal Vehicle",
-      "info": "Max SL - 5",
-      "description": "When you acquire this Skill, you gain a personal vehicle with a frame of your choice and three different modules of your choice (see next page). Whenever you acquire this Skill again, you acquire two modules of your choice."
-    },
-    {
-      "name": "Strong Grip",
-      "info": "Max SL - 1",
-      "description": "When you perform an Accuracy Check with a weapon module, you may replace one of the Attributes with Might (such as【MIG + WLP】for an Arcane module)."
+        {
+          "name": "Heart in the Engine",
+          "info": "Max SL - 3",
+          "description": "At the start of your turn during a conflict, if you are driving your personal vehicle, you may spend 10 Mind Points. If you do, choose one option: the next time you deal damage during this turn, deal【SL × 2】extra damage; or, the next time you suffer damage before the start of your next turn, that damage is reduced by【SL × 2】(applied before damage Affinities); or, you recover from a status effect of your choice among slow and weak."
+        },
+        {
+          "name": "Personal Vehicle",
+          "info": "Max SL - 5",
+          "description": "When you acquire this Skill, you gain a personal vehicle with a frame of your choice and three different modules of your choice (see next page). Whenever you acquire this Skill again, you acquire two modules of your choice."
+        },
+        {
+          "name": "Strong Grip",
+          "info": "Max SL - 1",
+          "description": "When you perform an Accuracy Check with a weapon module, you may replace one of the Attributes with Might (such as【MIG + WLP】for an Arcane module)."
+        }
+      ]
     }
   ],
   "pilotsvehicle": "A Pilot's personal vehicle follows a set of special rules. Entering the vehicle during a conflict requires the Objective action; normally there is no Check required, but the Game Master may introduce a Clock in case of serious dangers or obstacles. If the vehicle is accessible when the conflict begins, characters may enter it immediately (during step 2 on page 59 of the Core Rulebook). Leaving the vehicle doesn't require an action, but during a conflict it can only be done on your turn, before or after an action. w The vehicle can hold a variable number of human-sized creatures depending on its frame and modules, but only its Pilot may drive it. Additionally, the other passengers cannot cover creatures when they perform the Guard action. The maximum number of modules active at the same time on the vehicle is equal to【3 + its Pilot's Skill Level in Personal Vehicle】. The Pilot may freely reassign their vehicle's active and inactive modules outside conflicts. The standard frames and modules are listed in the upcoming pages. Note that whenever a module's text mentions \"you\", it is referring to the Pilot that the module's vehicle belongs to. Example: you might create an armored motorbike by combining the Steed frame with the Heavy Plating and Turbo modules; or create a flying combat armor by combining an Exoskeleton frame with the Aerial, Runic Plating, Rifle and Sword modules.",

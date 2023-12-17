@@ -1,0 +1,140 @@
+[
+  {
+    "name": "All you can eat",
+    "info": "Requirements: you must have mastered the Gourmet Class.",
+    "description": "When you use the Cooking Skill, you may spend 1 Fabula Point to combine four ingredients into a delicacy (thus ignoring the normal limit of three ingredients). Other han that, the delicacy follows the normal rules."
+  },
+
+  {
+    "name": "Auramancer's Refraction",
+    "info": "Requirements: must have mastered one or more Classes among Arcanist and Spiritist, and must have learned the Aura spell and/or the Barrier spell.",
+    "description": "When an enemy you can see deals damage to one or more of your allies who are affected by an Aura and/or Barrier spell you cast, you may choose one option: you deal light damage to that enemy equal to【half your level】; or the damage suffered by each of those allies is reduced by 5 (applied before damage Affinities); or you regain 5 Mind Points for each ally damaged this way. After you resolve an option from the list above, you gain 1 Refraction Point; then, if you have 3 or more Refraction Points, you lose all Refraction Points and all Aura and/or Barrier spells you have cast end immediately."
+  },
+
+  {
+    "name": "Bend Magic",
+    "info": "Requirements: must have mastered one or more Classes among Elementalist, Entropist, Invoker, and Symbolist (see High Fantasy Atlas, page XXX), and must have acquired the Invocation Skill.",
+    "description": "After an enemy you can see hits or misses you with an offensive spell (*ϟ*), if the Result of their Magic Check was an even number, you may immediately use the Invocation Skill for free (after the spell has been fully resolved) to perform an invocation you have access to against that enemy; this invocation must not be a \"hex\". You must still pay the MP cost for this invocation, and it may target only that enemy (you cannot use) Linked Invocation with it)"
+  },
+
+  {
+    "name": "Brambleheart",
+    "info": "Requirements: must have mastered one or more classes among Darkblade and Floralist, and must have acquired the Chloromancy Skill",
+    "description": "You are Resistant to light damage and poison damage. After an enemy causes you to lose Hit Points, if you are in Crisis and a magiseed is present in your garden, you may fill 1 section of your Growth Clock. Additionally, when you use the Shadow Strike Skill, you may have it deal poison damage instead of dark damage (the damage type still cannot be changed). If you do, your Shadow Strike deals extra damage equal to【twice the number of filled sections in your Growth Clock】."
+  },
+
+  {
+    "name": "Brave Bash",
+    "info": "Requirements: you must have mastered one or more Classes among Commander, Fury, and Weaponmaster, and must have acquired the Bone Crusher Skill.",
+    "description": "When you hit one or more creatures with a melee attack and choose to deal no damage in order to gain the benefits of the Bone Crusher Skill, if you have a shield equipped, you may choose two options instead of one (for instance, you could inflict both dazed and weak on each creature, or inflict a status effect on each creature while also lowering their Mind Points). If you only choose one option and have a shield and a one-handed weapon equipped, or have a custom weapon with the accurate and defense boost customizations equipped, the attack deals damage as normal (this damage does not trigger another use of Bone Crusher); if the attack is being performed with a one-handed dagger or sword weapon, it deals 5 extra damage."
+  },
+
+  {
+    "name": "Cheer Up!",
+    "info": "Requirements: must have mastered one or more Classes among Chanter and Orator, and must have acquired the My Trust in You Skill.",
+    "description": "When you use My Trust in You on another Player Character, that character chooses Dexterity, Insight, Might, or Willpower: they treat the chosen Attribute as being increased by one die size (up to a maximum of d12) until the end of the scene or until you use My Trust in You on them again."
+  },
+
+  {
+    "name": "Chimeric Soul",
+    "info": "Requirements: you must have mastered one or more Classes among Chimerist and Mutant and must have acquired the Spell Mimic Skill.",
+    "description": "When you cast one of your Chimerist spells, you gain a benefit based on the Species of the creature you originally learned that spell from. Choose one option: you gain Resistance to both damage types associated with that Species; or when you deal damage of a type associated with that Species, you deal 5 extra damage. The chosen benefit lasts until the end of the scene, or until you cast a Chimerist spell again.  The damage types associated to each Species are beast (air, ice), construct (earth, poison), demon (fire, ice), elemental (air, bolt), monster (bolt, fire), plant (earth, light), and undead (dark, poison)."
+  },
+
+  {
+    "name": "Cleasing Moonlight",
+    "info": "Requirements: you must have mastered one or more Classes among Entropist and Spiritist.",
+    "description": "When you hit one or more creatures with an offensive spell (*ϟ*), if you have an arcane weapon equipped and the High Roll of your Magic Check is 8 or higher, you may have each of those creature no longer be affected by all spells with a duration of \"Scene\" that are currently affecting them. When you cast a spell targeting one or more allies, if you have an arcane weapon equipped, you may choose one status effect among dazed, enraged, poisoned, shaken, slow, and weak: if you do, each of the spell's targets recovers from the chosen status effect."
+  },
+
+  {
+    "name": "Ephmeral Tranquilty",
+    "info": "Requirements: must have mastered one or more Classes among Dancer, Esper, Rogue, Spiritist, and Symbolist",
+    "description": "When you cast the Hallucination spell or the Torpor spell, you may apply both status effects to each target hit by the spell instead of having to choose one. During a conflict, you may use an action and spend 10 Mind Points to choose one enemy you can see who is in Crisis and is suffering from three or more status effects. If you do, that enemy recovers from all status effects, then loses an amount of Hit Points equal to【half your level + (the number of status effects recovered from this way, multiplied by 10)】. If this reduces that enemy to 0 Hit Points, you recover an amount of Mind Points equal to【the number of status effects recovered from this way, multiplied by 10】"
+  },
+
+  {
+    "name": "Fitcast",
+    "info": "Requirements: must have mastered one or more Classes among Chimerist, Darkblade, Esper, Fury, Guardian, and Wayfarer.",
+    "description": "Attributes with Might (such as【MIG + MIG】for a Chimerism Ritual). As long as you have only one weapon equipped, if that weapon's Accuracy Check relies on Might, you treat that weapon as also belonging to the arcane Category for the purpose of Skills and effects."
+  },
+
+  {
+    "name": "For a better future",
+    "info": "Requirements: you must have mastered the Merchant Class, and must have acquired the Real Treasure and Winds of Trade Skills.",
+    "description": "When you need to spend one or more Fabula Points, you may spend twice as many Trade Points instead. When you do so, describe which memories of your trades and journeys give you renewed strength. When you gain zenit through the Winds of Trade Skill after resting inside a settlement, you may choose not to gain those zenit and instead donate them to that settlement, this donation triggers Real Treasure (thus granting you 2 Trade Points), but does not count towards that Skill's limit of once per session. The chart below indicates the effects of your donations on the settlement and on anything within 1 travel day of it.",
+    "totalAndEffects": [
+      ["Total donated", "Effects within 1 travel day of settlement"],
+      [
+        "500 or more",
+        "People gladly accommodate you and up to five allies: you can rest without spending zenit."
+      ],
+      [
+        "1000 or more",
+        "When you or an ally need to pay a cost in zenit, whatever the reason, that cost is reduced by 25%."
+      ],
+      [
+        "1500 or more",
+        "Travel rolls made by your group in this area may never use a diegreater than d8."
+      ],
+      [
+        "2000 or more",
+        "When a Villain in this area spends Ultima Points, they must spend 1 additional Ultima Point"
+      ]
+    ]
+  },
+
+  {
+    "name": "Greater Chloromancy",
+    "info": "Requirements: must have mastered the Floralist Class",
+    "description": "Once per turn, if your garden contains a magiseed whose current effect triggers \"at the end of your turn\", you may use an action and spend 20 Mind Points to produce that effect. Additionally, if you have acquired the Verdant Sway Skill, your Rituals can now also influence and control soldier-Rank creatures belonging to the plant Species (but you are still unable to create them)."
+  },
+
+  {
+    "name": "Green Thumb",
+    "info": "Requirements: you must have mastered the Floralist Class.",
+    "description": "When you fill 1 or more sections of your Growth Clock at the end of your turn, you may spend 10 Mind Points. If you do, choose one option: you fill 1 additional section of your Growth Clock; or, you fill 1 fewer section of your Growth Clock (to a minimum of 0 sections filled). You cannot choose the same option twice in a row during the same conflict scene. Additionally, you gain a bonus to your Magic Defense score equal to【the number of filled sections in your Growth Clock】"
+  },
+
+  {
+    "name": "Inner Wellspring",
+    "info": "Requirements: must have mastered the Invoker Class",
+    "description": "After you rest, you may choose one wellspring: air, earth, fire, lightning, or water. Until you rest again, you gain the following benefits: You will always treat the chosen wellspring as being available during each scene, in addition to whatever wellsprings are already available. You may perform Rituals of the Elementalism discipline, but only if those Rituals manipulate the element of the chosen wellspring. You gain resistance to the damage type corresponding to the chosen wellspring. When you deal damage, you may change its type to the one corresponding to the chosen wellspring. If you do, that damage ignores Resistances."
+  },
+
+  {
+    "name": "Power Nap",
+    "info": "Requirements: must have mastered one or more Classes among Guardian, Merchant, and Wayfarer",
+    "description": "On your turn during a conflict, you may use an action to recover an amount of Hit Points and Mind Points equal to【10 + half your level】and recover from all status effects; if you do, your turn ends immediately, you lose the ability to see and hear, and your Defense and Magic Defense scores become equal to 5 and cannot be modified in any way. These effects last until the start of your next turn, until after you lose Hit Points, or until after you are hit by an attack or offensive spell (*ϟ*)."
+  },
+
+  {
+    "name": "Side by Side",
+    "info": "Requirements: you must have mastered the Wayfarer Class.",
+    "description": "After you use the Faithful Companion Skill to have your companion perform an action during your turn, choose one option: you gain a bonus equal to【your Skill Level in Faithful Companion】to the first Check you or your companion perform before the end of your next turn; or the first time you or your companion deal damage before the end of your next turn, you deal extra damage equal to【your Skill Level in Faithful Companion, multiplied by 2】; or you and your companion recover an amount of Mind Points equal to【your Skill Level in Faithful Companion, multiplied by 2】. Additionally, after your companion performs a Check, you may spend 1 Fabula Point and invoke one of their Traits in order to let them reroll one or both dice (following the normal rules)."
+  },
+
+  {
+    "name": "Silent Hunter",
+    "info": "Requirements: you must have mastered one or more Classes among Rogue, Sharpshooter, and Weaponmaster, and must have acquired the High Speed Skill.",
+    "description": "When you use High Speed to perform a free attack with a weapon belonging to the bow, spear or thrown Category, the attack deals extra damage equal to【your Skill Level in the High Speed Skill, multiplied by 5】. Additionally, when you hit one or more creatures with an attack using a weapon that belongs to the bow, spear or thrown Category, you do not trigger any Reaction Skills or other special rule that would normally be triggered by your attack. The Game Master has final say on which reactions and special rules this benefit applies to, but should be as generous as possible"
+  },
+
+  {
+    "name": "Skillful Dosage",
+    "info": "Requirements: must have mastered one or more Classes among Gourmet, Loremaster, Merchant, and Tinkerer.",
+    "description": "Potions and delicacies you create, as well as spells you cast, can now cause creatures to recover Hit Points and Mind Points beyond their Maximum HP and MP scores, up to 150% of the respective scores. At the end of each scene, if the Current Hit Points and/or Mind Points of the creatures in question are still above the Maximum scores, they become equal to the Maximum score."
+  },
+
+  {
+    "name": "Specialty of the House",
+    "info": "Requirements: you must have mastered the Gourmet Class",
+    "description": "When you acquire this Heroic Skill, choose three different tastes among bitter, salty, sour, sweet, and umami. Then, choose three different effects among the following: You deal 20 (choose one: dark, light) damage to the target. Choose the type of this effect when you acquire this Heroic Skill. During the target's next turn, all damage they deal becomes (choose one: dark, light) and its type cannot change. Choose the type of this effect when you acquire this Heroic Skill. If the target is affected by one or more spells with a duration of \"Scene\", instead  they are no longer affected by any of those spells. Choose yourself or an ally you can see. The next time the target performs an attack or casts an offensive spell (*ϟ*), they must include the chosen creature among the targets of that attack or spell (if able). The target suffers enraged. The target suffers poisoned. The target recovers 30 Hit Points and 30 Mind Points. The target recovers from dazed, enraged, and shaken. The target recovers from poisoned, slow, and weak. When you create a delicacy using exactly 3 ingredients during a conflict, if each ingredient matches one of the tastes you chose when you acquired this Heroic Skill, you may ignore all the normal effects of that delicacy. If you do, you may instead apply one, two, or all the effects you chose when you acquired this Heroic Skill."
+  },
+
+  {
+    "name": "Wise Council",
+    "info": "Requirements: you must have mastered one or more Classes among Loremaster and Orator",
+    "description": "When you perform a Support Check, if the leader can hear and understand you, you may use【INS + INS】,【INS + WLP】, or【WLP + WLP】instead of the normal Attributes based on the Check that the leader will perform. Describe how you offer your advice! Additionally, when you use teamwork to support another Player Character's Check during their turn in a conflict scene, you may choose up to two of the following benefits: That character recovers 20 Mind Points. That character recovers from dazed, enraged and shaken. At the end of that character's turn, choose one option: perform a free attack with a weapon you have equipped; or immediately perform the Spell action for free, casting a spell whose total MP cost is equal to or lower than 20. If that character succeeds on their Check and the Check allows them to fill or erase one or more sections of a Clock, they may fill or erase 1 additional section of it. \"Silver Fork Style, Secret Technique: Spaghetti Spinner!\""
+  }
+]

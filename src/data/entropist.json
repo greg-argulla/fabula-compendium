@@ -13,7 +13,7 @@
         {
           "name": "Entropic Magic",
           "info": "Max SL - 10",
-          "description": "Each time you acquire this Skill, learn one Entropist spell. Offensive Entropist spells use~【INS + WLP】~for the Magic Check."
+          "description": "Each time you acquire this Skill, learn one Entropist spell. Offensive Entropist spells (*ϟ*) use~【INS + WLP】~for the Magic Check."
         },
         {
           "name": "Lucky Seven",
@@ -43,7 +43,7 @@
         {
           "name": "Anomaly",
           "info": "20 MP - One creature - Scene",
-          "description": "*Offensive*. You alter the very nature of your target. Until this spell ends, if the target would suffer damage of a type they Absorb or are Immune to, they are instead treated as if they were Vulnerable to that damage type. Once that happens, this spell ends."
+          "description": "(*ϟ*) You alter the very nature of your target. Until this spell ends, if the target would suffer damage of a type they Absorb or are Immune to, they are instead treated as if they were Vulnerable to that damage type. Once that happens, this spell ends."
         },
         {
           "name": "Dark Weapon",
@@ -63,12 +63,12 @@
         {
           "name": "Drain Spirit",
           "info": "5 MP - One creature - Instantaneous",
-          "description": "*Offensive*. You consume a creature's psyche. The target loses~【HR + 25】~Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
+          "description": "(*ϟ*) You consume a creature's psyche. The target loses~【HR + 25】~Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
         },
         {
           "name": "Drain Vigor",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "*Offensive*. You steal another creature's life force. The target suffers~【HR + 15】dark~ damage. Then, you recover an amount of Hit Points equal to half the Hit Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
+          "description": "(*ϟ*) You steal another creature's life force. The target suffers~【HR + 15】dark~ damage. Then, you recover an amount of Hit Points equal to half the Hit Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
         },
         {
           "name": "Gamble",
@@ -78,22 +78,22 @@
         {
           "name": "Mirror",
           "info": "10 MP - One creature - Scene",
-          "description": "You twist the laws of magic. Until this spell ends, if an Offensive. spell is cast on the target, the creature who cast that Offensive. spell will be targeted in their stead (any other targets of the Offensive. spell will be targeted as normal). Once that happens, this spell ends."
+          "description": "You twist the laws of magic. Until this spell ends, if an offensive spell (*ϟ*) is cast on the target, the creature who cast that offensive spell (*ϟ*) will be targeted in their stead (any other targets of the offensive spell (*ϟ*) will be targeted as normal). Once that happens, this spell ends."
         },
         {
           "name": "Omega",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "*Offensive*. You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to~【20 + half the target's level】~."
+          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to~【20 + half the target's level】~."
         },
         {
           "name": "Stop",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "*Offensive*. You trap a foe inside a circle of altered time and space. The target will perform one fewer action on their next turn (to a minimum of 0 actions)."
+          "description": "(*ϟ*) You trap a foe inside a circle of altered time and space. The target will perform one fewer action on their next turn (to a minimum of 0 actions)."
         },
         {
           "name": "Umbra",
           "info": "10 MP × T - Up to three creatures - Instantaneous",
-          "description": "*Offensive*. A storm of dark energy turns matter into ash. Each target hit by this spell suffers~【HR + 15】dark~ damage. ~Opportunity~: Each target hit by this spell suffers ~weak~."
+          "description": "(*ϟ*) A storm of dark energy turns matter into ash. Each target hit by this spell suffers~【HR + 15】dark~ damage. ~Opportunity~: Each target hit by this spell suffers ~weak~."
         }
       ]
     }

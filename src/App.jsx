@@ -29,6 +29,13 @@ import chanter from "./data/chanter.json";
 import commander from "./data/commander.json";
 import dancer from "./data/dancer.json";
 import symbolist from "./data/symbolist.json";
+import heroicskillshighfantasy from "./data/heroicskillshighfantasy.json";
+
+import esper from "./data/esper.json";
+import mutant from "./data/mutant.json";
+import pilot from "./data/pilot.json";
+
+import quirks from "./data/quirks.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -57,11 +64,18 @@ const collection = [
   commander,
   dancer,
   symbolist,
+  // "Techno Fantasy",
+  // esper,
+  // mutant,
+  // pilot,
   "Basic Items",
   basicweapons,
   basicarmor,
   "Heroic Skills",
   heroicskills,
+  heroicskillshighfantasy,
+  // "Quirks",
+  // quirks,
 ];
 
 function App() {
