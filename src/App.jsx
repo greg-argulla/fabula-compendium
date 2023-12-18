@@ -34,11 +34,13 @@ import heroicskillshighfantasy from "./data/heroicskillshighfantasy.json";
 import esper from "./data/esper.json";
 import mutant from "./data/mutant.json";
 import pilot from "./data/pilot.json";
+import heroicskillstechnofantasy from "./data/heroicskillstechnofantasy.json";
 
 import floralist from "./data/floralist.json";
 import gourmet from "./data/gourmet.json";
 import invoker from "./data/invoker.json";
 import merchant from "./data/merchant.json";
+import heroicskillsnaturalfantasy from "./data/heroicskillsnaturalfantasy.json";
 
 import quirks from "./data/quirks.json";
 
@@ -84,8 +86,10 @@ const collection = [
   "Heroic Skills",
   heroicskills,
   heroicskillshighfantasy,
-  // "Quirks",
-  // quirks,
+  heroicskillstechnofantasy,
+  heroicskillsnaturalfantasy,
+  "Quirks",
+  quirks,
 ];
 
 function App() {
