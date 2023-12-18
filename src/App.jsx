@@ -41,6 +41,7 @@ import gourmet from "./data/gourmet.json";
 import invoker from "./data/invoker.json";
 import merchant from "./data/merchant.json";
 import heroicskillsnaturalfantasy from "./data/heroicskillsnaturalfantasy.json";
+import heroicstyles from "./data/heroicstyles.json";
 
 import quirks from "./data/quirks.json";
 
@@ -88,6 +89,7 @@ const collection = [
   heroicskillshighfantasy,
   heroicskillstechnofantasy,
   heroicskillsnaturalfantasy,
+  heroicstyles,
   "Quirks",
   quirks,
 ];
