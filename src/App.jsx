@@ -35,6 +35,11 @@ import esper from "./data/esper.json";
 import mutant from "./data/mutant.json";
 import pilot from "./data/pilot.json";
 
+import floralist from "./data/floralist.json";
+import gourmet from "./data/gourmet.json";
+import invoker from "./data/invoker.json";
+import merchant from "./data/merchant.json";
+
 import quirks from "./data/quirks.json";
 
 const Text = (props) => {
@@ -67,7 +72,12 @@ const collection = [
   "Techno Fantasy",
   esper,
   mutant,
-  //pilot,
+  pilot,
+  "Natural Fantasy",
+  floralist,
+  gourmet,
+  invoker,
+  merchant,
   "Basic Items",
   basicweapons,
   basicarmor,
@@ -175,9 +185,10 @@ function App() {
     }, 1500);
   };
 
-  const skillInstance = (item, index) => {
+  const skillInstance = (item, index, found) => {
     const categorySearched =
       searchSkills === "" ||
+      found ||
       JSON.stringify(item).toLowerCase().includes(searchSkills.toLowerCase());
 
     if (!categorySearched) return "";
@@ -244,63 +255,94 @@ function App() {
     );
   };
 
-  const tableInstance = (item, index) => {
+  const tableInstance = (item, index, found) => {
     const categorySearched =
       searchSkills === "" ||
+      found ||
       JSON.stringify(item).toLowerCase().includes(searchSkills.toLowerCase());
 
     if (!categorySearched) return "";
 
     const table = item.table;
     return (
-      <table
-        style={{
-          border: "1px solid #555",
-          borderCollapse: "collapse",
-          marginBottom: 10,
-          backgroundColor: "#222",
-        }}
-      >
-        <tbody>
-          {table.map((row, index) => (
-            <tr
-              key={"tr" + index}
-              style={{
-                border: "1px solid #555",
-                borderCollapse: "collapse",
-              }}
-            >
-              {row.map((column) => (
-                <td
-                  key={column}
-                  className="outline"
-                  style={{
-                    fontSize: 10,
-                    color: index === 0 ? "darkorange" : "#fff",
-                    textAlign: "left",
-                    border: "1px solid #555",
-                    borderCollapse: "collapse",
-                    textAlign: "center",
-                    padding: 4,
-                  }}
-                >
-                  {parseDetail(column)}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <>
+        <span
+          className="outline"
+          style={{
+            fontSize: 13,
+            marginRight: 5,
+            cursor: "copy",
+          }}
+          onClick={() => {
+            copyToClipboard("category name", item.name);
+          }}
+        >
+          {item.name}
+        </span>
+        <table
+          style={{
+            border: "1px solid #555",
+            borderCollapse: "collapse",
+            marginBottom: 10,
+            backgroundColor: "#222",
+          }}
+        >
+          <tbody>
+            {table.map((row, index) => (
+              <tr
+                key={"tr" + index}
+                style={{
+                  border: "1px solid #555",
+                  borderCollapse: "collapse",
+                }}
+              >
+                {row.map((column) => (
+                  <td
+                    key={column}
+                    className="outline"
+                    style={{
+                      fontSize: 10,
+                      color: index === 0 ? "darkorange" : "#fff",
+                      textAlign: "left",
+                      border: "1px solid #555",
+                      borderCollapse: "collapse",
+                      textAlign: "center",
+                      padding: 4,
+                      cursor: "copy",
+                    }}
+                    onClick={() => {
+                      let toSend = "";
+                      row.forEach((element) => {
+                        if (toSend === "") {
+                          toSend = element;
+                        } else {
+                          toSend += " - " + element;
+                        }
+                      });
+                      copyToClipboard("row", toSend);
+                    }}
+                  >
+                    {parseDetail(column)}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </>
     );
   };
 
   const [searchSkills, setSearchSkills] = useState("");
 
-  const category = (item, index) => {
+  const category = (item, index, found) => {
     const categorySearched =
       searchSkills === "" ||
+      found ||
       JSON.stringify(item).toLowerCase().includes(searchSkills.toLowerCase());
 
+    const nameSearched =
+      found || item.name.toLowerCase().includes(searchSkills.toLowerCase());
     if (!categorySearched) return "";
 
     return (
@@ -348,14 +390,15 @@ function App() {
         {item.data &&
           item.data.map((itemGet, indexGet) => {
             if (itemGet.description) {
-              return skillInstance(itemGet, indexGet);
+              return skillInstance(itemGet, indexGet, nameSearched);
             }
             if (itemGet.table) {
-              return tableInstance(itemGet, indexGet);
+              return tableInstance(itemGet, indexGet, nameSearched);
             }
             if (itemGet.data) {
               const categorySearchedTwo =
                 searchSkills === "" ||
+                nameSearched ||
                 JSON.stringify(itemGet)
                   .toLowerCase()
                   .includes(searchSkills.toLowerCase());
@@ -374,7 +417,7 @@ function App() {
                     border: "1px solid #222",
                   }}
                 >
-                  {category(itemGet, indexGet)}
+                  {category(itemGet, indexGet, nameSearched)}
                 </div>
               );
             }
@@ -406,7 +449,11 @@ function App() {
         {collection.map((item, index) => {
           if (typeof item === "string") {
             return (
-              <div className="outline" style={{ textAlign: "center" }}>
+              <div
+                className="outline"
+                key={"renderClasses" + index}
+                style={{ textAlign: "center" }}
+              >
                 {item}
               </div>
             );
