@@ -42,8 +42,12 @@ import invoker from "./data/invoker.json";
 import merchant from "./data/merchant.json";
 import heroicskillsnaturalfantasy from "./data/heroicskillsnaturalfantasy.json";
 import heroicstyles from "./data/heroicstyles.json";
+import necromancer from "./data/necromancer.json";
 
-import quirks from "./data/quirks.json";
+import quirkshightantasy from "./data/quirkshightantasy.json";
+import quirkstechnofantasy from "./data/quirkstechnofantasy.json";
+import quirksnaturalfantasy from "./data/quirksnaturalfantasy.json";
+import quirksbonus from "./data/quirksbonus.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -91,7 +95,12 @@ const collection = [
   heroicskillsnaturalfantasy,
   heroicstyles,
   "Quirks",
-  quirks,
+  quirkshightantasy,
+  quirkstechnofantasy,
+  quirksnaturalfantasy,
+  "Bonus",
+  necromancer,
+  quirksbonus,
 ];
 
 function App() {

@@ -1,0 +1,56 @@
+{
+  "name": "Necromancer",
+  "info": "Increase HP or MP by 5.",
+  "data": [
+    {
+      "name": "Skills",
+      "data": [
+        {
+          "name": "Beyond The Realm Of Death",
+          "info": "Max SL - 5",
+          "description": "When another creature you can see loses Hit Points while in ~Crisis~, if they are not ~undead~, you gain ~1 Grave Point~. You may never have more than ~【SL + 1】~ Grave Points. When you are reduced to 0 Hit Points, you ~lose all Grave Points~; then, if you lost at least 1 Grave Point this way and this is the ~first time~ you are reduced to 0 HP during this scene, you do not ~Surrender~ nor ~Sacrifice~ yourself: instead, you recover an amount of HP equal to 【~SL, multiplied by the amount of Grave Points you lost this way】~."
+        },
+        {
+          "name": "Children Of The Grave",
+          "info": "Max SL - 1",
+          "description": "You can always communicate verbally with ~undead~ creatures. Once per scene, you may ask an ~undead~ a single question; they are compelled to answer truthfully."
+        },
+        {
+          "name": "Fear Is The Key",
+          "info": "Max SL - 3",
+          "description": "After you cause one or more enemies to lose Hit Points, if you have acquired the ~Beyond the Realms of Death~ Skill and at least one of them is suffering from ~shaken~ and/or ~weak~, you gain 1 Grave Point and recover ~【SL × 2】~ Hit Points and Mind Points."
+        },
+        {
+          "name": "For Whom The Bell Tolls",
+          "info": "Max SL - 3",
+          "description": "When you ~deal damage to a creature with a spell~, if that spell ~only deals damage to that creature~, you may spend 1 Grave Point. If you do, choose one option: if that creature is suffering from one or more status effects, the spell deals extra damage equal to ~【(SL × 2) + the number of status effects on that creature】~; ~or~ if that creature is suffering from no status effects, they suffer ~shaken~."
+        },
+        {
+          "name": "Rondo Of Nightmare",
+          "info": "Max SL - 1",
+          "description": "When you cast an offensive spell (*ϟ*) with a ~target~ of 'One creature', you may spend 2 Grave Points to have it target ~all~ creatures you can see that are present on the scene (perform a single Magic Check and confront it with the Magic Defense of each target). If you do, all damage dealt by the spell becomes ~dark~ and its type cannot change."
+        }
+      ]
+    },
+    {
+      "name": "Heroic Skills",
+      "data": [
+        {
+          "name": "Birth Of The Cruel",
+          "info": "Requirements: you must have mastered the Necromancer Class.",
+          "description": "When a non-~Villain~ NPC you can see that belongs to the ~beast~, ~humanoid~, ~monster~, or ~plant~ Species dies, you may spend 2 Grave Points and ~reduce your maximum Hit Points and Mind Points~ by an amount equal to that NPC's level. If you do, their corpse becomes a ~Minion~ who obeys your telepathic commands:\n\n- Its ~Species~ becomes ~undead~ and it receives all undead rules. The new Affinities to ~dark~, ~light~, and ~poison~ damage overwrite any preexisting Affinity, but the original Species' rules are otherwise ~maintained~.\n\n- Its ~Rank~ becomes ~soldier~; if the original creature was an ~élite~ or ~champion~, the GM must reduce the Minion's HP and MP accordingly (Skills are ~maintained~).\n\n- The newly created Minion is a completely new creature and has full HP, full MP, and no status effects. It retains the original creature's ~equipment~.\n\n- Your Minion takes its own turn during conflicts, and the Game Master must count it as an ~additional Player Character~ when designing a conflict.\n\n- When you ~rest~, your Minion also gains the full benefits of resting.\n\n- If your Minion is reduced to 0 Hit Points, if you are ~more than 1 travel day~ away from it, or if you die or fall unconscious, your Minion is immediately ~destroyed~.\n\n- You may also destroy your Minion ~at any time~; if you want to create a new Minion, you must first destroy the current one.\n\n- If your Minion is destroyed, your maximum HP and MP scores ~return to normal~."
+        },
+        {
+          "name": "Harvest Of Sorrow",
+          "info": "Requirements: you must have mastered one or more Classes among Entropist and Necromancer, and must have learned both the Drain Spirit and Drain Vigor spells.",
+          "description": "When you cast the ~Drain Spirit~ or ~Drain Vigor~ spells, the amount of Mind Points or Hit Points you recover is ~equal~ to the MP or HP loss suffered by the target, respectively (instead of being halved).\n Additionally, your ~Drain Spirit~ causes the target to lose ~【HR + 30】~ Mind Points if you are ~level 20 or higher~, or ~【HR + 35】~ Mind Points if you are ~level 40 or higher~, instead of the normal ~【HR + 25】~."
+        },
+        {
+          "name": "Pulse Of The Maggots",
+          "info": "Requirements: you must have mastered the Necromancer Class.",
+          "description": "As long as you have ~at least 1 Grave Point~, you gain Immunity to ~dark~ and ~poison~ damage, Resistance to ~physical~ damage, and Vulnerability to ~light~ damage. These Affinities ~overwrite~ any other Affinity for those damage types, and cannot be altered ~in any way~ as long as you have at least 1 Grave Point."
+        }
+      ]
+    }
+  ]
+}
