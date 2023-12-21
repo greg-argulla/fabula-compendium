@@ -7,7 +7,7 @@
       "description": "As long as you have no shields and no martial armor equipped, you gain all of the following benefits: You may ignore the MP cost of the Provoke Skill. You may ignore the MP cost of the Peacock Dance. You may use the Protect Skill even if you have not acquired it. Your Magic Defense score is increased by【your Skill Level in Dodge】. Additionally, your maximum Hit Points and Crisis score are now calculated based on your base Dexterity die size, instead of your base Might die size."
     },
     {
-      "name": "Blazing Gladiator Style",
+      "name": "Blast Gladiator Style",
       "info": "Requirements: you must have acquired the Bone Crusher Skill.",
       "description": "When you acquire this Heroic Skill, choose one Category among brawling, heavy, spear, and sword. As long as you have a melee weapon belonging to the chosen Category equipped, if that weapon is a two-handed weapon or a weapon module, you treat it as also belonging to the firearm Category for the sake of Skills and effects. When you use the Bone Crusher Skill on one or more creatures, if you attacked with a melee weapon belonging to the firearm Category, each of those creatures becomes combustible until the end of the scene. After one or more combustible creatures lose Hit Points due to an attack you made with a melee weapon belonging to the firearm Category, each of those creatures stops being combustible and you deal an amount of fire damage equal to【6 + (your Skill Level in Bone Crusher)】to them. The type of this damage cannot be changed; this effect deals 5 extra damage if you are level 20 or higher, or 10 extra damage if you are level 40 or higher"
     },
@@ -79,7 +79,7 @@
     {
       "name": "Pure Force Style",
       "info": "Requirements: you must have acquired the Indomitable Spirit Skill.",
-      "description": "As long as you are dealing physical damage to one or more creatures, you deal 5 extra damage to each of those creatures that is not Vulnerable to physical damage nor able to Absorb it. This extra damage becomes 10 if you are level 30 or higher"
+      "description": "As long as you are dealing physical damage to one or more creatures that are not Vulnerable to physical damage nor able to Absorb it, you deal an amount of extra damage to each of them equal to【2 + (twice your Skill Level in Indomitable Spirit)】. This extra damage increases by 5 if you are level 30 or higher."
     },
     {
       "name": "Ranger Style",
@@ -94,7 +94,7 @@
     {
       "name": "Scorpion Tail Style",
       "info": "Requirements: you must have a Dexterity base die size of d10 or higher.",
-      "description": "Your attacks with weapons belonging to the flail Category may target flying creatures and deal 5 extra damage as long as it is not your turn. After a creature you can see performs a ranged attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a weapon belonging to the flail Category equipped, and it has no effect if the Accuracy Check was a critical success."
+      "description": "Your attacks with weapons belonging to the flail Category may target flying creatures and deal 5 extra damage as long as it is not your turn. After a creature you can see performs a ranged attack, you may spend an amount of Mind Points equal to【5 + the total Result of their Accuracy Check】in order to have the attack fail automatically against all targets. You can only use this Skill if you have a weapon belonging to the flail Category equipped, and it has no effect if the Accuracy Check was a critical success."
     },
     {
       "name": "Seven Weapon Style",

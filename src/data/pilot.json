@@ -57,41 +57,194 @@
     {
       "name": "List Of Frames",
       "data": [
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" }
+        {
+          "name": "Exoskeleton",
+          "info": "Passengers: None - Distance: No Modifier",
+          "description": "his vehicle may have ~up to 2 active weapon modules~, ~up to 1 active armor module~, and ~any number of active support modules~. If you use the ~Compression Tech~ Skill with this vehicle, ignore the IP cost."
+        },
+        {
+          "name": "Mech",
+          "info": "Passengers: None - Distance: x2",
+          "description": "This vehicle may have up to ~2 active weapon modules~, ~up to 1 active armor module~, and ~any number of active support modules~."
+        },
+        {
+          "name": "Steed",
+          "info": "Passengers: Up to one - Distance: x2",
+          "description": "This vehicle may have up to ~1 active weapon module~, ~up to 1 active armor module~, and ~any number of active support modules~. If you use the ~Heart in the Engine~ Skill with this vehicle, ignore the MP cost.\n~Important~: 'passengers' indicates human-sized creatures transported in addition to the Pilot; 'distance' refers to the distance traveled during a ~travel day~; remember that the maximum number of total active modules on your vehicle is based on your ~Skill Level~ in ~Personal Vehicle~."
+        }
       ]
     },
     {
       "name": "List Of Armor Modules",
+      "info": "Important: these benefits only apply to the Pilot who is driving the vehicle; the scores granted by the Heavy, Runic, and Standard Plating modules can be extended to passengers through the Expanded Plating module",
       "data": [
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" }
+        {
+          "name": "Flexible Plating Module",
+          "description": "DEF: ~DEX+2~ M.DEF: ~INS+1~"
+        },
+        {
+          "name": "Heavy Plating Module",
+          "description": "DEF: 12 M.DEF: 8 *Martial*"
+        },
+        {
+          "name": "Runic Plating Module",
+          "description": "DEF: 10 M.DEF: 11 *Martial*"
+        },
+        {
+          "name": "Standard Plating Module",
+          "description": "DEF: 11 M.DEF: 10 *Martial*"
+        }
       ]
     },
     {
       "name": "List Of Weapon Modules",
       "data": [
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" }
+        {
+          "name": "Arcane Module",
+          "info": "【DEX + WLP】【HR + 8】physical",
+          "description": "Melee. This weapon belongs to the ~arcane~ Category."
+        },
+        {
+          "name": "Axe Module",
+          "info": "【DEX + INS】【HR + 12】physical",
+          "description": "Melee. This weapon belongs to the ~heavy~ Category."
+        },
+        {
+          "name": "Blade Module",
+          "info": "【DEX + INS】+1【HR + 6】physical",
+          "description": "Melee. This weapon belongs to the ~dagger~ Category."
+        },
+        {
+          "name": "Bow Module",
+          "info": "【DEX + INS】+1【HR + 12】physical",
+          "description": "Ranged. This weapon belongs to the ~bow~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~."
+        },
+        {
+          "name": "Cannon Module",
+          "info": "【DEX + INS】【HR + 14】physical",
+          "description": "Ranged. This weapon belongs to the ~firearm~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~."
+        },
+        {
+          "name": "Claw Module",
+          "info": "【DEX + INS】【HR + 8】physical",
+          "description": "Melee. This weapon belongs to the ~brawling~ Category and can be used to interact with the scene as if it were an empty hand."
+        },
+        {
+          "name": "Claymore Module",
+          "info": "【DEX + INS】+1【HR + 14】physical",
+          "description": "Melee. This weapon belongs to the ~sword~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~."
+        },
+        {
+          "name": "Esoteric Module",
+          "info": "【DEX + WLP】【HR + 12】physical",
+          "description": "Melee. This weapon belongs to the ~arcane~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~."
+        },
+        {
+          "name": "Flail Module",
+          "info": "【DEX + INS】【HR + 10】physical",
+          "description": "Melee. This weapon belongs to the ~flail~ Category."
+        },
+        {
+          "name": "Flamer Module",
+          "info": "【DEX + INS】【HR + 8】fire",
+          "description": "Ranged. This weapon belongs to the ~firearm~ Category."
+        },
+        {
+          "name": "Machine Gun Module",
+          "info": "【DEX + INS】【HR + 10】physical",
+          "description": "Ranged. This weapon belongs to the ~firearm~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~.\nWhen you perform the ~Attack~ action and attack with this weapon module, you may perform two separate attacks instead of one (against the same target or against different targets). If you do, both attacks follow the rules for ~two-weapon fighting~: each attack loses the ~multi~ property and cannot gain it, and you treat the High Roll of each Accuracy Check as being equal to 0 when determining damage."
+        },
+        {
+          "name": "Rifle Module",
+          "info": "【DEX + INS】【HR + 10】physical",
+          "description": "Ranged. This weapon belongs to the ~firearm~ Category."
+        },
+        {
+          "name": "Scythe Module",
+          "info": "【DEX + INS】【HR + 16】physical",
+          "description": "Melee. This weapon belongs to the ~heavy~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~."
+        },
+        {
+          "name": "Shield Module (Exoskeleton and Mech Only)",
+          "info": "",
+          "description": "While driving this vehicle, you gain a +2 bonus to Defense and a +2 bonus to Magic Defense.\nThis weapon module ~does not~ count as a 'weapon': instead, it counts as an equipped ~shield~ for the sake of Skills and effects. It ~cannot~ be equipped in your main hand slot, unless you have acquired the ~Dual Shieldbearer~ Skill; if you have acquired that Skill, your ~Twin Shields~ deal 2 extra damage (this is cumulative if you have two active ~Shield modules~)."
+        },
+        {
+          "name": "Spear Module",
+          "info": "【DEX + INS】【HR + 10】physical",
+          "description": "Melee. This weapon belongs to the ~spear~ Category."
+        },
+        {
+          "name": "Sword Module",
+          "info": "【DEX + INS】+1【HR + 8】physical",
+          "description": "Melee. This weapon belongs to the ~sword~ Category."
+        },
+        {
+          "name": "Trident Module",
+          "info": "【DEX + INS】+1【HR + 14】physical",
+          "description": "Melee. This weapon belongs to the ~spear~ Category. While this module is active on a vehicle, that vehicle may have no other active ~weapon modules~."
+        }
       ]
     },
     {
       "name": "List Of Support Modules",
       "data": [
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" },
-        { "name": "", "info": "", "description": "" }
+        {
+          "name": "Aerial Module (counts as two active modules)",
+          "description": "This vehicle can fly, and its 'distance' becomes ~×3~.\nWhile you are driving this vehicle, your ~melee~ attacks can target ~flying~ creatures, and all creatures inside the vehicle cannot be targeted by ~melee~ attacks (unless the attacker is flying or is somehow able to reach flying targets).\nThese benefits do not apply while the vehicle is inactive or grounded, while you are in ~Crisis~, or while you are ~covering~ another creature with the ~Guard~ action. Additionally, if a creature aboard this vehicle suffers ~air~, ~bolt~ or ~ice~ damage during a conflict scene, the benefits of this module cease until the start of your next turn."
+        },
+        {
+          "name": "Anti-Element Module",
+          "description": "Each time you make this module active on your vehicle, choose a damage type: ~air~, ~bolt~, ~earth~, ~fire~ or ~ice~. Creatures aboard this vehicle are treated as being Resistant to the chosen damage type until this module remains active."
+        },
+        {
+          "name": "Advanced Targeting Module",
+          "description": "While driving this vehicle, you gain a +2 bonus to your Accuracy Checks and to Magic Checks for offensive spells (*ϟ*) you cast."
+        },
+        {
+          "name": "Counterstrike Module",
+          "description": "After a creature aboard this vehicle is hit by a ~ranged~ attack, if you are driving this vehicle, you may spend 1 Inventory Point. If you do, the attacker suffers 10 ~physical~ damage (after their attack has been resolved). This amount increases by 5 damage if you are ~level 20 or higher~, or by 10 damage if you are ~level 40 or higher~."
+        },
+        {
+          "name": "Excavation Module",
+          "description": "This vehicle can burrow through the ground and is equipped with powerful lights."
+        },
+        {
+          "name": "Expanded Plating Module (Mech and Steed only)",
+          "description": "While you are driving this vehicle, if it has an active ~Heavy~, ~Runic~, or ~Standard Plating module~, all passengers aboard may treat their Defense and Magic Defense scores as being equal to those provided by the ~armor module~ in question (they may still use their normal scores if those would be better)."
+        },
+        {
+          "name": "Magistatic Module",
+          "description": "After you pay the MP cost of an ~Arcanum~, ~spell~, or ~verse~, if you are driving this vehicle and have an ~arcane~ weapon equipped, you recover 5 Mind Points; you instead recover 10 Mind Points if that cost was ~equal to or higher than 30 MP~."
+        },
+        {
+          "name": "Power Module (Exoskeleton and Mech only)",
+          "description": "While driving this vehicle, you gain a +2 bonus to all Opposed Checks that rely on ~brute force~ or ~physical resistance~."
+        },
+        {
+          "name": "Rapid Interface Module",
+          "description": "When you ~enter~ your vehicle on your turn during a conflict, you may immediately perform an additional action."
+        },
+        {
+          "name": "Seafarer Module",
+          "description": "This vehicle can travel on water and underwater."
+        },
+        {
+          "name": "Seat Module (Mech and Steed only)",
+          "description": "This vehicle can transport an additional human-sized passenger."
+        },
+        {
+          "name": "Secondary Offensive Module (Mech only)",
+          "description": "Each time you make this module active on your vehicle, choose one ~inactive weapon module~. As long as the chosen module remains inactive and this module remains active, you may use an action to perform a ~free attack~ with that ~weapon module~."
+        },
+        {
+          "name": "Sensor Module",
+          "description": "While driving this vehicle, you gain a +2 bonus to Open Checks made to examine nearby creatures, items and locations."
+        },
+        {
+          "name": "Turbo Module",
+          "description": "While driving this vehicle, you gain a +2 bonus to all Opposed Checks that rely on ~speed~ and ~rapid maneuvers~."
+        }
       ]
     }
   ]

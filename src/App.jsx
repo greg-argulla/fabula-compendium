@@ -309,7 +309,6 @@ function App() {
                     style={{
                       fontSize: 10,
                       color: index === 0 ? "darkorange" : "#fff",
-                      textAlign: "left",
                       border: "1px solid #555",
                       borderCollapse: "collapse",
                       textAlign: "center",
