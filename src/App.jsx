@@ -170,10 +170,7 @@ function App() {
     return split.map((item, index) => {
       if (index % 2 !== 0) {
         return (
-          <span
-            key={"parseAsterisk" + index}
-            style={{ color: "red", fontSize: 11 }}
-          >
+          <span key={"parseAsterisk" + index} style={{ color: "red" }}>
             {item}
           </span>
         );
@@ -213,41 +210,54 @@ function App() {
         style={{ marginTop: 10, marginBottom: 10 }}
       >
         <div className="skill-detail">
-          <div style={{ fontSize: 13, color: "darkorange" }}>
-            <span
-              style={{ cursor: "copy" }}
-              onClick={() => {
-                copyToClipboard("name", item.name);
-              }}
-            >
-              {item.name}
-            </span>
-            <button
-              className="button"
-              style={{
-                float: "right",
-                font: 10,
-                padding: 4,
-              }}
-              onClick={() => {
-                sendSkill(item);
-              }}
-            >
-              Send
-            </button>
-          </div>
-          {item.info ? (
-            <div
-              style={{ color: "darkgrey", cursor: "copy" }}
-              onClick={() => {
-                copyToClipboard("info", item.info);
-              }}
-            >
-              {item.info}
+          <div
+            style={{
+              fontSize: 13,
+              color: "darkorange",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <div>
+              <div
+                style={{ cursor: "copy" }}
+                onClick={() => {
+                  copyToClipboard("name", item.name);
+                }}
+              >
+                {item.name}
+              </div>
+              {item.info ? (
+                <div
+                  style={{ color: "darkgrey", cursor: "copy", fontSize: 10 }}
+                  onClick={() => {
+                    copyToClipboard("info", item.info);
+                  }}
+                >
+                  {item.info}
+                </div>
+              ) : (
+                ""
+              )}
             </div>
-          ) : (
-            <div>&nbsp;</div>
-          )}
+            <div>
+              <button
+                className="button"
+                style={{
+                  float: "right",
+                  font: 10,
+                  padding: 4,
+                }}
+                onClick={() => {
+                  sendSkill(item);
+                }}
+              >
+                Send
+              </button>
+            </div>
+          </div>
+
           <hr
             style={{
               marginTop: 6,
