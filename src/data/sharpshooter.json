@@ -18,7 +18,7 @@
         {
           "name": "Hawkeye",
           "info": "Max SL - 3",
-          "description": "When you perform the `Guard` action, if you choose `not` to provide cover to another creature, you may choose one option: the next `ranged` attack you perform before the end of the current scene will deal`【5 + (SL × 5)】`extra damage; `or` you may immediately perform a `free attack` with a `bow` or `firearm` you have equipped, treating your `High Roll (HR)` as 0 when calculating damage dealt by this attack."
+          "description": "When you perform the `Guard` action and choose `not` to cover another creature, you may spend 10 Mind Points to choose one option: the next `ranged` attack you perform during this scene deals`【SL × 5】`extra damage, and all its damage ignores `all` Affinities (this effect is `cumulative` with itself); or you immediately perform a `free attack` with a `bow` or `firearm` weapon you have equipped, treating your `High Roll` as being equal to 0 when determining damage."
         },
         {
           "name": "Ranged Weapon Mastery",

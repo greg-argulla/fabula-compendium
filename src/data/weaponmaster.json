@@ -18,7 +18,7 @@
         {
           "name": "Breach",
           "info": "Max SL - 3",
-          "description": "You may use an action and spend 10 Mind Points to perform a free attack with a melee weapon you have equipped. This attack must target `a single creature`. If the attack is successful, choose one option: the attack deals extra damage equal to`【half your level】`, but all damage dealt by it loses its type and cannot gain a type; or the attack deals no damage and, until the start of your next turn, your allies deal`【SL × 2】`extra damage to that creature."
+          "description": "You may use an action and spend 20 Mind Points to perform a `free attack` with a `melee` weapon you have equipped. If the attack is successful, choose one option: the attack deals`【SL × 5】`extra damage, and all damage dealt by this attack ignores `all` Affinities; `or` the attack deals no damage and, until the start of your next turn, whenever an ally deal damage to a creature hit by this attack, that ally deals`【SL × 2】`extra damage to that creature"
         },
         {
           "name": "Counterattack",

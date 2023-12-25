@@ -4,7 +4,7 @@
     {
       "name": "Adversity",
       "info": "Requirements: You must have mastered the Darkblade Class.",
-      "description": "As long as you are suffering from one or more status effects, you gain a +1 bonus on all Checks for every status effect you are suffering from, and you deal 2 extra damage for every status effect you are suffering from (be it with attacks, spells, Arcana, items or any other method)."
+      "description": "As long as you are suffering from one or more status effects, you gain a +1 bonus on all Checks you perform for every status effect you are suffering from (up to a maximum of +3), and you also deal 2 extra damage for every status effect you are suffering from (be it with attacks, spells, Arcana, items, or any other method; up to a maximum of 6 extra damage)."
     },
     {
       "name": "Ambidextrous",
