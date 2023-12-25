@@ -6,11 +6,11 @@
       "data": [
         {
           "name": "Staff",
-          "description": "Staff 100z~【WLP + WLP】【HR + 6】physical~ Arcane | Two-handed | Melee | No Quality."
+          "description": "Staff 100z`【WLP + WLP】【HR + 6】physical` Arcane | Two-handed | Melee | No Quality."
         },
         {
           "name": "Tome",
-          "description": "Tome 100z~【INS + INS】【HR + 6】physical~ Arcane | Two-handed | Melee | No Quality."
+          "description": "Tome 100z`【INS + INS】【HR + 6】physical` Arcane | Two-handed | Melee | No Quality."
         }
       ]
     },
@@ -19,11 +19,11 @@
       "data": [
         {
           "name": "Crossbow",
-          "description": "Crossbow 150z~【DEX + INS】【HR + 8】physical~ Bow | Two-handed | Ranged | No Quality."
+          "description": "Crossbow 150z`【DEX + INS】【HR + 8】physical` Bow | Two-handed | Ranged | No Quality."
         },
         {
           "name": "Shortbow",
-          "description": "Shortbow 200z~【DEX + DEX】【HR + 8】physical~ Bow | Two-handed | Ranged | No Quality."
+          "description": "Shortbow 200z`【DEX + DEX】【HR + 8】physical` Bow | Two-handed | Ranged | No Quality."
         }
       ]
     },
@@ -32,15 +32,15 @@
       "data": [
         {
           "name": "Unarmed Strike",
-          "description": "Unarmed Strike~【DEX + MIG】【HR + 0】physical~ Brawling | One-handed | Melee | Automatically equipped in each empty hand slot."
+          "description": "Unarmed Strike`【DEX + MIG】【HR + 0】physical` Brawling | One-handed | Melee | Automatically equipped in each empty hand slot."
         },
         {
           "name": "Improvised (Melee)",
-          "description": "Improvised (Melee)~【DEX + MIG】【HR + 2】physical~ Brawling | One-handed | Melee | Breaks after the attack."
+          "description": "Improvised (Melee)`【DEX + MIG】【HR + 2】physical` Brawling | One-handed | Melee | Breaks after the attack."
         },
         {
           "name": "Iron Knuckle",
-          "description": "Iron Knuckle 150z~【DEX + MIG】【HR + 6】physical~ Brawling | One-handed | Melee | No Quality."
+          "description": "Iron Knuckle 150z`【DEX + MIG】【HR + 6】physical` Brawling | One-handed | Melee | No Quality."
         }
       ]
     },
@@ -49,7 +49,7 @@
       "data": [
         {
           "name": "Steel Dagger",
-          "description": "Steel Dagger 150z~【DEX + INS】+1【HR + 4】physical~ Dagger | One-handed | Melee | No Quality."
+          "description": "Steel Dagger 150z`【DEX + INS】+1【HR + 4】physical` Dagger | One-handed | Melee | No Quality."
         }
       ]
     },
@@ -58,7 +58,7 @@
       "data": [
         {
           "name": "Pistol",
-          "description": "Pistol 250z~【DEX + INS】【HR + 8】physical~ Firearm | One-handed | Melee | No Quality | *Martial*"
+          "description": "Pistol 250z`【DEX + INS】【HR + 8】physical` Firearm | One-handed | Melee | No Quality | *Martial*"
         }
       ]
     },
@@ -67,7 +67,7 @@
       "data": [
         {
           "name": "Chain Whip",
-          "description": "Chain Whip 150z~【DEX + DEX】【HR + 8】physical~ Flail | Two-handed | Melee | No Quality"
+          "description": "Chain Whip 150z`【DEX + DEX】【HR + 8】physical` Flail | Two-handed | Melee | No Quality"
         }
       ]
     },
@@ -76,15 +76,15 @@
       "data": [
         {
           "name": "Iron Hammer",
-          "description": "Iron Hammer 200z~【MIG + MIG】【HR + 6】physical~ Heavy | One-handed | Melee | No Quality"
+          "description": "Iron Hammer 200z`【MIG + MIG】【HR + 6】physical` Heavy | One-handed | Melee | No Quality"
         },
         {
           "name": "Broadaxe",
-          "description": "Broadaxe 250z~【MIG + MIG】【HR + 10】physical~ Heavy | One-handed | Melee | No Quality | *Martial*"
+          "description": "Broadaxe 250z`【MIG + MIG】【HR + 10】physical` Heavy | One-handed | Melee | No Quality | *Martial*"
         },
         {
           "name": "Waraxe",
-          "description": "Waraxe 250z~【MIG + MIG】【HR + 14】physical~ Heavy | Two-handed | Melee | No Quality | *Martial*"
+          "description": "Waraxe 250z`【MIG + MIG】【HR + 14】physical` Heavy | Two-handed | Melee | No Quality | *Martial*"
         }
       ]
     },
@@ -93,11 +93,11 @@
       "data": [
         {
           "name": "Light Spear",
-          "description": "Light Spear 200z~【DEX + MIG】【HR + 8】physical~ Spear | One-handed | Melee | No Quality | *Martial*"
+          "description": "Light Spear 200z`【DEX + MIG】【HR + 8】physical` Spear | One-handed | Melee | No Quality | *Martial*"
         },
         {
           "name": "Heavy Spear",
-          "description": "Light Spear 200z~【DEX + MIG】【HR + 12】physical~ Spear | Two-handed | Melee | No Quality | *Martial*"
+          "description": "Light Spear 200z`【DEX + MIG】【HR + 12】physical` Spear | Two-handed | Melee | No Quality | *Martial*"
         }
       ]
     },
@@ -106,19 +106,19 @@
       "data": [
         {
           "name": "Bronze Sword",
-          "description": "Bronze Sword 200z~【DEX + MIG】+1【HR + 6】physical~ Sword | One-handed | Melee | No Quality | *Martial*"
+          "description": "Bronze Sword 200z`【DEX + MIG】+1【HR + 6】physical` Sword | One-handed | Melee | No Quality | *Martial*"
         },
         {
           "name": "Greatwword",
-          "description": "Greatsword 200z~【DEX + MIG】+1【HR + 10】physical~ Sword | Two-handed | Melee | No Quality | *Martial*"
+          "description": "Greatsword 200z`【DEX + MIG】+1【HR + 10】physical` Sword | Two-handed | Melee | No Quality | *Martial*"
         },
         {
           "name": "Katana",
-          "description": "Katana 200z~【DEX + INS】+1【HR + 10】physical~ Sword | Two-handed | Melee | No Quality | *Martial*"
+          "description": "Katana 200z`【DEX + INS】+1【HR + 10】physical` Sword | Two-handed | Melee | No Quality | *Martial*"
         },
         {
           "name": "Rapier",
-          "description": "Rapier 200z~【DEX + INS】+1【HR + 6】physical~ Sword | One-handed | Melee | No Quality | *Martial*"
+          "description": "Rapier 200z`【DEX + INS】+1【HR + 6】physical` Sword | One-handed | Melee | No Quality | *Martial*"
         }
       ]
     },
@@ -127,11 +127,11 @@
       "data": [
         {
           "name": "Improvised (Ranged)",
-          "description": "Improvised~【DEX + MIG】【HR + 2】physical~ Thrown | One-handed | Ranged | No Quality"
+          "description": "Improvised`【DEX + MIG】【HR + 2】physical` Thrown | One-handed | Ranged | No Quality"
         },
         {
           "name": "Shuriken",
-          "description": "Improvised 150z~【DEX + INS】【HR + 4】physical~ Thrown | One-handed | Ranged | No Quality"
+          "description": "Improvised 150z`【DEX + INS】【HR + 4】physical` Thrown | One-handed | Ranged | No Quality"
         }
       ]
     }

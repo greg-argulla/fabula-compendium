@@ -9,22 +9,22 @@
     {
       "name": "Ambidextrous",
       "info": "Requirements: None.",
-      "description": "You may apply the benefits of ~two-weapon fighting~ to weapons belonging to different categories, even if one is a ~melee~ weapon and the other is a ~ranged~ weapon (such as a dagger and a firearm, for instance). As long as you have ~exactly two weapons equipped~ and they ~share no Categories with each other~, you gain a +2 bonus to Defense and the ~second~ attack you perform during each of your turns deals 5 extra damage."
+      "description": "You may apply the benefits of `two-weapon fighting` to weapons belonging to different categories, even if one is a `melee` weapon and the other is a `ranged` weapon (such as a dagger and a firearm, for instance). As long as you have `exactly two weapons equipped` and they `share no Categories with each other`, you gain a +2 bonus to Defense and the `second` attack you perform during each of your turns deals 5 extra damage."
     },
     {
       "name": "Arcane Echoes",
       "info": "Requirements: You must have mastered the Arcanist Class.",
-      "description": "When you successfully perform a Check to fill or erase one or more sections of a Clock, if the ~domains~ of one or more Arcana you have bound are applicable to the Check in question, you may fill or erase an additional section of that Clock.\nThe Game Master has final say on whether a given domain applies or not."
+      "description": "When you successfully perform a Check to fill or erase one or more sections of a Clock, if the `domains` of one or more Arcana you have bound are applicable to the Check in question, you may fill or erase an additional section of that Clock.\nThe Game Master has final say on whether a given domain applies or not."
     },
     {
       "name": "Chimeric Mastery",
       "info": "Requirements: You must have mastered the Chimerist Class.",
-      "description": "Choose two creature Species among ~construct~, ~demon~, ~elemental~, and ~undead~. You can now use ~spell mimic~ to learn spells from creatures of the chosen Species.\nThis Heroic Skill ~may be acquired up to twice~, each time selecting two Species fromthe list above.\nWhenever you acquire this Skill, you also increase your upper limit for memorized Chimerist spells by 2."
+      "description": "Choose two creature Species among `construct`, `demon`, `elemental`, and `undead`. You can now use `spell mimic` to learn spells from creatures of the chosen Species.\nThis Heroic Skill `may be acquired up to twice`, each time selecting two Species fromthe list above.\nWhenever you acquire this Skill, you also increase your upper limit for memorized Chimerist spells by 2."
     },
     {
       "name": "Comet",
       "info": "Requirements: You must have mastered the Entropist Class.",
-      "description": "You learn the ultimate Entropist spell: Comet.\n\n*Comet* MP: 50 Target: Special Duration: Instantaneous\n\nYou rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose on option: one creature you can see suffers 60 damage; ~or~ you choose any number of creatures you can see, and each of them suffers 40 damage. These amounts increase by 5 if you are ~level 20 or higher~, or by 10 if you are ~level 40 or higher~. Damage dealt by this spell has no type (thus being unaffected by damage Affinities)."
+      "description": "You learn the ultimate Entropist spell: Comet.\n\n*Comet* MP: 50 Target: Special Duration: Instantaneous\n\nYou rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose on option: one creature you can see suffers 60 damage; `or` you choose any number of creatures you can see, and each of them suffers 40 damage. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`. Damage dealt by this spell has no type (thus being unaffected by damage Affinities)."
     },
     {
       "name": "Deep Pockets",
@@ -34,12 +34,12 @@
     {
       "name": "Disarming Rhetoric",
       "info": "Requirements: You must have mastered the Orator Class.",
-      "description": "During a conflict scene, you may use an action and choose a ~soldier~-rank creature that can hear and understand you (the Game Master must tell you who is a valid target). If that creature is ~shaken~ or in ~Crisis~, you may spend an amount of Mind Points equal to~【20 + half that creature's level】~to have them peacefully leave the conflict. Describe how you convince them to desist."
+      "description": "During a conflict scene, you may use an action and choose a `soldier`-rank creature that can hear and understand you (the Game Master must tell you who is a valid target). If that creature is `shaken` or in `Crisis`, you may spend an amount of Mind Points equal to`【20 + half that creature's level】`to have them peacefully leave the conflict. Describe how you convince them to desist."
     },
     {
       "name": "Extra HP",
       "info": "Requirements: None.",
-      "description": "Permanently increase your maximum Hit Points by 10.\nThe amount of additional HP increases to 20 if you are ~level 40 or higher.~"
+      "description": "Permanently increase your maximum Hit Points by 10.\nThe amount of additional HP increases to 20 if you are `level 40 or higher.`"
     },
     {
       "name": "Extra IP",
@@ -49,94 +49,94 @@
     {
       "name": "Extra MP",
       "info": "Requirements: None.",
-      "description": "Permanently increase your maximum Mind Points by 10.\nThe amount of additional MP increases to 20 if you are ~level 40 or higher.~"
+      "description": "Permanently increase your maximum Mind Points by 10.\nThe amount of additional MP increases to 20 if you are `level 40 or higher.`"
     },
     {
       "name": "Extra Spells",
       "info": "Requirements: None.",
-      "description": "When you acquire this Skill, learn any two spells from one of the following lists: ~Elementalist~, ~Entropist~, or ~Spiritist~. Both spells chosen this way must come from the same list, and they follow the standard rules for casting spells of that Class."
+      "description": "When you acquire this Skill, learn any two spells from one of the following lists: `Elementalist`, `Entropist`, or `Spiritist`. Both spells chosen this way must come from the same list, and they follow the standard rules for casting spells of that Class."
     },
     {
       "name": "Fast Learner",
       "info": "Requirements: You must have mastered the Wayfarer Class.",
-      "description": "Once per conflict scene when an ally you can see performs the ~Skill~ or ~Spell~ action to cast a spell or activate a Skill or Heroic Skill, if you have not learned or acquired that spell or Skill, you can spend 1 Fabula Point. If you do, you ~temporarily~ learn or acquire that spell or Skill until the end of the scene.\nIf you acquire a Skill this way, you are treated as having ~1 Skill Level~ in it, and you ~do not~ gain any benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the ~Faithful Companion~ Skill, nor would you learn any ~volumes~, ~key~s, or ~tones~ by temporarily acquiring the ~Magichant~ Skill."
+      "description": "Once per conflict scene when an ally you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill or Heroic Skill, if you have not learned or acquired that spell or Skill, you can spend 1 Fabula Point. If you do, you `temporarily` learn or acquire that spell or Skill until the end of the scene.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `key`s, or `tones` by temporarily acquiring the `Magichant` Skill."
     },
     {
       "name": "Heartbreaker",
       "info": "Requirements: You must have mastered the Darkblade Class.",
-      "description": "When you hit a creature with an attack, if that attack ~only~ targeted that creature and you have a ~Bond~ towards them, you may choose to spend half of your current Hit Points, rounded down. If you do, the attack deals extra damage equal to~【10 multiplied by the strength of your Bond towards the target】~.You may use this Skill only on your turn during a conflict, and ~only once per turn~."
+      "description": "When you hit a creature with an attack, if that attack `only` targeted that creature and you have a `Bond` towards them, you may choose to spend half of your current Hit Points, rounded down. If you do, the attack deals extra damage equal to`【10 multiplied by the strength of your Bond towards the target】`.You may use this Skill only on your turn during a conflict, and `only once per turn`."
     },
     {
       "name": "Heroic Companion",
       "info": "Requirements: You must have mastered the Wayfarer Class, and must have acquired the Faithful Companion Skill.",
-      "description": "Your bond with your companion grows stronger. You gain the following benefits:\n- The companion's maximum Hit Points increase by 10.\n- Choose one of the companion's Attributes: ~Dexterity~, ~Insight~, ~Might~, or ~Willpower~. The chosen Attribute is permanently increased by one die size (up to a maximum size of ~d12)~.\n- The companion gains an additional Skill. When you reach level ~40~, or if you have already reached it, the companion gains an additional Skill. Make sure to discuss your Skill choices with the Game Master and the other Players."
+      "description": "Your bond with your companion grows stronger. You gain the following benefits:\n- The companion's maximum Hit Points increase by 10.\n- Choose one of the companion's Attributes: `Dexterity`, `Insight`, `Might`, or `Willpower`. The chosen Attribute is permanently increased by one die size (up to a maximum size of `d12)`.\n- The companion gains an additional Skill. When you reach level `40`, or if you have already reached it, the companion gains an additional Skill. Make sure to discuss your Skill choices with the Game Master and the other Players."
     },
     {
       "name": "Hope",
       "info": "Requirements: You must have mastered the Spiritist Class.",
-      "description": "You learn the ultimate Spiritist spell: Hope.\n\n*Hope* MP: 40 Target: Special Duration: Instantaneous\n\nYou rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who ~surrendered~ but is still present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their ~Crisis~ score. Note that this spell will not undo the ~consequences~ of the character's surrender and is of no use if the character left the scene as part of their surrender — such as if they were captured and dragged away, or if they were trapped in a parallel dimension, and so on.\n\nA Player Character may only be affected by this spell once per scene; if a character is brought back into the conflict by this spell and is subsequently reduced to 0 Hit Points again, they must ~sacrifice~ themselves or ~surrender~ as per the normal rules (including a new consequence and 2 more Fabula Points if they surrender)."
+      "description": "You learn the ultimate Spiritist spell: Hope.\n\n*Hope* MP: 40 Target: Special Duration: Instantaneous\n\nYou rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who `surrendered` but is still present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their `Crisis` score. Note that this spell will not undo the `consequences` of the character's surrender and is of no use if the character left the scene as part of their surrender — such as if they were captured and dragged away, or if they were trapped in a parallel dimension, and so on.\n\nA Player Character may only be affected by this spell once per scene; if a character is brought back into the conflict by this spell and is subsequently reduced to 0 Hit Points again, they must `sacrifice` themselves or `surrender` as per the normal rules (including a new consequence and 2 more Fabula Points if they surrender)."
     },
     {
       "name": "Mathemagic",
       "info": "Requirements: You must have mastered the Loremaster Class.",
-      "description": "When you cast a spell with a ~target~ of 'One creature', you may ~double the spell's total MP cost~. If you do, choose an Attribute (~Dexterity~, ~Insight~, ~Might~, or ~Willpower~) and a die size (~d6~, ~d8~, ~d10~ or ~d12~). The spell now targets ~all~ creatures present on the scene whose current Attribute die size matches your choice, regardless of whether they are friends or foes (you might even end up targeting yourself).\nThe effects of the spell are fully applied to every target. If the spell is an  spell, it follows the normal rules: you perform a single Magic Check and confront it with the Magic Defense of each target to determine who is hit by the spell."
+      "description": "When you cast a spell with a `target` of 'One creature', you may `double the spell's total MP cost`. If you do, choose an Attribute (`Dexterity`, `Insight`, `Might`, or `Willpower`) and a die size (`d6`, `d8`, `d10` or `d12`). The spell now targets `all` creatures present on the scene whose current Attribute die size matches your choice, regardless of whether they are friends or foes (you might even end up targeting yourself).\nThe effects of the spell are fully applied to every target. If the spell is an  spell, it follows the normal rules: you perform a single Magic Check and confront it with the Magic Defense of each target to determine who is hit by the spell."
     },
 
     {
       "name": "Monkey Grip",
       "info": "Requirements: You must have mastered the Fury Class.",
-      "description": "You may equip two-handed weapons belonging to the ~flail~, ~heavy~, ~spear~, or ~sword~ Categories in a single hand slot. This allows you, for instance, to enjoy the benefits of ~two-weapon fighting~ while wielding a pair of two-handed weapons, ~or~ to equip a two-handed weapon in your ~main hand slot~ and a shield in your ~off-hand slot~."
+      "description": "You may equip two-handed weapons belonging to the `flail`, `heavy`, `spear`, or `sword` Categories in a single hand slot. This allows you, for instance, to enjoy the benefits of `two-weapon fighting` while wielding a pair of two-handed weapons, `or` to equip a two-handed weapon in your `main hand slot` and a shield in your `off-hand slot`."
     },
     {
       "name": "Perfect Aim",
       "info": "Requirements: You must have mastered the Sharpshooter Class, and must have acquired the Warning Shot Skill.",
-      "description": "When you hit one or more creatures with a ~ranged~ attack and choose to deal no damage in order to gain the benefits of the ~Warning Shot~ Skill, you may choose ~two~ options instead of one (for instance, you could inflict both ~shaken~ and ~slow~ on each creature, or inflict a status effect on each creature while also lowering their Mind Points)."
+      "description": "When you hit one or more creatures with a `ranged` attack and choose to deal no damage in order to gain the benefits of the `Warning Shot` Skill, you may choose `two` options instead of one (for instance, you could inflict both `shaken` and `slow` on each creature, or inflict a status effect on each creature while also lowering their Mind Points)."
     },
     {
       "name": "Pillage",
       "info": "Requirements: You must have mastered the Rogue Class, and must have acquired the Soul Steal Skill.",
-      "description": "When you use the ~Soul Steal~ Skill, you may target any number of creatures at the same time (you perform a single Check and compare it to the Magic Defense of each creature you are attempting to steal from)."
+      "description": "When you use the `Soul Steal` Skill, you may target any number of creatures at the same time (you perform a single Check and compare it to the Magic Defense of each creature you are attempting to steal from)."
     },
     {
       "name": "Powerful Shot",
       "info": "Requirements: You must have mastered the Sharpshooter Class.",
-      "description": "When you hit one or more creatures with a ~ranged~ attack, that attack deals 5 extra damage to each creature.\nThe amount of extra damage increases to 10 if you are ~level 40 or higher~."
+      "description": "When you hit one or more creatures with a `ranged` attack, that attack deals 5 extra damage to each creature.\nThe amount of extra damage increases to 10 if you are `level 40 or higher`."
     },
     {
       "name": "Powerful Spell",
       "info": "Requirements: You must have mastered one or more Classes among the following: Chimerist, Elementalist, Entropist, or Spiritist.",
-      "description": "When you cast a spell that deals damage to one or more creatures, that spell deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are ~level 40 or higher~."
+      "description": "When you cast a spell that deals damage to one or more creatures, that spell deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are `level 40 or higher`."
     },
     {
       "name": "Powerful Strike",
       "info": "Requirements: You must have mastered one or more Classes among the following: Fury or Weaponmaster",
-      "description": "When you hit one or more creatures with a ~melee~ attack, that attack deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are ~level 40 or higher~."
+      "description": "When you hit one or more creatures with a `melee` attack, that attack deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are `level 40 or higher`."
     },
     {
       "name": "Predictable",
       "info": "Requirements: You must have mastered the Loremaster Class.",
-      "description": "During a conflict, you may use an action and spend 20 Mind Points to anticipate the upcoming moves of a creature you can see, as long as you know ~two or more~ of that creature's ~Traits~. If you do so, choose one type of action among the following: ~Attack~, ~Guard~, ~Objective~, ~Spell~, or ~Skill~. Until the start of your next turn, the creature must spend 20 Mind Points whenever they wish to perform that action. If they can't, they must perform a different action."
+      "description": "During a conflict, you may use an action and spend 20 Mind Points to anticipate the upcoming moves of a creature you can see, as long as you know `two or more` of that creature's `Traits`. If you do so, choose one type of action among the following: `Attack`, `Guard`, `Objective`, `Spell`, or `Skill`. Until the start of your next turn, the creature must spend 20 Mind Points whenever they wish to perform that action. If they can't, they must perform a different action."
     },
     {
       "name": "Rampart",
       "info": "Requirements: You must have mastered the Guardian Class.",
-      "description": "During the first round of each conflict scene, you have Resistance to all damage types and cannot suffer status effects (you ~do not~ recover from preexisting status effects, however). These benefits only last until the end of the first round."
+      "description": "During the first round of each conflict scene, you have Resistance to all damage types and cannot suffer status effects (you `do not` recover from preexisting status effects, however). These benefits only last until the end of the first round."
     },
     {
       "name": "Repetition",
       "info": "Requirements: You must have mastered the Orator Class.",
-      "description": "Once per turn during a conflict, after you use the ~Condemn~ Skill or the ~Encourage~ Skill, you may immediately perform that same Skill again (on the same target or a different one). You must still pay the Mind Point cost for the second use of the Skill."
+      "description": "Once per turn during a conflict, after you use the `Condemn` Skill or the `Encourage` Skill, you may immediately perform that same Skill again (on the same target or a different one). You must still pay the Mind Point cost for the second use of the Skill."
     },
     {
       "name": "Revelation",
       "info": "Requirements: You must have mastered the Arcanist Class.",
-      "description": "You make contact with a ~previously unknown Arcanum~, which you design together with the rest of your group, and bind that Arcanum to your soul (feel free to make it a bit stronger than normal, since it was obtained through a Heroic Skill). For as long as you live, no one else in your world will be able to bind that Arcanum.\nWhen you summon an Arcanum, if you are in ~Crisis~ and choose ~both~ options of the ~Quick Summoning~ Skill, you only suffer the first penalty (the ~dismiss~ effect of the summoned Arcanum will be available for this summoning)."
+      "description": "You make contact with a `previously unknown Arcanum`, which you design together with the rest of your group, and bind that Arcanum to your soul (feel free to make it a bit stronger than normal, since it was obtained through a Heroic Skill). For as long as you live, no one else in your world will be able to bind that Arcanum.\nWhen you summon an Arcanum, if you are in `Crisis` and choose `both` options of the `Quick Summoning` Skill, you only suffer the first penalty (the `dismiss` effect of the summoned Arcanum will be available for this summoning)."
     },
 
     {
       "name": "Tempest Strike",
       "info": "Requirements: You must have mastered the Weaponmaster Class.",
-      "description": "When you perform a ~melee~ attack with the ~multi~ property, if the attack targets ~only~ ~one creature~, it deals 10 extra damage if it has ~multi (2)~, or 15 extra damage if it has ~multi (3 or higher)~; if instead the attack targets ~two or more creatures~, it deals 5 extra damage to each of them."
+      "description": "When you perform a `melee` attack with the `multi` property, if the attack targets `only` `one creature`, it deals 10 extra damage if it has `multi (2)`, or 15 extra damage if it has `multi (3 or higher)`; if instead the attack targets `two or more creatures`, it deals 5 extra damage to each of them."
     },
     {
       "name": "Unbreakable",
@@ -146,7 +146,7 @@
     {
       "name": "Upgrade",
       "info": "Requirements: You must have mastered the Tinkerer Class.",
-      "description": "When you ~rest~, you may choose any number of ~armors~, ~shields~, and/or ~weapons~. For each item chosen this way, you may either ~add a Quality~ to it (if it doesn't have one) or ~replace its current Quality~ with a different one. These Qualities must come from the list of default Qualities available for items of that type, and must have an associated cost modifier of +1000 zenit or lower. At the end of the ~rest~, you must pay an amount of zenit equal to the total sum of those cost modifiers, reduced by~【your Skill Level in Visionary, multiplied by 100】~. If you do, the items will be modified."
+      "description": "When you `rest`, you may choose any number of `armors`, `shields`, and/or `weapons`. For each item chosen this way, you may either `add a Quality` to it (if it doesn't have one) or `replace its current Quality` with a different one. These Qualities must come from the list of default Qualities available for items of that type, and must have an associated cost modifier of +1000 zenit or lower. At the end of the `rest`, you must pay an amount of zenit equal to the total sum of those cost modifiers, reduced by`【your Skill Level in Visionary, multiplied by 100】`. If you do, the items will be modified."
     },
     {
       "name": "Vanish",
@@ -156,7 +156,7 @@
     {
       "name": "Ultimagic",
       "info": "Requirements: You must have mastered the Elementalist Class.",
-      "description": "You learn the ultimate Elementalist spell: Ultimagic.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nYou channel the fury of the planet into a powerful wave of fire and magma. Choose one option: one creature you can see suffers 50 ~fire~ damage; ~or~ you choose any number of creatures you can see, and each of them suffers 30 ~fire~ damage. These amounts increase by 5 if you are ~level 20 or higher~, or by 10 if you are ~level 40 or higher~.\n Damage dealt by this spell ignores Resistances and Immunities."
+      "description": "You learn the ultimate Elementalist spell: Ultimagic.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nYou channel the fury of the planet into a powerful wave of fire and magma. Choose one option: one creature you can see suffers 50 `fire` damage; `or` you choose any number of creatures you can see, and each of them suffers 30 `fire` damage. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\n Damage dealt by this spell ignores Resistances and Immunities."
     }
   ]
 }

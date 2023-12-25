@@ -8,41 +8,41 @@
         {
           "name": "Cooking",
           "info": "Max SL - 5",
-          "description": "When you ~rest~ inside a settlement, you gain~【SL】ingredients~.\nYou may use an action and combine ~2 or 3~ ingredients to prepare a ~delicacy~ and choose one option: you apply its effects to yourself or an ally you can see; or you perform a ~free attack~ with a weapon you have equipped. This attack deals no damage, but you apply the delicacy's effects to each enemy hit by the attack.\nYou may carry ~up to 10 +【SL × 5】ingredients~, and they ~will never spoil until you use them~; if you take this Skill during character creation, you begin play with ~ten~ ingredients with random tastes"
+          "description": "When you `rest` inside a settlement, you gain`【SL】ingredients`.\nYou may use an action and combine `2 or 3` ingredients to prepare a `delicacy` and choose one option: you apply its effects to yourself or an ally you can see; or you perform a `free attack` with a weapon you have equipped. This attack deals no damage, but you apply the delicacy's effects to each enemy hit by the attack.\nYou may carry `up to 10 +【SL × 5】ingredients`, and they `will never spoil until you use them`; if you take this Skill during character creation, you begin play with `ten` ingredients with random tastes"
         },
 
         {
           "name": "Knife and Fork",
           "info": "Max SL - 1",
-          "description": "When you perform the ~free attack~ granted by the ~Cooking~ Skill, you may have the attack deal damage as normal. If you do, you treat your ~High Roll (HR)~ as 0 when calculating damage dealt by this attac"
+          "description": "When you perform the `free attack` granted by the `Cooking` Skill, you may have the attack deal damage as normal. If you do, you treat your `High Roll (HR)` as 0 when calculating damage dealt by this attac"
         },
 
         {
           "name": "Made with love",
           "info": "Max SL - 1",
-          "description": "When you use the ~Cooking~ Skill and choose to apply the effects of the delicacy to yourself or an ally you can see, you may spend up to~【SL × 10】~MP. For every 10 MP you spend this way, you also apply the delicacy's effects to another ally you can see."
+          "description": "When you use the `Cooking` Skill and choose to apply the effects of the delicacy to yourself or an ally you can see, you may spend up to`【SL × 10】`MP. For every 10 MP you spend this way, you also apply the delicacy's effects to another ally you can see."
         },
 
         {
           "name": "Salt and Pepper",
           "info": "Max SL - 1",
-          "description": "When you prepare a ~delicacy~, you may spend 2 Inventory Points: if you do, change the ~taste~ of one ingredient to a different taste of your choice"
+          "description": "When you prepare a `delicacy`, you may spend 2 Inventory Points: if you do, change the `taste` of one ingredient to a different taste of your choice"
         },
 
         {
           "name": "Traveling Cook",
           "info": "Max SL - 3",
-          "description": "After each ~travel roll~, if you acquired the Cooking Skill, you gain~【SL × 2】ingredients~."
+          "description": "After each `travel roll`, if you acquired the Cooking Skill, you gain`【SL × 2】ingredients`."
         }
       ]
     },
     {
       "name": "Gaining Ingredients",
-      "description": "You will normally receive ~ingredients~ through the ~Cooking~ and ~Traveling Cook~ Skills; you might also receive them as ~rewards~ during play. When you obtain an ~ingredient~, you're never too sure what it will taste like — roll a ~d6~ to determine the ~ingredient's taste~ using the table below, then describe its ~appearance~ and give it a ~name~.\n\nYou may also purchase ~ingredients~ from stall, shops or merchants: the price is ~10 zenit~ for an ingredient with a random taste, ~or 20 zenit~ for an ~ingredient~ with a taste of your choice.\n\n*Ingredient Taste*\n~1.~ Bitter ~2.~ Salty ~3.~ Sour ~4.~ Sweet ~5.~ Umami ~6.~ Your choice.\n\n~Example~: after traversing the Petrified Forest, you gain two ~ingredients~ thanks to the Traveling Cook Skill. You roll a ~1~ and ~5~ for their tastes, which means one tastes ~bitter~ and the other tastes ~umami~.\nYou decide to call the first ~ingredient~ 'Fossil Honey' and the second ~ingredient~ 'Stonebark Shroom'. You record both of them on your ~cookbook sheet~, placing them in the matching taste columns."
+      "description": "You will normally receive `ingredients` through the `Cooking` and `Traveling Cook` Skills; you might also receive them as `rewards` during play. When you obtain an `ingredient`, you're never too sure what it will taste like — roll a `d6` to determine the `ingredient's taste` using the table below, then describe its `appearance` and give it a `name`.\n\nYou may also purchase `ingredients` from stall, shops or merchants: the price is `10 zenit` for an ingredient with a random taste, `or 20 zenit` for an `ingredient` with a taste of your choice.\n\n*Ingredient Taste*\n`1.` Bitter `2.` Salty `3.` Sour `4.` Sweet `5.` Umami `6.` Your choice.\n\n`Example`: after traversing the Petrified Forest, you gain two `ingredients` thanks to the Traveling Cook Skill. You roll a `1` and `5` for their tastes, which means one tastes `bitter` and the other tastes `umami`.\nYou decide to call the first `ingredient` 'Fossil Honey' and the second `ingredient` 'Stonebark Shroom'. You record both of them on your `cookbook sheet`, placing them in the matching taste columns."
     },
     {
       "name": "Tastes And Delicacies",
-      "description": "When you use the ~Cooking~ Skill, you combine two or three ~ingredients~ to generate a special ~delicacy~ with powerful effects that will be applied to its targets.\n\n- Every ~different~ combination of ~two tastes~ (even if it's the same taste used twice!) will add an ~effect~ to the delicacy.\n\n- When you combine two tastes you ~never combined before~, determine the ~effect~ of that combination by rolling a ~d12~ and consulting the chart on the next page; most entries also require you to make a choice (such as a specific damage type or status effect). Once you're done, record the resulting effect on your ~cookbook sheet~: from this moment on, that ~combination~ of tastes will ~always~ produce that exact ~effect~ when you use it.\n\n- No two combinations of tastes in your ~cookbook sheet~ can have ~identical effects~.\n\n- When you determine the effect of a new combination, you must make your choices in such a way that the resulting effect has no precedents (for instance, by selecting a different damage type or status effect); if you can't, ~reroll the d12~./n/n- When completed, your ~cookbook sheet~ will feature a total of ~15 effects~, one for each possible pair of tastes.\n\n~Example~: you combine three ingredients, one of them ~salty~ and two of them ~bitter~. The resulting ~delicacy~ features two combinations (~bitter + bitter~ and ~bitter + salty~), which means it will have two different effects.\nIn the past, you combined ~bitter + bitter~ and rolled a 4, which means the effect allows for MP recovery; on the other hand, you never combined ~bitter + salty~ before, so you need to determine this combination's effect by rolling dice.\nYou roll a ~1~, and must choose a status effect for this effect; since you already chose recovery from ~weak~ for the ~sour + sweet~ combination in the past, you decide to opt for ~dazed~. From now on, the ~bitter + salty~ combination will always allow you to heal the target from ~dazed~.\nNow that you've done this, you know that your ~delicacy~ allows every target to heal from the ~dazed~ status effect and also recover 40 Mind Points.\n\n~Delicacies~ created through the ~Cooking~ Skill have an immediate effect and are then destroyed; if you want to prepare foods with unique effects and use them later, you must instead use the rules for ~Projects~."
+      "description": "When you use the `Cooking` Skill, you combine two or three `ingredients` to generate a special `delicacy` with powerful effects that will be applied to its targets.\n\n- Every `different` combination of `two tastes` (even if it's the same taste used twice!) will add an `effect` to the delicacy.\n\n- When you combine two tastes you `never combined before`, determine the `effect` of that combination by rolling a `d12` and consulting the chart on the next page; most entries also require you to make a choice (such as a specific damage type or status effect). Once you're done, record the resulting effect on your `cookbook sheet`: from this moment on, that `combination` of tastes will `always` produce that exact `effect` when you use it.\n\n- No two combinations of tastes in your `cookbook sheet` can have `identical effects`.\n\n- When you determine the effect of a new combination, you must make your choices in such a way that the resulting effect has no precedents (for instance, by selecting a different damage type or status effect); if you can't, `reroll the d12`./n/n- When completed, your `cookbook sheet` will feature a total of `15 effects`, one for each possible pair of tastes.\n\n`Example`: you combine three ingredients, one of them `salty` and two of them `bitter`. The resulting `delicacy` features two combinations (`bitter + bitter` and `bitter + salty`), which means it will have two different effects.\nIn the past, you combined `bitter + bitter` and rolled a 4, which means the effect allows for MP recovery; on the other hand, you never combined `bitter + salty` before, so you need to determine this combination's effect by rolling dice.\nYou roll a `1`, and must choose a status effect for this effect; since you already chose recovery from `weak` for the `sour + sweet` combination in the past, you decide to opt for `dazed`. From now on, the `bitter + salty` combination will always allow you to heal the target from `dazed`.\nNow that you've done this, you know that your `delicacy` allows every target to heal from the `dazed` status effect and also recover 40 Mind Points.\n\n`Delicacies` created through the `Cooking` Skill have an immediate effect and are then destroyed; if you want to prepare foods with unique effects and use them later, you must instead use the rules for `Projects`."
     },
     {
       "name": "Delicacy Effect",
@@ -50,61 +50,61 @@
         ["Roll", "Effect"],
         [
           "1",
-          "Each of this ~delicacy~'s targets recovers from the ~(choose one: dazed; enraged; poisoned; shaken; slow; weak)~ status effect."
+          "Each of this `delicacy`'s targets recovers from the `(choose one: dazed; enraged; poisoned; shaken; slow; weak)` status effect."
         ],
         [
           "2",
-          "Each of this ~delicacy~'s targets suffers from the ~(choose one: dazed; enraged; poisoned; shaken; slow; weak)~ status effect."
+          "Each of this `delicacy`'s targets suffers from the `(choose one: dazed; enraged; poisoned; shaken; slow; weak)` status effect."
         ],
         [
           "3",
-          "Each of this ~delicacy~'s targets recovers 40 Hit Points. This amount increases to 50 if you are ~level 30 or higher~."
+          "Each of this `delicacy`'s targets recovers 40 Hit Points. This amount increases to 50 if you are `level 30 or higher`."
         ],
         [
           "4",
-          "Each of this ~delicacy~'s targets recovers 40 Mind Points. This amount increases to 50 if you are ~level 30 or higher~."
+          "Each of this `delicacy`'s targets recovers 40 Mind Points. This amount increases to 50 if you are `level 30 or higher`."
         ],
         [
           "5",
-          "Each of this ~delicacy~'s targets suffers 20 ~(choose one: air; bolt; earth; fire; ice; poison)~ damage. This amount increases to 30 damage if you are ~level 30 or higher~."
+          "Each of this `delicacy`'s targets suffers 20 `(choose one: air; bolt; earth; fire; ice; poison)` damage. This amount increases to 30 damage if you are `level 30 or higher`."
         ],
         [
           "6",
-          "Until the end of your next turn, every source that deals ~(choose one: air; bolt; earth; fire; ice; poison)~ damage deals 5 extra damage to each of this ~delicacy~'s targets."
+          "Until the end of your next turn, every source that deals `(choose one: air; bolt; earth; fire; ice; poison)` damage deals 5 extra damage to each of this `delicacy`'s targets."
         ],
         [
           "7",
-          "Each of this ~delicacy~'s targets cannot perform the ~Guard~ action during their next turn."
+          "Each of this `delicacy`'s targets cannot perform the `Guard` action during their next turn."
         ],
         [
           "8",
-          "Each of this ~delicacy~'s targets cannot perform the ~Spell~ action during their next turn."
+          "Each of this `delicacy`'s targets cannot perform the `Spell` action during their next turn."
         ],
         [
           "9",
-          "Each of this ~delicacy~'s targets cannot perform the ~Skill~ action during their next turn."
+          "Each of this `delicacy`'s targets cannot perform the `Skill` action during their next turn."
         ],
         [
           "10",
-          "Each of this ~delicacy~'s targets gains Resistance to ~(choose one: air; bolt; earth; fire; ice; poison)~ damage until the end of your next turn."
+          "Each of this `delicacy`'s targets gains Resistance to `(choose one: air; bolt; earth; fire; ice; poison)` damage until the end of your next turn."
         ],
         [
           "11",
-          "Each of this ~delicacy~'s targets treats their ~(choose one: Dexterity; Insight; Might; Willpower)~ as if it were one die size higher (up to a maximum of ~d12~) until the end of your next turn."
+          "Each of this `delicacy`'s targets treats their `(choose one: Dexterity; Insight; Might; Willpower)` as if it were one die size higher (up to a maximum of `d12`) until the end of your next turn."
         ],
         [
           "12",
-          "During the next turn of each of this ~delicacy~'s targets, all damage they deal becomes ~(choose one: air; bolt; earth; fire; ice; poison)~ and its type cannot change."
+          "During the next turn of each of this `delicacy`'s targets, all damage they deal becomes `(choose one: air; bolt; earth; fire; ice; poison)` and its type cannot change."
         ]
       ]
     },
     {
       "name": "Special Rules of Effects",
-      "description": "~Delicacies~ and their effects follow a few unique rules.\n\n- Each ~delicacy~ always features ~one, two, or three effects~, depending on which ~taste~ combinations you used (the effects may also be ~four or six~ if you use the ~All You Can Eat~ Heroic Skill); you decide in which order to apply these effects, and may choose to ~forgo~ any number of them (this choice must be exactly the same for all targets of the ~delicacy~).\n\n- Effects ~5 to 12~ can only be applied during conflict scenes.\n\n- A ~delicacy~ can only have ~one~ type ~5~ effect (which is to say, a damage-dealing effect); if a ~delicacy~ has two or more type ~5~ effects due to the ~taste~ combinations you used, you ~must~ choose one of them and forgo the others.\n\n- A ~delicacy~ can only have one type ~12~ effect (which is to say, a damage type-changing effect); if a ~delicacy~ has two or more type ~12~ effects due to the ~taste~ combinations you used, you ~must~ choose one of them and forgo the others.\n\nOther than that, all of a ~delicacy~'s effects are cumulative, and will be fully applied to each of its target.\n\nExample: if you obtain a type ~2~ effect on ~sweet + umami~, a type ~5~ effect on ~bitter + umami~, and a type ~9~ effect on ~bitter + sweet~, the ~delicacy~ created combining these tastes will be able to deal damage, inflict a status effect, and also prevent the use of spells for a brief period!"
+      "description": "`Delicacies` and their effects follow a few unique rules.\n\n- Each `delicacy` always features `one, two, or three effects`, depending on which `taste` combinations you used (the effects may also be `four or six` if you use the `All You Can Eat` Heroic Skill); you decide in which order to apply these effects, and may choose to `forgo` any number of them (this choice must be exactly the same for all targets of the `delicacy`).\n\n- Effects `5 to 12` can only be applied during conflict scenes.\n\n- A `delicacy` can only have `one` type `5` effect (which is to say, a damage-dealing effect); if a `delicacy` has two or more type `5` effects due to the `taste` combinations you used, you `must` choose one of them and forgo the others.\n\n- A `delicacy` can only have one type `12` effect (which is to say, a damage type-changing effect); if a `delicacy` has two or more type `12` effects due to the `taste` combinations you used, you `must` choose one of them and forgo the others.\n\nOther than that, all of a `delicacy`'s effects are cumulative, and will be fully applied to each of its target.\n\nExample: if you obtain a type `2` effect on `sweet + umami`, a type `5` effect on `bitter + umami`, and a type `9` effect on `bitter + sweet`, the `delicacy` created combining these tastes will be able to deal damage, inflict a status effect, and also prevent the use of spells for a brief period!"
     },
     {
       "name": "And Finally, A Bit Of Advice!",
-      "description": "This Class is quite atypical: there is no real way to perfectly control the role your character will cover, because your abilities are procedurally generated over the course of the campaign. However, remember that ~you may prepare delicacies outside of conflict scenes~: it will cost you some ingredients, true, but you will be able to 'scout' the effects ahead of time and avoid trial and error during a critical situation. Other than that, pay attention to which effects best synergize with each other and with the rest of your group, and take advantage of the ~multi~ property to apply the same ~delicacy~ to two or more enemies!"
+      "description": "This Class is quite atypical: there is no real way to perfectly control the role your character will cover, because your abilities are procedurally generated over the course of the campaign. However, remember that `you may prepare delicacies outside of conflict scenes`: it will cost you some ingredients, true, but you will be able to 'scout' the effects ahead of time and avoid trial and error during a critical situation. Other than that, pay attention to which effects best synergize with each other and with the rest of your group, and take advantage of the `multi` property to apply the same `delicacy` to two or more enemies!"
     }
   ]
 }

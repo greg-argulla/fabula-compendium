@@ -8,27 +8,27 @@
         {
           "name": "Absorb MP",
           "info": "Max SL - 5",
-          "description": "After you suffer damage, you may immediately recover~【SL × 2】~Mind Points."
+          "description": "After you suffer damage, you may immediately recover`【SL × 2】`Mind Points."
         },
         {
           "name": "Entropic Magic",
           "info": "Max SL - 10",
-          "description": "Each time you acquire this Skill, learn one Entropist spell. Offensive Entropist spells (*ϟ*) use~【INS + WLP】~for the Magic Check."
+          "description": "Each time you acquire this Skill, learn one Entropist spell. Offensive Entropist spells (*ϟ*) use`【INS + WLP】`for the Magic Check."
         },
         {
           "name": "Lucky Seven",
           "info": "Max SL - 1",
-          "description": "You have a ~lucky number~; at the beginning of each session, that number is ~7~. Once per scene after you perform a Check, you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, such as a value of 7 on a d6). If you do, the replaced value becomes your ~new~ lucky number."
+          "description": "You have a `lucky number`; at the beginning of each session, that number is `7`. Once per scene after you perform a Check, you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, such as a value of 7 on a d6). If you do, the replaced value becomes your `new` lucky number."
         },
         {
           "name": "Ritual Entropism",
           "info": "Max SL - 1",
-          "description": "You may perform Rituals whose effects fall within the ~Entropism~ discipline. Entropism Rituals use~【INS + WLP】~for the Magic Check."
+          "description": "You may perform Rituals whose effects fall within the `Entropism` discipline. Entropism Rituals use`【INS + WLP】`for the Magic Check."
         },
         {
           "name": "Stolen Time",
           "info": "Max SL - 4",
-          "description": "You may use an action and spend 10 Mind Points to perform a ~free attack~ with a weapon you have equipped. This attack must target ~a single creature~; if the attack is successful, that creature suffers ~slow~. Then, if that creature was already ~slow~, you may choose up to two options: the attack deals~【SL + 1】~extra damage; or the target of the attack loses~【SL × 10】~Mind Points; ~or~ one creature you can see recovers from ~slow~; ~or~ one ally you can see who is yet to take their turn during this round may take their turn immediately after yours."
+          "description": "You may use an action and spend 10 Mind Points to perform a `free attack` with a weapon you have equipped. This attack must target `a single creature`; if the attack is successful, that creature suffers `slow`. Then, if that creature was already `slow`, you may choose up to two options: the attack deals`【SL + 1】`extra damage; or the target of the attack loses`【SL × 10】`Mind Points; `or` one creature you can see recovers from `slow`; `or` one ally you can see who is yet to take their turn during this round may take their turn immediately after yours."
         }
       ]
     },
@@ -38,7 +38,7 @@
         {
           "name": "Acceleration",
           "info": "20 MP - One creature - Scene",
-          "description": "You bend the fabric of time. Until this spell ends, the target may perform an additional action during their turn, unless an ~Acceleration~ spell already granted them an additional action during their previous turn of this scene."
+          "description": "You bend the fabric of time. Until this spell ends, the target may perform an additional action during their turn, unless an `Acceleration` spell already granted them an additional action during their previous turn of this scene."
         },
         {
           "name": "Anomaly",
@@ -48,32 +48,32 @@
         {
           "name": "Dark Weapon",
           "info": "5 MP - One equipped weapon - Scene",
-          "description": "You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes of the ~dark~ type. If you have that weapon equipped while you cast this spell, you may perform a ~free attack~ with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature."
+          "description": "You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes of the `dark` type. If you have that weapon equipped while you cast this spell, you may perform a `free attack` with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature."
         },
         {
           "name": "Dispel",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "You release a wave of negative energy and cleanse all magic from a creature. If the target is affected by one or more spells with a ~duration~ of Scene, they are no longer affected by any of those spells instead."
+          "description": "You release a wave of negative energy and cleanse all magic from a creature. If the target is affected by one or more spells with a `duration` of Scene, they are no longer affected by any of those spells instead."
         },
         {
           "name": "Divination",
           "info": "10 MP - Self - Scene",
-          "description": "You glimpse briefly into the future. Until this spell ends, after a creature you can see performs a Check, if it was not a ~fumble~ nor a ~critical success~, you may force that creature to reroll ~both~ dice. Once you have forced ~two~ rerolls this way, this spell ends."
+          "description": "You glimpse briefly into the future. Until this spell ends, after a creature you can see performs a Check, if it was not a `fumble` nor a `critical success`, you may force that creature to reroll `both` dice. Once you have forced `two` rerolls this way, this spell ends."
         },
         {
           "name": "Drain Spirit",
           "info": "5 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You consume a creature's psyche. The target loses~【HR + 25】~Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
+          "description": "(*ϟ*) You consume a creature's psyche. The target loses`【HR + 25】`Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
         },
         {
           "name": "Drain Vigor",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You steal another creature's life force. The target suffers~【HR + 15】dark~ damage. Then, you recover an amount of Hit Points equal to half the Hit Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
+          "description": "(*ϟ*) You steal another creature's life force. The target suffers`【HR + 15】dark` damage. Then, you recover an amount of Hit Points equal to half the Hit Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
         },
         {
           "name": "Gamble",
           "info": "up to 20 MP - Special - Instantaneous",
-          "description": "You summon a vortex of chaotic energy. Roll your current ~Willpower~ die once for every 10 Mind Points spent while casting this spell, then keep the ~single~ die you prefer: the number on that die determines the effects of this spell. \n\n~1~ - You lose half of your current Hit Points and half of your current Mind Points.\n ~2-3~ Each creature present on the scene, including yourself, suffers poisoned.\n ~4-6~ Each creature present on the scene, including yourself, suffers slow.\n ~7-8~ Choose up to three creatures you can see: each of them recovers 50 Hit Points and also recovers from all status effects. \n~9+~ Choose any number of creatures you can see: each of them suffers 30 damage. The damage type is determined randomly by rolling a ~d6~:\n\n 1. ~air~ 2. ~bolt~ 3. ~dark~ 4. ~earth~ 5. ~fire~ 6. ~poison~"
+          "description": "You summon a vortex of chaotic energy. Roll your current `Willpower` die once for every 10 Mind Points spent while casting this spell, then keep the `single` die you prefer: the number on that die determines the effects of this spell. \n\n`1` - You lose half of your current Hit Points and half of your current Mind Points.\n `2-3` Each creature present on the scene, including yourself, suffers poisoned.\n `4-6` Each creature present on the scene, including yourself, suffers slow.\n `7-8` Choose up to three creatures you can see: each of them recovers 50 Hit Points and also recovers from all status effects. \n`9+` Choose any number of creatures you can see: each of them suffers 30 damage. The damage type is determined randomly by rolling a `d6`:\n\n 1. `air` 2. `bolt` 3. `dark` 4. `earth` 5. `fire` 6. `poison`"
         },
         {
           "name": "Mirror",
@@ -83,7 +83,7 @@
         {
           "name": "Omega",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to~【20 + half the target's level】~."
+          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to`【20 + half the target's level】`."
         },
         {
           "name": "Stop",
@@ -93,7 +93,7 @@
         {
           "name": "Umbra",
           "info": "10 MP × T - Up to three creatures - Instantaneous",
-          "description": "(*ϟ*) A storm of dark energy turns matter into ash. Each target hit by this spell suffers~【HR + 15】dark~ damage. ~Opportunity~: Each target hit by this spell suffers ~weak~."
+          "description": "(*ϟ*) A storm of dark energy turns matter into ash. Each target hit by this spell suffers`【HR + 15】dark` damage. `Opportunity`: Each target hit by this spell suffers `weak`."
         }
       ]
     }

@@ -4,7 +4,7 @@
     {
       "name": "Agile Defender Style",
       "info": "Requirements: you must have Skill Level 2 or higher in Dodge.",
-      "description": "As long as you have no shields and no martial armor equipped, you gain all of the following benefits: You may ignore the MP cost of the Provoke Skill. You may ignore the MP cost of the Peacock Dance. You may use the Protect Skill even if you have not acquired it. Your Magic Defense score is increased by【your Skill Level in Dodge】. Additionally, your maximum Hit Points and Crisis score are now calculated based on your base Dexterity die size, instead of your base Might die size."
+      "description": "As long as you have no `shields` and no `martial armor` equipped, you gain all of the following benefits:\n\n- You may ignore the MP cost of the `Provoke` Skill.\n\n- You may ignore the MP cost of the `Peacock` Dance.\n\n- You may use the `Protect` Skill even if you have not acquired it.\n\n- Your Magic Defense score is increased by`【your Skill Level in Dodge】`.\n\nAdditionally, your `maximum Hit Points` and `Crisis` score are now calculated based on your `base Dexterity die size`, instead of your base `Might die size`."
     },
     {
       "name": "Blast Gladiator Style",

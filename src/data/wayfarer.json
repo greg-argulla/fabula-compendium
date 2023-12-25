@@ -8,27 +8,27 @@
         {
           "name": "Faithful Companion",
           "info": "Max SL - 5",
-          "description": "Together with the rest of your group, design a ~level 5 beast~, ~construct~, ~elemental~ or ~plant~ creature that becomes your ~companion~. This creature has ~no Initiative score~ and ~does not level up~, can have a ~maximum of two basic attacks~, gains a bonus equal to~【SL】~to Accuracy Checks and Magic Checks, and their maximum Hit Points are equal to~【(SL multiplied by the companion's base Might die size) + half your level】~.\n\nYour companion doesn't get a turn during conflicts, but on your turn you can use an action to have the companion perform an action (only once per turn) If your companion is affected by any ~turn-related effects~, these are based on ~your~ turn.\n\nYour companion joins and leaves scene when you do, and gains your same benefits for ~rests~. If reduced to 0 HP, your companion flees the scene and rejoins you at the start of the next scene in which you are present, with current HP equal to their ~Crisis~ score"
+          "description": "Together with the rest of your group, design a `level 5 beast`, `construct`, `elemental` or `plant` creature that becomes your `companion`. This creature has `no Initiative score` and `does not level up`, can have a `maximum of two basic attacks`, gains a bonus equal to`【SL】`to Accuracy Checks and Magic Checks, and their maximum Hit Points are equal to`【(SL multiplied by the companion's base Might die size) + half your level】`.\n\nYour companion doesn't get a turn during conflicts, but on your turn you can use an action to have the companion perform an action (only once per turn) If your companion is affected by any `turn-related effects`, these are based on `your` turn.\n\nYour companion joins and leaves scene when you do, and gains your same benefits for `rests`. If reduced to 0 HP, your companion flees the scene and rejoins you at the start of the next scene in which you are present, with current HP equal to their `Crisis` score"
         },
         {
           "name": "Resourceful",
           "info": "Max SL - 4",
-          "description": "You recover~【SL】~Inventory Points after each ~travel roll~."
+          "description": "You recover`【SL】`Inventory Points after each `travel roll`."
         },
         {
           "name": "Tavern Talk",
           "info": "Max SL - 3",
-          "description": "When you ~rest~ inside an inn or tavern, you may ask the Game Master up to~【SL】~questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information."
+          "description": "When you `rest` inside an inn or tavern, you may ask the Game Master up to`【SL】`questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information."
         },
         {
           "name": "Treasure Hunter",
           "info": "Max SL - 2",
-          "description": "When your group journeys on the world map, you will make a ~discovery~ on a roll of~【SL + 1】or lower~ on the ~travel roll~ (instead of only on a ~1~)."
+          "description": "When your group journeys on the world map, you will make a `discovery` on a roll of`【SL + 1】or lower` on the `travel roll` (instead of only on a `1`)."
         },
         {
           "name": "Well-Traveled",
           "info": "Max SL - 1",
-          "description": "You reduce the die rolled for your ~travel rolls~ by one size (to a minimum of ~d6~). \nIf multiple characters have this Skill, the effects are not cumulative."
+          "description": "You reduce the die rolled for your `travel rolls` by one size (to a minimum of `d6`). \nIf multiple characters have this Skill, the effects are not cumulative."
         }
       ]
     }

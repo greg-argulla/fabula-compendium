@@ -149,8 +149,8 @@ function App() {
     });
   }, []);
 
-  const parseTilde = (str) => {
-    const split = str.split("~");
+  const parseQuote = (str) => {
+    const split = str.split("`");
 
     return split.map((item, index) => {
       if (index % 2 !== 0) {
@@ -175,7 +175,7 @@ function App() {
           </span>
         );
       }
-      return <span key={"parseAsterisk" + index}>{parseTilde(item)}</span>;
+      return <span key={"parseAsterisk" + index}>{parseQuote(item)}</span>;
     });
   };
 
