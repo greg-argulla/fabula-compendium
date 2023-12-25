@@ -248,6 +248,7 @@ function App() {
                   float: "right",
                   font: 10,
                   padding: 4,
+                  marginLeft: 4,
                 }}
                 onClick={() => {
                   sendSkill(item);
