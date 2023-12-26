@@ -44,7 +44,7 @@ import heroicskillsnaturalfantasy from "./data/heroicskillsnaturalfantasy.json";
 import heroicstyles from "./data/heroicstyles.json";
 import necromancer from "./data/necromancer.json";
 
-import quirkshightantasy from "./data/quirkshightantasy.json";
+import quirkshighfantasy from "./data/quirkshighfantasy.json";
 import quirkstechnofantasy from "./data/quirkstechnofantasy.json";
 import quirksnaturalfantasy from "./data/quirksnaturalfantasy.json";
 import quirksbonus from "./data/quirksbonus.json";
@@ -96,7 +96,7 @@ const collection = [
   campactivities,
   zeropower,
   "Quirks",
-  quirkshightantasy,
+  quirkshighfantasy,
   quirksnaturalfantasy,
   quirkstechnofantasy,
   "Heroic Skills",

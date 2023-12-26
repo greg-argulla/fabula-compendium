@@ -25,7 +25,7 @@
         {
           "name": "Love",
           "info": "1 per trigger",
-          "description": "*Special rule: when you choose this trigger for your Zero Power, tie it to another Player Character you have fallen in love with (the feeling doesn’t have to be reciprocal, but make sure everyone in the group is comfortable with this dynamic)*.\n\nThis trigger activates when the character you love `loses Hit Points` (unless that HP loss was self-inflicted) and/or `Surrenders`, provided you are able to see them.\nIf the character you love `Sacrifices themselves` and you witness their `Sacrifice`, immediately fill your Zero Clock; at the end of the scene, choose a different `trigger` for your `Zero Power`."
+          "description": "`Special rule: when you choose this trigger for your Zero Power, tie it to another Player Character you have fallen in love with (the feeling doesn’t have to be reciprocal, but make sure everyone in the group is comfortable with this dynamic)`.\n\nThis trigger activates when the character you love `loses Hit Points` (unless that HP loss was self-inflicted) and/or `Surrenders`, provided you are able to see them.\nIf the character you love `Sacrifices themselves` and you witness their `Sacrifice`, immediately fill your Zero Clock; at the end of the scene, choose a different `trigger` for your `Zero Power`."
         },
         {
           "name": "Revenge",

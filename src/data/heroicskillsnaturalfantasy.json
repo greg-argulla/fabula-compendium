@@ -88,7 +88,7 @@
     {
       "name": "Power Nap",
       "info": "Requirements: must have mastered one or more Classes among Guardian, Merchant, and Wayfarer",
-      "description": "On your turn during a conflict, you may use an action to recover an amount of Hit Points and Mind Points equal to【`10 + half your level】`and recover from all status effects; if you do, your turn ends `immediately`, you lose the ability to `see and hear`, and your `Defense and Magic Defense` scores become `equal to 5` and cannot be modified in any way. These effects last until the start of your next turn, until after you `lose Hit Points`, or until after you `are hit by an attack or offensive spell` (*ϟ*)."
+      "description": "On your turn during a conflict, you may use an action to recover an amount of Hit Points and Mind Points equal to`【10 + half your level】`and recover from all status effects; if you do, your turn ends `immediately`, you lose the ability to `see and hear`, and your `Defense and Magic Defense` scores become `equal to 5` and cannot be modified in any way. These effects last until the start of your next turn, until after you `lose Hit Points`, or until after you `are hit by an attack or offensive spell` (*ϟ*)."
     },
 
     {
