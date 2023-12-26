@@ -16,7 +16,7 @@
     {
       "name": "Bullet Time",
       "info": "Requirements: you must have mastered one or more Classes among Entropist and Rogue, and must have acquired one or more Skills among Dodge and Stolen Time.",
-      "description": "You gain a bonus to your Initiative modifier equal to`【your Skill Level in Dodge + your Skill Level in Stolen Time】`.\nAs long as you have no `shields` and no `martial armor` equipped, all damage you suffer is reduced by an amount equal to`【your Skill Level in Dodge】`(applied `before` damage Affinities) and you deal extra damage equal to`【your Skill Level in Stolen Time】`."
+      "description": "As long as you have no `shields` and no `martial armor` equipped, all damage you suffer is reduced by an amount equal to`【your Skill Level in Dodge】`(applied `before` damage Affinities) and you deal extra damage equal to`【your Skill Level in Stolen Time】`."
     },
 
     {
