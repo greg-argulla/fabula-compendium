@@ -48,6 +48,9 @@ import quirkshightantasy from "./data/quirkshightantasy.json";
 import quirkstechnofantasy from "./data/quirkstechnofantasy.json";
 import quirksnaturalfantasy from "./data/quirksnaturalfantasy.json";
 import quirksbonus from "./data/quirksbonus.json";
+import customweapons from "./data/customweapons.json";
+import zeropower from "./data/zeropower.json";
+import campactivities from "./data/campactivities.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -85,19 +88,23 @@ const collection = [
   gourmet,
   invoker,
   merchant,
-  "Basic Items",
+  "Starter Items",
   basicweapons,
   basicarmor,
+  customweapons,
+  "Optional Rules",
+  campactivities,
+  zeropower,
+  "Quirks",
+  quirkshightantasy,
+  quirksnaturalfantasy,
+  quirkstechnofantasy,
   "Heroic Skills",
   heroicskills,
   heroicskillshighfantasy,
   heroicskillstechnofantasy,
   heroicskillsnaturalfantasy,
   heroicstyles,
-  "Quirks",
-  quirkshightantasy,
-  quirkstechnofantasy,
-  quirksnaturalfantasy,
   "Bonus",
   necromancer,
   quirksbonus,

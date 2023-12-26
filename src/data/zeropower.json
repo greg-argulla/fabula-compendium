@@ -1,0 +1,102 @@
+{
+  "name": "Zero Powers",
+  "data": [
+    {
+      "name": "Creating A Zero Power",
+      "description": "Each character who has access to this rule must create their own personal power, choosing a `trigger` and an `effect` from the lists in the coming pages.\nThe same group must `never` include two or more PCs whose powers have the same `zero trigger`, nor two or more PCs whose powers have the same `zero effect`."
+    },
+    {
+      "name": "Using Zero Powers",
+      "description": "If your character has a `Zero Power`, they get a `Zero Clock`. This Clock has `6 sections` and can be “charged” `during conflict scenes` in the following ways:\n\n- Fill `1 section` each time you `spend 1 Fabula Point to invoke a Trait or Bond` (apply this separately for each Fabula Point spent).\n\n- Fill `1 section` each time you `lose Hit Points`, unless that loss was self-inflicted (such as with the `Vismagus` Skill from the `Spiritist` Class).\n\n- Fill `a variable number of sections` when your chosen `zero trigger` activates.\n\nOn your turn during a conflict scene, if your Zero Clock is full, you may perform the `Skill` action to unleash your `zero effect`. You may only do so `once per turn`.\n\n- Unleashing the `zero effect` erases all sections of the Zero Clock.\n\n- All sections of the Zero Clock are automatically erased at the end of each scene.\n\n- Sections of the Zero Clock may `not` be filled nor erased in any way except as indicated above, or through the `Zero Chance` effect."
+    },
+    {
+      "name": "Zero Triggers",
+      "data": [
+        {
+          "name": "Compassion",
+          "info": "1 per trigger",
+          "description": "This trigger activates when `you restore the Hit Points and/or Mind Points of one or more allies` (this only triggers with effects that `autonomously` restore Hit Points or Mind Points, not those that increase recovery caused by a different effect)."
+        },
+        {
+          "name": "Defiance",
+          "info": "1 per trigger",
+          "description": "This trigger activates `at the start of your turn` during a conflict, provided `one or more Villains and/or champion-Rank enemies` are present on the scene."
+        },
+        {
+          "name": "Love",
+          "info": "1 per trigger",
+          "description": "*Special rule: when you choose this trigger for your Zero Power, tie it to another Player Character you have fallen in love with (the feeling doesn’t have to be reciprocal, but make sure everyone in the group is comfortable with this dynamic)*.\n\nThis trigger activates when the character you love `loses Hit Points` (unless that HP loss was self-inflicted) and/or `Surrenders`, provided you are able to see them.\nIf the character you love `Sacrifices themselves` and you witness their `Sacrifice`, immediately fill your Zero Clock; at the end of the scene, choose a different `trigger` for your `Zero Power`."
+        },
+        {
+          "name": "Revenge",
+          "info": "3 per trigger",
+          "description": "This trigger activates when you `enter Crisis for the first time` during a scene."
+        },
+        {
+          "name": "Sequence",
+          "info": "2 per trigger",
+          "description": "This trigger activates when `an ally you can see unleashes their zero effect.`"
+        },
+        {
+          "name": "Strategy",
+          "info": "1 per trigger",
+          "description": "This trigger activates `at the end of your turn` during a conflict, provided `one or more enemies present on the scene are suffering from a total of two or more different status effects` (such as one `dazed` and `weak` enemy, or one `slow` enemy and another `enraged` enemy)."
+        },
+        {
+          "name": "Synergy",
+          "info": "varies",
+          "description": "This trigger activates `when you deal damage to one or more creatures`, filling 1 `section` for each creature that was `Vulnerable` to the type of damage dealt."
+        }
+      ]
+    },
+    {
+      "name": "Zero Effects",
+      "data": [
+        {
+          "name": "Zero Blitz",
+          "description": "You immediately perform a `free attack` with `each weapon` you have equipped. If you only have `one weapon` equipped, the attack deals 20 extra damage; or, if you have `more than one weapon` equipped, you gain a +5 bonus to the Accuracy Check for each attack."
+        },
+        {
+          "name": "Zero Chance",
+          "description": "Choose `odd` or `even`, then roll `3d6` and see how many dice match your prediction. Then, apply the corresponding effect `or` the effect immediately above it, your choice.\n\n- *No dice*: Fill `3 sections` of your Zero Clock, and fill 1 section of the Zero Clock of `every` other Player Character you can see. Then, perform an additional action.\n\n- *One die*: You perform a `free attack` with one weapon you have equipped. This attack deals extra damage `equal to the total rolled on the 3d6`.\n\n- *Two dice*: You deal damage equal to`【30 + half your level + the total rolled on the 3d6】`to `one` creature you can see. This damage has no type (ignore Affinities).\n\n- *Three dice*: You and every ally you can see recover from all status effects and recover an amount of HP and MP equal to`【your Crisis score + the total rolled on the 3d6】`.\n\nFinally, if all three dice `show the same number`, you may perform an additional action during this turn (this is in `addition` to the action granted by “no dice”)."
+        },
+        {
+          "name": "Zero Cost",
+          "description": "Until the end of the scene, you treat all Inventory Point costs as being `halved`. You may also immediately perform the `Inventory` action for free."
+        },
+        {
+          "name": "Zero Elements",
+          "description": "`Special rule`: when you select this effect for your `Zero Power`, choose two damage types among `air, bolt, dark, earth, fire, ice, light`, and `poison`.\n\nYou gain the following benefits: `all` damage you deal becomes of a type of your choice among `the two you selected `when you created this Zero Power, its type cannot change, and it ignores `Absorption`, `Immunity` and `Resistance`. Additionally, you deal `5` extra damage (be it with attacks, spells, items, Arcana, or any other method).\nThese benefits last until the end of the scene, until you unleash this power again, or until you end its effects (you may do so whenever you want).\nYou may also perform an `additional action` during this turn."
+        },
+        {
+          "name": "Zero Limits",
+          "description": "Until the end of the scene, treat all your Attributes as being one die size higher (up to a maximum of `d12`). You may also perform an additional action during this turn."
+        },
+        {
+          "name": "Zero Magic",
+          "description": "You immediately perform the `Spell` action for free, casting a spell of your choice among those you know; the spell’s `total Mind Point cost is treated as being 0` (this includes any cost increases due to Skills and effects). The spell deals 10 extra damage and, if it is an offensive (*ϟ*) spell, you gain a +5 bonus to the Magic Check."
+        },
+        {
+          "name": "Zero Objective",
+          "description": "Choose one option: fill `3 sections` of a Clock tied to the current scene; `or` erase `3 sections` of a Clock tied to the current scene."
+        },
+        {
+          "name": "Zero Remedy",
+          "description": "You and any number of allies you can see recover from all status effects and recover an amount of Hit Points equal to`【40 + half your level】`."
+        },
+        {
+          "name": "Zero Scourge",
+          "description": "`Special rule`: when you select this effect for your `Zero Power`, choose a damage type among `air, bolt, dark, earth, fire, ice, light`, and `poison`; then, choose two status effects among `dazed, shaken, slow`, and `weak`.\n\nChoose any number of creatures you can see: each of them suffers damage of then chosen type equal to`【30 + half your level】`and suffers the chosen status effects."
+        },
+        {
+          "name": "Zero Shield",
+          "description": "Until the start of your next turn, `all damage` suffered by you and every ally present on the scene is halved (before applying Affinities)."
+        },
+        {
+          "name": "Zero Triangle",
+          "description": "You and up to two allies you can see immediately perform a `free attack` with a weapon you have equipped (or a `basic attack` if they are NPCs). These attacks receive a +5 bonus to the Accuracy Check."
+        }
+      ]
+    }
+  ]
+}

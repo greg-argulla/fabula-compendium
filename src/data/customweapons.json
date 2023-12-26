@@ -1,0 +1,42 @@
+{
+  "name": "Custom Weapons",
+  "data": [
+    {
+      "name": "Creating A Custom Weapon",
+      "description": "A custom weapon starts with the following characteristics:\n\n- It belongs to one `Category` of your choice (`arcane, bow, brawling, dagger, firearm, flail, heavy, spear, sword` or `thrown`).\n\n- It is not a *martial* weapon, but might become one depending on the `customizations` that are chosen for it (see below).\n\n- It is a `two-handed` weapon and cannot benefit from the `Monkey Grip` Heroic Skill; in short, a custom weapon will always occupy both hand slots.\n\n- It is a `melee` weapon or a `ranged` weapon (your choice, and regardless of the Category you previously chose for it).\n\n- It has a `cost` of `300` zenit.\n\nIts `Accuracy Check` relies on`【DEX + INS】`or`【DEX + MIG】`(your choice).\n\n- It deals `physical` damage equal to`【HR + 5】`.\n\nA custom weapon also receives three customizations from the list on the bottom.\n\n- Each customization can only be chosen `once` for the same custom weapon.\n\n- Choosing a customization marked with *Martial* turns the weapon into a `martial` weapon.\n\n- If a customization says “you”, it refers to the character who has the weapon equipped.\n\nSome especially powerful customizations count as `two` customizations or increase the `cost` of the custom weapon."
+    },
+    {
+      "name": "Customizations",
+      "data": [
+        {
+          "name": "Accurate",
+          "description": "Adds a +2 bonus to the weapon’s Accuracy Check formula."
+        },
+        {
+          "name": "Defense Boost",
+          "description": "You gain a +2 bonus to Defense, and you are treated as having a `shield` equipped for the sake of `your` Skills (for instance, `Defensive Mastery` or `Dodge`)."
+        },
+        {
+          "name": "Elemental",
+          "description": "Choose `air`, `bolt`, `dark`, `earth`, `fire`, `ice`, `light` or `poison`. The weapon now deals damage of the chosen type instead of `physical`, and also deals `2` extra damage."
+        },
+        {
+          "name": "Magic Defense Boost",
+          "description": "You gain a +2 bonus to Magic Defense. *Martial*"
+        },
+        {
+          "name": "Powerful",
+          "description": "The weapon deals 5 extra damage, or 7 extra damage if it is a `heavy weapon`\nThis customization is not available for `arcane` and `dagger` weapons, or for weapons with the `quick` customization (see below)."
+        },
+        {
+          "name": "Quick (count as two customizations)",
+          "description": "When you perform the `Attack` action and choose to attack with this weapon, you may perform two attacks (against the same target or against different targets). If you do, both attacks follow the rules for `two-weapon fighting`"
+        },
+        {
+          "name": "Transforming (increases the custom weapon’s cost by 100 zenit)",
+          "description": "This weapon has a second form, which must be designed as a separate custom weapon, must have the transforming customization, and doesn’t cost you any zenit.\nWhile you have one of the two forms equipped, you can equip the other form whenever you want; during a conflict scene, you can only do so during your turn, `before or after` an action, and `only once` per turn.\nIf one or both the forms are *martial*, remember that you must have the appropriate Classes to equip them. Additionally, a `transforming` weapon can still only have one Quality (the Quality applies to both forms)."
+        }
+      ]
+    }
+  ]
+}

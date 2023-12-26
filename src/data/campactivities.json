@@ -1,0 +1,93 @@
+{
+  "name": "Camp Activities",
+  "data": [
+    {
+      "name": "Choosing Camp Activities",
+      "description": "If you use this optional rule, each Player Character gains access to `two different Camp Activities`, chosen during character creation from the list in the following pages.\nMake sure to `avoid redundant Camp Activities` within the same group, and to choose Activities that fit your Player Character's `concept and Identity`."
+    },
+    {
+      "name": "Using Camp Activities",
+      "description": "When Player Characters play a `resting scene` (be while inside a settlement or in the wilderness), each Player Character who takes part in it may perform `one` among the Camp Activities they have access to, describing it and applying its benefits to the chosen `target`.\n\nIt should be noted that each character may choose how to employ the resting scene, independently from everyone else.\n\n`Example`: Brandon, Martha, and Ylua pause to rest in the city, spending 20 zenit each. They decide to play a resting scene inside the tavern; Brandon `sleeps soundly` to gain an additional action in the future, while Martha prepares a `double portion` for Ylua, who is often the target of the party's healing spells. Seeing Martha's kindness, Ylua decides to use this scene to `gather` a few useful ingredients for the cook... hoping not to get into any trouble!\n\nWhether they perform a Camp Activity or not, characters may still use the resting scene to adjust their `Bonds`."
+    },
+    {
+      "name": "Using Camp Activities",
+      "data": [
+        {
+          "name": "Camp Forge",
+          "info": "Target - Yourself",
+          "description": "Choose one option: you repair a damaged item owned by the group; `or` you create a single `basic weapon, armor`, or `shield` of your choice; `or` you destroy a single piece of `equipment` owned by the group and obtain a `material` whose value is `equal` to the cost of the destroyed item."
+        },
+        {
+          "name": "Cartography",
+          "info": "Target - Yourself",
+          "description": "Once before the next rest, after your group makes a `travel roll`, you may `reroll the die` and keep the new result."
+        },
+        {
+          "name": "Combat Lesson",
+          "info": "Target - One ally",
+          "description": "Once before the next rest, after making an `Accuracy Check` or a `Magic Check for an offensive spell` (*ϟ*), the target may add a bonus of +4 to the Result of the Check."
+        },
+        {
+          "name": "Daydream",
+          "info": "Target - Yourself",
+          "description": "Once before the next rest, when you lose Hit Points for whatever reason, you may choose to `halve` that HP loss."
+        },
+        {
+          "name": "Double Portion",
+          "info": "Target - One ally",
+          "description": "Once before the next rest, if the target is about to recover Hit Points, they may `double` the amount of Hit Points recovered."
+        },
+        {
+          "name": "Exploration",
+          "info": "Target - Yourself or one ally",
+          "description": "You spend your time looking for useful items; describe how, then roll 1d6.\n\n*1*. `Ouch`! You do not recover Hit Points and Mind Points during this rest.\n\n*2*. `Not what I was looking for...` The target regains 1 Inventory Point.\n\n*3-5*. `Hoho, this can be useful!` The target regains 3 Inventory Points.\n\n*6*. `Jackpot!` You find an amount of zenit equal to`【your character level × 50】`."
+        },
+        {
+          "name": "Gathering",
+          "info": "Target - A character with the Gourmet Class",
+          "description": "You look for ingredients in the area; describe how, then roll `1d6`.\n\n*1*. H-help! At the end of this rest, the entire group will be caught in an `easy` conflict against a threat whose `level is equal to the group level`.\n\n*2*.` Will these be okay...` The target receives `2 ingredients` with random tastes.\n\n*3-5*. `Looks tasty!` The target receives `3 ingredients` with random tastes.\n\n*6*. `Ah, these!` The target receives `3 ingredients`, each with a taste of their choice."
+        },
+        {
+          "name": "Magic Lesson",
+          "info": "Target - One ally",
+          "description": "Choose a single spell among those you know. Once before the next rest, the target may perform the `Spell` action to cast the spell you chose (they must still pay its MP cost and perform any Magic Checks as needed)."
+        },
+        {
+          "name": "Martial Practice",
+          "info": "Target - Yourself",
+          "description": "Once before the next rest, when you perform an attack, you may grant that attack `multi (2)` or increase its `multi` property by one point."
+        },
+        {
+          "name": "Massage",
+          "info": "Target - One ally",
+          "description": "Once before the next rest, if the target is about to pay a Mind Point cost, they may `halve` that MP cost. This benefit cannot be applied to a `Ritual`'s MP cost."
+        },
+        {
+          "name": "Midnight Oil",
+          "info": "Target - Yourself",
+          "description": "You generate `2 points of progress` for a single `Project` of your choice."
+        },
+        {
+          "name": "Pep Talk",
+          "info": "Target - One ally",
+          "description": "Once before the next rest, if the target is about to recover Mind Points, they may `double` the amount of Mind Points recovered."
+        },
+        {
+          "name": "Planning",
+          "info": "Target - One ally",
+          "description": "Once before the next rest, after making a Check to examine someone or something, the target may add a bonus of +4 to the Result of the Check."
+        },
+        {
+          "name": "Sleep Soundly",
+          "info": "Target - Yourself",
+          "description": "Once before the next rest, you may perform an additional action on your turn during a conflict scene. This action `must` be used to perform the `Equipment`, `Hinder`, or `Inventory` action."
+        },
+        {
+          "name": "Training",
+          "info": "Target - Yourself",
+          "description": "Once before the next rest, if you are about to suffer one or more status effects from the same source, you may instead choose not to suffer any of those status effects."
+        }
+      ]
+    }
+  ]
+}
