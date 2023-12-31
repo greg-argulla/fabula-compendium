@@ -48,8 +48,8 @@
               "10",
               "Yourself or another creature you can see who can hear you."
             ],
-            ["Low", "10", "Every ally who can hear you."],
-            ["Low", "10", "Every enemy who can hear you."]
+            ["Medium", "20", "Every ally who can hear you."],
+            ["High", "30", "Every enemy who can hear you."]
           ]
         },
         {
