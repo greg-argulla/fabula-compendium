@@ -26,7 +26,7 @@
           "description": "After you perform a `dance`, you may perform the `Equipment` action for free."
         },
         {
-          "name": "Queen's Gambit",
+          "name": "Wardancer",
           "info": "Max SL - 5",
           "description": "After you perform a `dance`, your attacks with `brawling`, `dagger`, `flail` and `thrown` weapons deal`【SL】`extra damage until the start of your next turn. If you have an `arcane` weapon equipped, offensive spells (*ϟ*) you cast also deal`【SL】`extra damage until the start of your next turn."
         }
