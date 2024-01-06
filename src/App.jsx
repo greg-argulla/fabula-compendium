@@ -498,6 +498,8 @@ function App() {
             width: 100,
             marginBottom: 4,
             color: "orange",
+            color: selectedClass === "GM" ? "white" : "orange",
+            backgroundColor: selectedClass === "GM" ? "darkred" : "#222",
           }}
           onClick={() => {
             setSelectedClass("GM");
@@ -933,6 +935,9 @@ function App() {
           }}
           value={searchSkills}
           onChange={(evt) => {
+            if (selectedClass === "GM") {
+              setSelectedClass("");
+            }
             setSearchSkills(evt.target.value);
           }}
         />
