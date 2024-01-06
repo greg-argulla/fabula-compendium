@@ -726,139 +726,41 @@ function App() {
 
   const renderGM = () => {
     return (
-      <div>
-        <div className="outline" style={{ color: "orange" }}>
-          Fate Question: Would it happen? (Click how likely it will happen)
-        </div>
-        <hr></hr>
-        <div style={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
-          {chances.map((item) => (
-            <button
-              className="button"
-              style={{
-                width: 100,
-                marginBottom: 4,
-              }}
-              onClick={() => {
-                sendChance(item);
-              }}
-              title={`Chance: ${item.chance}%`}
-            >
-              {item.name}
-            </button>
-          ))}
-        </div>
-        <div className="outline" style={{ color: "#BBB" }}>
-          Tip: Hover to see what are the odds
-        </div>
-        <hr></hr>
-        <div className="outline" style={{ color: "orange" }}>
-          Names:
-        </div>
-        <div style={{ display: "flex", gap: 10 }}>
-          <Text>{names[getRandomNumber(names.length)]}</Text>
-          <Text>{names[getRandomNumber(names.length)]}</Text>
-          <Text>{names[getRandomNumber(names.length)]}</Text>
-          <Text>{names[getRandomNumber(names.length)]}</Text>
-          <Text>{names[getRandomNumber(names.length)]}</Text>
-        </div>
-        <div className="outline" style={{ color: "orange" }}>
-          Locations:
-        </div>
-        <div style={{ display: "flex", gap: 10 }}>
-          <Text>{location[getRandomNumber(location.length)]}</Text>
-          <Text>{location[getRandomNumber(location.length)]}</Text>
-          <Text>{location[getRandomNumber(location.length)]}</Text>
-        </div>
-        <hr></hr>
-        <div className="outline" style={{ color: "orange" }}>
-          Random Quality:
-        </div>
-        <div style={{ display: "flex" }}>
-          <div
-            className="outline"
-            style={{
-              background: "rgba(0, 0, 0, .2)",
-              padding: 5,
-              border: "1px solid #222",
-              color: "white",
-            }}
-          >
-            {`${getRandomPrefix()}, ${getRandomSuffix()}`}
-          </div>
-        </div>
-        <button
-          className="button"
+      <>
+        <div
+          className="outline"
           style={{
-            width: 50,
-            marginBottom: 4,
-            marginTop: 4,
-          }}
-          onClick={() => {
-            setRefreshCount(refreshCount + 1);
+            fontSize: 16,
+            color: "red",
+            marginRight: 5,
           }}
         >
-          Refresh
-        </button>
-        <hr></hr>
-
-        <div className="outline" style={{ color: "orange" }}>
-          Danger Table:
+          GM Helper
         </div>
-        <div style={{ display: "flex", gap: 10 }}>
-          <table
-            style={{
-              border: "1px solid #555",
-              borderCollapse: "collapse",
-              marginBottom: 10,
-              backgroundColor: "#222",
-            }}
-          >
-            <tbody>
-              {table.map((row, index) => (
-                <tr
-                  key={"tr" + index}
-                  style={{
-                    border: "1px solid #555",
-                    borderCollapse: "collapse",
-                  }}
-                >
-                  {row.map((column) => (
-                    <td
-                      key={column}
-                      className="outline"
-                      style={{
-                        fontSize: 10,
-                        color: index === 0 ? "darkorange" : "#fff",
-                        border: "1px solid #555",
-                        borderCollapse: "collapse",
-                        textAlign: "center",
-                        padding: 4,
-                      }}
-                    >
-                      {column}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
-            <div className="outline" style={{ color: "orange" }}>
-              Status Effect:
-            </div>
-            <Text>{statuses[getRandomNumber(statuses.length)]}</Text>
-            <div className="outline" style={{ color: "orange" }}>
-              Lose IP/Zenit:
-            </div>
-            <Text>
-              IP: {getRandomNumber(3)} / Zenit: {getRandomNumber(300)}
-            </Text>
-            <div className="outline" style={{ color: "orange" }}>
-              Lose HP/MP:
-            </div>
-            <Text>{["Minor", "Heavy"][getRandomNumber(2)]}</Text>
-            <div>
+        <hr
+          style={{
+            marginBottom: 8,
+            borderColor: "#666",
+            backgroundColor: "#666",
+            color: "#666",
+          }}
+        ></hr>
+        <div
+          style={{
+            background: "rgba(0, 0, 0, .2)",
+            paddingLeft: 10,
+            paddingRight: 10,
+            paddingTop: 10,
+            marginBottom: 10,
+            border: "1px solid #222",
+          }}
+        >
+          <div className="outline" style={{ color: "orange" }}>
+            Fate Question: Would it happen? (Click how likely it will happen)
+          </div>
+          <hr></hr>
+          <div style={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
+            {chances.map((item) => (
               <button
                 className="button"
                 style={{
@@ -866,15 +768,142 @@ function App() {
                   marginBottom: 4,
                 }}
                 onClick={() => {
-                  sendDanger();
+                  sendChance(item);
                 }}
+                title={`Chance: ${item.chance}%`}
               >
-                Roll for Danger
+                {item.name}
               </button>
+            ))}
+          </div>
+          <div className="outline" style={{ color: "#BBB" }}>
+            Tip: Hover to see what are the odds
+          </div>
+          <hr></hr>
+          <div className="outline" style={{ color: "orange" }}>
+            Names:
+          </div>
+          <div style={{ display: "flex", gap: 10 }}>
+            <Text>{names[getRandomNumber(names.length)]}</Text>
+            <Text>{names[getRandomNumber(names.length)]}</Text>
+            <Text>{names[getRandomNumber(names.length)]}</Text>
+            <Text>{names[getRandomNumber(names.length)]}</Text>
+            <Text>{names[getRandomNumber(names.length)]}</Text>
+          </div>
+          <div className="outline" style={{ color: "orange" }}>
+            Locations:
+          </div>
+          <div style={{ display: "flex", gap: 10 }}>
+            <Text>{location[getRandomNumber(location.length)]}</Text>
+            <Text>{location[getRandomNumber(location.length)]}</Text>
+            <Text>{location[getRandomNumber(location.length)]}</Text>
+          </div>
+          <hr></hr>
+          <div className="outline" style={{ color: "orange" }}>
+            Random Quality:
+          </div>
+          <div style={{ display: "flex" }}>
+            <div
+              className="outline"
+              style={{
+                background: "rgba(0, 0, 0, .2)",
+                padding: 5,
+                border: "1px solid #222",
+                color: "white",
+              }}
+            >
+              {`${getRandomPrefix()}, ${getRandomSuffix()}`}
+            </div>
+          </div>
+          <button
+            className="button"
+            style={{
+              width: 50,
+              marginBottom: 4,
+              marginTop: 4,
+            }}
+            onClick={() => {
+              setRefreshCount(refreshCount + 1);
+            }}
+          >
+            Refresh
+          </button>
+          <hr></hr>
+
+          <div className="outline" style={{ color: "orange" }}>
+            Danger Table:
+          </div>
+          <div style={{ display: "flex", gap: 10 }}>
+            <table
+              style={{
+                border: "1px solid #555",
+                borderCollapse: "collapse",
+                marginBottom: 10,
+                backgroundColor: "#222",
+              }}
+            >
+              <tbody>
+                {table.map((row, index) => (
+                  <tr
+                    key={"tr" + index}
+                    style={{
+                      border: "1px solid #555",
+                      borderCollapse: "collapse",
+                    }}
+                  >
+                    {row.map((column) => (
+                      <td
+                        key={column}
+                        className="outline"
+                        style={{
+                          fontSize: 10,
+                          color: index === 0 ? "darkorange" : "#fff",
+                          border: "1px solid #555",
+                          borderCollapse: "collapse",
+                          textAlign: "center",
+                          padding: 4,
+                        }}
+                      >
+                        {column}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+              <div className="outline" style={{ color: "orange" }}>
+                Status Effect:
+              </div>
+              <Text>{statuses[getRandomNumber(statuses.length)]}</Text>
+              <div className="outline" style={{ color: "orange" }}>
+                Lose IP/Zenit:
+              </div>
+              <Text>
+                IP: {getRandomNumber(3)} / Zenit: {getRandomNumber(300)}
+              </Text>
+              <div className="outline" style={{ color: "orange" }}>
+                Lose HP/MP:
+              </div>
+              <Text>{["Minor", "Heavy"][getRandomNumber(2)]}</Text>
+              <div>
+                <button
+                  className="button"
+                  style={{
+                    width: 100,
+                    marginBottom: 4,
+                  }}
+                  onClick={() => {
+                    sendDanger();
+                  }}
+                >
+                  Roll for Danger
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   };
 
