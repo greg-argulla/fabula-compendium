@@ -709,7 +709,25 @@ function App() {
   const sendDanger = () => {
     const numResult = Math.floor(Math.random() * 20 + 1);
 
-    const message = table[numResult][1] + ": Rolled a " + numResult;
+    let message = "";
+
+    if (numResult === 1) {
+      message = table[1][1] + ": Rolled a " + numResult;
+    } else if (numResult >= 2 && numResult <= 4) {
+      message = table[2][1] + ": Rolled a " + numResult;
+    } else if (numResult >= 5 && numResult <= 7) {
+      message = table[3][1] + ": Rolled a " + numResult;
+    } else if (numResult >= 8 && numResult <= 10) {
+      message = table[4][1] + ": Rolled a " + numResult;
+    } else if (numResult >= 11 && numResult <= 13) {
+      message = table[5][1] + ": Rolled a " + numResult;
+    } else if (numResult >= 14 && numResult <= 16) {
+      message = table[6][1] + ": Rolled a " + numResult;
+    } else if (numResult >= 17 && numResult <= 19) {
+      message = table[7][1] + ": Rolled a " + numResult;
+    } else if (numResult === 20) {
+      message = table[8][1] + ": Rolled a " + numResult;
+    }
 
     const skillData = {
       skillName: "Danger!",
