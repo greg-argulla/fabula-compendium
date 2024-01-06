@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import OBR from "@owlbear-rodeo/sdk";
 import landingBG from "./assets/bg.jpg";
 import "./App.css";
@@ -51,6 +51,11 @@ import quirksbonus from "./data/quirksbonus.json";
 import customweapons from "./data/customweapons.json";
 import zeropower from "./data/zeropower.json";
 import campactivities from "./data/campactivities.json";
+
+// GM data
+import randomQualities from "./gm/randomqualities.json";
+import names from "./gm/names.json";
+import location from "./gm/locations.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -155,6 +160,14 @@ function App() {
       }
     });
   }, []);
+
+  const showMessage = (messageGet) => {
+    setMessage(messageGet);
+
+    setTimeout(() => {
+      setMessage("");
+    }, 1000);
+  };
 
   const parseQuote = (str) => {
     const split = str.split("`");
@@ -478,6 +491,21 @@ function App() {
   const renderClasses = () => {
     return (
       <>
+        <button
+          className="button"
+          style={{
+            fontWeight: "bolder",
+            width: 100,
+            marginBottom: 4,
+            color: "orange",
+          }}
+          onClick={() => {
+            setSelectedClass("GM");
+          }}
+        >
+          GM Helper
+        </button>
+
         {collection.map((item, index) => {
           if (typeof item === "string") {
             return (
@@ -517,6 +545,339 @@ function App() {
     );
   };
 
+  const getRandomNumber = (max) => {
+    return Math.floor(Math.random() * max);
+  };
+
+  const sendChance = (chance) => {
+    const numResult = Math.floor(Math.random() * 100 + 1);
+
+    const result = {};
+
+    if (numResult <= chance.exceptionalYes) {
+      result.title = "Exceptional Yes";
+      result.message = `*Yes, it definitely is!* Beyond what is expected!\nRolled a \`${numResult}\` on a ${chance.chance} out of 100 \`${chance.name}\` chance`;
+    } else if (numResult <= chance.chance) {
+      result.title = "Yes";
+      result.message = `Yes, it is!\nRolled a \`${numResult}\` on a ${chance.chance} out of 100 \`${chance.name}\` chance`;
+    } else if (numResult >= chance.exceptionalNo) {
+      result.title = "Exceptional No";
+      result.message = `*No, its definitely not!* Completely oppposite of what's expected!\nRolled a \`${numResult}\` on a ${chance.chance} out of a 100 \`${chance.name}\` chance`;
+    } else {
+      result.title = "No!";
+      result.message = `No, its not!\nRolled a \`${numResult}\` on a ${chance.chance} out of 100 \`${chance.name}\` chance`;
+    }
+
+    const skillData = {
+      skillName: result.title,
+      info: '"The Orcale of Fate have spoken."',
+      detail: result.message,
+      characterName: "Fate Oracle",
+      userId: id,
+      username: name,
+      id: Date.now(),
+    };
+    OBR.room.setMetadata({
+      "ultimate.story.extension/sendskill": skillData,
+    });
+    showMessage("Sent Fate Roll!");
+  };
+
+  const chances = [
+    { name: "Certain", chance: 90, exceptionalYes: 18, exceptionalNo: 99 },
+    { name: "Near Certain", chance: 85, exceptionalYes: 17, exceptionalNo: 98 },
+    { name: "Very Likely", chance: 75, exceptionalYes: 15, exceptionalNo: 96 },
+    { name: "Likely", chance: 65, exceptionalYes: 13, exceptionalNo: 94 },
+    { name: "50/50", chance: 50, exceptionalYes: 10, exceptionalNo: 91 },
+    { name: "Unlikely", chance: 35, exceptionalYes: 7, exceptionalNo: 88 },
+    { name: "Very Unlikely", chance: 25, exceptionalYes: 5, exceptionalNo: 86 },
+    {
+      name: "Near Impossible",
+      chance: 15,
+      exceptionalYes: 3,
+      exceptionalNo: 84,
+    },
+    { name: "Impossible", chance: 10, exceptionalYes: 2, exceptionalNo: 83 },
+  ];
+
+  const [refreshCount, setRefreshCount] = useState(0);
+
+  const damageTypes = [
+    "physical",
+    "wind",
+    "bolt",
+    "dark",
+    "earth",
+    "fire",
+    "ice",
+    "light",
+    "poison",
+  ];
+
+  const species = [
+    "beast",
+    "construct",
+    "demon",
+    "elemental",
+    "humanoid",
+    "monster",
+    "plant",
+    "undead",
+  ];
+
+  const attributes = ["dexterity", "insight", "strength", "willpower"];
+
+  const statuses = ["dazed", "weak", "slow", "shaken", "poisoned", "enraged"];
+
+  const generatePrefixes = () => {
+    const prefixes = [];
+    randomQualities.forEach((item) => {
+      if (item.Conditions && item.Conditions !== "") {
+        if (item.Conditions.includes("{type}")) {
+          damageTypes.forEach((type) => {
+            prefixes.push(item.Conditions.replace("{type}", type));
+          });
+        } else if (item.Conditions.includes("{species}")) {
+          species.forEach((speciesGet) => {
+            prefixes.push(item.Conditions.replace("{species}", speciesGet));
+          });
+        } else if (item.Conditions.includes("{status}")) {
+          statuses.forEach((status) => {
+            prefixes.push(item.Conditions.replace("{status}", status));
+          });
+        } else {
+          prefixes.push(item.Conditions);
+        }
+      }
+    });
+    return prefixes;
+  };
+
+  const generateSuffixes = () => {
+    const prefixes = [];
+    randomQualities.forEach((item) => {
+      if (item.Effects && item.Effects !== "") {
+        if (item.Effects.includes("{type}")) {
+          damageTypes.forEach((type) => {
+            prefixes.push(item.Effects.replace("{type}", type));
+          });
+        } else if (item.Effects.includes("{species}")) {
+          species.forEach((speciesGet) => {
+            prefixes.push(item.Effects.replace("{species}", speciesGet));
+          });
+        } else if (item.Effects.includes("{status}")) {
+          statuses.forEach((status) => {
+            prefixes.push(item.Effects.replace("{status}", status));
+          });
+        } else if (item.Effects.includes("{attribute}")) {
+          attributes.forEach((attribute) => {
+            prefixes.push(item.Effects.replace("{attribute}", attribute));
+          });
+        } else {
+          prefixes.push(item.Effects);
+        }
+      }
+    });
+    return prefixes;
+  };
+
+  const prefixes = useMemo(generatePrefixes, []);
+  const suffixes = useMemo(generateSuffixes, []);
+
+  const getRandomPrefix = () => {
+    return prefixes[Math.floor(Math.random() * prefixes.length)];
+  };
+
+  const getRandomSuffix = () => {
+    return suffixes[Math.floor(Math.random() * suffixes.length)];
+  };
+
+  const table = [
+    ["Roll", "Effect"],
+    ["1", "Chance of Losing an Item"],
+    ["2 to 4", "Lose HP (Minor to Heavy)"],
+    ["5 to 7", "Lose MP (Minor to Heavy)"],
+    ["8 to 10", "Lose IP/Zenit"],
+    ["11 to 13", "Gain a Status Effect"],
+    ["14 to 16", "GM Plot Twist"],
+    ["17 to 19", "Battle Encounter"],
+    ["20", "Life or Death Encounter"],
+  ];
+
+  const sendDanger = () => {
+    const numResult = Math.floor(Math.random() * 20 + 1);
+
+    const message = table[numResult][1] + ": Rolled a " + numResult;
+
+    const skillData = {
+      skillName: "Danger!",
+      info: '"Something terrible happened, what is it?"',
+      detail: message,
+      characterName: "Danger Table",
+      userId: id,
+      username: name,
+      id: Date.now(),
+    };
+    OBR.room.setMetadata({
+      "ultimate.story.extension/sendskill": skillData,
+    });
+    showMessage("Sent Fate Roll!");
+  };
+
+  const renderGM = () => {
+    return (
+      <div>
+        <div className="outline" style={{ color: "orange" }}>
+          Fate Question: Would it happen? (Click how likely it will happen)
+        </div>
+        <hr></hr>
+        <div style={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
+          {chances.map((item) => (
+            <button
+              className="button"
+              style={{
+                width: 100,
+                marginBottom: 4,
+              }}
+              onClick={() => {
+                sendChance(item);
+              }}
+              title={`Chance: ${item.chance}%`}
+            >
+              {item.name}
+            </button>
+          ))}
+        </div>
+        <div className="outline" style={{ color: "#BBB" }}>
+          Tip: Hover to see what are the odds
+        </div>
+        <hr></hr>
+        <div className="outline" style={{ color: "orange" }}>
+          Names:
+        </div>
+        <div style={{ display: "flex", gap: 10 }}>
+          <Text>{names[getRandomNumber(names.length)]}</Text>
+          <Text>{names[getRandomNumber(names.length)]}</Text>
+          <Text>{names[getRandomNumber(names.length)]}</Text>
+          <Text>{names[getRandomNumber(names.length)]}</Text>
+          <Text>{names[getRandomNumber(names.length)]}</Text>
+        </div>
+        <div className="outline" style={{ color: "orange" }}>
+          Locations:
+        </div>
+        <div style={{ display: "flex", gap: 10 }}>
+          <Text>{location[getRandomNumber(location.length)]}</Text>
+          <Text>{location[getRandomNumber(location.length)]}</Text>
+          <Text>{location[getRandomNumber(location.length)]}</Text>
+        </div>
+        <hr></hr>
+        <div className="outline" style={{ color: "orange" }}>
+          Random Quality:
+        </div>
+        <div style={{ display: "flex" }}>
+          <div
+            className="outline"
+            style={{
+              background: "rgba(0, 0, 0, .2)",
+              padding: 5,
+              border: "1px solid #222",
+              color: "white",
+            }}
+          >
+            {`${getRandomPrefix()}, ${getRandomSuffix()}`}
+          </div>
+        </div>
+        <button
+          className="button"
+          style={{
+            width: 50,
+            marginBottom: 4,
+            marginTop: 4,
+          }}
+          onClick={() => {
+            setRefreshCount(refreshCount + 1);
+          }}
+        >
+          Refresh
+        </button>
+        <hr></hr>
+
+        <div className="outline" style={{ color: "orange" }}>
+          Danger Table:
+        </div>
+        <div style={{ display: "flex", gap: 10 }}>
+          <table
+            style={{
+              border: "1px solid #555",
+              borderCollapse: "collapse",
+              marginBottom: 10,
+              backgroundColor: "#222",
+            }}
+          >
+            <tbody>
+              {table.map((row, index) => (
+                <tr
+                  key={"tr" + index}
+                  style={{
+                    border: "1px solid #555",
+                    borderCollapse: "collapse",
+                  }}
+                >
+                  {row.map((column) => (
+                    <td
+                      key={column}
+                      className="outline"
+                      style={{
+                        fontSize: 10,
+                        color: index === 0 ? "darkorange" : "#fff",
+                        border: "1px solid #555",
+                        borderCollapse: "collapse",
+                        textAlign: "center",
+                        padding: 4,
+                      }}
+                    >
+                      {column}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+            <div className="outline" style={{ color: "orange" }}>
+              Status Effect:
+            </div>
+            <Text>{statuses[getRandomNumber(statuses.length)]}</Text>
+            <div className="outline" style={{ color: "orange" }}>
+              Lose IP/Zenit:
+            </div>
+            <Text>
+              IP: {getRandomNumber(3)} / Zenit: {getRandomNumber(300)}
+            </Text>
+            <div className="outline" style={{ color: "orange" }}>
+              Lose HP/MP:
+            </div>
+            <Text>{["Minor", "Heavy"][getRandomNumber(2)]}</Text>
+            <div>
+              <button
+                className="button"
+                style={{
+                  width: 100,
+                  marginBottom: 4,
+                }}
+                onClick={() => {
+                  sendDanger();
+                }}
+              >
+                Roll for Danger
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div
       style={{
@@ -532,7 +893,7 @@ function App() {
           className="outline"
           style={{ color: "orange", fontSize: 14, marginRight: 10 }}
         >
-          | Fabula Ultima Compedium |
+          | Fabula Ultima Compendium |
         </span>
         <Text>Search By Name: </Text>
         <input
@@ -588,7 +949,7 @@ function App() {
             width: 400,
           }}
         >
-          {renderCategory()}
+          {selectedClass === "GM" ? renderGM() : renderCategory()}
         </div>
       </div>
 
