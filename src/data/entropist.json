@@ -38,7 +38,7 @@
         {
           "name": "Acceleration",
           "info": "20 MP - One creature - Scene",
-          "description": "You bend the fabric of time. Until this spell ends, the target may perform an additional action during their turn, unless an `Acceleration` spell already granted them an additional action during their previous turn of this scene."
+          "description": "Until this spell ends, the target treats their `Dexterity` as if it were one die size higher (up to a maximum of `d12`) and may perform an additional action during their turn. If they do, this spell ends immediately after that action has been resolved."
         },
         {
           "name": "Anomaly",

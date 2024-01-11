@@ -13,7 +13,7 @@
         {
           "name": "Chloromacy",
           "info": "Max SL - 10",
-          "description": "Each time you acquire this Skill, you discover `a new type of magiseed`. The rules for `discovering magiseeds` can be found in the next pages.\nDuring a conflict, if there are `no magiseeds` in your `garden`, you may use an action and spend 10 Mind Points to `plant a magiseed` among those you have discovered. The rules for the `garden` and for growing `magiseeds` can be found in the next pages."
+          "description": "Each time you acquire this Skill, you discover `a new type of magiseed`. The rules for `discovering magiseeds` can be found in the next pages.\nDuring a conflict, if there are `no magiseeds` in your `garden`, you may use an action and spend 20 Mind Points to `plant a magiseed` among those you have discovered. The rules for the `garden` and for growing `magiseeds` can be found in the next pages."
         },
         {
           "name": "Graft",

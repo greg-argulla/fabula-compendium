@@ -6,9 +6,9 @@
       "name": "Skills",
       "data": [
         {
-          "name": "Arcanist Regeneration",
-          "info": "Max SL - 5",
-          "description": "After you `willingly dismiss` an Arcanum you are `merged` with, if you are in `Crisis`, you and every ally present on the scene recover`【5 + (SL × 5)】`Hit Points."
+          "name": "Arcane Regeneration",
+          "info": "Max SL - 6",
+          "description": "After you `willingly dismiss` an Arcanum you are `merged` with, if you are in `Crisis`, you and every ally present on the scene recover`【SL × 5】`Hit Points."
         },
         {
           "name": "Bind And Summon",
@@ -17,13 +17,13 @@
         },
         {
           "name": "Phantom Strength",
-          "info": "Max SL - 5",
-          "description": "When you deal damage with a `pulse` or `dismiss` effect, if you have an `arcane`, `bow`, or `sword` weapon equipped, you may have that damage lose its type and be unable to gain a type (thus ignoring Affinities). If you do, you deal`【SL × 2】`extra damage."
+          "info": "Max SL - 6",
+          "description": "Once per Arcanum summoning, when you deal damage with a `pulse` effect, you may deal`【SL + 4】`extra damage. Additionally, as long as you have an `arcane`, `bow`, `flail`, or `sword` weapon equipped, damage dealt by your `pulse` effects ignores Resistances."
         },
         {
-          "name": "Emergency Arcanum",
-          "info": "Max SL - 6",
-          "description": "As long as you are in `Crisis`, the cost for summoning your Arcana is reduced by`【SL × 5】`Mind Points."
+          "name": "Quick Summoning",
+          "info": "Max SL - 2",
+          "description": "When you `summon` an Arcanum on your turn during a conflict, choose up to two options: immediately perform that Arcanum's `pulse`; and/or reduce the summoning's Mind Point cost by`【SL × 5】`. If you choose only one option, you `cannot willingly dismiss` that Arcanum until the start of your next turn; if you choose both options, that Arcanum's `dismiss` effect will not be available for this summoning."
         },
         {
           "name": "Ritual Arcanism",
@@ -62,7 +62,7 @@
         {
           "name": "Kuzunoha",
           "info": "The fierce protector of witches and beasts. Domains: animals, lightning, sorcery.",
-          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to `bolt` damage.\nYou can communicate with creatures of the `beast`, `monster`, and `plant` Species.\n\n*PULSE: Spellstorm*\nYou may spend 5 Mind Points. If you do, you immediately perform the `Spell` action for free, casting an `offensive` spell (*ϟ*) spell you have learned without paying its MP cost. The spell you cast this way must have a `total Mind Point cost of 10 or lower`; if it deals damage, you may change its type to `bolt`.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 `bolt` damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers `dazed`."
+          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to `bolt` damage.\nYou can communicate with creatures of the `beast`, `monster`, and `plant` Species.\n\n*PULSE: Spellstorm*\nYou immediately perform the `Spell` action for free, casting an `offensive` spell (*ϟ*) spell you have learned without paying its MP cost. The spell you cast this way must have a `total Mind Point cost of 10 or lower`; if it deals damage, you may change its type to `bolt`.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 `bolt` damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers `dazed`."
         },
         {
           "name": "Lilith",
@@ -82,7 +82,7 @@
         {
           "name": "Qilin",
           "info": "The elusive herald of wisdom and good fortune. Domains: knowledge, prosperity, temperance.",
-          "description": "*MERGE: Enlightened Serenity*\nYou treat your `Insight` as if it were one die size higher (up to a maximum of `d12`).\n\n*PULSE: Steps of Prosperity*\nYou may spend 5 Mind Points. If you do, you immediately perform the `Spell` action for free, casting a `non-offensive` spell you have learned without paying its MP cost. The spell you cast this way must have a `total Mind Point cost of 10 or lower`.\n\n*DISMISS: Oracle*\nYou ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by this Arcanum. Once used, this `dismiss` effect will not be available until the next dawn."
+          "description": "*MERGE: Enlightened Serenity*\nYou treat your `Insight` as if it were one die size higher (up to a maximum of `d12`).\n\n*PULSE: Steps of Prosperity*\nYou immediately perform the `Spell` action for free, casting a `non-offensive` spell you have learned without paying its MP cost. The spell you cast this way must have a `total Mind Point cost of 10 or lower`.\n\n*DISMISS: Oracle*\nYou ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by this Arcanum. Once used, this `dismiss` effect will not be available until the next dawn."
         },
         {
           "name": "Seraph",
