@@ -28,7 +28,7 @@
         {
           "name": "Theriomorphosis",
           "info": "Max SL - 6",
-          "description": "Each time you acquire this Skill, you learn a `therioform`.\nYou may use an action and spend `one third of your current Hit Points` (rounded down) to manifest the effects of `up to two therioforms` you have learned: the details of this transformation are explained on the next page."
+          "description": "Each time you acquire this Skill, you learn a `therioform`.\nYou may use an action and spend `one third of your current Hit Points` (rounded down) to manifest the effects of `up to two therioforms` you have learned: the details of this transformation are explained below."
         }
       ]
     },
