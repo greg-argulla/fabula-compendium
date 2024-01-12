@@ -892,10 +892,10 @@ function App() {
               marginRight: 4,
             }}
             onClick={() => {
-              sendRandomPlayer(true);
+              sendRandomPlayer(false);
             }}
           >
-            Random Player to Reward
+            Random Player to Target
           </button>
           <button
             className="button"
@@ -904,10 +904,10 @@ function App() {
               marginBottom: 4,
             }}
             onClick={() => {
-              sendRandomPlayer(false);
+              sendRandomPlayer(true);
             }}
           >
-            Random Player to Target
+            Random Player to Select
           </button>
           <hr></hr>
           <div className="outline" style={{ color: "orange" }}>
