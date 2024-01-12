@@ -22,8 +22,8 @@
         },
         {
           "name": "Tree of Life",
-          "info": "Max SL - 5",
-          "description": "When you `remove` a `magiseed` from your `garden`, if you are in `Crisis`, you may recover`【SL × 2】`Hit Points and`【SL × 2】`Mind Points"
+          "info": "Max SL - 4",
+          "description": "When you `remove` a `magiseed` from your `garden`, if you are in `Crisis`, you may recover`【SL × 5】`Hit Points and`【SL × 5】`Mind Points"
         },
         {
           "name": "Verdant Sway",
@@ -108,7 +108,7 @@
         {
           "name": "Pilgrim Gazalia",
           "info": "Its flamboyant corolla is synonymous with abundance.",
-          "description": "*1⧗* At the end of your turn, choose yourself `or` another Player Character you can see. The chosen character regains 1 Inventory Point.\n\n*2-3⧗* At the end of your turn, you and every other Player Character you can see regain 1 Inventory Point."
+          "description": "*1⧗* At the end of your turn, choose yourself `or` another Player Character you can see. The chosen character regains 1 Inventory Point.\n\n*2⧗* At the end of your turn, choose yourself or another Player Character you can see. The chosen character regains 2 Inventory Points.\n\n*3⧗*At the end of your turn, you and every other Player Character you can see regain 1 Inventory Point."
         },
         {
           "name": "Prancing Dandelion",

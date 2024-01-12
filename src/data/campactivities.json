@@ -75,7 +75,7 @@
         {
           "name": "Planning",
           "info": "Target - One ally",
-          "description": "Once before the next rest, after making a Check to examine someone or something, the target may add a bonus of +4 to the Result of the Check."
+          "description": "Once before the next rest, after the target makes a `Group Check` as `leader` or makes a `Check to examine someone or something`, they may add a bonus of +4 to the Result of the Check.."
         },
         {
           "name": "Sleep Soundly",
