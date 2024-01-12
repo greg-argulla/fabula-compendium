@@ -814,7 +814,7 @@ function App() {
         : playerSelected.traits.name + " has been targeted!",
       info: "",
       detail: forGood
-        ? "Fate has chosen you."
+        ? '"Fate has chosen you."'
         : '"Brace yourself, this might hurt!"',
       characterName: "Random Player",
       userId: id,
