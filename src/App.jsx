@@ -121,6 +121,64 @@ function App() {
   const [message, setMessage] = useState("");
   const [selectedClass, setSelectedClass] = useState("");
 
+  const [isOBRReady, setIsOBRReady] = useState(false);
+  const [playerList, setPlayerList] = useState([]);
+
+  useEffect(() => {
+    OBR.onReady(async () => {
+      OBR.scene.onReadyChange(async (ready) => {
+        if (ready) {
+          const metadata = await OBR.scene.getMetadata();
+          if (metadata["ultimate.story.extension/metadata"]) {
+            const playerListGet = await createPlayerList(metadata);
+            setPlayerList(playerListGet);
+          }
+          setIsOBRReady(true);
+        } else {
+          setIsOBRReady(false);
+        }
+      });
+
+      if (await OBR.scene.isReady()) {
+        const metadata = await OBR.scene.getMetadata();
+        if (metadata["ultimate.story.extension/metadata"]) {
+          const playerListGet = await createPlayerList(metadata);
+          setPlayerList(playerListGet);
+        }
+        setIsOBRReady(true);
+      }
+    });
+  }, []);
+
+  const createPlayerList = async (metadata) => {
+    const metadataGet = metadata["ultimate.story.extension/metadata"];
+    const playerListGet = [];
+    const keys = Object.keys(metadataGet);
+    keys.forEach((key) => {
+      playerListGet.push(metadataGet[key]);
+    });
+    return playerListGet;
+  };
+
+  useEffect(() => {
+    if (isOBRReady) {
+      OBR.scene.onMetadataChange(async (metadata) => {
+        const playerListGet = await createPlayerList(metadata);
+        setPlayerList(playerListGet);
+      });
+
+      OBR.scene.onReadyChange(async (ready) => {
+        if (ready) {
+          const metadata = await OBR.scene.getMetadata();
+          if (metadata["ultimate.story.extension/metadata"]) {
+            const playerListGet = await createPlayerList(metadata);
+            setPlayerList(playerListGet);
+          }
+        }
+      });
+    }
+  }, [isOBRReady]);
+
   const sendSkill = (skill) => {
     const skillData = {
       skillName: skill.name ? skill.name : "Blank skill",
@@ -744,6 +802,29 @@ function App() {
     showMessage("Sent Fate Roll!");
   };
 
+  const sendRandomPlayer = (forGood) => {
+    const playerListFiltered = playerList.filter((item) => !item.isGMPlayer);
+    const numResult = Math.floor(Math.random() * playerListFiltered.length);
+
+    const playerSelected = playerListFiltered[numResult];
+
+    const skillData = {
+      skillName: forGood
+        ? playerSelected.traits.name + " has been selected!"
+        : playerSelected.traits.name + " has been targeted!",
+      info: "",
+      detail: '"Brace yourself, this might hurt!"',
+      characterName: "Random Player",
+      userId: id,
+      username: name,
+      id: Date.now(),
+    };
+    OBR.room.setMetadata({
+      "ultimate.story.extension/sendskill": skillData,
+    });
+    showMessage("Sent Random Player!");
+  };
+
   const renderGM = () => {
     return (
       <>
@@ -799,6 +880,35 @@ function App() {
           <div className="outline" style={{ color: "#BBB" }}>
             Tip: Hover to see what are the odds
           </div>
+          <hr></hr>
+          <div className="outline" style={{ color: "orange" }}>
+            Pick Random Player:
+          </div>
+          <button
+            className="button"
+            style={{
+              width: 150,
+              marginBottom: 4,
+              marginRight: 4,
+            }}
+            onClick={() => {
+              sendRandomPlayer(true);
+            }}
+          >
+            Random Player to Reward
+          </button>
+          <button
+            className="button"
+            style={{
+              width: 150,
+              marginBottom: 4,
+            }}
+            onClick={() => {
+              sendRandomPlayer(false);
+            }}
+          >
+            Random Player to Target
+          </button>
           <hr></hr>
           <div className="outline" style={{ color: "orange" }}>
             Names:
