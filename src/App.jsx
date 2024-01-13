@@ -57,6 +57,11 @@ import randomQualities from "./gm/randomqualities.json";
 import names from "./gm/names.json";
 import location from "./gm/locations.json";
 
+import accessoriesqualities from "./gm/accessoriesqualities";
+import armorbase from "./gm/armorbase";
+import armorqualities from "./gm/armorqualities";
+import weaponbase from "./gm/weaponqualities";
+
 const Text = (props) => {
   const { children } = props;
   return <span className="outline">{children}</span>;
@@ -982,6 +987,26 @@ function App() {
             <Text>{location[randomNumbersGenerated[5]]}</Text>
             <Text>{location[randomNumbersGenerated[6]]}</Text>
             <Text>{location[randomNumbersGenerated[7]]}</Text>
+          </div>
+
+          <hr></hr>
+          <div className="outline" style={{ color: "orange" }}>
+            Random Quality:{" "}
+            <button
+              className="button"
+              style={{
+                width: 50,
+                marginBottom: 4,
+                marginTop: 4,
+              }}
+              onClick={() => {
+                generateNewQuality();
+              }}
+            >
+              Generate
+            </button>
+          </div>
+
           </div>
 
           <hr></hr>
