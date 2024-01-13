@@ -827,6 +827,46 @@ function App() {
     showMessage("Sent Random Player!");
   };
 
+  const [randomNumbersGenerated, setRandomNumbers] = useState([
+    getRandomNumber(names.length),
+    getRandomNumber(names.length),
+    getRandomNumber(names.length),
+    getRandomNumber(names.length),
+    getRandomNumber(names.length),
+    getRandomNumber(location.length),
+    getRandomNumber(location.length),
+    getRandomNumber(location.length),
+    getRandomNumber(statuses.length),
+    getRandomNumber(3),
+    getRandomNumber(300),
+    getRandomNumber(2),
+  ]);
+
+  const generateNewRandom = () => {
+    setRandomNumbers([
+      getRandomNumber(names.length),
+      getRandomNumber(names.length),
+      getRandomNumber(names.length),
+      getRandomNumber(names.length),
+      getRandomNumber(names.length),
+      getRandomNumber(location.length),
+      getRandomNumber(location.length),
+      getRandomNumber(location.length),
+      getRandomNumber(statuses.length),
+      getRandomNumber(3),
+      getRandomNumber(300),
+      getRandomNumber(2),
+    ]);
+  };
+
+  const [randomQualityGenerated, setRandomQuality] = useState(
+    `${getRandomPrefix()}, ${getRandomSuffix()}`
+  );
+
+  const generateNewQuality = () => {
+    setRandomQuality(`${getRandomPrefix()}, ${getRandomSuffix()}`);
+  };
+
   const renderGM = () => {
     return (
       <>
@@ -913,26 +953,53 @@ function App() {
           </button>
           <hr></hr>
           <div className="outline" style={{ color: "orange" }}>
-            Names:
+            Names:{" "}
+            <button
+              className="button"
+              style={{
+                width: 50,
+                marginBottom: 4,
+                marginTop: 4,
+              }}
+              onClick={() => {
+                generateNewRandom();
+              }}
+            >
+              Refresh
+            </button>
           </div>
           <div style={{ display: "flex", gap: 10 }}>
-            <Text>{names[getRandomNumber(names.length)]}</Text>
-            <Text>{names[getRandomNumber(names.length)]}</Text>
-            <Text>{names[getRandomNumber(names.length)]}</Text>
-            <Text>{names[getRandomNumber(names.length)]}</Text>
-            <Text>{names[getRandomNumber(names.length)]}</Text>
+            <Text>{names[randomNumbersGenerated[0]]}</Text>
+            <Text>{names[randomNumbersGenerated[1]]}</Text>
+            <Text>{names[randomNumbersGenerated[2]]}</Text>
+            <Text>{names[randomNumbersGenerated[3]]}</Text>
+            <Text>{names[randomNumbersGenerated[4]]}</Text>
           </div>
           <div className="outline" style={{ color: "orange" }}>
             Locations:
           </div>
           <div style={{ display: "flex", gap: 10 }}>
-            <Text>{location[getRandomNumber(location.length)]}</Text>
-            <Text>{location[getRandomNumber(location.length)]}</Text>
-            <Text>{location[getRandomNumber(location.length)]}</Text>
+            <Text>{location[randomNumbersGenerated[5]]}</Text>
+            <Text>{location[randomNumbersGenerated[6]]}</Text>
+            <Text>{location[randomNumbersGenerated[7]]}</Text>
           </div>
+
           <hr></hr>
           <div className="outline" style={{ color: "orange" }}>
-            Random Quality:
+            Random Quality:{" "}
+            <button
+              className="button"
+              style={{
+                width: 50,
+                marginBottom: 4,
+                marginTop: 4,
+              }}
+              onClick={() => {
+                generateNewQuality();
+              }}
+            >
+              Generate
+            </button>
           </div>
           <div style={{ display: "flex" }}>
             <div
@@ -944,22 +1011,10 @@ function App() {
                 color: "white",
               }}
             >
-              {`${getRandomPrefix()}, ${getRandomSuffix()}`}
+              {randomQualityGenerated}
             </div>
           </div>
-          <button
-            className="button"
-            style={{
-              width: 50,
-              marginBottom: 4,
-              marginTop: 4,
-            }}
-            onClick={() => {
-              setRefreshCount(refreshCount + 1);
-            }}
-          >
-            Refresh
-          </button>
+
           <hr></hr>
 
           <div className="outline" style={{ color: "orange" }}>
@@ -1007,29 +1062,44 @@ function App() {
               <div className="outline" style={{ color: "orange" }}>
                 Status Effect:
               </div>
-              <Text>{statuses[getRandomNumber(statuses.length)]}</Text>
+              <Text>{statuses[randomNumbersGenerated[8]]}</Text>
               <div className="outline" style={{ color: "orange" }}>
                 Lose IP/Zenit:
               </div>
               <Text>
-                IP: {getRandomNumber(3)} / Zenit: {getRandomNumber(300)}
+                IP: {randomNumbersGenerated[9]} / Zenit:{" "}
+                {randomNumbersGenerated[10]}
               </Text>
               <div className="outline" style={{ color: "orange" }}>
                 Lose HP/MP:
               </div>
-              <Text>{["Minor", "Heavy"][getRandomNumber(2)]}</Text>
+              <Text>{["Minor", "Heavy"][randomNumbersGenerated[11]]}</Text>
               <div>
                 <button
                   className="button"
                   style={{
                     width: 100,
                     marginBottom: 4,
+                    marginRight: 4,
                   }}
                   onClick={() => {
                     sendDanger();
                   }}
                 >
                   Roll for Danger
+                </button>
+                <button
+                  className="button"
+                  style={{
+                    width: 50,
+                    marginBottom: 4,
+                    marginTop: 4,
+                  }}
+                  onClick={() => {
+                    generateNewRandom();
+                  }}
+                >
+                  Refresh
                 </button>
               </div>
             </div>
