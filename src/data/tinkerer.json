@@ -176,7 +176,7 @@
       "name": "Magitech",
       "data": [
         {
-          "name": "Magitech Override",
+          "name": "Minor Magispheres",
           "info": "Basic Magitech",
           "description": "Choose `two spells` from the following lists: `Elementalist`, `Entropist`, and `Spiritist`. The spells you choose can come from the same list or different lists; you develop a `magisphere` prototype for each spell chosen this way (this `does not` count as having learned the spells for the sake of Skills and other effects).\nYou may perform the `Inventory` action and spend 2 Inventory Points to create a `magisphere` and immediately perform the `Spell` action for free, casting one of the spells you have developed a prototype for. The spell follows the normal rules (including MP costs and Magic Checks)"
         },
@@ -186,7 +186,7 @@
           "description": "You may perform the 1 action and spend 2 Inventory Points to create a firearm weapon known as a magicannon (see below); if your `hand slots` are empty, you may immediately equip it and perform a `free attack` with it. Every time you create a `magicannon`, choose whether it is a `melee` or `ranged` weapon, and what damage type it deals (`air`, `bolt`, `earth`, `fire`, `ice`, or `physical`); additionally, any other `magicannon` you previously created is destroyed. \n\n`Magicannon【DEX + INS】+1【HR + 12】`\nTwo-handed - Melee `or` Ranged - No Quality."
         },
         {
-          "name": "Magispheres",
+          "name": "Superior Magispheres",
           "info": "Superior Magitech",
           "description": "Choose `three new spells` from the lists provided by the `minor magispheres` benefit and develop a `magisphere` prototype for each of them. The spells you choose can come from the same list or from different lists (this `does not` count as having learned the spells for the sake of Skills and other effects)."
         }
