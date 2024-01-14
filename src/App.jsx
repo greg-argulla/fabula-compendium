@@ -58,9 +58,8 @@ import names from "./gm/names.json";
 import location from "./gm/locations.json";
 
 import accessoriesqualities from "./gm/accessoriesqualities";
-import armorbase from "./gm/armorbase";
 import armorqualities from "./gm/armorqualities";
-import weaponbase from "./gm/weaponqualities";
+import weaponqualities from "./gm/weaponqualities";
 
 const Text = (props) => {
   const { children } = props;
@@ -842,8 +841,8 @@ function App() {
     getRandomNumber(location.length),
     getRandomNumber(location.length),
     getRandomNumber(statuses.length),
-    getRandomNumber(3),
-    getRandomNumber(300),
+    getRandomNumber(3) + 1,
+    getRandomNumber(300) + 1,
     getRandomNumber(2),
   ]);
 
@@ -868,8 +867,19 @@ function App() {
     `${getRandomPrefix()}, ${getRandomSuffix()}`
   );
 
+  const bookQualities = [
+    ...accessoriesqualities,
+    ...weaponqualities,
+    armorqualities,
+  ];
+
+  const [bookQuality, setBookQuality] = useState(
+    getRandomNumber(bookQualities.length - 1)
+  );
+
   const generateNewQuality = () => {
     setRandomQuality(`${getRandomPrefix()}, ${getRandomSuffix()}`);
+    setBookQuality(getRandomNumber(bookQualities.length - 1));
   };
 
   const renderGM = () => {
@@ -1006,27 +1016,7 @@ function App() {
               Generate
             </button>
           </div>
-
-          </div>
-
-          <hr></hr>
-          <div className="outline" style={{ color: "orange" }}>
-            Random Quality:{" "}
-            <button
-              className="button"
-              style={{
-                width: 50,
-                marginBottom: 4,
-                marginTop: 4,
-              }}
-              onClick={() => {
-                generateNewQuality();
-              }}
-            >
-              Generate
-            </button>
-          </div>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
             <div
               className="outline"
               style={{
@@ -1037,6 +1027,17 @@ function App() {
               }}
             >
               {randomQualityGenerated}
+            </div>
+            <div
+              className="outline"
+              style={{
+                background: "rgba(0, 0, 0, .2)",
+                padding: 5,
+                border: "1px solid #222",
+                color: "white",
+              }}
+            >
+              {`${bookQualities[bookQuality].category} - ${bookQualities[bookQuality].quality} ${bookQualities[bookQuality].cost}z`}
             </div>
           </div>
 

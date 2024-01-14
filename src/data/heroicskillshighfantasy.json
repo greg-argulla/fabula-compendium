@@ -7,7 +7,7 @@
       "description": "When you hit one or more creatures with an attack using a weapon that belongs to the `arcane` Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell (*ϟ*) you cast during this scene `only` targets the chosen creature, its Magic Check will trigger a `critical success` if both dice show the same number (and the Check is not a `fumble`)."
     },
     {
-      "name": "Bismagus",
+      "name": "Bimagus",
       "info": "Requirements: you must have mastered two or more Classes among Elementalist, Entropist, and Spiritist, and your character must be level 30 or higher.",
       "description": "Once per turn during a conflict, if you have an `arcane` weapon equipped, you may use an action and spend `20 to 50 Mind Points` to perform the `Spell` action for free `twice`, casting two spells without needing to pay their MP costs. If you do, the two spells must have a `combined total MP cost equal to or lower than【20 + the amount of MP you spent to use this Skill】`, and the second spell must have a `total MP cost that is equal to or lower than half the total MP cost` of the first spell"
     },
@@ -22,7 +22,7 @@
       "description": "After you negate a `ranged` attack with the `Crossfire` Skill, if the Result of the Accuracy Check was an `even number`, you may perform a `free attack` against the attacker with a `ranged firearm` weapon you have equipped. This attack must have that enemy as its `only` target; treat your `High Roll (HR)` as 0 when calculating damage dealt by it."
     },
     {
-      "name": "Ceaseless Edict",
+      "name": "Ceaseless Battlefield",
       "info": "Requirements: you must have mastered the Commander Class.",
       "description": "The MP costs for your `Bishop’s Edict`, `Charging Cavalry` and `King’s Castle` are halved."
     },
