@@ -640,7 +640,7 @@ function App() {
 
     const skillData = {
       skillName: result.title,
-      info: '"The Orcale of Fate have spoken."',
+      info: '"The Oracle of Fate have spoken."',
       detail: result.message,
       characterName: "Fate Oracle",
       userId: id,
