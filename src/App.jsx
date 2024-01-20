@@ -2,6 +2,7 @@
 import { useState, useEffect, useMemo } from "react";
 import OBR from "@owlbear-rodeo/sdk";
 import landingBG from "./assets/bg.jpg";
+import ChatComponent from "./ChatComponent";
 import "./App.css";
 
 /* Data */
@@ -559,7 +560,6 @@ function App() {
             fontWeight: "bolder",
             width: 100,
             marginBottom: 4,
-            color: "orange",
             color: selectedClass === "GM" ? "white" : "orange",
             backgroundColor: selectedClass === "GM" ? "darkred" : "#222",
           }}
@@ -903,6 +903,7 @@ function App() {
             color: "#666",
           }}
         ></hr>
+        {import.meta.env.VITE_SECRET_KEY && <ChatComponent />}
         <div
           style={{
             background: "rgba(0, 0, 0, .2)",
