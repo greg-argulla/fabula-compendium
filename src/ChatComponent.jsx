@@ -39,7 +39,7 @@ const ChatComponent = () => {
     setMessages([
       ...messages,
       {
-        role: "assistant",
+        input,
         content: response.data.choices[0].message.content,
         date: Date.now(),
       },
@@ -52,12 +52,15 @@ const ChatComponent = () => {
 
   return (
     <div>
+      <div className="outline" style={{ color: "orange" }}>
+        GM AI Assistant:
+      </div>
       <div style={{ marginBottom: 10 }}>
         <input
           className="input-stat"
           type="text"
           value={input}
-          style={{ width: 324, marginLeft: 0 }}
+          style={{ width: 300, marginLeft: 0, background: "#222" }}
           onChange={handleInputChange}
           onKeyUp={(e) => {
             console.log(e);
@@ -90,12 +93,12 @@ const ChatComponent = () => {
         }}
       >
         {loading && (
-          <div class="skill-detail" style={{ margin: 5 }}>
+          <div class="skill-detail" style={{ margin: 5, color: "orange" }}>
             Loading..
           </div>
         )}
 
-        {messages.length < 1 && (
+        {!loading && messages.length < 1 && (
           <div class="skill-detail" style={{ margin: 5 }}>
             Greetings Dungeon Master, I will help you narrate the scene by
             giving you evocative descriptions. Please send a short description
@@ -107,6 +110,16 @@ const ChatComponent = () => {
           .sort((item1, item2) => item2.date - item1.date)
           .map((message, index) => (
             <div key={index} class="skill-detail" style={{ margin: 5 }}>
+              <div
+                style={{
+                  color: "orange",
+                  fontSize: 10,
+                  marginBottom: 4,
+                  textTransform: "capitalize",
+                }}
+              >
+                {message.input}
+              </div>
               {message.content}
             </div>
           ))}

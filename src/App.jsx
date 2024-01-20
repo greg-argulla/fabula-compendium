@@ -556,7 +556,6 @@ function App() {
   };
 
   const renderClasses = () => {
-    console.log(role);
     return (
       <>
         {role === "GM" && (
@@ -910,7 +909,6 @@ function App() {
             color: "#666",
           }}
         ></hr>
-        {import.meta.env.VITE_SECRET_KEY && <ChatComponent />}
         <div
           style={{
             background: "rgba(0, 0, 0, .2)",
@@ -921,6 +919,7 @@ function App() {
             border: "1px solid #222",
           }}
         >
+          {import.meta.env.VITE_SECRET_KEY && <ChatComponent />}
           <div className="outline" style={{ color: "orange" }}>
             Fate Question: Would it happen? (Click how likely it will happen)
           </div>
