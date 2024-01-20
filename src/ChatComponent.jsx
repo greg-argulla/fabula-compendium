@@ -84,10 +84,7 @@ const ChatComponent = () => {
       <div
         style={{
           background: "rgba(0, 0, 0, .2)",
-          paddingLeft: 10,
-          paddingRight: 10,
-          paddingTop: 10,
-          paddingBottom: 10,
+          padding: 5,
           marginBottom: 10,
           border: "1px solid #222",
         }}
