@@ -125,6 +125,7 @@ function App() {
   const [id, setId] = useState("");
   const [message, setMessage] = useState("");
   const [selectedClass, setSelectedClass] = useState("");
+  const [role, setRole] = useState("PLAYER");
 
   const [isOBRReady, setIsOBRReady] = useState(false);
   const [playerList, setPlayerList] = useState([]);
@@ -138,6 +139,7 @@ function App() {
             const playerListGet = await createPlayerList(metadata);
             setPlayerList(playerListGet);
           }
+          setRole(await OBR.player.getRole());
           setIsOBRReady(true);
         } else {
           setIsOBRReady(false);
@@ -150,6 +152,7 @@ function App() {
           const playerListGet = await createPlayerList(metadata);
           setPlayerList(playerListGet);
         }
+        setRole(await OBR.player.getRole());
         setIsOBRReady(true);
       }
     });
@@ -179,6 +182,7 @@ function App() {
             const playerListGet = await createPlayerList(metadata);
             setPlayerList(playerListGet);
           }
+          setRole(await OBR.player.getRole());
         }
       });
     }
@@ -552,23 +556,26 @@ function App() {
   };
 
   const renderClasses = () => {
+    console.log(role);
     return (
       <>
-        <button
-          className="button"
-          style={{
-            fontWeight: "bolder",
-            width: 100,
-            marginBottom: 4,
-            color: selectedClass === "GM" ? "white" : "orange",
-            backgroundColor: selectedClass === "GM" ? "darkred" : "#222",
-          }}
-          onClick={() => {
-            setSelectedClass("GM");
-          }}
-        >
-          GM Helper
-        </button>
+        {role === "GM" && (
+          <button
+            className="button"
+            style={{
+              fontWeight: "bolder",
+              width: 100,
+              marginBottom: 4,
+              color: selectedClass === "GM" ? "white" : "orange",
+              backgroundColor: selectedClass === "GM" ? "darkred" : "#222",
+            }}
+            onClick={() => {
+              setSelectedClass("GM");
+            }}
+          >
+            GM Helper
+          </button>
+        )}
 
         {collection.map((item, index) => {
           if (typeof item === "string") {
