@@ -100,6 +100,16 @@ const ChatComponent = () => {
 
         {!loading && messages.length < 1 && (
           <div class="skill-detail" style={{ margin: 5 }}>
+            <div
+              style={{
+                color: "orange",
+                fontSize: 10,
+                marginBottom: 4,
+                textTransform: "capitalize",
+              }}
+            >
+              Introduction
+            </div>
             Greetings Dungeon Master, I will help you narrate the scene by
             giving you evocative descriptions. Please send a short description
             of what you want me to describe and I'll give a proper narration
