@@ -20,7 +20,7 @@
         {
           "name": "Private Stock",
           "info": "Max SL - 3",
-          "description": "At the start of your turn during a conflict scene, you may spend 1 Trade Point. If you do, choose yourself or another Player Character present on the scene: the chosen character regains`【SL × 2】`Inventory Points."
+          "description": "When you or another Player Character spend`【SL + 2】`or fewer Inventory Points, you may spend 1 Trade Point to ignore that cost."
         },
 
         {
