@@ -699,6 +699,47 @@ function App() {
 
   const statuses = ["dazed", "weak", "slow", "shaken", "poisoned", "enraged"];
 
+  const attitudes = [
+    "Pleasant",
+    "Busy",
+    "Welcoming",
+    "Available",
+    "Benevolent",
+    "Angry",
+    "Uninterested",
+    "Interested",
+    "Miserable",
+    "Bored",
+  ];
+
+  const weather = [
+    "Sunny",
+    "Windy",
+    "Fair",
+    "Overcast",
+    "Stormy",
+    "Rainy",
+    "Sunny",
+    "Bright",
+    "Overcast",
+    "Fair",
+  ];
+
+  const trap = [
+    "Pit",
+    "Poison",
+    "Slash",
+    "Crush",
+    "Acid",
+    "Snare",
+    "Cold",
+    "Fire",
+    "Sonic",
+    "Lightning",
+    "Pierce",
+    "No Trap",
+  ];
+
   const generatePrefixes = () => {
     const prefixes = [];
     randomQualities.forEach((item) => {
@@ -850,6 +891,9 @@ function App() {
     getRandomNumber(3) + 1,
     getRandomNumber(300) + 1,
     getRandomNumber(2),
+    getRandomNumber(10),
+    getRandomNumber(10),
+    getRandomNumber(12),
   ]);
 
   const generateNewRandom = () => {
@@ -863,9 +907,11 @@ function App() {
       getRandomNumber(location.length),
       getRandomNumber(location.length),
       getRandomNumber(statuses.length),
-      getRandomNumber(3),
-      getRandomNumber(300),
+      getRandomNumber(3) + 1,
+      getRandomNumber(300) + 1,
       getRandomNumber(2),
+      getRandomNumber(10),
+      getRandomNumber(12),
     ]);
   };
 
@@ -990,20 +1036,28 @@ function App() {
               Refresh
             </button>
           </div>
-          <div style={{ display: "flex", gap: 10 }}>
+          <div
+            className="outline"
+            style={{ color: "orange", display: "flex", gap: 10 }}
+          >
             <Text>{names[randomNumbersGenerated[0]]}</Text>
             <Text>{names[randomNumbersGenerated[1]]}</Text>
             <Text>{names[randomNumbersGenerated[2]]}</Text>
             <Text>{names[randomNumbersGenerated[3]]}</Text>
             <Text>{names[randomNumbersGenerated[4]]}</Text>
+            Attitude: <Text>{attitudes[randomNumbersGenerated[12]]}</Text>
           </div>
           <div className="outline" style={{ color: "orange" }}>
             Locations:
           </div>
-          <div style={{ display: "flex", gap: 10 }}>
+          <div
+            className="outline"
+            style={{ color: "orange", display: "flex", gap: 10 }}
+          >
             <Text>{location[randomNumbersGenerated[5]]}</Text>
             <Text>{location[randomNumbersGenerated[6]]}</Text>
             <Text>{location[randomNumbersGenerated[7]]}</Text>
+            Weather: <Text>{weather[randomNumbersGenerated[13]]}</Text>
           </div>
 
           <hr></hr>
@@ -1107,6 +1161,11 @@ function App() {
                 Lose HP/MP:
               </div>
               <Text>{["Minor", "Heavy"][randomNumbersGenerated[11]]}</Text>
+              <div className="outline" style={{ color: "orange" }}>
+                Trap:
+              </div>
+              <Text>{trap[randomNumbersGenerated[14]]}</Text>
+
               <div>
                 <button
                   className="button"
