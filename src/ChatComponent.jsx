@@ -63,7 +63,6 @@ const ChatComponent = () => {
           style={{ width: 300, marginLeft: 0, background: "#222" }}
           onChange={handleInputChange}
           onKeyUp={(e) => {
-            console.log(e);
             if (e.code === "Enter") {
               e.preventDefault();
               handleSendMessage();
