@@ -50,6 +50,40 @@ const ChatComponent = () => {
     setLoading(false);
   };
 
+  const handleImageGenerate = async () => {
+    // Make a request to the ChatGPT API with the user input
+
+    setLoading(true);
+    const response = await axios.post(
+      "https://api.openai.com/v1/images/generations",
+      {
+        prompt: input + " in Anime Art Style",
+        model: "dall-e-3",
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${import.meta.env.VITE_SECRET_KEY}`,
+        },
+      }
+    );
+
+    console.log(response);
+
+    setMessages([
+      ...messages,
+      {
+        input,
+        image: response.data.data[0].url,
+        date: Date.now(),
+      },
+    ]);
+
+    // Clear the input field
+    setInput("");
+    setLoading(false);
+  };
+
   return (
     <div>
       <div className="outline" style={{ color: "orange" }}>
@@ -60,7 +94,7 @@ const ChatComponent = () => {
           className="input-stat"
           type="text"
           value={input}
-          style={{ width: 300, marginLeft: 0, background: "#222" }}
+          style={{ width: 245, marginLeft: 0, background: "#222" }}
           onChange={handleInputChange}
           onKeyUp={(e) => {
             if (e.code === "Enter") {
@@ -70,6 +104,16 @@ const ChatComponent = () => {
           }}
           disabled={loading}
         />
+        <button
+          className="button"
+          disabled={loading}
+          style={{ width: 50, marginRight: 4 }}
+          onClick={() => {
+            handleImageGenerate();
+          }}
+        >
+          Image
+        </button>
         <button
           className="button"
           disabled={loading}
@@ -89,7 +133,7 @@ const ChatComponent = () => {
         }}
       >
         {loading && (
-          <div class="skill-detail" style={{ margin: 5, color: "orange" }}>
+          <div className="skill-detail" style={{ margin: 5, color: "orange" }}>
             Loading..
           </div>
         )}
@@ -114,21 +158,51 @@ const ChatComponent = () => {
         )}
         {messages
           .sort((item1, item2) => item2.date - item1.date)
-          .map((message, index) => (
-            <div key={index} class="skill-detail" style={{ margin: 5 }}>
-              <div
-                style={{
-                  color: "orange",
-                  fontSize: 10,
-                  marginBottom: 4,
-                  textTransform: "capitalize",
-                }}
-              >
-                {message.input}
-              </div>
-              {message.content}
-            </div>
-          ))}
+          .map((message, index) => {
+            if (message.content) {
+              return (
+                <div key={index} className="skill-detail" style={{ margin: 5 }}>
+                  <div
+                    style={{
+                      color: "orange",
+                      fontSize: 10,
+                      marginBottom: 4,
+                      textTransform: "capitalize",
+                    }}
+                  >
+                    {message.input}
+                  </div>
+                  {message.content}
+                </div>
+              );
+            }
+            if (message.image) {
+              return (
+                <div key={index} className="skill-detail" style={{ margin: 5 }}>
+                  <div
+                    style={{
+                      color: "orange",
+                      fontSize: 10,
+                      marginBottom: 4,
+                      textTransform: "capitalize",
+                    }}
+                  >
+                    {message.input}
+                  </div>
+                  <img
+                    src={message.image}
+                    alt="generated"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      overflow: "hidden",
+                    }}
+                  />
+                </div>
+              );
+            }
+          })}
       </div>
     </div>
   );
