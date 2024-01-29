@@ -890,7 +890,7 @@ function App() {
         : playerSelected.traits.name + " has been targeted!",
       info: "",
       detail: forGood
-        ? '"The evil manifests.."'
+        ? '"This creature is up to no good!"'
         : '"This creature suffers ill fate!"',
       characterName: "Random Player",
       userId: id,
@@ -1050,6 +1050,7 @@ function App() {
             style={{
               width: 150,
               marginBottom: 4,
+              marginRight: 4,
             }}
             onClick={() => {
               sendRandomAdversary(false);
