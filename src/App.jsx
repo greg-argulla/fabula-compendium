@@ -878,6 +878,31 @@ function App() {
     showMessage("Sent Random Player!");
   };
 
+  const sendRandomAdversary = (forGood) => {
+    const playerListFiltered = playerList.filter((item) => item.isGMPlayer);
+    const numResult = Math.floor(Math.random() * playerListFiltered.length);
+
+    const playerSelected = playerListFiltered[numResult];
+
+    const skillData = {
+      skillName: forGood
+        ? playerSelected.traits.name + " has been selected!"
+        : playerSelected.traits.name + " has been targeted!",
+      info: "",
+      detail: forGood
+        ? '"The evil manifests.."'
+        : '"This creature suffers ill fate!"',
+      characterName: "Random Player",
+      userId: id,
+      username: name,
+      id: Date.now(),
+    };
+    OBR.room.setMetadata({
+      "ultimate.story.extension/sendskill": skillData,
+    });
+    showMessage("Sent Random Player!");
+  };
+
   const [randomNumbersGenerated, setRandomNumbers] = useState([
     getRandomNumber(names.length),
     getRandomNumber(names.length),
@@ -1018,6 +1043,31 @@ function App() {
             }}
           >
             Random Player to Select
+          </button>
+          <br></br>
+          <button
+            className="button"
+            style={{
+              width: 150,
+              marginBottom: 4,
+            }}
+            onClick={() => {
+              sendRandomAdversary(false);
+            }}
+          >
+            Random Adversary to Target
+          </button>
+          <button
+            className="button"
+            style={{
+              width: 150,
+              marginBottom: 4,
+            }}
+            onClick={() => {
+              sendRandomAdversary(true);
+            }}
+          >
+            Random Adversary to Select
           </button>
           <hr></hr>
           <div className="outline" style={{ color: "orange" }}>
