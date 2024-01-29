@@ -875,7 +875,7 @@ function App() {
     OBR.room.setMetadata({
       "ultimate.story.extension/sendskill": skillData,
     });
-    showMessage("Sent Random Player!");
+    showMessage("Sent Random Adversary!");
   };
 
   const sendRandomAdversary = (forGood) => {
@@ -900,7 +900,7 @@ function App() {
     OBR.room.setMetadata({
       "ultimate.story.extension/sendskill": skillData,
     });
-    showMessage("Sent Random Player!");
+    showMessage("Sent Random Adversary!");
   };
 
   const [randomNumbersGenerated, setRandomNumbers] = useState([
