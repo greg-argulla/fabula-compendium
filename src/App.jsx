@@ -1017,7 +1017,7 @@ function App() {
           </div>
           <hr></hr>
           <div className="outline" style={{ color: "orange" }}>
-            Pick Random Player:
+            Pick Random Target:
           </div>
           <button
             className="button"
