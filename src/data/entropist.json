@@ -83,7 +83,7 @@
         {
           "name": "Omega",
           "info": "10 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to`【20 + half the target's level】`."
+          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to`【30 + half the target's level】`."
         },
         {
           "name": "Stop",
