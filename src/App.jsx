@@ -936,6 +936,7 @@ function App() {
       getRandomNumber(300) + 1,
       getRandomNumber(2),
       getRandomNumber(10),
+      getRandomNumber(10),
       getRandomNumber(12),
     ]);
   };
