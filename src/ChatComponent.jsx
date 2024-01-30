@@ -50,14 +50,14 @@ const ChatComponent = () => {
     setLoading(false);
   };
 
-  const handleImageGenerate = async () => {
+  const handleImageGenerate = async (style) => {
     // Make a request to the ChatGPT API with the user input
 
     setLoading(true);
     const response = await axios.post(
       "https://api.openai.com/v1/images/generations",
       {
-        prompt: input + " in Anime Art Style",
+        prompt: style + " art design of a " + input,
         model: "dall-e-3",
       },
       {
@@ -79,50 +79,79 @@ const ChatComponent = () => {
       },
     ]);
 
-    // Clear the input field
-    setInput("");
     setLoading(false);
   };
 
   return (
     <div>
-      <div className="outline" style={{ color: "orange" }}>
-        GM AI Assistant:
-      </div>
-      <div style={{ marginBottom: 10 }}>
-        <input
-          className="input-stat"
-          type="text"
-          value={input}
-          style={{ width: 245, marginLeft: 0, background: "#222" }}
-          onChange={handleInputChange}
-          onKeyUp={(e) => {
-            if (e.code === "Enter") {
-              e.preventDefault();
-              handleSendMessage();
-            }
-          }}
-          disabled={loading}
-        />
-        <button
-          className="button"
-          disabled={loading}
-          style={{ width: 50, marginRight: 4 }}
-          onClick={() => {
-            handleImageGenerate();
-          }}
-        >
-          Image
-        </button>
-        <button
-          className="button"
-          disabled={loading}
-          onClick={() => {
-            setMessages([]);
+      <div style={{ display: "flex", marginBottom: 6 }}>
+        <div>
+          <div className="outline" style={{ color: "orange" }}>
+            GM AI Assistant:
+          </div>
+          <div style={{ marginBottom: 10 }}>
+            <input
+              className="input-stat"
+              type="text"
+              value={input}
+              style={{ width: 245, marginLeft: 0, background: "#222" }}
+              onChange={handleInputChange}
+              onKeyUp={(e) => {
+                if (e.code === "Enter") {
+                  e.preventDefault();
+                  handleSendMessage();
+                }
+              }}
+              disabled={loading}
+            />
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            flexDirection: "row",
+            gap: 4,
           }}
         >
-          Clear
-        </button>
+          <button
+            className="button"
+            disabled={loading}
+            onClick={() => {
+              handleImageGenerate("Pixel");
+            }}
+          >
+            Pixel
+          </button>
+          <button
+            className="button"
+            disabled={loading}
+            onClick={() => {
+              handleImageGenerate("Anime");
+            }}
+          >
+            Anime
+          </button>
+          <button
+            className="button"
+            disabled={loading}
+            onClick={() => {
+              handleImageGenerate("Art");
+            }}
+          >
+            Fantasy
+          </button>
+          <button
+            className="button"
+            disabled={loading}
+            onClick={() => {
+              setInput("");
+              setMessages([]);
+            }}
+          >
+            Clear
+          </button>
+        </div>
       </div>
       <div
         style={{
