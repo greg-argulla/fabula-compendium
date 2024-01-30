@@ -46,7 +46,6 @@ const ChatComponent = () => {
     ]);
 
     // Clear the input field
-    setInput("");
     setLoading(false);
   };
 
@@ -84,75 +83,79 @@ const ChatComponent = () => {
 
   return (
     <div>
-      <div style={{ display: "flex", marginBottom: 6 }}>
-        <div>
-          <div className="outline" style={{ color: "orange" }}>
-            GM AI Assistant:
-          </div>
-          <div style={{ marginBottom: 10 }}>
-            <input
-              className="input-stat"
-              type="text"
-              value={input}
-              style={{ width: 245, marginLeft: 0, background: "#222" }}
-              onChange={handleInputChange}
-              onKeyUp={(e) => {
-                if (e.code === "Enter") {
-                  e.preventDefault();
-                  handleSendMessage();
-                }
-              }}
-              disabled={loading}
-            />
-          </div>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            flexDirection: "row",
-            gap: 4,
+      <div className="outline" style={{ color: "orange" }}>
+        GM AI Assistant:
+      </div>
+      <div style={{ display: "flex", alignItems: "center", marginBottom: 4 }}>
+        <input
+          className="input-stat"
+          type="text"
+          value={input}
+          style={{ width: 300, marginLeft: 0, background: "#222" }}
+          onChange={handleInputChange}
+          onKeyUp={(e) => {
+            if (e.code === "Enter") {
+              e.preventDefault();
+              handleSendMessage();
+            }
+          }}
+          disabled={loading}
+        />
+
+        <button
+          className="button"
+          disabled={loading}
+          onClick={() => {
+            setInput("");
           }}
         >
-          <button
-            className="button"
-            disabled={loading}
-            onClick={() => {
-              handleImageGenerate("Pixel");
-            }}
-          >
-            Pixel
-          </button>
-          <button
-            className="button"
-            disabled={loading}
-            onClick={() => {
-              handleImageGenerate("Anime");
-            }}
-          >
-            Anime
-          </button>
-          <button
-            className="button"
-            disabled={loading}
-            onClick={() => {
-              handleImageGenerate("Art");
-            }}
-          >
-            Fantasy
-          </button>
-          <button
-            className="button"
-            disabled={loading}
-            onClick={() => {
-              setInput("");
-              setMessages([]);
-            }}
-          >
-            Clear
-          </button>
-        </div>
+          Clear
+        </button>
       </div>
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 4,
+          marginBottom: 4,
+        }}
+      >
+        <div className="outline" style={{ fontSize: 8 }}>
+          Generate Image:
+        </div>
+        <button
+          className="button"
+          style={{ fontSize: 8, width: 35, height: 20 }}
+          disabled={loading}
+          onClick={() => {
+            handleImageGenerate("Pixel");
+          }}
+        >
+          Pixel
+        </button>
+        <button
+          className="button"
+          style={{ fontSize: 8, width: 35, height: 20 }}
+          disabled={loading}
+          onClick={() => {
+            handleImageGenerate("Anime");
+          }}
+        >
+          Anime
+        </button>
+        <button
+          className="button"
+          style={{ fontSize: 8, width: 35, height: 20 }}
+          disabled={loading}
+          onClick={() => {
+            handleImageGenerate("Art");
+          }}
+        >
+          Fantasy
+        </button>
+      </div>
+
       <div
         style={{
           background: "rgba(0, 0, 0, .2)",
