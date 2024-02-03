@@ -5,6 +5,7 @@ const ChatComponent = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [oneParagraph, setOneParagraph] = useState(true);
 
   const handleInputChange = (e) => {
     setInput(e.target.value);
@@ -22,7 +23,8 @@ const ChatComponent = () => {
           {
             role: "system",
             content:
-              "You are a dungeon master, can you describe to me the next messages I'll send you like one? Please limit it to one paragraph.",
+              "You are a dungeon master for a fantasy table top role playing game, can you describe to me the next messages I'll send you like how a dungeon master would?" +
+              (oneParagraph ? "Please limit it to one paragraph." : ""),
           },
           { role: "user", content: input },
         ],
@@ -153,6 +155,27 @@ const ChatComponent = () => {
           }}
         >
           Fantasy
+        </button>
+
+        <div className="outline" style={{ fontSize: 8, marginLeft: "auto" }}>
+          One Paragraph Mode:
+        </div>
+        <button
+          className="button"
+          style={{
+            fontSize: 8,
+            width: 35,
+            height: 20,
+            marginRight: 4,
+            textTransform: "capitalize",
+            backgroundColor: oneParagraph ? "darkred" : "#222",
+            color: oneParagraph ? "white" : "#ffd433",
+          }}
+          onClick={() => {
+            setOneParagraph(!oneParagraph);
+          }}
+        >
+          {oneParagraph ? "ON" : "OFF"}
         </button>
       </div>
 
