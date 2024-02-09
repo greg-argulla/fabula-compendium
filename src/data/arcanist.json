@@ -18,7 +18,7 @@
         {
           "name": "Phantom Strength",
           "info": "Max SL - 6",
-          "description": "Once per Arcanum summoning, when you deal damage with a `pulse` effect, you may deal`【SL + 4】`extra damage. Additionally, as long as you have an `arcane`, `bow`, `flail`, or `sword` weapon equipped, damage dealt by your `pulse` effects ignores Resistances."
+          "description": "Once per Arcanum summoning, when you deal damage, you may deal`【SL + 4】`extra damage. Additionally, as long as you have an `arcane`, `bow`, `flail`, or `sword` weapon equipped, damage dealt by your `pulse` effects ignores Resistances."
         },
         {
           "name": "Quick Summoning",
@@ -62,7 +62,7 @@
         {
           "name": "Kuzunoha",
           "info": "The fierce protector of witches and beasts. Domains: animals, lightning, sorcery.",
-          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to `bolt` damage.\nYou can communicate with creatures of the `beast`, `monster`, and `plant` Species.\n\n*PULSE: Spellstorm*\nYou immediately perform the `Spell` action for free, casting an `offensive` spell (*ϟ*) spell you have learned without paying its MP cost. The spell you cast this way must have a `total Mind Point cost of 10 or lower`; if it deals damage, you may change its type to `bolt`.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 `bolt` damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers `dazed`."
+          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to `bolt` damage.\nYou can communicate with creatures of the `beast`, `monster`, and `plant` Species.\n\n*PULSE: Crackling Sigil*\nChoose one option: you perform a `free attack` with a weapon you have equipped; `or` you immediately perform the `Spell` action for free, casting an `offensive` (*ϟ*) spell with a `total Mind Point cost of 20 or lower`. If this attack or spell deals damage, you may change its type to `bolt`.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 `bolt` damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers `dazed`."
         },
         {
           "name": "Lilith",
@@ -82,7 +82,7 @@
         {
           "name": "Qilin",
           "info": "The elusive herald of wisdom and good fortune. Domains: knowledge, prosperity, temperance.",
-          "description": "*MERGE: Enlightened Serenity*\nYou treat your `Insight` as if it were one die size higher (up to a maximum of `d12`).\n\n*PULSE: Steps of Prosperity*\nYou immediately perform the `Spell` action for free, casting a `non-offensive` spell you have learned without paying its MP cost. The spell you cast this way must have a `total Mind Point cost of 10 or lower`.\n\n*DISMISS: Oracle*\nYou ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by this Arcanum. Once used, this `dismiss` effect will not be available until the next dawn."
+          "description": "*MERGE: Enlightened Serenity*\nYou treat your `Insight` as if it were one die size higher (up to a maximum of `d12`).\n\n*PULSE: Steps of Prosperity*\nChoose one option: one ally you can see treats their `Insight` as if it were one die size higher (up to a maximum of `d12`) until the start of your next turn; `or` you immediately perform the `Spell` action for free, casting a `non-offensive` spell with a `total Mind Point cost of 10 or lower` without paying its MP cost.\n\n*DISMISS: Oracle*\nYou ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by this Arcanum. Once used, this `dismiss` effect will not be available until the next dawn."
         },
         {
           "name": "Seraph",

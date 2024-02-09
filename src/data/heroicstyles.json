@@ -49,12 +49,12 @@
     {
       "name": "Hidden Weapon Style",
       "info": "Requirements: you must have acquired the Cheap Shot Skill.",
-      "description": "When you acquire this Heroic Skill, choose a damage type among `air, bolt, dark, earth, fire, ice, light, physical`, and `poison`, and choose a status effect among `dazed`, `shaken`, `slow`, and `weak`.\nAfter one or more enemies you can see lose Hit Points due to damage dealt by one of your allies, if at least one of them is `Vulnerable` to the type of damage dealt by your ally, you may deal damage of the type you have chosen equal to`【5 + (your Skill Level in Cheap Shot, multiplied by 3)】`to each of those enemies. If any of them lose Hit Points due to this damage, they also suffer the chosen status effect.\nOnce you use this Skill during a conflict, you may not use it again until the beginning of your next turn."
+      "description": "Choose a status effect among `dazed`, `shaken`, `slow`, and `weak`.\nAfter one or more enemies you can see lose Hit Points due to damage dealt by one of your allies, if at least one of them is `Vulnerable` to the type of damage dealt by your ally, you may choose one of those enemies. If you do, that enemy loses an amount of Hit Points equal to`【half your level + (twice your Skill Level in Cheap Shot)】`and also suffer the chosen status effect.\nOnce you use this Skill during a conflict, you may not use it again until the beginning of your next turn."
     },
     {
       "name": "Humble Style",
       "info": "Requirements: you must have a Dexterity base die size of d10 or higher, and/or a Willpower base die size of d10 or higher",
-      "description": "When you acquire this Heroic Skill, choose two `different` Attributes among `Dexterity`, `Insight`, `Might`, and `Willpower`: when you perform an `Accuracy Check` with a `non-martial weapon`, you may replace the required Attributes with those you have chosen.\nAs long as you have `two or fewer` weapons equipped, your attacks with `non-martial weapons` deal 5 extra damage; this benefit does not apply to `unarmed strikes`, `weapon modules` (see `Pilot`), `twin shields` (see `Guardian`), and `magicannons` (see `Tinkerer`).\nAs long as the `only` weapon you have equipped is a `staff`, you treat that staff as also belonging to the `brawling` and `spear` Categories for the purpose of Skills and effects.\nAdditionally, when you perform an attack using an `improvised weapon`, you may have that weapon not be destroyed after the attack."
+      "description": "When you acquire this Heroic Skill, choose two `different` Attributes among `Dexterity`, `Insight`, `Might`, and `Willpower`: when you perform an `Accuracy Check` with a `non-martial` weapon, you may replace the required Attributes with those you have chosen. As long as you have `two or fewer` weapons equipped, your attacks with `non-martial` weapons deal 5 extra damage and you may also treat those weapons as belonging to the `spear` and `sword` Categories for the sake of Skills that require it; this benefit does not apply to `unarmed strikes`, `weapon modules` (see `Pilot`), `twin shields` (see Guardian), and `magicannon` (see `Tinkerer`).\nAs long as the only weapon you have equipped is a `staff`, you apply all of the above benefits but may also treat that `staff` as belonging to the `brawling` and `heavy` Categories for the sake of Skills that require it, and your attacks with it deal an additional 5 extra damage.\nAdditionally, when you perform an attack using an `improvised weapon`, you deal 5 extra damage and may have that weapon not be destroyed after the attack."
     },
     {
       "name": "Iaido Style",
@@ -75,11 +75,6 @@
       "name": "Punishing Style",
       "info": "Requirements: you must have acquired the Counterattack Skill.",
       "description": "When you perform the `Guard` action, if you choose `not` to provide cover to another creature, you gain the following benefits until the start of your next turn:\n\n- You may use the `Counterattack` Skill even when the Result of the enemy's Accuracy Check is an `odd` number.\n\n- When you perform a `free attack` with `Counterattack`, if the triggering attack `hit` you, you deal 5 extra damage."
-    },
-    {
-      "name": "Pure Force Style",
-      "info": "Requirements: you must have acquired the Indomitable Spirit Skill.",
-      "description": "As long as you are dealing `physical` damage to one or more creatures that are `not Vulnerable` to `physical` damage `nor` able to `Absorb` it, you deal an amount of extra damage to each of them equal to`【2 + (twice your Skill Level in Indomitable Spirit)】`. This extra damage increases by 5 if you are `level 30 or higher`."
     },
     {
       "name": "Ranger Style",
@@ -105,11 +100,6 @@
       "name": "Skyspear Style",
       "info": "Requirements: you must have learned the Soaring Strike spell.",
       "description": "You unlock the hidden art of aerial spear combat, learning the Skyjump spell.\n\n*Skyjump* `MP`: 10 `Target`: Self `Duration`: Scene\n\nYou channel the power of winds to float above the battlefield. Until this spell ends, your `melee` attacks can target `flying` creatures and you cannot be targeted by `melee` attacks unless the attacker is flying or able to reach flying targets.\nOn your turn, if you are under the effects of this spell and able to perform the `Spell` action, you `must` use your first available action to perform the `Spell` action and cast the `Soaring Strike` spell, ignoring its MP cost. If you do and the weapon used belongs to the `spear` Category, the `free attack` granted by `Soaring Strike` gains `multi (2)` and deals another 5 extra damage. This spell ends after the `free attack` is resolved.\nYou may only cast this spell if you have a `spear` weapon equipped, and only if you have also learned the `Soaring Strike` spell."
-    },
-    {
-      "name": "Ten Thousand Cuts Style",
-      "info": "Requirements: you must have acquired the Cheap Shot Skill.",
-      "description": "Once per turn when you hit a creature with an attack using a `melee` weapon, if you have `no other weapon equipped` and apply the extra damage from your `Cheap Shot` Skill to that attack, you may `double` that extra damage. You may instead `triple` that extra damage if you are `level 30 or higher`.\nThese benefits do not apply to `custom weapons` with the `quick` customization"
     },
     {
       "name": "Thaumaturge Style",

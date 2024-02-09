@@ -25,14 +25,14 @@
 
         {
           "name": "Real Treasure",
-          "info": "Max SL - 1",
-          "description": "Once per session, when you help an NPC or community `defeat greed and corruption`, `improve their quality of life`, or `coexist with other creatures`, if you have acquired the `Winds of Trade` Skill, gain 2 Trade Points."
+          "info": "Max SL - 3",
+          "description": "Once per session, when you help an NPC or community `defeat greed and corruption, improve their quality of life`, or `coexist with other creatures`, if you have acquired the `Winds of Trade` Skill, you gain`【SL + 1】`Trade Points."
         },
 
         {
           "name": "Winds of Trade",
           "info": "Max SL - 3",
-          "description": "After you `rest` in an area where commerce is possible, you gain`【SL + 1】Trade Points`. You may never have more than`【SL + 3】Trade Points`; if you acquire this Skill during character creation, begin play with 2 Trade Points.\nDuring a `non-conflict scene`, you may spend 2 Trade Points to choose one option: you create a `material` or `rare item` approved by the Game Master whose value is `equal to or lower than【your level, multiplied by 40】`; `or` your create an NPC that lives nearby and explain their occupation as well as how you met them, then the Game Master tells you what they require in exchange for their services."
+          "description": "After you `rest` in an area where commerce is possible, you gain`【SL + 1】Trade Points`. You may never have more than`【SL + 3】Trade Points`; if you acquire this Skill during character creation, begin play with 2 Trade Points.\nDuring a `non-conflict scene`, you may spend 2 Trade Points to choose one option: you create a `material` or `rare item` approved by the Game Master whose value is `equal to or lower than【your level, multiplied by 20】`; `or` your create an NPC that lives nearby and explain their occupation as well as how you met them, then the Game Master tells you what they require in exchange for their services."
         }
       ]
     }

@@ -37,7 +37,7 @@
       "data": [
         {
           "name": "Acceleration",
-          "info": "20 MP - One creature - Scene",
+          "info": "15 MP - One creature - Scene",
           "description": "Until this spell ends, the target treats their `Dexterity` as if it were one die size higher (up to a maximum of `d12`) and may perform an additional action during their turn. If they do, this spell ends immediately after that action has been resolved."
         },
         {
@@ -63,7 +63,7 @@
         {
           "name": "Drain Spirit",
           "info": "5 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You consume a creature's psyche. The target loses`【HR + 25】`Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
+          "description": "(*ϟ*) You consume a creature's psyche. The target loses`【HR + 20】`Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
         },
         {
           "name": "Drain Vigor",
@@ -82,7 +82,7 @@
         },
         {
           "name": "Omega",
-          "info": "10 MP - One creature - Instantaneous",
+          "info": "15 MP - One creature - Instantaneous",
           "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to`【30 + half the target's level】`."
         },
         {

@@ -12,8 +12,8 @@
         },
         {
           "name": "Focused",
-          "info": "Max SL - 4",
-          "description": "Permanently increase your maximum Mind Points by`【SL × 5】`.When you perform an Open Check using`【INS + INS】`, you gain a bonus equal to`【SL + 1】`on that Check (this `only` applies to Open Checks)."
+          "info": "Max SL - 6",
+          "description": "Permanently increase your maximum Mind Points by`【SL × 5】`.When you perform an Open Check using`【INS + INS】`, you gain a bonus equal to`【SL】`on that Check (this `only` applies to Open Checks)."
         },
         {
           "name": "Knowledge Is Power",
