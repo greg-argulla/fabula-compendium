@@ -18,7 +18,7 @@
         {
           "name": "Breach",
           "info": "Max SL - 3",
-          "description": "You may use an action and spend 10 Mind Points to perform a `free attack` with a `melee` weapon you have equipped; this attack `must` target only one creature. If the attack is successful, choose one option: the attack deals`【SL × 5】`extra damage, and all damage dealt by this attack ignores Resistances and Vulnerabilities; `or` the attack deals no damage and, until the start of your next turn, whenever an ally deals damage to a creature hit by this attack, that ally deals`【4 + (SL × 3)】`extra damage to that creature."
+          "description": "You may use an action and spend 10 Mind Points to perform a `free attack` with a `melee` weapon you have equipped; this attack `must` target only one creature. If the attack is successful, choose one option: the attack deals`【SL × 5】`extra damage, and all damage dealt by this attack ignores Resistances and Vulnerabilities; `or` the attack deals no damage and, until the start of your next turn, whenever an ally deals damage to a creature hit by this attack, that ally deals`【4 + (SL × 2)】`extra damage to that creature."
         },
         {
           "name": "Counterattack",
