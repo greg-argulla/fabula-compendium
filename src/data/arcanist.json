@@ -1,6 +1,6 @@
 {
   "name": "Arcanist",
-  "info": "Increase MP by 5.",
+  "info": "Increase HP or MP by 5 (your choice).",
   "data": [
     {
       "name": "Skills",
