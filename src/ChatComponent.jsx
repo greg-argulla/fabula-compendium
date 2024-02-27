@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
+import OBR from "@owlbear-rodeo/sdk";
 
-const ChatComponent = () => {
+const ChatComponent = (props) => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -123,6 +124,27 @@ const ChatComponent = () => {
           marginBottom: 4,
         }}
       >
+        <button
+          className="button"
+          style={{ fontSize: 8, width: 35, height: 20 }}
+          onClick={() => {
+            if (!props.close) {
+              OBR.popover.open({
+                id: "chatgpt",
+                url: "http://localhost:5173/chatgpt",
+                height: 250,
+                width: 320,
+                anchorOrigin: { horizontal: "LEFT", vertical: "BOTTOM" },
+                disableClickAway: true,
+                marginThreshold: 10,
+              });
+            } else {
+              OBR.popover.close("chatgpt");
+            }
+          }}
+        >
+          {!props.close ? "Open" : "Close"}
+        </button>
         <div className="outline" style={{ fontSize: 8 }}>
           Generate Image:
         </div>
@@ -194,7 +216,7 @@ const ChatComponent = () => {
         )}
 
         {!loading && messages.length < 1 && (
-          <div class="skill-detail" style={{ margin: 5 }}>
+          <div className="skill-detail" style={{ margin: 5 }}>
             <div
               style={{
                 color: "orange",
