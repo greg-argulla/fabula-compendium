@@ -52,37 +52,37 @@ const ChatComponent = (props) => {
     setLoading(false);
   };
 
-  const handleImageGenerate = async (style) => {
-    // Make a request to the ChatGPT API with the user input
+  // const handleImageGenerate = async (style) => {
+  //   // Make a request to the ChatGPT API with the user input
 
-    setLoading(true);
-    const response = await axios.post(
-      "https://api.openai.com/v1/images/generations",
-      {
-        prompt: style + " art design of a " + input,
-        model: "dall-e-3",
-      },
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_SECRET_KEY}`,
-        },
-      }
-    );
+  //   setLoading(true);
+  //   const response = await axios.post(
+  //     "https://api.openai.com/v1/images/generations",
+  //     {
+  //       prompt: style + " art design of a " + input,
+  //       model: "dall-e-3",
+  //     },
+  //     {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         Authorization: `Bearer ${import.meta.env.VITE_SECRET_KEY}`,
+  //       },
+  //     }
+  //   );
 
-    console.log(response);
+  //   console.log(response);
 
-    setMessages([
-      ...messages,
-      {
-        input,
-        image: response.data.data[0].url,
-        date: Date.now(),
-      },
-    ]);
+  //   setMessages([
+  //     ...messages,
+  //     {
+  //       input,
+  //       image: response.data.data[0].url,
+  //       date: Date.now(),
+  //     },
+  //   ]);
 
-    setLoading(false);
-  };
+  //   setLoading(false);
+  // };
 
   return (
     <div>
@@ -124,6 +124,9 @@ const ChatComponent = (props) => {
           marginBottom: 4,
         }}
       >
+        <div className="outline" style={{ fontSize: 8 }}>
+          Popover:
+        </div>
         <button
           className="button"
           style={{ fontSize: 8, width: 35, height: 20 }}
@@ -145,7 +148,7 @@ const ChatComponent = (props) => {
         >
           {!props.close ? "Open" : "Close"}
         </button>
-        <div className="outline" style={{ fontSize: 8 }}>
+        {/* <div className="outline" style={{ fontSize: 8 }}>
           Generate Image:
         </div>
         <button
@@ -177,7 +180,7 @@ const ChatComponent = (props) => {
           }}
         >
           Fantasy
-        </button>
+        </button> */}
 
         <div className="outline" style={{ fontSize: 8, marginLeft: "auto" }}>
           One Paragraph Mode:
