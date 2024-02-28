@@ -131,7 +131,7 @@ const ChatComponent = (props) => {
             if (!props.close) {
               OBR.popover.open({
                 id: "chatgpt",
-                url: "https://fabula-compedium-with-chatgpt.onrender.com/chatgpt",
+                url: "/chatgpt",
                 height: 250,
                 width: 320,
                 anchorOrigin: { horizontal: "LEFT", vertical: "BOTTOM" },
