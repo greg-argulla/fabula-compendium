@@ -137,7 +137,7 @@ const ChatComponent = (props) => {
                 url: "/chatgpt",
                 height: 250,
                 width: 320,
-                anchorOrigin: { horizontal: "CENTER", vertical: "BOTTOM" },
+                anchorOrigin: { horizontal: "RIGHT", vertical: "TOP" },
                 disableClickAway: true,
                 marginThreshold: 10,
               });
