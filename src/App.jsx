@@ -1285,19 +1285,18 @@ function App() {
             setSearchSkills(evt.target.value);
           }}
         />
-        {searchSkills !== "" ||
-          (selectedClass !== "" && (
-            <button
-              className="button"
-              style={{ fontWeight: "bolder", width: 50 }}
-              onClick={() => {
-                setSearchSkills("");
-                setSelectedClass("");
-              }}
-            >
-              Clear
-            </button>
-          ))}
+        {(searchSkills !== "" || selectedClass !== "") && (
+          <button
+            className="button"
+            style={{ fontWeight: "bolder", width: 50 }}
+            onClick={() => {
+              setSearchSkills("");
+              setSelectedClass("");
+            }}
+          >
+            Clear
+          </button>
+        )}
       </div>
       <div
         style={{
