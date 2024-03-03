@@ -156,7 +156,7 @@
     {
       "name": "Ultimagic",
       "info": "Requirements: You must have mastered the Elementalist Class.",
-      "description": "Choose a damage type among `air, bolt, earth, fire`, and `ice` when acquired.\n\nYou learn the ultimate Elementalist spell: `Ultimagic`.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nChoose one option: you deal 50 damage of the type you have chosen to one enemy you can see; or you deal 30 damage of the type you have chosen to every enemy you can see. This damage increases by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher.\nDamage dealt by this spell ignores Immunities and Resistances."
+      "description": "Choose a damage type among `air, bolt, earth, fire`, and `ice` when acquired.\n\nYou learn the ultimate Elementalist spell: `Ultimagic`.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nChoose one option: you deal 50 damage of the type you have chosen to one enemy you can see; `or` you deal 30 damage of the type you have chosen to every enemy you can see. This damage increases by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\nDamage dealt by this spell ignores Immunities and Resistances."
     }
   ]
 }
