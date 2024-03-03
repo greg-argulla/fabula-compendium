@@ -156,7 +156,7 @@
     {
       "name": "Ultimagic",
       "info": "Requirements: You must have mastered the Elementalist Class.",
-      "description": "You learn the ultimate Elementalist spell: Ultimagic.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nYou channel the fury of the planet into a powerful wave of fire and magma. Choose one option: one creature you can see suffers 50 `fire` damage; `or` you choose any number of creatures you can see, and each of them suffers 30 `fire` damage. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\n Damage dealt by this spell ignores Resistances and Immunities."
+      "description": "Choose a damage type among air, bolt, earth, fire, and ice when acquired.\n\nYou learn the ultimate Elementalist spell: Ultimagic.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nChoose one option: you deal 50 damage of the type you have chosen to one enemy you can see; or you deal 30 damage of the type you have chosen to every enemy you can see. This damage increases by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher.\nDamage dealt by this spell ignores Immunities and Resistances."
     }
   ]
 }
