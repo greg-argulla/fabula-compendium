@@ -98,7 +98,7 @@
         {
           "name": "Vortex",
           "info": "20 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You conjure a giant vortex that rips your enemy. The target suffers`【HR + 25】bolt` damage. Damage dealt by this spell ignores Resistances."
+          "description": "(*ϟ*) You conjure a giant vortex that rips your enemy. The target suffers`【HR + 25】air` damage. Damage dealt by this spell ignores Resistances."
         }
       ]
     }
