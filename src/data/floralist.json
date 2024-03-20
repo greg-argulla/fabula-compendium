@@ -22,8 +22,8 @@
         },
         {
           "name": "Tree of Life",
-          "info": "Max SL - 4",
-          "description": "When you `remove` a `magiseed` from your `garden`, if you are in `Crisis`, you may recover`【SL × 5】`Hit Points and`【SL × 5】`Mind Points"
+          "info": "Max SL - 6",
+          "description": "When you `remove` a `magiseed` from your `garden`, you may have one creature in `Crisis` recover`【SL × 5】`Hit Points and`【SL × 5】`Mind Points"
         },
         {
           "name": "Verdant Sway",
@@ -68,7 +68,7 @@
         {
           "name": "Desert Dahila",
           "info": "A tenacious plant, it doesn't fear the dryness of dunes.",
-          "description": "*1⧗* You are Resistant to `air` and `fire` damage.\n\n*2⧗* You and your allies present on the scene are Resistant to `air` and `fire` damage."
+          "description": "*1⧗* You are Resistant to `air` and `fire` damage.\n\n*2-3⧗* You and your allies present on the scene are Resistant to `air` and `fire` damage."
         },
         {
           "name": "Golden Gingko",

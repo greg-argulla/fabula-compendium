@@ -1,6 +1,6 @@
 {
   "name": "Darkblade",
-  "info": "Increase HP by 5. Equip Martial Melee and Armor.",
+  "info": "Increase HP by 5. Equip Martial Armor and choose either martial melee or ranged.",
   "data": [
     {
       "name": "Skills",

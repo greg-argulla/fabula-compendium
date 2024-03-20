@@ -16,7 +16,7 @@
     {
       "name": "Bend Magic",
       "info": "Requirements: must have mastered one or more Classes among Elementalist, Entropist, Invoker, and Symbolist, and must have acquired the Invocation Skill.",
-      "description": "After an enemy you can see `hits or misses you with an offensive spell` (*ϟ*), if the Result of their Magic Check was an `even number`, you may immediately use the `Invocation` Skill for free (after the spell has been fully resolved) to perform an invocation you have access to against that enemy; this invocation must `not` be a `\"hex\"`. You must still pay the MP cost for this invocation, and it may target `only` that enemy (you cannot use) `Linked Invocation` with it)"
+      "description": "After an enemy you can see `hits or misses you with an offensive spell` (*ϟ*), if the Result of their Magic Check was an `even number`, you may immediately use the `Invocation` Skill for free (after the spell has been fully resolved) to perform an invocation you have access to against that enemy without spending Mind Points. This invocation must `not` be a `\"hex\"` and it may target `only` that enemy (you cannot use) `Linked Invocation` with it)"
     },
 
     {
@@ -50,9 +50,9 @@
     },
 
     {
-      "name": "Ephmeral Tranquilty",
+      "name": "Ephemeral Tranquility",
       "info": "Requirements: must have mastered one or more Classes among Dancer, Esper, Rogue, Spiritist, and Symbolist",
-      "description": "When you cast the `Hallucination` spell or the `Torpor` spell, you may apply `both` status effects to each target hit by the spell instead of having to choose one.\nDuring a conflict, you may use an action and spend 10 Mind Points to choose one enemy you can see who is in Crisis and is suffering from `three or more status effects`. If you do, that enemy recovers from all status effects, then loses an amount of Hit Points equal to`【half your level + (the number of status effects recovered from this way, multiplied by 10)】`. If this reduces that enemy to 0 Hit Points, you recover an amount of Mind Points equal to`【the number of status effects recovered from this way, multiplied by 10】`"
+      "description": "When you cast the `Hallucination` spell or the `Torpor` spell, you may apply `both` status effects to each target hit by the spell instead of having to choose one.\nDuring a conflict, you may use an action and spend up to 20 Mind Points. For every 10 Mind Points sepnt this way, you may choose a different enemy you can see who is suffering from `two or more status effects`. Every enemy chosen this way recovers from `all` status effects, then loses an amount of Hit Points equal to`【half your level + (the number of status effects recovered from this way, multiplied by 10)】`. Then, you recover 20 Mind Points for each of those enemies that entered Crisis or was reduced to 0 Hit Points by this effect."
     },
 
     {
@@ -64,7 +64,7 @@
     {
       "name": "For a better future",
       "info": "Requirements: you must have mastered the Merchant Class, and must have acquired the Real Treasure and Winds of Trade Skills.",
-      "description": "When you need to spend one or more Fabula Points, you may spend `twice as many Trade Points` instead. When you do so, describe which memories of your trades and journeys give you renewed strength.\nWhen you gain Trade Points through the `Winds of Trade` Skill after resting inside a settlement, you may choose not to gain those Trade Points and instead `donate` them to that settlement; this donation triggers `Real Treasure` (thus granting you 2 Trade Points), but `does not count` towards `Real Treasure`'s limit of once per session. The chart below indicates the effects of your donations on the settlement and on anything within `1 travel day` of it.\n\n*Total Donated - Effects within 1 travel day of settlement*\n\n`500 or more` - People gladly accommodate you and up to five allies: you can rest without spending zenit.\n\n`1000 or more` - When you or an ally need to pay a cost in zenit, whatever the reason, that cost is reduced by 25%.\n\n`1500 or more` - Travel rolls made by your group in this area may never use a die greater than d8.\n\n`2000 or more` - When a Villain in this area spends Ultima Points, they must spend 1 additional Ultima Point"
+      "description": "When you need to spend one or more Fabula Points, if you are `not` spending them to `alter the story` (see `Core Rulebook`, page `98`), you may spend that many `Trade Points` instead. Describe which memories of your trades and journeys give you strength!\nAdditionally, when you gain `two or more` Trade Points through the `Real Treasure` or `Winds of Trade` Skills, you may choose to gain `exactly 1 Trade Point` instead. If you do, choose a settlement within 1 travel day of your position and increase its `prosperity` by an amount equal to`【your Skill Level in Winds of Trade + your Skill Level in Real Treasure】`; a settlement's `prosperity` starts at 0 and has no upper limit.\nThe chart below indicates the effects of your donations on the settlement and on anything within `1 travel day` of it.\n\n*Total Donated - Effects within 1 travel day of settlement*\n\n`10 or more` - When you or an ally need to pay a cost in zenit, whatever the reason, that cost is `halved`.\n\n`15 or more` - People gladly accommodate you and your allies: while in this area, you can always `rest` freely, without spending zenit. Furthermore, any `travel rolls` made in this area never use a die greater than `d8`.\n\n`20 or more` - When a Villain in this area spends Ultima Points, they must spend `twice` as many Ultima Points."
     },
 
     {
@@ -88,13 +88,13 @@
     {
       "name": "Power Nap",
       "info": "Requirements: must have mastered one or more Classes among Guardian, Merchant, and Wayfarer",
-      "description": "On your turn during a conflict, you may use an action to recover an amount of Hit Points and Mind Points equal to`【10 + half your level】`and recover from all status effects; if you do, your turn ends `immediately`, you lose the ability to `see and hear`, and your `Defense and Magic Defense` scores become `equal to 5` and cannot be modified in any way. These effects last until the start of your next turn, until after you `lose Hit Points`, or until after you `are hit by an attack or offensive spell` (*ϟ*)."
+      "description": "On your turn during a conflict, you may use an action to recover an amount of Hit Points and Mind Points equal to`【20 + half your level】`and recover from all status effects; if you do, your turn ends `immediately`, you lose the ability to `see and hear`, and your `Defense and Magic Defense` scores become `equal to 5` and cannot be modified in any way (but you may still use the `Protect` Skill from the `Guardian` Class, if you have acquired it!). These effects last until the start of your next turn, until after you `lose Hit Points`, or until after you `are hit by an attack or offensive spell` (*ϟ*)."
     },
 
     {
       "name": "Side by Side",
-      "info": "Requirements: you must have mastered the Wayfarer Class.",
-      "description": "After you use the `Faithful Companion` Skill to have your companion perform an action during your turn, choose one option: you gain a bonus equal to`【your Skill Level in Faithful Companion】`to the first Opposed Check you or your companion perform before the end of your next turn; `or` the first time you or your companion deal damage before the end of your next turn, you deal extra damage equal to`【your Skill Level in Faithful Companion, multiplied by 2】`; `or` you and your companion recover an amount of Mind Points equal to`【your Skill Level in Faithful Companion, multiplied by 2】`.\nAdditionally, after your companion performs a Check, you may spend 1 Fabula Point and invoke one of their `Traits` in order to let them reroll one or both dice (following the normal rules)."
+      "info": "Requirements: you must have mastered the Wayfarer Class, and must have acquired the Faitfhul Companion Skill.",
+      "description": "When your companion deals damage, they deal 5 extra damage.\nWhen your companion performs a Check, you may spend 1 Fabula Point and `invoke` one of your companion's `Traits` in order to let them reroll one or both dice (as per the rules on page 46 of the Core Rulebook).\nAfter you use the `Faithful Companion` Skill to have your companion perform an action during your turn, you may choose one option (after the companion's action has been resolved): you and your companion each recover 10 Mind Points; `or` the first time you or your companion perform a Check before the end of your next turn, that Check gains a bonus equal to`【your Skill Level in Faithful Companion】`."
     },
 
     {

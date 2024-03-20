@@ -59,7 +59,7 @@
     {
       "name": "Fast Learner",
       "info": "Requirements: You must have mastered the Wayfarer Class.",
-      "description": "Once per conflict scene when an ally you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill or Heroic Skill, if you have not learned or acquired that spell or Skill, you can spend 1 Fabula Point. If you do, you `temporarily` learn or acquire that spell or Skill until the end of the scene.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `keys`, or `tones` by temporarily acquiring the `Magichant` Skill."
+      "description": "Once per conflict scene when an ally you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill or Heroic Skill, if you have not learned or acquired that spell or Skill, you can `temporarily` learn or acquire that spell or Skill until the end of the scene.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `keys`, or `tones` by temporarily acquiring the `Magichant` Skill."
     },
     {
       "name": "Heartbreaker",

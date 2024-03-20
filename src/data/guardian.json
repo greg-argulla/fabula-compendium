@@ -8,7 +8,7 @@
         {
           "name": "Bodyguard",
           "info": "Max SL - 5",
-          "description": "Once per conflict, after an ally you can see loses Hit Points, you may recover`【SL × 10】`HP and recharge your use of `Protect` if you already used it."
+          "description": "Once per conflict, you may use the `Protect` Skill without waiting for the start of your next turn. If you do so, recover`【SL × 10】`Hit Points (`before` resolving `Protect`)."
         },
         {
           "name": "Defensive Mastery",

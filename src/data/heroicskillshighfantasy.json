@@ -79,7 +79,7 @@
     {
       "name": "Pulverizing Strike",
       "info": "Requirements: you must have mastered one or more Classes among Darkblade, Fury, and Weaponmaster.",
-      "description": "When you use the Breach Skill, if you attack with a `melee` weapon belonging to the `heavy` Category, you may choose `both` options instead of one (in this case, the second option `does not` cause the attack to deal no damage)."
+      "description": "When you use the Breach Skill, if you attack with a `melee` weapon belonging to the `heavy` Category, you may treat your Skill Level in the Breach Skill as being 2 points higher (to a maximum of 6)."
     },
     {
       "name": "Rising Tide",

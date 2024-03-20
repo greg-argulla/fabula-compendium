@@ -18,12 +18,12 @@
         {
           "name": "Phantom Strength",
           "info": "Max SL - 6",
-          "description": "Once per Arcanum summoning, when you deal damage, you may deal`【SL + 4】`extra damage. Additionally, as long as you have an `arcane`, `bow`, `flail`, or `sword` weapon equipped, damage dealt by your `pulse` effects ignores Resistances."
+          "description": "When you deal damage, if you are `merged` with an Arcanum or the damage is dealt via a `dismiss` effect, you may deal`【SL + 4】`extra damage. If you do, that damage ignores Affinities and you cannot use this Skill until after you `summon` an Arcanum again."
         },
         {
           "name": "Quick Summoning",
           "info": "Max SL - 2",
-          "description": "When you `summon` an Arcanum on your turn during a conflict, choose up to two options: immediately perform that Arcanum's `pulse`; and/or reduce the summoning's Mind Point cost by`【SL × 5】`. If you choose only one option, you `cannot willingly dismiss` that Arcanum until the start of your next turn; if you choose both options, that Arcanum's `dismiss` effect will not be available for this summoning."
+          "description": "When you `summon` an Arcanum on your turn during a conflict, choose up to two options: immediately perform that Arcanum's `pulse`; and/or reduce the summoning's Mind Point cost by`【SL × 5】`. If you choose at least one option, you `cannot willingly dismiss` that Arcanum until the start of your next turn; if you choose both options, that Arcanum's `dismiss` effect will not be available for this summoning."
         },
         {
           "name": "Ritual Arcanism",
@@ -77,7 +77,7 @@
         {
           "name": "Nimue",
           "info": "The wielder of ninety-nine swords. Domains: conquest, heroism, leadership.",
-          "description": "*MERGE: Royal Armaments*\nWhen you deal damage, you deal 5 extra damage; all damage you deal loses its type and cannot gain a type (thus being unaffected by damage Affinities).\n\n*PULSE:Arondight*\nYou perform a `free attack` with a weapon you have equipped. This attack targets Magic Defense instead of Defense.\n\n*DISMISS: Gordian Slice*\nOne creature you can see loses an amount of Hit Points equal to your `Crisis` score. Then, if that creature `is not a Villain` and their current Hit Points are `equal to or lower than your Crisis score`, you reduce that creature to 0 Hit Points."
+          "description": "*MERGE: Royal Armaments*\nWhen you deal damage, you deal 5 extra damage; all damage you deal loses its type and cannot gain a type (thus being unaffected by damage Affinities).\n\n*PULSE:Arondight*\nYou perform a `free attack` with a weapon you have equipped. This attack targets Magic Defense instead of Defense.\n\n*DISMISS: Gordian Slice*\nOne creature you can see loses 30 Hit Points, or 40 Hit Points if you are `level 30 or higher`. Then, if that creature is `not a Villain` and their current Hit Points are `equal to or lower than your Crisis score`, you reduce that creature to 0 Hit Points."
         },
         {
           "name": "Qilin",
