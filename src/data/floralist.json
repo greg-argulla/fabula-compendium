@@ -73,7 +73,7 @@
         {
           "name": "Golden Gingko",
           "info": "Its vibrantly colored leaves represent tenacity.",
-          "description": "*1⧗* At the end of your turn, you and every ally you can see recover from `dazed`, `enraged`, and `shaken`.\n\n*2-3⧗* At the end of your turn, you and every ally you can see recover an amount of Mind Points equal to`【5s + your Skill Level in Chloromancy】`"
+          "description": "*1⧗* At the end of your turn, you and every ally you can see recover from `dazed`, `enraged`, and `shaken`.\n\n*2-3⧗* At the end of your turn, you and every ally you can see recover an amount of Mind Points equal to`【5 + your Skill Level in Chloromancy】`"
         },
         {
           "name": "Grave Asphodel",
