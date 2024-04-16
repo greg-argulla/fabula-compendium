@@ -18,7 +18,7 @@
         {
           "name": "Phantom Strength",
           "info": "Max SL - 6",
-          "description": "When you deal damage, if you are `merged` with an Arcanum or the damage is dealt via a `dismiss` effect, you may deal`【SL + 4】`extra damage. If you do, that damage ignores Affinities and you cannot use this Skill until after you `summon` an Arcanum again."
+          "description": "When you deal damage, if you are `merged` with an Arcanum or the damage is dealt via a `dismiss` effect, you may deal `【 3 + (SL × 2)】` extra damage. If you do, that damage ignores Affinities and you cannot use this Skill again until you `summon` an Arcanum."
         },
         {
           "name": "Quick Summoning",

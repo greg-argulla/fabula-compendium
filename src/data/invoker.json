@@ -32,7 +32,7 @@
         {
           "name": "Wellspring Expansion",
           "info": "Max SL - 5",
-          "description": "As long as you have a weapon belonging to the `arcane, bow, brawling, sword`, or `thrown` Category equipped, your `'blast' invocations` deal`【SL】`extra damage, and the extra damage granted by your 'hex' invocations is increased by`【SL】`."
+          "description": "As long as you have a weapon belonging to the `arcane, bow, brawling, flail, sword`, or `thrown` Category equipped, your `'blast' invocations` deal`【SL】`extra damage, and the extra damage granted by your 'hex' invocations is increased by`【SL】`."
         }
       ]
     },
