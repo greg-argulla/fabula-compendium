@@ -26,11 +26,11 @@
         },
         {
           "name": "Powerful",
-          "description": "The weapon deals 5 extra damage, or 7 extra damage if it is a `heavy weapon`\nThis customization is not available for `arcane` and `dagger` weapons, or for weapons with the `quick` customization (see below)."
+          "description": "The weapon deals 5 extra damage, or 7 extra damage if it is a `heavy weapon`\nThis customization is not available for `arcane` and `dagger` weapons, or for weapons with the `quick` customization (see below). *Martial*"
         },
         {
           "name": "Quick (count as two customizations)",
-          "description": "When you perform the `Attack` action and choose to attack with this weapon, you may perform two attacks (against the same target or against different targets). If you do, both attacks follow the rules for `two-weapon fighting`"
+          "description": "When you perform the `Attack` action and choose to attack with this weapon, you may perform two attacks (against the same target or against different targets). If you do, both attacks follow the rules for `two-weapon fighting` *Martial*"
         },
         {
           "name": "Transforming (increases the custom weapon’s cost by 100 zenit)",
