@@ -7,15 +7,24 @@ const ChatComponent = (props) => {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const [oneParagraph, setOneParagraph] = useState(true);
+  const [prompt, setPrompt] = useState(
+    "You are a game master for a table top role playing game, can you describe to me the next messages I'll send you like how a game master would?"
+  );
 
   const handleInputChange = (e) => {
     setInput(e.target.value);
+  };
+
+  const handlePromptChange = (e) => {
+    setPrompt(e.target.value);
   };
 
   const handleSendMessage = async () => {
     // Make a request to the ChatGPT API with the user input
 
     setLoading(true);
+
+    console.log(oneParagraph);
     const response = await axios.post(
       "https://api.openai.com/v1/chat/completions",
       {
@@ -24,7 +33,7 @@ const ChatComponent = (props) => {
           {
             role: "system",
             content:
-              "You are a dungeon master for a fantasy table top role playing game, can you describe to me the next messages I'll send you like how a dungeon master would?" +
+              prompt +
               (oneParagraph ? "Please limit it to one paragraph." : ""),
           },
           { role: "user", content: input },
@@ -86,15 +95,40 @@ const ChatComponent = (props) => {
 
   return (
     <div>
-      <div className="outline" style={{ color: "orange" }}>
-        GM AI Assistant:
-      </div>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: 4 }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+
+          marginBottom: 4,
+          gap: 4,
+        }}
+      >
+        <div className="outline" style={{ color: "orange" }}>
+          GM AI Context:
+        </div>
+        <input
+          className="input-stat"
+          type="text"
+          value={prompt}
+          style={{ width: "100%", marginLeft: 0, background: "#222" }}
+          onChange={handlePromptChange}
+          onKeyUp={(e) => {
+            if (e.code === "Enter") {
+              e.preventDefault();
+              handleSendMessage();
+            }
+          }}
+          disabled={loading}
+        />
+        <div className="outline" style={{ color: "orange" }}>
+          Prompt:
+        </div>
         <input
           className="input-stat"
           type="text"
           value={input}
-          style={{ width: 300, marginLeft: 0, background: "#222" }}
+          style={{ width: "100%", marginLeft: 0, background: "#222" }}
           onChange={handleInputChange}
           onKeyUp={(e) => {
             if (e.code === "Enter") {
