@@ -79,13 +79,13 @@
     {
       "name": "Mathemagic",
       "info": "Requirements: You must have mastered the Loremaster Class.",
-      "description": "When you cast a spell with a `target` of 'One creature', you may `double the spell's total MP cost`. If you do, choose an Attribute (`Dexterity`, `Insight`, `Might`, or `Willpower`) and a die size (`d6`, `d8`, `d10` or `d12`). The spell now targets `all` creatures present on the scene whose current Attribute die size matches your choice, regardless of whether they are friends or foes (you might even end up targeting yourself).\nThe effects of the spell are fully applied to every target. If the spell is an `offensive` (*ϟ*) spell, it follows the normal rules: you perform a single Magic Check and confront it with the Magic Defense of each target to determine who is hit by the spell."
+      "description": "When you cast a spell with a `target` of 'One creature', you may choose an Attribute (`Dexterity, Insight, Might` or `Willpower`) and a die size (`d6,d8,d10` or `d12`). If you do, the spell's `target` becomes `\"Every creature present on the scene whose current die size in that Attribute matches your choice\"` and `its total Mind Point cost is doubled.` Additionally, all mentions of `\"the target\"` in the spell's text are replacecd with `\"each target\"`; or they are replaced with `\"one or more targets\"` if the spell is `Anomaly`,`Dispel`,`Mercy`,`Mirror`. When the spell ends on one or more of its targets, it automatically ends on `all` its targets.\n\nIf you cast an `offensive spell (*ϟ*)` this way, you perform a `single Magic Check` and confront it with the `Magic Defense` of `each` target.\n\n*(Note: this version assumes you are using Acceleration's reworked version)*"
     },
 
     {
       "name": "Monkey Grip",
       "info": "Requirements: You must have mastered the Fury Class.",
-      "description": "You may equip two-handed weapons belonging to the `flail`, `heavy`, `spear`, or `sword` Categories in a single hand slot. This allows you, for instance, to enjoy the benefits of `two-weapon fighting` while wielding a pair of two-handed weapons, `or` to equip a two-handed weapon in your `main hand slot` and a shield in your `off-hand slot`."
+      "description": "You may now equip two-handed weapons belonging to the `firearm`, `flail`, `heavy`, `spear`, or `sword` Categories within a single hand slot.\nAdditionally, the `first` attack you perform with a two-handed weapon during `each` turn deals `5` extra damage, and its damage ignores `Resistances`."
     },
     {
       "name": "Perfect Aim",
@@ -120,7 +120,7 @@
     {
       "name": "Rampart",
       "info": "Requirements: You must have mastered the Guardian Class.",
-      "description": "During the first round of each conflict scene, you have Resistance to all damage types and cannot suffer status effects (you `do not` recover from preexisting status effects, however). These benefits only last until the end of the first round."
+      "description": "Once per conflict scene, at the beginning of a round, if you have a `martial armor` or a `shield` equipped, you may spend `20 Mind Points`. If you do, you and every ally present on the scene have `Resistance to all damage types` and `cannot suffer status effects` until the end of the round (this `does not` let you recover from preexisting status effects)."
     },
     {
       "name": "Repetition",

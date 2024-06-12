@@ -10,7 +10,7 @@
     {
       "name": "Auramancer's Refraction",
       "info": "Requirements: must have mastered one or more Classes among Arcanist and Spiritist, and must have learned the `Aura` spell and/or the `Barrier` spell.",
-      "description": "Choose a damage type among air, bolt, earth, fire, ice, and light. When an enemy you can see deals damage to one or more of your allies who are affected by an Aura and/or Barrier spell you cast, the damage suffered by each of those allies is reduced by an amount equal to `【 half your level in the Spiritist Class】`or to `【your level, divided by 10】`(use whichever value is `higher`; this reduction is applied before damage Affinities). Then, you may deal an amount of damage of the chosen type equal to `【 half your level】`to that enemy. If you do, you cannot deal damage this way until the start of your next turn."
+      "description": "Choose a damage type among air, bolt, earth, fire, ice, and light. When an enemy you can see deals damage to one or more creatures who are affected by an Aura and/or Barrier spell you cast, the damage suffered by each of those allies is reduced by an amount equal to `【 half your level in the Spiritist Class】`or to `【your level, divided by 10】`(use whichever value is `higher`; this reduction is applied before damage Affinities). Then, you may deal an amount of damage of the chosen type equal to `【 half your level】`to that enemy. If you do, you cannot deal damage this way until the start of your next turn."
     },
 
     {
@@ -27,8 +27,8 @@
 
     {
       "name": "Brave Bash",
-      "info": "Requirements: you must have mastered one or more Classes among Commander, Fury, and Weaponmaster, and must have acquired the Bone Crusher Skill.",
-      "description": "When you use the `Bone Crusher` Skill, if your attack targets `only one creature` and you have a `shield` equipped, you may `challenge` that creature until the end of your next turn. The `challenge` also ends if that creature is `challenged` by someone else, or if you `challenge` another creature.\nThe creature you are `challenging` must include you among the targets of their attacks and offensive spells (*ϟ*), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are `challenging` with a `one-handed melee` weapon or with a `custom weapon` belonging to the `dagger` or `sword` Category, you may deal 5 extra damage to that creature."
+      "info": "Requirements: you must have mastered one or more Classes among Commander, Fury, Guardian, Pilot and Weaponmaster, and must have acquired the Bone Crusher Skill.",
+      "description": "When you use the `Bone Crusher` Skill, if your attack targets `only one creature` and you have a `shield` equipped, you may `challenge` that creature until the end of your next turn. The `challenge` also ends if that creature is `challenged` by someone else, or if you `challenge` another creature.\nThe creature you are `challenging` must include you among the targets of their attacks and offensive spells (*ϟ*), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are `challenging` with a `free attack` using a `one-handed melee` weapon or with a `custom weapon` belonging to the `dagger` or `sword` Category, you may deal 5 extra damage to that creature."
     },
 
     {
@@ -57,7 +57,7 @@
 
     {
       "name": "Fitcast",
-      "info": "Requirements: must have mastered one or more Classes among Chimerist, Darkblade, Esper, Fury, Guardian, and Wayfarer.",
+      "info": "Requirements: must have mastered one or more Classes among Chimerist, Darkblade, Esper, Fury, and Wayfarer.",
       "description": "When you perform a Magic Check for a spell or Ritual, you may replace one of the Attributes with `Might` (such as`【MIG + MIG】`for a Chimerism Ritual). As long as as the `Accuracy` formula of a weapon you have equipped includes `Might`, you may treat that weapon as also belonging to the `arcane` Category for the purpose of Skills and effects that require it."
     },
 
@@ -70,7 +70,7 @@
     {
       "name": "Greater Chloromancy",
       "info": "Requirements: must have mastered the Floralist Class",
-      "description": "Once per turn, if your `garden` contains a `magiseed` whose current effect triggers \"at the end of your turn\", you may use an action and spend 20 Mind Points to produce that effect.\nAdditionally, if you have acquired the `Verdant Sway` Skill, your Rituals can now also influence and control `soldier`-Rank creatures belonging to the `plant` Species (but you are still unable to `create` them)."
+      "description": "Once per turn, when a `magiseed` leaves your `garden`, if that `magiseed` has one or more `at the end of your turn effects`, you may spend `20 Mind Points`. If you do, reproduce `one` of those effects (you may also choose an effect that doesn't match the current sections of your `Growth Clock`).\nAdditionally, if you have acquired the `Verdant Sway` Skill, your Rituals can now also influence and control `soldier`-Rank creatures belonging to the `plant` Species (but you are still unable to `create` them)."
     },
 
     {
@@ -122,9 +122,9 @@
     },
 
     {
-      "name": "Wise Council",
-      "info": "Requirements: you must have mastered one or more Classes among Loremaster and Orator",
-      "description": "When you perform a `Support Check`, if the leader can hear and understand you, you may use`【INS + INS】,【INS + WLP】`, or`【WLP + WLP】`instead of the normal Attributes based on the Check that the `leader` will perform.\n\nDescribe how you offer your advice!\nAdditionally, when you use `teamwork` to support another Player Character's Check during their turn in a conflict scene, you may choose `up to two` of the following benefits:\n\n- That character recovers 20 Mind Points.\n\n- That character recovers from `dazed, enraged` and `shaken`.\n\n- At the end of that character's turn, choose one option: perform a `free attack` with a weapon you have equipped; or immediately perform the `Spell` action for free, casting a spell whose total MP cost is `equal to or lower than 20`.\n\n- If that character succeeds on their Check and the Check allows them to fill or erase one or more sections of a Clock, they may fill or erase 1 additional section of it."
+      "name": "Wise Counsel",
+      "info": "Requirements: you must have mastered one or more Classes among Commander, Loremaster and Orator",
+      "description": "When you perform a `Support Check`, if the leader can hear and understand you, you may use`【INS + INS】,【INS + WLP】`, or`【WLP + WLP】`instead of the normal Attributes based on the Check that the `leader` will perform.\n\nDescribe how you offer your advice!\nAdditionally, when you use `teamwork` to support another Player Character's Check during their turn in a conflict scene, you may spend `10 Mind Points`. If you do, choose `up to two` of the following benefits:\n\n- That character recovers 20 Mind Points.\n\n- That character recovers from `dazed, enraged` and `shaken`.\n\n- At the end of that character's turn, choose one option: perform a `free attack` with a weapon you have equipped; or immediately perform the `Spell` action for free, casting a spell whose total MP cost is `equal to or lower than 20`.\n\n- If that character succeeds on their Check and the Check allows them to fill or erase one or more sections of a Clock, they may fill or erase 1 additional section of it."
     }
   ]
 }

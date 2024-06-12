@@ -18,7 +18,7 @@
         {
           "name": "Phantom Strength",
           "info": "Max SL - 6",
-          "description": "When you deal damage, if you are `merged` with an Arcanum or the damage is dealt via a `dismiss` effect, you may deal `【 3 + (SL × 2)】`extra damage. If you do, that damage ignores Affinities and you cannot use this Skill again until you `summon` an Arcanum."
+          "description": "When you perform a `pulse`, before resolving its effects, you may choose to have all damage you deal ignore `Affinities` until the end of this turn. If you do, the next time you deal damage before the end of this turn, you deal `【SL + 4】` extra damage"
         },
         {
           "name": "Quick Summoning",

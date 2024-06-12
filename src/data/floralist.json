@@ -13,28 +13,28 @@
         {
           "name": "Chloromacy",
           "info": "Max SL - 10",
-          "description": "Each time you acquire this Skill, you discover `a new type of magiseed`. The rules for `discovering magiseeds` can be found in the below.\nDuring a conflict, if there are `no magiseeds` in your `garden`, you may use an action and spend 20 Mind Points to `plant a magiseed` among those you have discovered. The rules for the `garden` and for growing `magiseeds` can be found below."
+          "description": "Each time you acquire this Skill, you discover `a new type of magiseed`. The rules for `discovering magiseeds` can be found below.\nDuring a conflict, if there are `no magiseeds` in your `garden`, you may use an action and spend 20 Mind Points to `plant a magiseed` among those you have discovered. The rules for the `garden` and for growing `magiseeds` can be found below."
         },
         {
           "name": "Graft",
           "info": "Max SL - 1",
-          "description": "As long as there is a `magiseed` in your `garden` and `1 or more sections` of your `Growth Clock` are `filled`, you may use an action and spend 10 Mind Points to `remove` that `magiseed`: if you do, you may immediately `plant a different magiseed` among those you have discovered (while keeping the current filled sections of your Growth Clock)."
+          "description": "As long as there is a `magiseed` in your `garden` and `1 or more sections` of your `Growth Clock` are `filled`, you may use an action to `remove` that `magiseed` from your `garden`: if you do, you may immediately `plant a different magiseed` among those you have discovered (keep the current filled sections of your `Growth Clock` unchanged)."
         },
         {
           "name": "Tree of Life",
           "info": "Max SL - 5",
-          "description": "When you `remove` a `magiseed` from your `garden`, you may have one creature in `Crisis` recover`【5+(SL × 5)】`Hit Points and`【SL × 2】`Mind Points"
+          "description": "When you `remove` a `magiseed` from your `garden`, you may have one creature in `Crisis` recover`【5+(SL × 5)】`Hit Points"
         },
         {
           "name": "Verdant Sway",
           "info": "Max SL - 1",
-          "description": "You gain the ability to perform Rituals of the `Ritualism` discipline; `additionally`, you may use `Ritualism` to `create`, `animate`, `and/or control vegetation` (but you cannot create nor control `plant`-Species NPCs this way)."
+          "description": "You gain the ability to perform Rituals of the `Ritualism` discipline; `additionally`, you may use `Ritualism` to `create`, `animate`, `and/or control vegetation, pollen, spores and toxins` (but you cannot create nor control `plant`-Species NPCs this way)."
         }
       ]
     },
     {
       "name": "The Garden",
-      "description": "When you plant a `magiseed`, it takes root in your `garden` until removed. Your `garden` can only contain `one magiseed at a time`, and any `magiseed` within it is `automatically removed` at the end of the scene"
+      "description": "When you plant a `magiseed`, it takes root in your `garden` until removed. Your `garden` is an `abstract` space whose appearance varies depending on your character's look: it might be a pot on their back, a gap along their blade, or even the ground under their feet. Your `garden` can only contain `one magiseed at a time`, and any `magiseed` within it is `automatically removed` at the end of the scene"
     },
     {
       "name": "The Growth Clock",
@@ -42,11 +42,7 @@
     },
     {
       "name": "Magiseed Effects",
-      "description": "`Magiseeds` can have passive effects, or have effects that trigger at the `end` of your turn, `after` your Growth Clock has increased.\n\n- The effects of a `magiseed` apply only while it is present in your `garden`, and they vary depending on the current number of filled sections in your `Growth Clock`.\n\n- You `only` apply the effect corresponding to the `exact number` of currently filled sections in your `Growth Clock`, not any effect above or below it.\n\n- If a `magiseed` deals damage, it will deal 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`.\n\nIf a `magiseed` causes Hit Point or Mind Point loss or recovery, the amount will increase by 10 if you are `level 20 or higher`, or by 20 if you are `level 40 or higher`."
-    },
-    {
-      "name": "Magiseed Effects",
-      "description": "`Magiseeds` can have passive effects, or have effects that trigger at the `end` of your turn, `after` your Growth Clock has increased.\n\nThe effects of a `magiseed` apply only while it is present in your `garden`, and they vary depending on the current number of filled sections in your `Growth Clock`.\n\n- You `only` apply the effect corresponding to the exact number of currently filled sections in your `Growth Clock`, not any effect above or below it.\n\n- If a `magiseed` deals damage, it will deal 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`.\n\n- If a `magiseed` causes Hit Point or Mind Point loss or recovery, the amount will increase by 10 if you are `level 20 or higher`, or by 20 if you are `level 40 or higher`."
+      "description": "`Magiseeds` can have passive effects, or have effects that trigger at the `end` of your turn, `after` your Growth Clock has increased.\n\n- The effects of a `magiseed` apply only while it is present in your `garden`, and they vary depending on the current number of filled sections in your `Growth Clock`.\n\n- You `only` apply the effect corresponding to the `exact number` of currently filled sections in your `Growth Clock`, not any effect above or below it.\n\n- If a `magiseed` deals damage, it will deal 5 extra damage if you are `level 30 or higher`.\n\nIf a `magiseed` causes Hit Point and/or Mind Point loss and/or recovery, the amount will increase by 10 if you are `level 30 or higher`."
     },
     {
       "name": "Magiseed",
@@ -78,7 +74,7 @@
         {
           "name": "Grave Asphodel",
           "info": "Solemn and elegant, it embodies death's ineluctability.",
-          "description": "*1⧗* At the end of your turn, you may choose an enemy you can see. If you do, that enemy suffers `shaken`.\n\n*2⧗* At the end of your turn, every enemy you can see suffers `shaken`.\n\n*3⧗* - At the end of your turn, you deal an amount of `dark` damage equal to`【10 + your Skill Level in Chloromancy】`to each enemy you can see who is suffering from `shaken`."
+          "description": "*1⧗* At the end of your turn, you may choose an enemy you can see. If you do, that enemy suffers `shaken`.\n\n*2⧗* At the end of your turn, every enemy you can see suffers `shaken`.\n\n*3⧗* - At the end of your turn, you deal an amount of `dark` damage equal to`【15 + your Skill Level in Chloromancy】`to each enemy you can see who is suffering from `shaken`."
         },
         {
           "name": "Hermit Iris",
@@ -88,7 +84,7 @@
         {
           "name": "Hookleaf Nightshade",
           "info": "Its purplish berries contain a deadly magical venom.",
-          "description": "*1⧗* All damage you deal becomes `poison`, its type cannot change, and it ignores Immunities and Resistances.\n\n*2-3⧗* All damage you deal becomes `poison`, its type cannot change, and it ignores Immunities and Resistances. Additionally, when you deal `poison` damage for the first time during your turn, you deal extra damage equal to`【your Skill Level in Chloromancy】`"
+          "description": "*0-1⧗* All damage you deal becomes `poison`, its type cannot change, and it ignores Immunities and Resistances.\n\n*2-3⧗* All damage you deal becomes `poison`, its type cannot change, and it ignores Immunities and Resistances. Additionally, when you deal `poison` damage for the first time during your turn, you deal extra damage equal to`【your Skill Level in Chloromancy】` and `each` creature that lost Hit Points this way suffers `poisoned`."
         },
         {
           "name": "Horned Hawthorne",
@@ -128,7 +124,7 @@
         {
           "name": "Serrated Rose",
           "info": "Its thorns form a tangle equally breathtaking and dangerous.",
-          "description": "*1⧗* At the end of your turn, you may choose an enemy you can see. If you do, tha enemy suffers `slow`.\n\n*2⧗* At the end of your turn, every enemy you can see suffers slow.\n\n*3⧗* At the end of your turn, you deal an amount of physical damage equal to`【10 + your Skill Level in Chloromancy】`to each enemy you can see who is suffering from `slow`."
+          "description": "*1⧗* At the end of your turn, you may choose an enemy you can see. If you do, tha enemy suffers `slow`.\n\n*2⧗* At the end of your turn, every enemy you can see suffers slow.\n\n*3⧗* At the end of your turn, you deal an amount of physical damage equal to`【15 + your Skill Level in Chloromancy】`to each enemy you can see who is suffering from `slow`."
         },
         {
           "name": "Silver Strelitzia",
@@ -153,7 +149,7 @@
         {
           "name": "Wrathful Carnation",
           "info": "Despite their beauty, its yellow flowers emit an irritatingly pungent smell.",
-          "description": "*1-3⧗* At the end of your turn, choose one enemy you can see. Until the end of your next turn, when that enemy performs an attack or casts an offensive spell (*ϟ*), if they are suffering from `one or more status effects`, they must include you among the targets of that attack of spell (if able). At the end of your turn, you may remove this `magiseed` from your `garden`."
+          "description": "*1-4⧗* When this `magiseed` leaves your `garden`, choose up to one enemy you can see. Until the end of your next turn, when the chosen enemy performs an attack or casts an offensive spell (*ϟ*), they must include you among the targets of that attack of spell (if able).\nAt the end of your turn, you may remove this *magiseed* from your *garden*; if you do, erase *all* sections of your *Growth Clock*."
         }
       ]
     }

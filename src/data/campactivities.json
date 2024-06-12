@@ -15,7 +15,7 @@
         {
           "name": "Camp Forge",
           "info": "Target - Yourself",
-          "description": "Choose one option: you repair a damaged item owned by the group; `or` you create a single `basic weapon, armor`, or `shield` of your choice; `or` you destroy a single piece of `equipment` owned by the group and obtain a `material` whose value is `equal` to the cost of the destroyed item."
+          "description": "Choose one option: you repair a damaged item owned by the group; `or` you create a single `basic weapon, armor`, or `shield` of your choice without paying its cost in Zenit; `or` you destroy a single piece of `equipment` owned by the group and obtain a `material` whose value is `equal` to the cost of the destroyed item."
         },
         {
           "name": "Cartography",
@@ -40,7 +40,7 @@
         {
           "name": "Exploration",
           "info": "Target - Yourself or one ally",
-          "description": "You spend your time looking for useful items; describe how, then roll 1d6.\n\n*1*. `Ouch`! You do not recover Hit Points and Mind Points during this rest.\n\n*2*. `Not what I was looking for...` The target regains 1 Inventory Point.\n\n*3-5*. `Hoho, this can be useful!` The target regains 3 Inventory Points.\n\n*6*. `Jackpot!` You find an amount of zenit equal to`【your character level × 50】`."
+          "description": "You spend your time looking for useful items; describe how, then roll 1d6.\n\n*1*. `Ouch`! You do not recover Hit Points and Mind Points during this rest.\n\n*2*. `Not what I was looking for...` The target regains 2 Inventory Point.\n\n*3-5*. `Hoho, this can be useful!` The target regains 3 `Inventory Points`.\n\n*6*. `Jackpot!` The target regains 3 `Inventory Points`, and you also find an amount of zenit equal to`【your character level × 50】`."
         },
         {
           "name": "Gathering",

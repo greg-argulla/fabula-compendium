@@ -37,8 +37,8 @@
       "data": [
         {
           "name": "Acceleration",
-          "info": "15 MP - One creature - Scene",
-          "description": "Until this spell ends, the target treats their `Dexterity` as if it were one die size higher (up to a maximum of `d12`) and may perform an additional action during their turn. If they do, this spell ends immediately after that action has been resolved."
+          "info": "20 MP - One creature - Scene",
+          "description": "At the end of each of their turns, the target may choose one option: perform a `free attack`; `or` immediately perform the `Spell` action for free, casting a spell with a `total MP cost equal to or lower than 10` (paying its MP cost). Once the same creature has performed any two options this way, this spell ends."
         },
         {
           "name": "Anomaly",

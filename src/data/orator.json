@@ -7,12 +7,12 @@
       "data": [
         {
           "name": "Condemn",
-          "info": "Max SL - 5",
-          "description": "During a conflict, you may use an action and spend 10 Mind Points to choose one enemy who can hear and understand you. If you do, that enemy loses`【SL × 10】`Mind Points and suffers `dazed` or `shaken` (your choice); additionally, the next time a source deals damage to that enemy during this scene, it deals extra damage to that enemy equal to`【SL × 2】`(this effect is `cumulative` with itself)."
+          "info": "Max SL - 4",
+          "description": "During a conflict, you may use an action and spend `10 Mind Points` to choose one enemy who can hear and understand you. If you do, that enemy loses`【SL × 10】`Mind Points and you choose one option: that enemy suffers `dazed` and `shaken`;`or` the next time a source deals damage to that enemy during this scene, it deals extra damage to that enemy equal to`【5+(SL × 5)】`(multiple `Condemns` are `not cumulative`)."
         },
         {
           "name": "Encourage",
-          "info": "Max SL - 5",
+          "info": "Max SL - 4",
           "description": "You may use an action and spend 10 Mind Points to have one ally who can hear and understand you recover`【SL × 10】`Hit Points. If you do, choose `Dexterity, Insight, Might,or Willpower`: until the end of the scene, or until you use this Skill on that ally again, they treat the chosen Attribute as being one die size higher (up to a maximum of `d12`)."
         },
         {

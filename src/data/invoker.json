@@ -26,13 +26,13 @@
         {
           "name": "Ripples",
           "info": "Max SL - 5",
-          "description": "After an enemy loses Hit Points due to damage dealt by one of your allies, if that damage was increased by one or more of your `'hex' invocations`, you may perform a `free attack` with a weapon you have equipped; this attack may `only` target that enemy. If this attack is `successful`, all damage dealt by it becomes of the same type that was dealt by your ally, you recover`【SL × 2】`Mind Points, and `all 'hex' invocations` present on its target end immediately after the attack has been resolved.\nIf two or more enemies trigger this Skill at the same time, you can perform a `free attack` against `each` of them, in whatever order you prefer."
+          "description": "After an enemy loses Hit Points due to damage dealt by one of your allies, if that damage was increased by one or more of your `'hex' invocations`, you may perform a `free attack` with a weapon you have equipped. This attack may `only` target that enemy, and receives a bonus equal to `【SL】` to its Accuracy Check; if it is `successful`, all its damage becomes of the `same type dealt by your ally`, and `all 'hex' invocations` present on its target end immediately after the attack has been resolved.\nIf two or more enemies trigger this Skill at the same time, you can perform a `free attack` against `each` of them, in whatever order you prefer."
         },
 
         {
           "name": "Wellspring Expansion",
           "info": "Max SL - 5",
-          "description": "As long as you have a weapon belonging to the `arcane, bow, brawling, flail, sword`, or `thrown` Category equipped, your `'blast' invocations` deal`【SL】`extra damage, and the extra damage granted by your 'hex' invocations is increased by`【SL】`."
+          "description": "As long as you have a weapon belonging to the `arcane, bow, brawling, flail, sword`, or `thrown` Category equipped, your `'blast' invocations` deal`【SL】`extra damage, and the extra damage granted by your 'hex' invocations is increased by `【SL】`."
         }
       ]
     },

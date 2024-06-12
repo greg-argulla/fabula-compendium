@@ -6,9 +6,9 @@
       "name": "Skills",
       "data": [
         {
-          "name": "Bodyguard",
+          "name": "Retaliation",
           "info": "Max SL - 5",
-          "description": "Once per conflict, you may use the `Protect` Skill without waiting for the start of your next turn. If you do so, recover`【SL × 10】`Hit Points (`before` resolving `Protect`)."
+          "description": "After you use `Protect` Skill during a conflict, the next time you deal damage before the end of your next turn, you deal `【SL × 2】` extra damage."
         },
         {
           "name": "Defensive Mastery",
