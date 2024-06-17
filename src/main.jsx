@@ -24,7 +24,7 @@ const router = createBrowserRouter([
           backgroundColor: "#444",
         }}
       >
-        <div style={{ width: 300 }}>
+        <div style={{ width: 525 }}>
           <ChatGpt close />
         </div>
       </div>

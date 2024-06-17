@@ -42,6 +42,7 @@ body {
   height: 540px;
   width: 550px;
   scrollbar-width: 0px;
+  background-color: #444;
 }
 
 body::-webkit-scrollbar {

@@ -98,7 +98,6 @@ const ChatComponent = (props) => {
         style={{
           display: "flex",
           flexDirection: "column",
-
           marginBottom: 4,
           gap: 4,
         }}
@@ -169,7 +168,7 @@ const ChatComponent = (props) => {
                 id: "chatgpt",
                 url: "/chatgpt",
                 height: 250,
-                width: 320,
+                width: 550,
                 anchorOrigin: { horizontal: "LEFT", vertical: "BOTTOM" },
                 disableClickAway: true,
                 marginThreshold: 10,
