@@ -149,7 +149,7 @@
         {
           "name": "Wrathful Carnation",
           "info": "Despite their beauty, its yellow flowers emit an irritatingly pungent smell.",
-          "description": "*1-4⧗* When this `magiseed` leaves your `garden`, choose up to one enemy you can see. Until the end of your next turn, when the chosen enemy performs an attack or casts an offensive spell (*ϟ*), they must include you among the targets of that attack of spell (if able).\nAt the end of your turn, you may remove this *magiseed* from your *garden*; if you do, erase *all* sections of your *Growth Clock*."
+          "description": "*1-4⧗* When this `magiseed` leaves your `garden`, choose up to one enemy you can see. Until the end of your next turn, when the chosen enemy performs an attack or casts an offensive spell (*ϟ*), they must include you among the targets of that attack of spell (if able).\nAt the end of your turn, you may remove this `magiseed` from your `garden`; if you do, erase `all` sections of your `Growth Clock`."
         }
       ]
     }
