@@ -199,7 +199,7 @@
       "data": [
         {
           "name": "Basic Armament",
-          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a `magitech armament`, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + MIG】`or`【INS + MIG】`for it.\n\nMagitech Armament【DEX + MIG】`or`【INS + MIG】【HR + 12】physical - One Category of your choice among `arcane`, `brawling`, `firearm`, `heavy`, `spear`, or `sword` - Two-handed Melee or Ranged - Cannot have Qualities (but see `Superior Armament`, below)."
+          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a `magitech armament`, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + MIG】`or`【INS + MIG】`for it.\n\n*Magitech Armament*【DEX + MIG】`or`【INS + MIG】【HR + 12】physical - One Category of your choice among `arcane`, `brawling`, `firearm`, `heavy`, `spear`, or `sword` - Two-handed Melee or Ranged - Cannot have Qualities (but see `Superior Armament`, below)."
         },
         {
           "name": "Advanced Armament",
