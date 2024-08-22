@@ -203,7 +203,7 @@
         },
         {
           "name": "Advanced Armament",
-          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if boh your `hand slots` are empty, you may immediately equip that `magitech armament` and perform a `free attack` with it.\nAdditionally, attacks with your `magitech armament` deal extra damage equal to`【your Skill Level in Secret Formula】`."
+          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if both your `hand slots` are empty, you may immediately equip that `magitech armament` and perform a `free attack` with it.\nAdditionally, attacks with your `magitech armament` deal extra damage equal to`【your Skill Level in Secret Formula】`."
         },
         {
           "name": "Superior Armament",
