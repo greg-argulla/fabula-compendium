@@ -8,7 +8,7 @@
         {
           "name": "Retaliation",
           "info": "Max SL - 5",
-          "description": "After you use `Protect` Skill during a conflict, the next time you deal damage before the end of your next turn, you deal `【SL × 2】` extra damage."
+          "description": "When you deal damage during your turn, if you performed the `Guard` action during your previous turn and chose to `cover` an ally, you deal`【SL】`extra damage."
         },
         {
           "name": "Defensive Mastery",

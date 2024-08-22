@@ -14,12 +14,17 @@
     {
       "name": "Bullet Deflection Style",
       "info": "Requirements: you must have a Dexterity base die size of d10 or higher and/or an Insight base die size of d10 or higher.",
-      "description": "After a creature you can see performs a `ranged` attack, you may spend an amount of Mind Points equal to`【5 + the Result of their Accuracy Check】`in order to have the attack fail automatically against all targets. If you do and that Accuracy Check's `High Roll` is an `even` number, you may have one creature you can see lose an amount of Hit Points equal to that `High Roll`.\nYou can only use this Skill if you have a weapon of the `sword` Category equipped, and it has no effect if the Accuracy Check was a `critical success`."
+      "description": "After a creature you can see performs a `ranged` attack, you may spend an amount of Mind Points equal to`【5 + the Result of their Accuracy Check】`in order to have the attack fail automatically against all targets. If you do and that Accuracy Check is an `even` number, you may have one creature you can see lose an amount of Hit Points equal to that `High Roll`.\nYou can only use this Skill if you have a weapon of the `sword` Category equipped, and it has no effect if the Accuracy Check was a `critical success`."
     },
     {
       "name": "Charged Punch Style",
       "info": "Requirements: you must have acquired the Withstand Skill.",
       "description": "When you perform the `Guard` action and activate the `Withstand` Skill, you may choose one `brawling` weapon you have equipped. If you do, choose one option: double the `High Roll` when determining damage of the next attack you perform with the chosen weapon before the end of your next turn; `or` if the next attack you perform with the chosen weapon before the end of your next turn would have its `High Roll` treated as being equal to 0 when determining damage, instead you may use its normal value."
+    },
+    {
+      "name": "Collector Style",
+      "info": "Requirements: you must be able to equip martial melee weapons, and must also be able to equip martial ranged weapons.",
+      "description": "Your `backpack` can contain any number of weapons.\nAt the end of your turn during a conflict, you may perform the `Equipment` action for free. If you do, the only items you can equip or place into your `backpack` this way are `weapons`.\nWhen you attack with a weapon during a conflict, if this is the first time you attack with that weapon during this conflict, you gain a +5 bonus to your Accuracy Check and the attack deals 5 extra damage (the two forms of a `transforming` custom weapon are still considered 'the same weapon' for the sake of this effect)."
     },
     {
       "name": "Detonation Style",
@@ -30,6 +35,11 @@
       "name": "Duelist Style",
       "info": "Requirements: you must be able to equip martial melee weapons.",
       "description": "As long as you have a `one-handed melee` weapon equipped in your main hand slot, if that weapon `is not an unarmed strike` and you have an unarmed strike equipped in your `off-hand` slot, you gain the following benefits:\n\n- When you deal damage with a weapon that is not an `unarmed strike`, you may double your Accuracy Check's `High Roll` when determining the attack's damage. If you do, you cannot use this option again until the beginning of your next turn.\n\n- During conflicts, you ignore the MP cost of the following Skills: `Bladestorm, Breach, Condemn, Encourage`, and `Provoke`.\n\nThese benefits `do not` apply to weapon modules."
+    },
+    {
+      "name": "Dark Blessing Style",
+      "info": "Requirements: you must have acquired the Shadow Strike Skill (see Darkblade).",
+      "description": "When you lose Hit Points due to your `Shadow Strike` Skill, if doing so does not reduce you to 0 Hit Points, every ally present on the scene recovers an equal amount of Hit Points. This amount increases by 5 Hit Points if you are `level 20 or higher`, or by 10 Hit Points if you are `level 40 or higher`."
     },
     {
       "name": "Fuma Shuriken Style",
@@ -53,13 +63,13 @@
     },
     {
       "name": "Humble Style",
-      "info": "Requirements: you must have a `Willpower base die size of d10 or higher`",
+      "info": "Requirements: you must have a `Willpower base die size of d8 or higher`",
       "description": "When you acquire this Heroic Skill, choose two `different` Attributes among `Dexterity, Insight, Might,` and `Willpower`: when you perform an `Accuracy Check` with a `non-martial` weapon, you may replace the required Attributes with those you have chosen. \nAs long as you have `two or fewer` weapons equipped, your attacks with `non-martial` weapons deal 5 extra damage and you may also treat those weapons as belonging to the `spear` and `sword` Categories for the sake of Skills that require it; this benefit does not apply to `unarmed strikes, weapon modules` (see `Pilot`), `twin shields` (see `Guardian`), and `magicannon` (see `Tinkerer`). \nAs long as the `only` weapon you have equipped is a `staff` (see `Core Rulebook`, page `130`), you apply all of the above benefits but may also treat that `staff` as belonging to the `brawling` and `heavy` Categories for the sake of Skills that require it, and your attacks with it deal an additional 5 extra damage. \nAdditionally, when you perform an attack using an `improvised weapon`, you deal 5 extra damage and may have that weapon not be destroyed after the attack."
     },
     {
       "name": "Iaidō Style",
       "info": "Requirements: you must have Skill Level 2 or higher in Meelee Weapon Mastery (See Weaponmaster).",
-      "description": "Once per turn during a conflict, if you have `exactly one weapon` equipped and that weapon is a `two-handed sword` or `a weapon module` (see `Pilot`) belonging to the `sword` Category, you may use an action to enter a `iaidō stance`. While in your iaidō stance, you gain a bonus equal to `【your Skill Level in Melee Weapon Mastery】`to your Defense and Magic Defense scores. \nWhen an enemy you can see begins their turn, if you are in your `iaidō stance`, you may exit it to perform a `free attack` with a weapon belonging to the `sword` Category you have equipped. This attack `must` include that enemy among its targets and you choose up to two options: the attack deals extra damage equal to `【 2 + (twice your Skill Level in Melee Weapon Mastery)】`; `or` fill or erase `1 section` of a Clock if the attack hits `all` its targets; `or` the attack can target creatures that cannot be targeted by melee attacks; `or` damage dealt by the attack ignores Resistance and Immunity; `or` each creature hit by the attack cannot perform `free attacks` until the end of the current turn. \nYou automatically exit `iaidō` stance at the start of your turn, or if you no longer have the same `sword` weapon equipped or have `more than one weapon` equipped."
+      "description": "When you join a conflict and/or when you enter `Crisis` for the first time during a conflict, if you have `exactly one weapon` equipped and that weapon is a `two-handed sword` or a `weapon module` (see Pilot) that belongs to the `sword` Category, you may enter a `iaidō stance`.\nWhen an enemy you can see begins their turn, if you are in your `iaidō stance`, you may exit it. If you do, you perform a `free attack` with a weapon belonging to the `sword` Category you have equipped; this attack `must` include that enemy among its targets. When you perform an attack with a weapon belonging to the `sword` Category, if you are in your `iaidō stance`, you may exit it. If you do, the attack deals extra damage equal to`【your Skill Level in Melee Weapon Mastery, multiplied by 5】`and you choose up to one option: fill or erase `1 section` of a Clock if the attack hits `all` its targets; `or` the attack can target creatures that cannot be targeted by `melee` attacks; `or` each creature hit by the attack cannot perform `free attacks` until the end of the current turn.\nYou automatically exit `iaidō stance` as soon as you no longer have the same `sword` weapon equipped or have `more than one weapon` equipped."
     },
     {
       "name": "Investigator Style",
@@ -74,7 +84,7 @@
     {
       "name": "Prophetic Defender Style",
       "info": "Requirements: you must have learned the Divination spell.",
-      "description": "When a source causes one or more allies present on the scene to lose Hit Points, if you are affected by your `Divination` spell, you may `reduce its number of available forced rerolls by 1` to transfer part of the consequences of that timeline unto yourself. If you do, you suffer `all` those Hit Point losses in place of those allies, as separate instances (you cannot choose to suffer only some of them; for instance, if a source causes you and two of your allies to lose 20 Hit Points each, using this effect causes you to lose 20 HP, then 20 HP, and finally another 20 HP). Then, if your `Divination` spell has no remaining forced rerolls, your `Divination` spell ends.\nAdditionally, your `maximum Hit Points` and `Crisis` score are now calculated based on your `base Insight die size`, instead of your `base Might die size`."
+      "description": "When a source causes one or more allies present on the scene to lose Hit Points, if you are currently affected by your `Divination` spell, you may `expend one of the forced rerolls` granted by the spell. If you do, you suffer `all` those Hit Point losses in place of those allies, as separate instances (you cannot choose to suffer only some of them); additionally, each of these Hit Point losses is reduced by 5 (example: if a source causes you and two of your allies to lose 20 Hit Points each, using this Skill would have you lose 15 Hit Points, then 15 Hit Points, and finally another 15 Hit Points). If your `Divination` spell has no forced rerolls remaining after you use this Skill, it ends.\nAdditionally, your `maximum Hit Points` and `Crisis` score are now calculated based on your `base Insight die size`, instead of your `base Might die size`."
     },
     {
       "name": "Punishing Style",
@@ -89,18 +99,14 @@
     {
       "name": "Reaper Style",
       "info": "Requirements: you must have acquired the High Speed Skill and/or the Stolen Time Skill.",
-      "description": "You gain a +5 bonus to your `Accuracy Checks` and `Magic Checks` for attacks and offensive spells (*ϟ*) that include one or more enemies in `Crisis` among the targets.\nWhen you cause one or more enemies to reach 0 Hit Points and `Surrender`, you recover from `all` status effects and may choose one option: perform a free attack with a weapon you have equipped, and that attack deals `5 extra damage`; `or` immediately perform the `Spell` action for free, casting an `offensive spell`(*ϟ*) with a `total MP cost equal to or lower than 20` without paying its MP Cost. This attack or spell must target `a single enemy`; once you use this Skill during a conflict, you may not use it again until the beginning of your next turn."
+      "description": "You gain a +5 bonus to your `Accuracy Checks` and `Magic Checks` for attacks and offensive spells (r) that include one or more enemies in `Crisis` among the targets.\nAfter you reduce one or more enemies to 0 Hit Points, if at least one of them is defeated this way, you recover from all status effects and may choose one option: perform a `free attack` with a weapon you have equipped, and that attack deals 5 extra damage; `or` immediately perform the `Spell` action for free, casting an `offensive spell` (*ϟ*) with a `total MP cost equal to or lower than 10` without paying its MP cost. This attack or spell must target `a single enemy`; once you use this Skill during a conflict, you may not use it again until the beginning of your next turn."
     },
     {
       "name": "Scorpion Tail Style",
       "info": "Requirements: you must have a Dexterity base die size of d10 or higher.",
       "description": "Your attacks with weapons belonging to the `flail` Category may target `flying` creatures and deal 5 extra damage as long as it `is not your turn`.\nAfter a creature you can see performs a `ranged` attack, you may spend an amount of Mind Points equal to`【5 + the total Result of their Accuracy Check】`in order to have the attack fail automatically against all targets. You can only use this Skill if you have a weapon belonging to the `flail` Category equipped, and it has no effect if the Accuracy Check was a `critical success`."
     },
-    {
-      "name": "Seven Weapon Style",
-      "info": "Requirements: you must be able to equip martial melee weapons, and must also be able to equip martial ranged weapons.",
-      "description": "You may use an action and spend 7 Mind Points to perform a `free attack` with a weapon you have equipped. This attack must target `a single creature`; if the attack hits, you treat your `High Roll` as 0 when calculating damage and may perform the `Equipment` action for free after it has been resolved. Then, you may perform another `free attack` with a weapon you have equipped who doesn't share any Category with the weapon you used for your first attack. This attack must also target `a single creature`; if it hits, you treat your `High Roll` as 0 when calculating damage, and may perform the `Equipment` action for free after it has been resolved.\nWhen you attack with a weapon that doesn't share a Category with any weapon you previously attacked with during this scene, you gain `1 Sequence Point` (if the weapon is treated as belonging to two or more Categories due to Skills or effects, you gain that many `Sequence Points` and are then treated as if you had already attacked with `all` of those Categories during this scene).\nOnce per scene at the start of your turn, if you have `7 or more Sequence Points`, you may spend `all your Sequence Points` to choose one enemy you can see: that creature loses 7 Hit Points. If you do, you may immediately repeat this process up to 6 more times, for a maximum of 49 Hit Points lost (by a single enemy or different enemies, provided it happens in 7 HP increments).\nYou lose `all Sequence Points` at the end of each scene"
-    },
+
     {
       "name": "Skyspear Style",
       "info": "Requirements: you must have learned the Soaring Strike spell.",

@@ -92,9 +92,9 @@
     },
 
     {
-      "name": "Quantum Magicannon",
-      "info": "Requirements: you must have mastered the Tinkerer Class, and must have acquired the advanced Magitech benefit from the Gadget Skill.",
-      "description": "Your attacks with the magicannon deal 5 extra damage.\nWhen you perform the `Attack` action with your magicannon, you may choose one option: destroy the magicannon and `immediately` create and equip a new one `for free` (ignore the IP cost), using this newly equipped magicannon for your attack; or the attack gains `multi (3); or` you perform two separate attacks instead of one, following the rules for `two-weapon fighting`"
+      "name": "Quantum Armmament",
+      "info": "Requirements: you must have mastered the Tinkerer Class, and must have acquired the advanced Magitech Armament benefit from the Gadget Skill.",
+      "description": "Your attacks with your magitech armament deal 5 extra damage.\nWhen you perform the `Attack` action with your magitech armament, you may choose one option: destroy the magitech armament and `immediately` create and equip a new one `for free` (ignore the IP cost), using this newly equipped magitech armament for your attack; or the attack gains `multi (3); or` you perform two separate attacks instead of one, following the rules for `two-weapon fighting`"
     },
 
     {

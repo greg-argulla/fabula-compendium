@@ -24,7 +24,7 @@
     {
       "name": "Comet",
       "info": "Requirements: You must have mastered the Entropist Class.",
-      "description": "You learn the ultimate Entropist spell: Comet.\n\n*Comet* MP: 50 Target: Special Duration: Instantaneous\n\nYou rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose on option: one creature you can see suffers 60 damage; `or` you choose any number of creatures you can see, and each of them suffers 40 damage. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`. Damage dealt by this spell has no type (thus being unaffected by damage Affinities)."
+      "description": "You learn the ultimate Entropist spell: Comet.\n\n*Comet* MP: 50 Target: Special Duration: Instantaneous\n\nYou rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose on option: one creature you can see suffers 60 damage; `or` you deal 40 damage to every enemy you can see. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`. Damage dealt by this spell has no type (thus being unaffected by damage Affinities)."
     },
     {
       "name": "Deep Pockets",
@@ -136,7 +136,7 @@
     {
       "name": "Tempest Strike",
       "info": "Requirements: You must have mastered the Weaponmaster Class.",
-      "description": "When you perform a `melee` attack with the `multi` property, if the attack targets `only` `one creature`, it deals 10 extra damage if it has `multi (2)`, or 15 extra damage if it has `multi (3 or higher)`; if instead the attack targets `two or more creatures`, it deals 5 extra damage to each of them."
+      "description": "When you perform a `melee` attack with the `multi` property, you gain a bonus to your Accuracy Check equal to the value of that `multi` property, and the attack deals 5 extra damage. If the attack targets `only one creature`, it deals another 5 extra damage."
     },
     {
       "name": "Unbreakable",

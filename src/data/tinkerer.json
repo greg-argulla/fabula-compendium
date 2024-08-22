@@ -13,7 +13,7 @@
         {
           "name": "Gadgets",
           "info": "Max SL - 5",
-          "description": "When you first acquire this Skill, choose a gadget type: `alchemy`, `infusions` or `magitech`. You gain its `basic benefits`.\n Whenever you take this Skill again, choose one option: you gain the `basic benefits` of a new gadget type; `or` you gain the `advanced benefits` of a gadget type whose `basic benefits` you already obtained; `or` you gain the `superior benefits` of a gadget type whose `advanced benefits` you already obtained."
+          "description": "When you first acquire this Skill, choose a gadget type: `alchemy`, `infusions`, `magitech armaments`, or `magispheres`. You gain its `basic benefits`.\n Whenever you take this Skill again, choose one option: you gain the `basic benefits` of a new gadget type; `or` you gain the `advanced benefits` of a gadget type whose `basic benefits` you already obtained; `or` you gain the `superior benefits` of a gadget type whose `advanced benefits` you already obtained."
         },
         {
           "name": "Potion Rain",
@@ -169,26 +169,45 @@
       ]
     },
     {
-      "name": "Gadgets - Magitech",
-      "description": "This invention type grants a variety of different benefits."
+      "name": "Gadgets - Magispheres",
+      "description": "This invention type grants a variety of spells that can be casted with IP points."
     },
     {
-      "name": "Magitech",
+      "name": "Magispheres",
       "data": [
         {
-          "name": "Minor Magispheres",
-          "info": "Basic Magitech",
-          "description": "Choose `two spells` from the following lists: `Elementalist`, `Entropist`, and `Spiritist`. The spells you choose can come from the same list or different lists; you develop a `magisphere` prototype for each spell chosen this way (this `does not` count as having learned the spells for the sake of Skills and other effects).\nYou may perform the `Inventory` action and spend 2 Inventory Points to create a `magisphere` and immediately perform the `Spell` action for free, casting one of the spells you have developed a prototype for. The spell follows the normal rules (including MP costs and Magic Checks)"
+          "name": "Basic Magispheres",
+          "description": "Choose `two different spells` with a `target` of 'Up to three creatures' from among those found in the `Elementalist`, `Entropist`, and `Spiritist` lists; these two spells may come from the same list or from different lists (for instance, you could select `Lux` from `Spiritist` and `Elemental Shroud` from `Elementalist`). You develop a `magisphere` for each of these spells (this `does not` count as 'learning' or 'knowing' these spells).\nYou may perform the `Inventory` action and spend 2 Inventory Points to immediately perform the `Spell` action for free, casting one of the spells you have developed a `magisphere` for. The spell follows the normal rules (including MP costs and Magic Checks), and the Magic Check for spells cast through `magispheres` is`【INS + WLP】`."
         },
         {
-          "name": "Magicannon",
-          "info": "Advance Magitech",
-          "description": "You may perform the 1 action and spend 2 Inventory Points to create a firearm weapon known as a magicannon (see below); if your `hand slots` are empty, you may immediately equip it and perform a `free attack` with it. Every time you create a `magicannon`, choose whether it is a `melee` or `ranged` weapon, and what damage type it deals (`air`, `bolt`, `earth`, `fire`, `ice`, or `physical`); additionally, any other `magicannon` you previously created is destroyed. \n\n`Magicannon【DEX + INS】+1【HR + 12】`\nTwo-handed - Melee `or` Ranged - No Quality."
+          "name": "Advanced Magispheres",
+          "description": "Choose `two different spells` from the list of `NPC spells` (see page 310); you may not choose the `Devastation` spell. You develop a `magisphere` for each spell chosen this way (this `does not` count as 'learning' or 'knowing' these spells),and must customize the chosen spells as required (for instance, if you select `Cursed Breath` for a `magisphere`, you could choose `ice` and `slow` and rename it freezing grenade)."
         },
         {
           "name": "Superior Magispheres",
-          "info": "Superior Magitech",
-          "description": "Choose `three new spells` from the lists provided by the `minor magispheres` benefit and develop a `magisphere` prototype for each of them. The spells you choose can come from the same list or from different lists (this `does not` count as having learned the spells for the sake of Skills and other effects)."
+          "description": "Choose `two different spells` from among those found in the `Elementalist`, `Entropist`, and `Spiritist` lists, and/or the list of `NPC spells`; these two spells may come from the same list or from different lists (for instance, you could select `Acceleration` from `Entropist` and `Area Status` from the list of `NPC spells`). You may not choose the `Devastation` spell. You develop a `magisphere` for each spell chosen this way (this `does not` count as 'learning' or 'knowing' these spells), and must customize any `NPC spells` chosen this way as required."
+        }
+      ]
+    },
+
+    {
+      "name": "Gadgets - Magitech Armament",
+      "description": "This invention type grants the creation of a magitech armament weapon."
+    },
+    {
+      "name": "Magitech Armament",
+      "data": [
+        {
+          "name": "Basic Armament",
+          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a `magitech armament`, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + MIG】`or`【INS + MIG】`for it.\n\nMagitech Armament【DEX + MIG】`or`【INS + MIG】【HR + 12】physical - One Category of your choice among `arcane`, `brawling`, `firearm`, `heavy`, `spear`, or `sword` - Two-handed Melee or Ranged - Cannot have Qualities (but see `Superior Armament`, below)."
+        },
+        {
+          "name": "Advanced Armament",
+          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if boh your `hand slots` are empty, you may immediately equip that `magitech armament` and perform a `free attack` with it.\nAdditionally, attacks with your `magitech armament` deal extra damage equal to`【your Skill Level in Secret Formula】`."
+        },
+        {
+          "name": "Superior Armament",
+          "description": "If you have your `magitech armament` equipped, you may use an action to choose one weapon in your `backpack`. If you do, that weapon is destroyed and all your `magitech armaments` gain its Quality (if any) until you use this effect again.\nAdditionally, whenever you create a `magitech armament`, you may have it deal `air`, `bolt`, `earth`, `fire`, or `ice` damage instead of `physical`."
         }
       ]
     }
