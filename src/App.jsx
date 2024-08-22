@@ -52,6 +52,7 @@ import quirksbonus from "./data/quirksbonus.json";
 import customweapons from "./data/customweapons.json";
 import zeropower from "./data/zeropower.json";
 import campactivities from "./data/campactivities.json";
+import npcspells from "./data/npcspells.json";
 
 // GM data
 import randomQualities from "./gm/randomqualities.json";
@@ -118,6 +119,7 @@ const collection = [
   "Other",
   necromancer,
   quirksbonus,
+  npcspells,
 ];
 
 function App() {
