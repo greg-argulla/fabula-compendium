@@ -1,0 +1,75 @@
+{
+  "name": "NPC Spells",
+  "data": [
+    {
+      "name": "Area Status",
+      "info": "20 MP - Special - Instantaneous",
+      "description": "Choose any number of creatures you can see: each of them suffers `(choose one: dazed, shaken, slow, weak)`."
+    },
+    {
+      "name": "Breath",
+      "info": "5 MP - One creature - Instantaneous",
+      "description": "(*ϟ*) The target suffers`【HR + 10】(choose type)` damage."
+    },
+    {
+      "name": "Curse",
+      "info": "5 MP - One creature - Instantaneous",
+      "description": "(*ϟ*) The target suffers `(choose one: dazed, shaken, slow, weak)`."
+    },
+    {
+      "name": "Curse XL",
+      "info": "10 MP - One creature - Instantaneous",
+      "description": "(*ϟ*) The target suffers `(choose two: dazed, shaken, slow, weak)`."
+    },
+    {
+      "name": "Cursed Breath",
+      "info": "10 MP - One creature - Instantaneous",
+      "description": "(*ϟ*) The target suffers`【HR + 15】(choose type)` damage and suffers `(choose one: dazed, shaken, slow, weak)`."
+    },
+    {
+      "name": "Devastation",
+      "info": "30 MP - Special - Instantaneous",
+      "description": "You deal 30 `(choose type)` damage to every enemy you can see. You may only cast this spell `once per turn`.\nThis spell should only be given to `champion` and `elite` creatures `level 30 or higher`, and said creatures can only cast this spell during their `last turn in the round`."
+    },
+    {
+      "name": "Lick Wounds",
+      "info": "5 MP - Self - Instantaneous",
+      "description": "You recover 20 Hit Points. This amount increases to 30 Hit Points if you are `level 20 or higher`, to 40 Hit Points if you are `level 40 or higher`, or to 50 Hit Points if you are `level 60 or higher`."
+    },
+    {
+      "name": "Life Theft",
+      "info": "10 MP - One creature - Instantaneous",
+      "description": "(*ϟ*) The target suffers`【HR + 15】(choose type)` damage. Then, you recover an amount of Hit Points equal to half the Hit Point loss they suffered."
+    },
+    {
+      "name": "Mind Theft",
+      "info": "10 MP - One creature - Instantaneous",
+      "description": "(*ϟ*) The target suffers`【HR + 15】(choose type)` damage. Then, you recover an amount of Mind Points equal to half the Hit Point loss they suffered."
+    },
+    {
+      "name": "Poison",
+      "info": "10 MP x T - Up to three creatures - Instantaneous",
+      "description": "Each target hit by this spell suffers `poisoned`."
+    },
+    {
+      "name": "Quicken",
+      "info": "20 MP - One creature - Instantaneous",
+      "description": "The target may immediately perform a `free attack` with a weapon they have equipped (or with a `basic attack`, if the target is an NPC)."
+    },
+    {
+      "name": "Rage",
+      "info": "10 MP x T - Up to three - Scene",
+      "description": "(*ϟ*) Each target hit by this spell suffers `enraged`."
+    },
+    {
+      "name": "War Cry",
+      "info": "10 MP × T - Up to three creatures - Scene",
+      "description": "Until this spell ends, each target gains a +1 bonus to Accuracy Checks."
+    },
+    {
+      "name": "Weaken",
+      "info": "10 MP - One creature - Scene",
+      "description": "(*ϟ*) Until this spell ends, the target suffers 5 extra damage from all sources that deal `(choose type)` damage."
+    }
+  ]
+}

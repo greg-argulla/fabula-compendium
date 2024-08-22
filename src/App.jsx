@@ -115,7 +115,7 @@ const collection = [
   heroicskillstechnofantasy,
   heroicskillsnaturalfantasy,
   heroicstyles,
-  "Bonus",
+  "Other",
   necromancer,
   quirksbonus,
 ];
