@@ -954,9 +954,9 @@ function App() {
   );
 
   const bookQualities = [
-    ...accessoriesqualities,
-    ...weaponqualities,
-    armorqualities,
+    ...accessoriesqualities.data,
+    ...weaponqualities.data,
+    armorqualities.data,
   ];
 
   const [bookQuality, setBookQuality] = useState(
@@ -1158,7 +1158,7 @@ function App() {
                 color: "white",
               }}
             >
-              {`${bookQualities[bookQuality].name} - ${bookQualities[bookQuality].info} ${bookQualities[bookQuality].description}`}
+              {`${bookQualities[bookQuality].name} - ${bookQualities[bookQuality].info} - ${bookQualities[bookQuality].description}`}
             </div>
           </div>
 
