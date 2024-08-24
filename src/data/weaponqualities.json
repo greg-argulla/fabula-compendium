@@ -9,7 +9,7 @@
     {
       "info": "700z Defensive Qualities",
       "name": "Resistance",
-      "description": "You have Resistance to a single type of damage (except physical)"
+      "description": "You have Resistance to a single type of damage (except `physical`)"
     },
     {
       "info": "800z Defensive Qualities",
@@ -24,22 +24,22 @@
     {
       "info": "1000z Defensive Qualities",
       "name": "Dual Resistance",
-      "description": "You have Resistance to two types of damage (except physical)"
+      "description": "You have Resistance to two types of damage (except `physical`)"
     },
     {
       "info": "1000z Defensive Qualities",
       "name": "Swordbreaker",
-      "description": "You have Resistance to physical damage"
+      "description": "You have Resistance to `physical` damage"
     },
     {
       "info": "1500z Defensive Qualities",
       "name": "Immunity",
-      "description": "You are immune to a single type of damage (except physical)"
+      "description": "You are immune to a single type of damage (except `physical`)"
     },
     {
       "info": "2000z Defensive Qualities",
       "name": "Omnishield",
-      "description": "Get +1 bonus to Defense and to Magic Defense"
+      "description": "Get +1 bonus to Defense `and` to Magic Defense"
     },
     {
       "info": "2000z Defensive Qualities",
@@ -49,12 +49,12 @@
     {
       "info": "100z Offensive Qualities",
       "name": "Magical",
-      "description": "The Weapon targets Magic Defense instead of Defense"
+      "description": "The Weapon targets `Magic Defense` instead of `Defense`"
     },
     {
       "info": "300z Offensive Qualities",
       "name": "Hunter",
-      "description": "The weapon deals 5 extra damage to creatures of a particular species"
+      "description": "The weapon deals 5 extra damage to creatures of a particular `species`"
     },
     {
       "info": "400z Offensive Qualities",
@@ -64,22 +64,22 @@
     {
       "info": "500z Offensive Qualities",
       "name": "Dual Hunter",
-      "description": "The weapon deals 5 extra damage to the creatures of two particular species"
+      "description": "The weapon deals 5 extra damage to the creatures of two particular `species`"
     },
     {
       "info": "1000z Offensive Qualities",
       "name": "Multi",
-      "description": "Weapon attacks have multi (2) property"
+      "description": "Weapon attacks have `multi (2)` property"
     },
     {
       "info": "1500z Offensive Qualities",
       "name": "Status",
-      "description": "Each target hit by the weapon suffers (choose one: confused, weak, slow, shaken)"
+      "description": "Each target hit by the weapon suffers (`choose one: confused, weak, slow, shaken`)"
     },
     {
       "info": "2000z Offensive Qualities",
       "name": "Status Plus",
-      "description": "Each target hit by the weapon suffers (choose one: poisoned, enraged)"
+      "description": "Each target hit by the weapon suffers (`choose one: poisoned, enraged`)"
     }
   ]
 }

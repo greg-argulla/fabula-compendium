@@ -9,7 +9,7 @@
     {
       "info": "700z Defensive Quality",
       "name": "Resistance",
-      "description": "You have Resistance to a single type of damage (except physical)"
+      "description": "You have Resistance to a single type of damage (except `physical`)"
     },
     {
       "info": "800z Defensive Quality",
@@ -24,22 +24,22 @@
     {
       "info": "1000z Defensive Quality",
       "name": "Dual Resistance",
-      "description": "You have Resistance to two types of damage (except physical)"
+      "description": "You have Resistance to two types of damage (except `physical`)"
     },
     {
       "info": "1000z Defensive Quality",
       "name": "Swordbreaker",
-      "description": "You have Resistance to physical damage"
+      "description": "You have Resistance to `physical` damage"
     },
     {
       "info": "1500z Defensive Quality",
       "name": "Immunity",
-      "description": "You are immune to a single type of damage (except physical)"
+      "description": "You are immune to a single type of damage (except `physical`)"
     },
     {
       "info": "2000z Defensive Quality",
       "name": "Omnishield",
-      "description": "Get +1 bonus to Defense and to Magic Defense"
+      "description": "Get +1 bonus to Defense `and` to Magic Defense"
     },
     {
       "info": "2000z Defensive Quality",
@@ -79,7 +79,7 @@
     {
       "info": "2000z Enhancement Quality",
       "name": "Weapon Up",
-      "description": "Your attacks with (choose one: melee, ranged) weapons deal 5 extra damage."
+      "description": "Your attacks with (`choose one: melee, ranged`) weapons deal 5 extra damage."
     }
   ]
 }

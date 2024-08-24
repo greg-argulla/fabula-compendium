@@ -9,22 +9,22 @@
     {
       "info": "700z Defensive description",
       "name": "Resistance",
-      "description": "You have Resistance to a single type of damage (except physical)"
+      "description": "You have Resistance to a single type of damage (except `physical`)"
     },
     {
       "info": "1000z Defensive description",
       "name": "Dual Resistance",
-      "description": "You have Resistance to two types of damage (except physical)"
+      "description": "You have Resistance to two types of damage (except `physical`)"
     },
     {
       "info": "1000z Defensive description",
       "name": "Swordbreaker",
-      "description": "You have Resistance to physical damage"
+      "description": "You have Resistance to `physical` damage"
     },
     {
       "info": "1500z Defensive description",
       "name": "Immunity",
-      "description": "You are immune to a single type of damage (except physical)"
+      "description": "You are immune to a single type of damage (except `physical`)"
     },
     {
       "info": "2000z Defensive description",
@@ -59,7 +59,7 @@
     {
       "info": "2000z Enhancement description",
       "name": "Weapon Up",
-      "description": "Your attacks with (choose one: melee, ranged) weapons deal 5 extra damage."
+      "description": "Your attacks with (`choose one: melee, ranged`) weapons deal 5 extra damage."
     }
   ]
 }
