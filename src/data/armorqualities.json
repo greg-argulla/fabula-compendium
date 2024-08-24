@@ -1,0 +1,65 @@
+{
+  "name": "Accessory description",
+  "data": [
+    {
+      "info": "500z Defensive description",
+      "name": "Antistatus",
+      "description": "You are immune to a single status"
+    },
+    {
+      "info": "700z Defensive description",
+      "name": "Resistance",
+      "description": "You have Resistance to a single type of damage (except physical)"
+    },
+    {
+      "info": "1000z Defensive description",
+      "name": "Dual Resistance",
+      "description": "You have Resistance to two types of damage (except physical)"
+    },
+    {
+      "info": "1000z Defensive description",
+      "name": "Swordbreaker",
+      "description": "You have Resistance to physical damage"
+    },
+    {
+      "info": "1500z Defensive description",
+      "name": "Immunity",
+      "description": "You are immune to a single type of damage (except physical)"
+    },
+    {
+      "info": "2000z Defensive description",
+      "name": "Perfect Health",
+      "description": "You are immune to all status effects"
+    },
+    {
+      "info": "1000z Enhancement description",
+      "name": "Accuracy Up",
+      "description": "You gain a +1 bonus to your Accuracy Checks."
+    },
+    {
+      "info": "1000z Enhancement description",
+      "name": "Magic Up",
+      "description": "You gain a +1 bonus to your Magic Checks."
+    },
+    {
+      "info": "1000z Enhancement description",
+      "name": "Vitality Up",
+      "description": "When you recover HP, you recover 5 extra HP."
+    },
+    {
+      "info": "1500z Enhancement description",
+      "name": "Healing Up",
+      "description": "Spells you cast that whose effects restore Hit Points will restore 5 extra Hit Points."
+    },
+    {
+      "info": "2000z Enhancement description",
+      "name": "Spell Up",
+      "description": "Spells you cast deal 5 extra damage."
+    },
+    {
+      "info": "2000z Enhancement description",
+      "name": "Weapon Up",
+      "description": "Your attacks with (choose one: melee, ranged) weapons deal 5 extra damage."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Item Design Guide",
+  "data": [
+    {
+      "name": "Designing Rare Weapons",
+      "description": "*1* - Choose an existing `basic weapon` —ignore the `unarmed strike, improvised (melee)`, and `improvised (ranged)` weapons.\n\n*2* - By default, weapons deal `physical` damage. If you want your weapon to deal damage of another type `(air, bolt, dark, earth, fire, ice, light, poison)`, increase its cost by `100 zenit`.\n\n*3* - You may add a `+1` bonus to the weapon's Accuracy Check, or improve its existing bonus by `1` point. If you do, increase its cost by `100 zenit`; this cannot bring the weapon's bonus above `+2`\n\n*4* - If the weapon is a `two-handed` weapon, you may turn it into a `one-handed` weapon. If you do, reduce its damage by `4`.\n\n*5* - If the weapon is a `one-handed` weapon and it does not belong to the `brawling`, `dagger`, or `thrown` categories, you may turn it into a `two-handed` weapon. If you do, increase its damage by `4`.\n\n*6* - You may modify the Attributes required by the Accuracy Check, but tread carefully: much of a weapon Category's 'feel' and balance comes from the Attributes it relies on. Accuracy Checks relying on a single Attribute are worth `50` more zenit than those relying on two different Attributes.\n\n*7* - You may give the weapon a single `Quality` chosen from the list or use the sample abilities as a guideline to come up with a custom effect. This increases the final cost of the item by a variable amount.\n\n*8* - Finally, the weapon's damage modifier is increased by `2` for every 1000 zenit of its cost (for instance, a rare weapon worth 1500 zenit and based on a `steel dagger` deals`【HR + 6】`damage)."
+    },
+    {
+      "name": "Designing Armor and Shields",
+      "description": "Pick one of the items from the `basic armor` or `basic shield` and add a single Quality to it, which will increase its price by a variable amount."
+    },
+    {
+      "name": "Designing Accessories",
+      "description": "Pick one of qualities in the accessories qualities"
+    }
+  ]
+}

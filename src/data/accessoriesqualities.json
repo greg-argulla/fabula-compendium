@@ -1,0 +1,85 @@
+{
+  "name": "Accessory Qualities",
+  "data": [
+    {
+      "info": "500z Defensive Quality",
+      "name": "Antistatus",
+      "description": "You are immune to a single status"
+    },
+    {
+      "info": "700z Defensive Quality",
+      "name": "Resistance",
+      "description": "You have Resistance to a single type of damage (except physical)"
+    },
+    {
+      "info": "800z Defensive Quality",
+      "name": "Amulet",
+      "description": "Get +1 bonus to Magic Defense"
+    },
+    {
+      "info": "800z Defensive Quality",
+      "name": "Bulwark",
+      "description": "You gain a +1 bonus to Defense."
+    },
+    {
+      "info": "1000z Defensive Quality",
+      "name": "Dual Resistance",
+      "description": "You have Resistance to two types of damage (except physical)"
+    },
+    {
+      "info": "1000z Defensive Quality",
+      "name": "Swordbreaker",
+      "description": "You have Resistance to physical damage"
+    },
+    {
+      "info": "1500z Defensive Quality",
+      "name": "Immunity",
+      "description": "You are immune to a single type of damage (except physical)"
+    },
+    {
+      "info": "2000z Defensive Quality",
+      "name": "Omnishield",
+      "description": "Get +1 bonus to Defense and to Magic Defense"
+    },
+    {
+      "info": "2000z Defensive Quality",
+      "name": "Perfect Health",
+      "description": "You are immune to all status effects"
+    },
+    {
+      "info": "300z Enhancement Quality",
+      "name": "Damage Change",
+      "description": "All damage dealt by your weapons, spells, and Skills becomes of a specific type."
+    },
+    {
+      "info": "1000z Enhancement Quality",
+      "name": "Accuracy Up",
+      "description": "You gain a +1 bonus to your Accuracy Checks."
+    },
+    {
+      "info": "1000z Enhancement Quality",
+      "name": "Magic Up",
+      "description": "You gain a +1 bonus to your Magic Checks."
+    },
+    {
+      "info": "1000z Enhancement Quality",
+      "name": "Vitality Up",
+      "description": "When you recover HP, you recover 5 extra HP."
+    },
+    {
+      "info": "1500z Enhancement Quality",
+      "name": "Healing Up",
+      "description": "Spells you cast that whose effects restore Hit Points will restore 5 extra Hit Points."
+    },
+    {
+      "info": "2000z Enhancement Quality",
+      "name": "Spell Up",
+      "description": "Spells you cast deal 5 extra damage."
+    },
+    {
+      "info": "2000z Enhancement Quality",
+      "name": "Weapon Up",
+      "description": "Your attacks with (choose one: melee, ranged) weapons deal 5 extra damage."
+    }
+  ]
+}

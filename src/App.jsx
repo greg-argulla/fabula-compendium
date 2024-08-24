@@ -59,9 +59,10 @@ import randomQualities from "./gm/randomqualities.json";
 import names from "./gm/names.json";
 import location from "./gm/locations.json";
 
-import accessoriesqualities from "./gm/accessoriesqualities";
-import armorqualities from "./gm/armorqualities";
-import weaponqualities from "./gm/weaponqualities";
+import accessoriesqualities from "./data/accessoriesqualities";
+import armorqualities from "./data/armorqualities";
+import weaponqualities from "./data/weaponqualities";
+import itemdesign from "./data/itemdesign";
 
 const Text = (props) => {
   const { children } = props;
@@ -103,6 +104,11 @@ const collection = [
   basicweapons,
   basicarmor,
   customweapons,
+  "Item Design",
+  itemdesign,
+  accessoriesqualities,
+  armorqualities,
+  weaponqualities,
   "Optional Rules",
   campactivities,
   zeropower,
