@@ -1158,7 +1158,7 @@ function App() {
                 color: "white",
               }}
             >
-              {`${bookQualities[bookQuality].category} - ${bookQualities[bookQuality].quality} ${bookQualities[bookQuality].cost}z`}
+              {`${bookQualities[bookQuality].name} - ${bookQualities[bookQuality].info} ${bookQualities[bookQuality].description}`}
             </div>
           </div>
 
