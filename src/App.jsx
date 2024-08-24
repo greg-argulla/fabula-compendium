@@ -105,7 +105,7 @@ const collection = [
   basicarmor,
   itemdesign,
   customweapons,
-  "Qualities",
+  "Basic Qualities",
   accessoriesqualities,
   armorqualities,
   weaponqualities,
