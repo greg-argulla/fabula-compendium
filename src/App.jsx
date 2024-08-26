@@ -63,6 +63,7 @@ import accessoriesqualities from "./data/accessoriesqualities";
 import armorqualities from "./data/armorqualities";
 import weaponqualities from "./data/weaponqualities";
 import itemdesign from "./data/itemdesign";
+import qualitiesset1 from "./data/qualitiesset1.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -109,6 +110,8 @@ const collection = [
   accessoriesqualities,
   armorqualities,
   weaponqualities,
+  "Advanced Qualities",
+  qualitiesset1,
   "Optional Rules",
   campactivities,
   zeropower,
@@ -399,6 +402,20 @@ function App() {
           }}
         >
           {item.name}
+        </span>
+        <span
+          className="outline"
+          style={{
+            fontSize: 10,
+            marginRight: 5,
+            cursor: "copy",
+            color: "white",
+          }}
+          onClick={() => {
+            copyToClipboard("info name", item.name);
+          }}
+        >
+          {item.info}
         </span>
         <table
           style={{

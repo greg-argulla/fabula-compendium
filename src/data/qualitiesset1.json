@@ -1,0 +1,371 @@
+{
+  "name": "Qualities Set 1",
+  "data": [
+    {
+      "name": "Aerial Origin",
+      "info": "Winds, clouds, floating ruins, winged monsters, storm",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "`Non-martial` weapons only. As long as this weapon is in your `off-hand slot`, you may use `two-weapon fighting` with it and the weapon in your `main hand slot`, even if they belong to different `Categories`"
+        ],
+        [
+          "`2`",
+          "+600z",
+          "This weapon deals `5 extra damage` during the `first round` of a conflict"
+        ],
+        [
+          "`3`",
+          "+800 z",
+          "After you hit one or more creatures with this weapon and the attack has been resolved, you may immediately perform the `Equipment` action for free."
+        ],
+        [
+          "`4`",
+          "+900 z",
+          "You Resist damage of all types dealt by `flying` creatures."
+        ],
+        [
+          "`5`",
+          "+1000 z",
+          "When you cast a `spell` targeting at least one creature who is suffering from the `slow status effect`, that spell's `total MP cost` is `halved`. Note that this benefit does `not` apply to spells with a `target of 'Special'`."
+        ],
+        [
+          "`6`",
+          "+1200 z",
+          "When you deal damage to one or more creatures `outside of your turn` during a conflict scene, you deal 5 extra damage to each of those creatures."
+        ]
+      ]
+    },
+    {
+      "name": "Aquatic Origin",
+      "info": "Rivers, lakes, seas, mollusks, fish, waterways",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "After you reduce an enemy to `0 Hit Points`, you may treat your `Dexterity` as being one die size higher until the `end of your next turn` (maximum `d12`)."
+        ],
+        [
+          "`2`",
+          "+800z",
+          "Attacks with this weapon treat the `Defense` score of each target as being equal to their current `Might` die size."
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "After you cast and resolve an offensive spell (*ϟ*), you recover an amount of `Hit Points` equal to your `High Roll` for the `Magic Check`."
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "Attacks with this weapon never trigger `counterattacks` or similar `reactive` Skills from their targets."
+        ],
+        [
+          "`5`",
+          "+1200 z",
+          " After you cause one or more allies to `recover Hit Points`, each of those allies who is at `full Hit Points` recovers `5 Mind Points`."
+        ],
+        [
+          "`6`",
+          "+1500 z",
+          "When you hit one or more creatures with an attack using this weapon, record the `High Roll` of that Accuracy Check (erasing any `High Roll` you previously recorded this way). When you `suffer damage`, if you have a recorded `High Roll` from this Quality, erase it and reduce that damage by an equal amount (before `Affinities`). Erase any recorded `High Roll` at the end of each scene."
+        ]
+      ]
+    },
+    {
+      "name": "Ardent Origin",
+      "info": "Fire, deserts, volcanoes, magma, furnaces, scorching sun",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+500 z",
+          "When you use the `Bladestorm Skill` (see `Weaponmaster Class`) on an attack with this weapon, its `MP cost` is halved."
+        ],
+        [
+          "`2`",
+          "+600z",
+          "When you use the `Shadow Strike` Skill and attack with this weapon (see `Darkblade Class`), you may have the attack deal `fire` damage instead of `dark` damage (the damage type still `cannot` be changed)."
+        ],
+        [
+          "`3`",
+          "+600 z",
+          "Attacks with this weapon deal `1 extra damage` for every `status effect` you are suffering from."
+        ],
+        [
+          "`4`",
+          "+800 z",
+          "After you `invoke a Bond` during a Check you are performing, you recover `5 Mind Points`."
+        ],
+        [
+          "`5`",
+          "+1300 z",
+          "When you hit one or more creatures with this weapon, `none` of those creatures can perform the `Spell action` during their next turn."
+        ],
+        [
+          "`6`",
+          "+1800 z",
+          "Your attacks with weapons belonging to the `bow` and/or `sword` Categories deal `5 extra damage`."
+        ]
+      ]
+    },
+    {
+      "name": "Corrupted Origin",
+      "info": "Chaos, undead, dark magic, curses, pollution",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "When you cast a spell using the `Spellblade Skill` (see `Elementalist Class`) and choose this weapon, any `dark damage` dealt by the spell `ignores Immunities and Resistances`."
+        ],
+        [
+          "`2`",
+          "+1000z",
+          "Any `offensive spells` (*ϟ*) you cast treat each target's `Magic Defense` as being equal to their current `Willpower` die size."
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "`Dark` and `poison` damage you deal `ignores Immunities` and `Resistances`."
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "When you cast a spell targeting at least one creature you have a `Bond of hatred` towards, that spell's total `MP cost is halved`. Note that this benefit does `not` apply to spells with a target of `'Special'`"
+        ],
+        [
+          "`5`",
+          "+1200 z",
+          "You gain a `+1 bonus` to `Defense` and `Magic Defense` against attacks and offensive spells (*ϟ*) from creatures suffering from the `shaken` status effect."
+        ],
+        [
+          "`6`",
+          "+1500 z",
+          " When you use the `Counterattack Skill` (see `Weaponmaster Class`), if you attack with this weapon and hit the target, that target suffers the `poisoned` status effect."
+        ]
+      ]
+    },
+    {
+      "name": "Glacial Origin",
+      "info": "Cold, snow, ice, mountains, cold rooms",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "When you enter `Crisis` for the first time during a conflict, you may deal `5 ice damage` to `every enemy` present in the scene."
+        ],
+        [
+          "`2`",
+          "+1000z",
+          "`Ice` damage you deal `ignores Immunities` and `Resistances`"
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "At the `start of your turn` during a conflict, `each creature` present in the scene who is suffering from the `weak status` effect loses `5 Hit Points`"
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "You gain a `+1 bonus` to `Defense` and `Magic Defense` against attacks and `offensive spells` (*ϟ*) from creatures suffering from the `enraged` status effect."
+        ],
+        [
+          "`5`",
+          "+1800 z",
+          "When you deal `ice` damage to one or more creatures, each of those creatures suffers the `slow status effect`. If a creature damaged this way was `already slow`, that creature loses `10 Mind Points` instead."
+        ],
+        [
+          "`6`",
+          "+1800 z",
+          "When you deal damage to a creature suffering from the `weak status effect`, you deal `5 extra damage` to that creature"
+        ]
+      ]
+    },
+    {
+      "name": "Mechanical Origin",
+      "info": "Constructs, mechanisms, vehicles, factories",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+300 z",
+          "You may spend an `opportunity` to earn `100` zenit."
+        ],
+        [
+          "`2`",
+          "+600z",
+          "When you use the `Breach Skill` (see `Weaponmaster Class`), if you attack with this weapon, you gain a `+2 bonus` to your `Accuracy Check`."
+        ],
+        [
+          "`3`",
+          "+800 z",
+          "When you create a `potion` through the `Gadget (Alchemy) Skill` (see `Tinkerer Class`), if `two or more d20s show the same number`, you may freely choose an `area` and an `effect` for that `potion`."
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "This weapon deals `5 extra damage` to creatures with `metal parts or equipped with metallic objects`."
+        ],
+        [
+          "`5`",
+          "+1200 z",
+          "When you use the `Tavern Talk Skill` (see `Wayfarer Class`), you `earn zenit` equal to your `Tavern Talk Skill Level, multiplied by 200`."
+        ],
+        [
+          "`6`",
+          "+1500 z",
+          "When you hit `two or more creatures` with this weapon on your turn, this weapon becomes `charged`; if it was already `charged`, it loses its `charge` and the attack deals `10 extra damage` to each target. When this weapon loses its `charge`, it cannot be used for attacks `until the end of your next turn`, and you cannot perform the `Equipment action` until the end of your next turn."
+        ]
+      ]
+    },
+    {
+      "name": "Paradox Origin",
+      "info": "Anomalies, parallel realities, quantum devices",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "This weapon deals `5 extra damage` as long as you have `exactly` one other weapon equipped and the two weapons do not share `any` Categories."
+        ],
+        [
+          "`2`",
+          "+800z",
+          "You begin every conflict scene with the `Mirror` spell (see `Entropist Spells`) cast upon yourself (this does not require an action, nor any MP, and you can do so even if you have not learned that spell)"
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "When you hit `exactly two enemies` with this weapon, you may have them become `entangled` until you use this effect again. After either `entangled` enemy loses Hit Points due to damage they are `Vulnerable` to, the other `entangled` enemy loses `5 Hit Points.`"
+        ],
+        [
+          "`4`",
+          "+1200 z",
+          "When you score a `critical success` on a Magic Check for an `offensive spell` (*ϟ*), that spell deals `5 extra damage.`"
+        ],
+        [
+          "`5`",
+          "+1500 z",
+          "After one or more enemies present in the scene `heal from one or more status effects`, roll a `d8`. Each of those enemies suffers a `status effect` based on the number you rolled: `1-2 dazed`, `3-4 shaken`,` 5-6 slow`, `7-8 weak`."
+        ],
+        [
+          "`6`",
+          "+1800 z",
+          "`Enemies` hit by this weapon become `fading`. If a `fading` enemy would recover `Hit Points`, instead they recover `no Hit Points` and stop `fading`"
+        ]
+      ]
+    },
+    {
+      "name": "Spiritual Origin",
+      "info": "Souls, flow of life, fey-touched locations, light.",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "At the end of your turn, if you are `merged` with an `Arcanum`, you may heal from a `single status effect` of your choice"
+        ],
+        [
+          "`2`",
+          "+800z",
+          "This weapon deals `1 extra damage` for each Bond of `affection` you have."
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "As long as you are affected by one or more spells with a `duration` of `'Scene'`, all damage you deal `ignores Resistances`."
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "When you use the `Spellblade Skill` (see `Elementalist Class`) and choose this weapon, all bonuses you would normally apply to an `Accuracy Check` with this weapon are applied to your `Magic Check`."
+        ],
+        [
+          "`5`",
+          "+1000 z",
+          "When you perform the `Guard action` and choose to `cover an ally`, that ally `recovers 5 Hit Points`"
+        ],
+        ["`6`", "+1500 z", "You Resist `dark`, `light`, and `poison` damage."]
+      ]
+    },
+    {
+      "name": "Terrestrial Origin",
+      "info": "Woods, caves, farmlands, rocks, nature, fossils",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "You have `Resistance` to damage of all types caused by `environmental hazards` (such as lava, toxic clouds, thorny brambles, etc.)."
+        ],
+        [
+          "`2`",
+          "+800z",
+          "When you `recover` Hit Points, if you are in `Crisis`, you recover `5 additional Hit Points.`"
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "When you hit one or more creatures with this weapon, you `recover` an amount of `Mind Points` equal to your `High Roll` for the `Accuracy` Check."
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "When you cause one or more allies to recover `Hit Points` during a conflict, `each` of them gains `Resistance to the next instance of physical damage` they suffer before the `start of your next turn.` This benefit is `not` cumulative."
+        ],
+        [
+          "`5`",
+          "+1200 z",
+          "You gain a `+2 bonus` to all `Magic Checks` you perform for `Rituals` whose effects fall within the `Elementalism` discipline, as long as those `Rituals` have a total MP cost `equal to or lower than 60.`"
+        ],
+        [
+          "`6`",
+          "+1800 z",
+          "Your attacks with weapons belonging to the `heavy` and/or `spear` Categories deal `5 extra damage.`"
+        ]
+      ]
+    },
+    {
+      "name": "Thunderous Origin",
+      "info": "Electricity, storms, batteries, power sources.",
+      "table": [
+        ["Dice", "Cost", "Description"],
+        [
+          "`1`",
+          "+600 z",
+          "When you use a `spell or Skill` to deal `bolt` damage to one or more enemies, you may choose `one ally` you can see who has yet to `take their turn` during this round: that ally may take their turn `immediately` after yours"
+        ],
+        [
+          "`2`",
+          "+800z",
+          "When damage dealt by this weapon causes one or more enemies to enter `Crisis`, every enemy present in the scene suffers `dazed`."
+        ],
+        [
+          "`3`",
+          "+1000 z",
+          "Any extra damage granted by your `Cataclysm Skill` (see `Elementalist Class`) is increased by `【half your level in the Elementalist Class】`."
+        ],
+        [
+          "`4`",
+          "+1000 z",
+          "When you use the `Encourage Skill` (see `Orator Class`), the target recovers additional `Hit Points` equal to `【half your level】`."
+        ],
+        [
+          "`5`",
+          "+1200 z",
+          "After a creature `hits` you with a `melee attack`, you deal `5 bolt damage` to that creature (after their attack has been resolved)"
+        ],
+        [
+          "`6`",
+          "+1500 z",
+          "When you deal damage to one or more enemies with this weapon, if at least one of them is shaken, `each` of those enemies loses `20 Mind Points.`"
+        ]
+      ]
+    }
+  ]
+}
