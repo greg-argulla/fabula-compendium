@@ -1307,6 +1307,7 @@ function App() {
             if (selectedClass === "GM") {
               setSelectedClass("");
             }
+            setSelectedClass("");
             setSearchSkills(evt.target.value);
           }}
         />
