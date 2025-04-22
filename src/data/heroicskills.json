@@ -85,7 +85,7 @@
     {
       "name": "Monkey Grip",
       "info": "Requirements: You must have mastered the Fury Class.",
-      "description": "You may now equip two-handed weapons belonging to the `firearm`, `flail`, `heavy`, `spear`, or `sword` Categories within a single hand slot.\nAdditionally, the `first` attack you perform with a two-handed weapon during `each` turn deals `5` extra damage, and its damage ignores `Resistances`."
+      "description": "You may now equip two-handed weapons belonging to the `flail`, `heavy`, `spear`, and `sword` Categories within a single hand slot.\nAdditionally, the first attack you perform with a two-handed weapon during each turn deals 5 extra damage, and its damage ignores Resistances."
     },
     {
       "name": "Perfect Aim",
@@ -157,6 +157,11 @@
       "name": "Ultimagic",
       "info": "Requirements: You must have mastered the Elementalist Class.",
       "description": "Choose a damage type among `air, bolt, earth, fire`, and `ice` when acquired.\n\nYou learn the ultimate Elementalist spell: `Ultimagic`.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nChoose one option: you deal 50 damage of the type you have chosen to one enemy you can see; `or` you deal 30 damage of the type you have chosen to every enemy you can see. This damage increases by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\nDamage dealt by this spell ignores Immunities and Resistances."
+    },
+    {
+      "name": "Duelist Style",
+      "info": "Requirements: you must be able to equip martial melee weapons.",
+      "description": "As long as you have a one-handed melee weapon equipped in your main hand slot, if that weapon is not an unarmed strike and you have an unarmed strike equipped in your off-hand slot, you gain the following benefits:\n- When you deal damage with a weapon that is not an unarmed strike, you may double your Accuracy Check's High Roll when determining the attack's damage. If you do, you cannot use this option again until the beginning of your next turn.\n- During conflicts, you reduce the MP cost of the following Skills by 5: Bladestorm, Breach, Condemn, Encourage, and Provoke (see Fury, Orator, and Weaponmaster).\n\nThese benefits do not apply to weapon modules (see Pilot)."
     }
   ]
 }

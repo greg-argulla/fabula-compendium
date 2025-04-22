@@ -189,25 +189,24 @@
         }
       ]
     },
-
     {
       "name": "Gadgets - Magitech Armament",
-      "description": "This invention type grants the creation of a magitech armament weapon."
+      "description": "This invention type allows you to create powerful customizable weapons that combine magic and technology."
     },
     {
       "name": "Magitech Armament",
       "data": [
         {
           "name": "Basic Armament",
-          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a `magitech armament`, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + MIG】`or`【INS + MIG】`for it.\n\n*Magitech Armament*【DEX + MIG】`or`【INS + MIG】【HR + 12】physical - One Category of your choice among `arcane`, `brawling`, `firearm`, `heavy`, `spear`, or `sword` - Two-handed Melee or Ranged - Cannot have Qualities (but see `Superior Armament`, below)."
+          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a magitech armament, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + INS】+1` and`【INS + MIG】+1` for it. Magitech armaments are always two-handed weapons and cannot benefit from the `Monkey Grip` Heroic Skill (in short, the armament will always occupy both hand slots).\n\n*Magitech Armament*\nAccuracy: (as chosen above)\nDamage:`【HR + 12】`physical\nProperties: One Category of your choice among `arcane`, `brawling`, `firearm`, `heavy`, `spear`, or `sword` • Two-handed • Melee or Ranged • Cannot have Qualities (but see `Superior Armament`, below)."
         },
         {
           "name": "Advanced Armament",
-          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if both your `hand slots` are empty, you may immediately equip that `magitech armament` and perform a `free attack` with it.\nAdditionally, attacks with your `magitech armament` deal extra damage equal to`【your Skill Level in Secret Formula】`."
+          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if both your `hand slots` are empty, you may immediately equip that magitech armament and perform a `free attack` with it.\n\nAdditionally, whenever you create a magitech armament, you may have it deal `air`, `bolt`, `earth`, `fire`, or `ice` damage instead of `physical`."
         },
         {
           "name": "Superior Armament",
-          "description": "If you have your `magitech armament` equipped, you may use an action to choose one weapon in your `backpack`. If you do, that weapon is destroyed and all your `magitech armaments` gain its Quality (if any) until you use this effect again.\nAdditionally, whenever you create a `magitech armament`, you may have it deal `air`, `bolt`, `earth`, `fire`, or `ice` damage instead of `physical`."
+          "description": "If you have your magitech armament equipped, you may use an action to choose one weapon in your `backpack`. If you do, that weapon is destroyed and all your magitech armaments gain its Quality (if any) until you use this effect again (this includes any future magitech armaments you create as well).\n\nAdditionally, as long as you have your magitech armament equipped, you gain a bonus to Defense and Magic Defense equal to`【half your Skill Level in Gadgets】`."
         }
       ]
     }
