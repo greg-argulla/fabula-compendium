@@ -8,5 +8,11 @@
     "popover": "/",
     "height": 540,
     "width": 550
-  }
+  },
+  "permissions": [
+    {
+      "name": "clipboard-write",
+      "reason": "Copy dice results to the clipboard"
+    }
+  ]
 }
