@@ -38,7 +38,7 @@ const ChatComponent = (props) => {
         },
         contents: [
           {
-            parts: [{ role: "user", text: input }],
+            parts: [{ text: input }],
           },
         ],
       },
