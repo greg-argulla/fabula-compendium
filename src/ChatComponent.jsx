@@ -25,23 +25,27 @@ const ChatComponent = (props) => {
     setLoading(true);
 
     const response = await axios.post(
-      "https://api.openai.com/v1/chat/completions",
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
       {
-        model: "gpt-4o", //"gpt-3.5-turbo",
-        messages: [
+        system_instruction: {
+          parts: [
+            {
+              text:
+                prompt +
+                (oneParagraph ? "Please limit it to one paragraph." : ""),
+            },
+          ],
+        },
+        contents: [
           {
-            role: "system",
-            content:
-              prompt +
-              (oneParagraph ? "Please limit it to one paragraph." : ""),
+            parts: [{ role: "user", text: input }],
           },
-          { role: "user", content: input },
         ],
       },
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_SECRET_KEY}`,
+          "X-goog-api-key": import.meta.env.VITE_SECRET_KEY,
         },
       }
     );
