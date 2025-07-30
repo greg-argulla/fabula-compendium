@@ -50,14 +50,12 @@ const ChatComponent = (props) => {
       }
     );
 
-    console.log(response);
-
     // Update the conversation history with the response from ChatGPT
     setMessages([
       ...messages,
       {
         input,
-        content: response.candidates[0].content.parts[0].text,
+        content: response.data.candidates[0].content.parts[0].text,
         date: Date.now(),
       },
     ]);
