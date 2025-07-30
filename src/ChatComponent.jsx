@@ -80,33 +80,33 @@ const ChatComponent = (props) => {
 
     setLoading(true);
 
-    const response = await axios.post(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
-      {
-        system_instruction: {
-          parts: [
+    try {
+      const response = await axios.post(
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+        {
+          system_instruction: {
+            parts: [
+              {
+                text:
+                  prompt +
+                  (oneParagraph ? "Please limit it to one paragraph." : ""),
+              },
+            ],
+          },
+          contents: [
             {
-              text:
-                prompt +
-                (oneParagraph ? "Please limit it to one paragraph." : ""),
+              parts: [{ text: input }],
             },
           ],
         },
-        contents: [
-          {
-            parts: [{ text: input }],
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "X-goog-api-key": import.meta.env.VITE_SECRET_KEY,
           },
-        ],
-      },
-      {
-        headers: {
-          "Content-Type": "application/json",
-          "X-goog-api-key": import.meta.env.VITE_SECRET_KEY,
-        },
-      }
-    );
+        }
+      );
 
-    if (!response.data.error) {
       // Update the conversation history with the response from ChatGPT
       setMessages([
         ...messages,
@@ -116,7 +116,7 @@ const ChatComponent = (props) => {
           date: Date.now(),
         },
       ]);
-    } else {
+    } catch (error) {
       setMessages([
         ...messages,
         {
@@ -135,6 +135,18 @@ const ChatComponent = (props) => {
 
     setLoading(true);
 
+    let prompt = {
+      text:
+        "Based on the system instruction I gave you, please generate an item effect for this character class:" +
+        JSON.stringify(classes[classIndex]),
+    };
+
+    if (classIndex === 0) {
+      prompt = {
+        text: "Based on the system instruction I gave you, please generate an item effect",
+      };
+    }
+
     const response = await axios.post(
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
       {
@@ -148,13 +160,7 @@ const ChatComponent = (props) => {
         },
         contents: [
           {
-            parts: [
-              {
-                text:
-                  "Based on the system instruction I gave you, please generate an item effect for this character class:" +
-                  JSON.stringify(classes[classIndex]),
-              },
-            ],
+            parts: [prompt],
           },
         ],
       },
@@ -290,9 +296,12 @@ const ChatComponent = (props) => {
             setClassIndex(e.target.value);
           }}
         >
+          <option key={0} value={0}>
+            No Class
+          </option>
           {classes.map((item, index) => {
             return (
-              <option key={index} value={index}>
+              <option key={index + 1} value={index + 1}>
                 {item.name}
               </option>
             );
