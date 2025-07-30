@@ -106,16 +106,26 @@ const ChatComponent = (props) => {
       }
     );
 
-    // Update the conversation history with the response from ChatGPT
-    setMessages([
-      ...messages,
-      {
-        input,
-        content: response.data.candidates[0].content.parts[0].text,
-        date: Date.now(),
-      },
-    ]);
-
+    if (!response.data.error) {
+      // Update the conversation history with the response from ChatGPT
+      setMessages([
+        ...messages,
+        {
+          input,
+          content: response.data.candidates[0].content.parts[0].text,
+          date: Date.now(),
+        },
+      ]);
+    } else {
+      setMessages([
+        ...messages,
+        {
+          input,
+          content: "Error generating, please try again later",
+          date: Date.now(),
+        },
+      ]);
+    }
     // Clear the input field
     setLoading(false);
   };
@@ -157,14 +167,26 @@ const ChatComponent = (props) => {
     );
 
     // Update the conversation history with the response from ChatGPT
-    setMessages([
-      ...messages,
-      {
-        input,
-        content: response.data.candidates[0].content.parts[0].text,
-        date: Date.now(),
-      },
-    ]);
+
+    if (!response.data.error) {
+      setMessages([
+        ...messages,
+        {
+          input,
+          content: response.data.candidates[0].content.parts[0].text,
+          date: Date.now(),
+        },
+      ]);
+    } else {
+      setMessages([
+        ...messages,
+        {
+          input,
+          content: "Error generating, please try again later",
+          date: Date.now(),
+        },
+      ]);
+    }
 
     // Clear the input field
     setLoading(false);
@@ -261,17 +283,6 @@ const ChatComponent = (props) => {
         <div className="outline" style={{ fontSize: 8 }}>
           Quality:
         </div>
-        <button
-          className="button"
-          style={{ fontSize: 8, width: 35, height: 20 }}
-          disabled={loading}
-          onClick={() => {
-            generateItems();
-          }}
-        >
-          Generate
-        </button>
-
         <select
           className="input-stat outline"
           style={{ width: 80, height: 20 }}
@@ -287,6 +298,17 @@ const ChatComponent = (props) => {
             );
           })}
         </select>
+        <button
+          className="button"
+          style={{ fontSize: 8, width: 35, height: 20 }}
+          disabled={loading}
+          onClick={() => {
+            generateItems();
+          }}
+        >
+          Generate
+        </button>
+
         {/* <button
           className="button"
           style={{ fontSize: 8, width: 35, height: 20 }}
