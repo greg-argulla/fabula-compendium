@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import OBR from "@owlbear-rodeo/sdk";
+import ItemGenerator from "./ItemGenerator.json";
 
 const ChatComponent = (props) => {
   const [input, setInput] = useState("");
@@ -8,7 +9,7 @@ const ChatComponent = (props) => {
   const [loading, setLoading] = useState(false);
   const [oneParagraph, setOneParagraph] = useState(true);
   const [prompt, setPrompt] = useState(
-    "You are a game master for a table top role playing game, can you describe to me the next messages I'll send you like how a game master would?"
+    "You are a fantasy writer, I'll give you a description, make it more prose and more detailed"
   );
 
   const handleInputChange = (e) => {
@@ -64,37 +65,53 @@ const ChatComponent = (props) => {
     setLoading(false);
   };
 
-  // const handleImageGenerate = async (style) => {
-  //   // Make a request to the ChatGPT API with the user input
+  const generateItems = async () => {
+    // Make a request to the ChatGPT API with the user input
 
-  //   setLoading(true);
-  //   const response = await axios.post(
-  //     "https://api.openai.com/v1/images/generations",
-  //     {
-  //       prompt: style + " art design of a " + input,
-  //       model: "dall-e-3",
-  //     },
-  //     {
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //         Authorization: `Bearer ${import.meta.env.VITE_SECRET_KEY}`,
-  //       },
-  //     }
-  //   );
+    setLoading(true);
 
-  //   console.log(response);
+    const response = await axios.post(
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+      {
+        system_instruction: {
+          parts: [
+            {
+              text: "You are provided you with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
+            },
+            ItemGenerator.sample.map((item) => ({ text: item })),
+          ],
+        },
+        contents: [
+          {
+            parts: [
+              {
+                text: "Based on the system instruction I gave you, please generate an item effect",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+          "X-goog-api-key": import.meta.env.VITE_SECRET_KEY,
+        },
+      }
+    );
 
-  //   setMessages([
-  //     ...messages,
-  //     {
-  //       input,
-  //       image: response.data.data[0].url,
-  //       date: Date.now(),
-  //     },
-  //   ]);
+    // Update the conversation history with the response from ChatGPT
+    setMessages([
+      ...messages,
+      {
+        input,
+        content: response.data.candidates[0].content.parts[0].text,
+        date: Date.now(),
+      },
+    ]);
 
-  //   setLoading(false);
-  // };
+    // Clear the input field
+    setLoading(false);
+  };
 
   return (
     <div>
@@ -184,20 +201,20 @@ const ChatComponent = (props) => {
         >
           {!props.close ? "Open" : "Close"}
         </button>
-        {/* <div className="outline" style={{ fontSize: 8 }}>
-          Generate Image:
+        <div className="outline" style={{ fontSize: 8 }}>
+          Generate Items:
         </div>
         <button
           className="button"
           style={{ fontSize: 8, width: 35, height: 20 }}
           disabled={loading}
           onClick={() => {
-            handleImageGenerate("Pixel");
+            generateItems();
           }}
         >
-          Pixel
+          Generate
         </button>
-        <button
+        {/* <button
           className="button"
           style={{ fontSize: 8, width: 35, height: 20 }}
           disabled={loading}
