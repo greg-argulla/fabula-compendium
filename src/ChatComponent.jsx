@@ -64,7 +64,7 @@ const ChatComponent = (props) => {
   const [loading, setLoading] = useState(false);
   const [oneParagraph, setOneParagraph] = useState(true);
   const [prompt, setPrompt] = useState(
-    "You are a fantasy writer, I'll give you a description, make it more prose and more detailed"
+    "You are a fantasy writer, I'll give you a description, make it concise and evocative."
   );
   const [classIndex, setClassIndex] = useState(0);
   const handleInputChange = (e) => {
