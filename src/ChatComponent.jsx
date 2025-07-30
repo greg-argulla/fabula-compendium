@@ -55,7 +55,7 @@ const ChatComponent = (props) => {
       ...messages,
       {
         input,
-        content: response.data.choices[0].message.content,
+        content: response.candidates[0].content.parts[0].text,
         date: Date.now(),
       },
     ]);
