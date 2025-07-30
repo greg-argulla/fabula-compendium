@@ -18,7 +18,7 @@ import loremaster from "./data/loremaster.json";
 import orator from "./data/orator.json";
 import rogue from "./data/rogue.json";
 import sharpshooter from "./data/sharpshooter.json";
-import spritist from "./data/spiritist.json";
+import spiritist from "./data/spiritist.json";
 import tinkerer from "./data/tinkerer.json";
 import wayfarer from "./data/wayfarer.json";
 import weaponmaster from "./data/weaponmaster.json";
@@ -70,7 +70,7 @@ const Text = (props) => {
   return <span className="outline">{children}</span>;
 };
 
-const collection = [
+export const collection = [
   "Base Classes",
   arcanist,
   chimerist,
@@ -83,7 +83,7 @@ const collection = [
   orator,
   rogue,
   sharpshooter,
-  spritist,
+  spiritist,
   tinkerer,
   wayfarer,
   weaponmaster,

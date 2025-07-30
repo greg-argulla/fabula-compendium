@@ -1,5 +1,13 @@
-{
-  "sample": [
+import accessoriesqualities from "./data/accessoriesqualities.json";
+import armorqualities from "./data/armorqualities.json";
+import weaponqualities from "./data/weaponqualities.json";
+import heroicskills from "./data/heroicskills.json";
+import heroicskillshighfantasy from "./data/heroicskillshighfantasy.json";
+import heroicskillstechnofantasy from "./data/heroicskillstechnofantasy.json";
+import heroicskillsnaturalfantasy from "./data/heroicskillsnaturalfantasy.json";
+
+export default {
+  sample: [
     "When the attack roll's INS die rolls 10+, regain 3 MP.",
     "After regaining HP from a potion, this weapon gains +1 accuracy until the end of your next turn.",
     "When you regain an amount of HP exceeding your missing HP by 20 or more, regain 5 MP.",
@@ -166,6 +174,13 @@
     "+2 Def/Mdef, counts as shield. Allies may replace one or both of their attribute dice with yours when making Accuracy Checks. This weapon doesn't make Accuracy Checks.",
     "Each target hit by this weapon suffers shaken, and at the start of each of your turns you may cause each shaken creature on the Scene to lose 5 HP.",
     "You are immune to light damage, and this weapon deals +10 damage to enemies with full HP.",
-    "Attacks twice as per two-weapon fighting rules. When a creature with one or more Vulnerabilities enters Crisis, this weapon's damage type changes to match one of their Vulnerabilities."
-  ]
-}
+    "Attacks twice as per two-weapon fighting rules. When a creature with one or more Vulnerabilities enters Crisis, this weapon's damage type changes to match one of their Vulnerabilities.",
+    ...accessoriesqualities.data.map((item) => item.description),
+    ...armorqualities.data.map((item) => item.description),
+    ...weaponqualities.data.map((item) => item.description),
+    ...heroicskills.data.map((item) => item.description),
+    ...heroicskillshighfantasy.data.map((item) => item.description),
+    ...heroicskillstechnofantasy.data.map((item) => item.description),
+    ...heroicskillsnaturalfantasy.data.map((item) => item.description),
+  ],
+};

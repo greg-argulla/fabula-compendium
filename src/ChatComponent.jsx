@@ -1,7 +1,62 @@
 import React, { useState } from "react";
 import axios from "axios";
 import OBR from "@owlbear-rodeo/sdk";
-import ItemGenerator from "./ItemGenerator.json";
+import ItemGenerator from "./ItemGenerator.js";
+import arcanist from "./data/arcanist.json";
+import chimerist from "./data/chimerist.json";
+import darkblade from "./data/darkblade.json";
+import elementalist from "./data/elementalist.json";
+import entropist from "./data/entropist.json";
+import fury from "./data/fury.json";
+import guardian from "./data/guardian.json";
+import loremaster from "./data/loremaster.json";
+import orator from "./data/orator.json";
+import rogue from "./data/rogue.json";
+import sharpshooter from "./data/sharpshooter.json";
+import spiritist from "./data/spiritist.json";
+import tinkerer from "./data/tinkerer.json";
+import wayfarer from "./data/wayfarer.json";
+import weaponmaster from "./data/weaponmaster.json";
+import chanter from "./data/chanter.json";
+import commander from "./data/commander.json";
+import dancer from "./data/dancer.json";
+import symbolist from "./data/symbolist.json";
+import esper from "./data/esper.json";
+import mutant from "./data/mutant.json";
+import pilot from "./data/pilot.json";
+import floralist from "./data/floralist.json";
+import gourmet from "./data/gourmet.json";
+import invoker from "./data/invoker.json";
+import merchant from "./data/merchant.json";
+
+const classes = [
+  arcanist,
+  chimerist,
+  darkblade,
+  elementalist,
+  entropist,
+  fury,
+  guardian,
+  loremaster,
+  orator,
+  rogue,
+  sharpshooter,
+  spiritist,
+  tinkerer,
+  wayfarer,
+  weaponmaster,
+  chanter,
+  commander,
+  dancer,
+  symbolist,
+  esper,
+  mutant,
+  pilot,
+  floralist,
+  gourmet,
+  invoker,
+  merchant,
+];
 
 const ChatComponent = (props) => {
   const [input, setInput] = useState("");
@@ -11,7 +66,7 @@ const ChatComponent = (props) => {
   const [prompt, setPrompt] = useState(
     "You are a fantasy writer, I'll give you a description, make it more prose and more detailed"
   );
-
+  const [classIndex, setClassIndex] = useState(0);
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
@@ -76,7 +131,7 @@ const ChatComponent = (props) => {
         system_instruction: {
           parts: [
             {
-              text: "You are provided you with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
+              text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
             },
             ItemGenerator.sample.map((item) => ({ text: item })),
           ],
@@ -85,7 +140,9 @@ const ChatComponent = (props) => {
           {
             parts: [
               {
-                text: "Based on the system instruction I gave you, please generate an item effect",
+                text:
+                  "Based on the system instruction I gave you, please generate an item effect for this character class:" +
+                  JSON.stringify(classes[classIndex]),
               },
             ],
           },
@@ -202,7 +259,7 @@ const ChatComponent = (props) => {
           {!props.close ? "Open" : "Close"}
         </button>
         <div className="outline" style={{ fontSize: 8 }}>
-          Generate Items:
+          Quality:
         </div>
         <button
           className="button"
@@ -214,6 +271,22 @@ const ChatComponent = (props) => {
         >
           Generate
         </button>
+
+        <select
+          className="input-stat outline"
+          style={{ width: 80, height: 20 }}
+          onChange={(e) => {
+            setClassIndex(e.target.value);
+          }}
+        >
+          {classes.map((item, index) => {
+            return (
+              <option key={index} value={index}>
+                {item.name}
+              </option>
+            );
+          })}
+        </select>
         {/* <button
           className="button"
           style={{ fontSize: 8, width: 35, height: 20 }}
