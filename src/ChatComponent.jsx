@@ -143,47 +143,47 @@ const ChatComponent = (props) => {
 
     if (classIndex < 0) {
       prompt = {
-        text: "Based on the system instruction I gave you, please generate an item effect",
+        text: "Based on the system instruction I gave you, please generate one item effect",
       };
     }
 
     console.log([
       {
-        text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
+        text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate one item effect",
       },
       ItemGenerator.sample.map((item) => ({ text: item })),
     ]);
 
     console.log(prompt);
 
-    const response = await axios.post(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
-      {
-        system_instruction: {
-          parts: [
+    try {
+      const response = await axios.post(
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+        {
+          system_instruction: {
+            parts: [
+              {
+                text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
+              },
+              ItemGenerator.sample.map((item) => ({ text: item })),
+            ],
+          },
+          contents: [
             {
-              text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
+              parts: [prompt],
             },
-            ItemGenerator.sample.map((item) => ({ text: item })),
           ],
         },
-        contents: [
-          {
-            parts: [prompt],
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "X-goog-api-key": import.meta.env.VITE_SECRET_KEY,
           },
-        ],
-      },
-      {
-        headers: {
-          "Content-Type": "application/json",
-          "X-goog-api-key": import.meta.env.VITE_SECRET_KEY,
-        },
-      }
-    );
+        }
+      );
 
-    // Update the conversation history with the response from ChatGPT
+      // Update the conversation history with the response from ChatGPT
 
-    if (!response.data.error) {
       setMessages([
         ...messages,
         {
@@ -192,7 +192,7 @@ const ChatComponent = (props) => {
           date: Date.now(),
         },
       ]);
-    } else {
+    } catch (error) {
       setMessages([
         ...messages,
         {
@@ -202,7 +202,6 @@ const ChatComponent = (props) => {
         },
       ]);
     }
-
     // Clear the input field
     setLoading(false);
   };
