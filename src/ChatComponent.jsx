@@ -147,13 +147,6 @@ const ChatComponent = (props) => {
       };
     }
 
-    console.log([
-      {
-        text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
-      },
-      ItemGenerator.sample.map((item) => ({ text: item })),
-    ]);
-
     try {
       const response = await axios.post(
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
@@ -161,7 +154,7 @@ const ChatComponent = (props) => {
           system_instruction: {
             parts: [
               {
-                text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate more item effects",
+                text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate item effects for the user",
               },
               ItemGenerator.sample.map((item) => ({ text: item })),
             ],
