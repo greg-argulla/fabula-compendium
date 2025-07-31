@@ -207,4 +207,6 @@ const data = [
   ...qualitiesSet().map((item) => item),
 ];
 
-export default { sample: data.filter((item) => item !== "Description") };
+export default {
+  sample: data.filter((item) => item.toLowerCase() !== "description"),
+};
