@@ -141,7 +141,7 @@ const ChatComponent = (props) => {
         JSON.stringify(classes[classIndex]),
     };
 
-    if (classIndex === 0) {
+    if (classIndex < 0) {
       prompt = {
         text: "Based on the system instruction I gave you, please generate an item effect",
       };
@@ -153,6 +153,8 @@ const ChatComponent = (props) => {
       },
       ItemGenerator.sample.map((item) => ({ text: item })),
     ]);
+
+    console.log(prompt);
 
     const response = await axios.post(
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
@@ -303,12 +305,12 @@ const ChatComponent = (props) => {
             setClassIndex(e.target.value);
           }}
         >
-          <option key={0} value={0}>
+          <option key={-1} value={-1}>
             No Class
           </option>
           {classes.map((item, index) => {
             return (
-              <option key={index + 1} value={index + 1}>
+              <option key={index} value={index}>
                 {item.name}
               </option>
             );
