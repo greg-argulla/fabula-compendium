@@ -151,7 +151,7 @@ const ChatComponent = (props) => {
       {
         text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate item effects for the user",
       },
-      ...ItemGenerator.sample.map((item) => ({ text: item })),
+      { text: ItemGenerator.sample.join("\n") },
     ]);
 
     try {
@@ -163,7 +163,7 @@ const ChatComponent = (props) => {
               {
                 text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate item effects for the user",
               },
-              ...ItemGenerator.sample.map((item) => ({ text: item })),
+              { text: ItemGenerator.sample.join("\n") },
             ],
           },
           contents: [
