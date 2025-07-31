@@ -156,7 +156,7 @@ const ChatComponent = (props) => {
               {
                 text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate item effects for the user",
               },
-              ItemGenerator.sample.map((item) => ({ text: item })),
+              ...ItemGenerator.sample.map((item) => ({ text: item })),
             ],
           },
           contents: [
