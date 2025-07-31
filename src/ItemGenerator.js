@@ -13,6 +13,16 @@ import quirkshighfantasy from "./data/quirkshighfantasy.json";
 import quirksnaturalfantasy from "./data/quirksnaturalfantasy.json";
 import quirkstechnofantasy from "./data/quirkstechnofantasy.json";
 
+const qualitiesSet = () => {
+  const qualities = [];
+  qualitiesset1.data.forEach((item) => {
+    item.table.forEach((item) => {
+      qualities.push(item[2]);
+    });
+  });
+  return qualities;
+};
+
 export default {
   sample: [
     "When the attack roll's INS die rolls 10+, regain 3 MP.",
@@ -189,12 +199,12 @@ export default {
     ...heroicskillshighfantasy.data.map((item) => item.description),
     ...heroicskillstechnofantasy.data.map((item) => item.description),
     ...heroicskillsnaturalfantasy.data.map((item) => item.description),
-    ...qualitiesset1.data.map((item) => item.description),
     ...heroicstyles.data.map((item) => item.description),
     ...npcspells.data.map((item) => item.description),
     ...quirksbonus.data.map((item) => item.description),
     ...quirkshighfantasy.data.map((item) => item.description),
     ...quirksnaturalfantasy.data.map((item) => item.description),
     ...quirkstechnofantasy.data.map((item) => item.description),
+    ...qualitiesSet().map((item) => item),
   ],
 };
