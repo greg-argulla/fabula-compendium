@@ -143,7 +143,7 @@ const ChatComponent = (props) => {
 
     if (classIndex < 0) {
       prompt = {
-        text: "Based on the system instruction I gave you, please generate one item effect",
+        text: "Based on the system instruction I gave you, please generate one item effect. Don't suggest an item effect specific to a class.",
       };
     }
 
