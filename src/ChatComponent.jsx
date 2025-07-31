@@ -66,7 +66,7 @@ const ChatComponent = (props) => {
   const [prompt, setPrompt] = useState(
     "You are a fantasy writer, I'll give you a description, make it concise and evocative."
   );
-  const [classIndex, setClassIndex] = useState(0);
+  const [classIndex, setClassIndex] = useState(-1);
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
@@ -146,15 +146,6 @@ const ChatComponent = (props) => {
         text: "Based on the system instruction I gave you, please generate one item effect",
       };
     }
-
-    console.log([
-      {
-        text: "You are provided with a list of item effects. Based on the sample list I will give after this message, please generate one item effect",
-      },
-      ItemGenerator.sample.map((item) => ({ text: item })),
-    ]);
-
-    console.log(prompt);
 
     try {
       const response = await axios.post(
