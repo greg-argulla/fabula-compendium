@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect, useMemo } from "react";
 import OBR from "@owlbear-rodeo/sdk";
-import landingBG from "./assets/bg.jpg";
+import landingFantasy from "./assets/bgfantasy.jpg";
+import landingTechno from "./assets/bgtechno.jpg";
 import ChatComponent from "./ChatComponent";
 import "./App.css";
 
@@ -140,6 +141,7 @@ function App() {
 
   const [isOBRReady, setIsOBRReady] = useState(false);
   const [playerList, setPlayerList] = useState([]);
+  const [theme, setTheme] = useState("fantasy");
 
   useEffect(() => {
     OBR.onReady(async () => {
@@ -149,6 +151,10 @@ function App() {
           if (metadata["ultimate.story.extension/metadata"]) {
             const playerListGet = await createPlayerList(metadata);
             setPlayerList(playerListGet);
+          }
+
+          if (metadata["ultimate.story.extension.theme"]) {
+            setTheme(metadata["ultimate.story.extension.theme"]);
           }
           setRole(await OBR.player.getRole());
           setIsOBRReady(true);
@@ -162,6 +168,10 @@ function App() {
         if (metadata["ultimate.story.extension/metadata"]) {
           const playerListGet = await createPlayerList(metadata);
           setPlayerList(playerListGet);
+        }
+
+        if (metadata["ultimate.story.extension.theme"]) {
+          setTheme(metadata["ultimate.story.extension.theme"]);
         }
         setRole(await OBR.player.getRole());
         setIsOBRReady(true);
@@ -1281,7 +1291,9 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url(${landingBG})`,
+        backgroundImage: `url(${
+          theme === "fantasy" ? landingFantasy : landingTechno
+        })`,
         backgroundSize: "contain",
         height: 540,
         width: 550,
