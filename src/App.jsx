@@ -70,6 +70,8 @@ import clocks from "./data/clocks.json";
 import conflict from "./data/conflict.json";
 import rituals from "./data/rituals.json";
 import projects from "./data/projects.json";
+import travel from "./data/travel.json";
+import services from "./data/services.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -141,6 +143,8 @@ export const collection = [
   fabulapoints,
   rituals,
   projects,
+  travel,
+  services,
 ];
 
 function App() {

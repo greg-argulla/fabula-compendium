@@ -1,0 +1,35 @@
+{
+  "name": "Travel",
+  "info": "Overworld travel and exploration mechanics",
+  "data": [
+    {
+      "name": "Sample Areas and Threat Levels",
+      "table": [
+        ["Sample Areas", "Threat Level", "Travel Roll"],
+        ["Within villages, cities and guarded areas", "Minimal", "d6"],
+        ["Prairies, patrolled roads, countrysides", "Low", "d8"],
+        ["Forests, hills, rivers", "Medium", "d10"],
+        ["Vast forests, mountains, open sea, swamps", "High", "d12"],
+        ["Deserts, frozen wastes, jungles, volcanoes", "Very High", "d20"]
+      ]
+    },
+    {
+      "name": "Travel Process",
+      "table": [
+        ["Step", "Description"],
+        [
+          "1. Determine Threat Level",
+          "The Game Master determines the threat level of the areas traversed by the group. If more than a single threat level is present, only apply the highest."
+        ],
+        [
+          "2. Perform Travel Roll",
+          "Perform a travel roll by rolling the die appropriate to the chosen threat level. On a 6 or higher, the group encounters a danger! On a 1, the group makes an unexpected discovery! The Game Master decides the location of each danger and discovery; if you need, mark its position on your map sheet."
+        ],
+        [
+          "3. Continue or Stop",
+          "Unless stopped by an encountered danger, the characters proceed to the next travel day (go back to step 1) or reach their destination."
+        ]
+      ]
+    }
+  ]
+}

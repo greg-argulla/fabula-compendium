@@ -1,0 +1,69 @@
+{
+  "name": "Services",
+  "info": "Town services and transportation options",
+  "data": [
+    {
+      "name": "Town Services",
+      "table": [
+        ["Service", "Cost", "Description"],
+        [
+          "Recharge Inventory",
+          "10 z",
+          "Recharges a character's Inventory Points by one."
+        ],
+        [
+          "Full Rest (village)",
+          "5 z",
+          "Allows one person to rest for one night."
+        ],
+        [
+          "Full Rest (town)",
+          "10 z",
+          "Allows one person to rest for one night."
+        ],
+        ["Full Rest (city)", "20 z", "Allows one person to rest for one night."]
+      ]
+    },
+    {
+      "name": "Travel Services",
+      "table": [
+        ["Service", "Cost", "Description"],
+        [
+          "Land Transportation",
+          "10 z",
+          "Allows one person to travel for one day."
+        ],
+        [
+          "Water Transportation",
+          "20 z",
+          "Allows one person to travel for one day."
+        ],
+        [
+          "Air Transportation",
+          "40 z",
+          "Allows one person to travel for one day."
+        ]
+      ]
+    },
+    {
+      "name": "Mounts",
+      "table": [
+        ["Transport", "Cost", "Passengers", "Distance"],
+        ["Terrestrial", "200 z", "One or two", "×2"],
+        ["Aquatic", "500 z", "Approximately six", "×2"],
+        ["Submarine", "1000 z", "Approximately six", "×2"],
+        ["Flying", "2000 z", "Approximately six", "×3"]
+      ]
+    },
+    {
+      "name": "Vehicles",
+      "table": [
+        ["Transport", "Cost", "Passengers", "Distance"],
+        ["Terrestrial", "600 z", "Approximately six", "×2"],
+        ["Aquatic", "2000 z", "Approximately ten", "×2"],
+        ["Submarine", "4000 z", "Approximately ten", "×2"],
+        ["Flying", "8000 z", "Approximately twenty", "×3"]
+      ]
+    }
+  ]
+}
