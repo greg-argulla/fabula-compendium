@@ -72,6 +72,7 @@ import rituals from "./data/rituals.json";
 import projects from "./data/projects.json";
 import travel from "./data/travel.json";
 import services from "./data/services.json";
+import checks from "./data/checks.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -138,6 +139,7 @@ export const collection = [
   quirksbonus,
   npcspells,
   "Rules Summary",
+  checks,
   conflict,
   clocks,
   fabulapoints,

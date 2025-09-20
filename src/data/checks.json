@@ -1,0 +1,87 @@
+{
+  "name": "Checks",
+  "info": "Attribute checks and difficulty levels",
+  "data": [
+    {
+      "name": "Suggested Attribute Checks",
+      "table": [
+        ["Situation", "Suggested Check"],
+        ["Moving silently, hiding and acting unnoticed.", "【DEX + DEX】"],
+        [
+          "Avoiding a trap or finding a way to flee a collapsing building.",
+          "【DEX + INS】"
+        ],
+        [
+          "Anticipating someone's movements and catching them by surprise.",
+          "【DEX + INS】"
+        ],
+        [
+          "Completing a work of craftsmanship or repairing something.",
+          "【DEX + INS】"
+        ],
+        ["Moving gracefully to earn someone's attention.", "【DEX + WLP】"],
+        ["Examining or investigating someone or something.", "【INS + INS】"],
+        ["Remembering useful information about something.", "【INS + INS】"],
+        [
+          "Getting information from someone during a conversation.",
+          "【INS + WLP】"
+        ],
+        ["Persuading someone through authority or diplomacy.", "【INS + WLP】"],
+        [
+          "Hard work, such as lifting a portcullis or pushing a statue.",
+          "【MIG + MIG】"
+        ],
+        ["Resisting intense pain or fatigue.", "【MIG + WLP】"],
+        ["Intimidating someone with your strength.", "【MIG + WLP】"]
+      ]
+    },
+    {
+      "name": "Difficulty Levels",
+      "table": [
+        ["DL", "Action Difficulty", "Who is likely to accomplish this?"],
+        ["7", "Easy", "Anyone with a bit of training or natural talent."],
+        ["10", "Normal", "A competent person, or a very talented one."],
+        ["13", "Hard", "An expert or a prodigy."],
+        ["16", "Very Hard", "Someone who is among the very best in that field."]
+      ]
+    },
+    {
+      "name": "Opportunities",
+      "table": [
+        ["Opportunity", "Description"],
+        [
+          "Advantage",
+          "The next Check performed by you or an ally will receive a +4 bonus."
+        ],
+        ["Affliction", "A creature suffers dazed, shaken, slow or weak."],
+        [
+          "Bonding",
+          "You create a Bond towards someone or something or add an emotion to one of your existing Bonds."
+        ],
+        [
+          "Faux Pas",
+          "Choose a creature present in the scene: they make a compromising statement chosen by the person who controls them."
+        ],
+        ["Favor", "Your Actions earn you someone's support or admiration."],
+        [
+          "Information",
+          "You spot a useful clue or detail. The GM may tell you what it is or ask you to introduce that detail yourself."
+        ],
+        ["Lost Item", "An item is destroyed, lost, stolen, or left behind."],
+        ["Progress", "You may fill or erase up to two section on a Clock."],
+        [
+          "Plot Twist!",
+          "Someone or something of your choice suddenly appears in the scene."
+        ],
+        [
+          "Scan",
+          "You discover one Vulnerability or one Trait of a creature you can see."
+        ],
+        [
+          "Unmask",
+          "You learn the goals and motivations of a creature of your choice."
+        ]
+      ]
+    }
+  ]
+}
