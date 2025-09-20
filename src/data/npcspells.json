@@ -62,6 +62,11 @@
       "description": "(*ϟ*) Each target hit by this spell suffers `enraged`."
     },
     {
+      "name": "Shell",
+      "info": "10 MP - Self - Scene",
+      "description": "Until this spell ends, you gain Resistance to physical damage."
+    },
+    {
       "name": "War Cry",
       "info": "10 MP × T - Up to three creatures - Scene",
       "description": "Until this spell ends, each target gains a +1 bonus to Accuracy Checks."

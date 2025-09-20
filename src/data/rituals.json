@@ -1,0 +1,129 @@
+{
+  "name": "Rituals",
+  "info": "Magic disciplines and their applications",
+  "data": [
+    {
+      "name": "Magic Disciplines",
+      "table": [
+        ["Discipline", "Magic Check", "You could use it to..."],
+        [
+          "Arcanism",
+          "【WLP + WLP】",
+          "Produce a magical effect based on the Arcana you have bound."
+        ],
+        [
+          "Chimerism",
+          "【INS + WLP】or【MIG + WLP】",
+          "Enhance your senses, see through the eyes of an animal, quell the fury of a monster."
+        ],
+        [
+          "Elementalism",
+          "【INS + WLP】",
+          "Walk on water, shape rock, snuff out fires, cause a rainstorm or summon powerful cyclones."
+        ],
+        [
+          "Entropism",
+          "【INS + WLP】",
+          "Cause the decay of physical matter, twist the flow of time, teleport creatures or items."
+        ],
+        [
+          "Ritualism",
+          "【INS + WLP】",
+          "Extract magic from an object, activate a soul circuit, sense the presence of magic."
+        ],
+        [
+          "Spiritism",
+          "【INS + WLP】",
+          "Sense the presence and feelings of creatures, put someone to sleep or embolden their heart."
+        ]
+      ]
+    },
+    {
+      "name": "Ritual Limitations",
+      "table": [
+        ["Forbidden Effect", "Description"],
+        [
+          "Direct Damage",
+          "The Ritual can still deal collateral damage — if you open a chasm below your enemies' feet, they are bound to suffer some kind of harm. When establishing collateral damage dealt by a Ritual, use the table on page 93."
+        ],
+        ["Status Effects", "Inflicting or removing status effects."],
+        [
+          "Character Resources",
+          "Causing characters to lose or gain HP, MP, IP, Fabula Points or Ultima Points."
+        ],
+        [
+          "Mechanical Benefits",
+          "Replicating the mechanical benefits of an existing spell or Skill (however, narrative effects such as teleportation or flight are okay, even if some Skills do grant them)."
+        ],
+        [
+          "Permanent Creation",
+          "Generating creatures or equipment, or granting them permanent abilities."
+        ],
+        [
+          "Risk and Consequence",
+          "Aside from these, most Rituals are fair game — but the stronger the effect you seek, the more tragic the consequences will be if your Ritual goes wrong."
+        ]
+      ]
+    },
+    {
+      "name": "Potency Table",
+      "table": [
+        ["Potency", "Clock", "MP", "DL", "Examples"],
+        [
+          "Minor",
+          "4",
+          "5",
+          "7",
+          "Create a flash of light, block a passage, shatter a glass."
+        ],
+        [
+          "Medium",
+          "6",
+          "10",
+          "10",
+          "Create an illusion, treat an illness, locate someone or something, sense emotions, provide short-term energy."
+        ],
+        [
+          "Major",
+          "6",
+          "20",
+          "13",
+          "Sense thoughts, influence emotions, dispel a curse, temporarily alter the weather, provide long-term energy."
+        ],
+        [
+          "Extreme",
+          "8",
+          "40",
+          "16",
+          "Weaken a divine entity, prevent a catastrophe, cause a week-long change in a creature or location."
+        ]
+      ]
+    },
+    {
+      "name": "Area Table",
+      "table": [
+        ["Area", "MP", "Examples"],
+        [
+          "Individual",
+          "×1",
+          "A human-sized creature, a door, a tree, a weapon."
+        ],
+        [
+          "Small",
+          "×2",
+          "A few human-sized creatures, a large creature, a small clearing, a room, a railway car, a hut."
+        ],
+        [
+          "Large",
+          "×3",
+          "A crowd, a small forest, an airship or galleon, a castle hall, a house, a giant creature."
+        ],
+        [
+          "Huge",
+          "×4",
+          "A fortress, a lake, a mountaintop, a village, a city block."
+        ]
+      ]
+    }
+  ]
+}

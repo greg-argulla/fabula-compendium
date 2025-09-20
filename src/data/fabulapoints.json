@@ -1,0 +1,35 @@
+{
+  "name": "Fabula Points",
+  "info": "Spending and gaining Fabula Points",
+  "data": [
+    {
+      "name": "Spending Fabula Points",
+      "table": [
+        ["Action", "Description"],
+        [
+          "Invoke Trait",
+          "Spend 1 FP after performing a Check to invoke a trait to reroll one or both dice."
+        ],
+        [
+          "Invoke Bond",
+          "Spend 1 FP after performing a Check to invoke a bond and add its strength to the result."
+        ],
+        [
+          "Alter Story",
+          "Spend 1 FP to alter the story. If you are altering an existing element, you need permission from whoever introduced it."
+        ]
+      ]
+    },
+    {
+      "name": "Gaining Fabula Points",
+      "table": [
+        ["Condition", "FP Gained"],
+        ["Session Start (if you have none)", "+1 FP"],
+        ["Fumble a Check", "+1 FP"],
+        ["Villain makes an entrance", "+1 FP"],
+        ["Surrender at zero HP", "+2 FP"],
+        ["Invoke Bond/Trait to intentionally fail", "+1 FP"]
+      ]
+    }
+  ]
+}

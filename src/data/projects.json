@@ -1,0 +1,141 @@
+{
+  "name": "Projects",
+  "info": "Tinkerer invention system",
+  "data": [
+    {
+      "name": "Project Process",
+      "table": [
+        ["Step", "Description"],
+        [
+          "1. Describe",
+          "Describe the invention's effects, how it operates, what kind of energy it requires, and the specific benefits it provides. The Game Master has final say on whether a given invention is feasible in your circumstances."
+        ],
+        [
+          "2. Split Complex",
+          "If an invention is complex enough — such as a magitech motorcycle equipped with a cannon, acting as both a vehicle and a weapon — the Game Master is free to split the Project into two or more separate inventions, each requiring its own individual development process."
+        ],
+        [
+          "3. Determine Cost",
+          "By consulting the area, potency, and uses tables, the GM determines the invention's total cost in materials, to be paid immediately. For inventions of medium or higher potency, the Game Master also describes a necessary special ingredient or material. This item cannot simply be purchased and should become the focus of one or two sessions."
+        ],
+        [
+          "4. Negotiate Flaw",
+          "You may negotiate a terrible flaw with the Game Master — perhaps the invention must be recharged at regular intervals, is unreliable, cumbersome, or extremely loud. This flaw reduces the total cost of the Project by 25%."
+        ],
+        [
+          "5. Progress Required",
+          "To complete the Project, you must reach an amount of progress equal to one for every 100 zenit of material costs (minimum one progress required). At the end of each day, the Project will advance as follows: +1 progress for every Player Character who worked on the Project today. +1 extra progress for every Player Character with one or more levels in the Tinkerer Class who worked on the Project today."
+        ],
+        [
+          "6. Completion",
+          "Once the required amount of progress is reached, the invention is created! If you can generate more progress in a day than what is currently needed to complete the Project, you may have it ready within a few hours instead."
+        ]
+      ]
+    },
+    {
+      "name": "Potency Table",
+      "table": [
+        ["Potency", "Base Cost", "The invention can..."],
+        [
+          "Minor",
+          "100 zenit",
+          "Provide light, transport people or cargo on land or water, obtain some limited form of protection."
+        ],
+        [
+          "Medium",
+          "200 zenit",
+          "Travel underwater, contain a spell, relay sound or speech, perform a specific operation in place of the inventor, provide short-term energy."
+        ],
+        [
+          "Major",
+          "400 zenit",
+          "Fly, alter the nature of an area for a short time, cancel the effects of a spell, possess minor intelligence, fight alongside the inventor, provide long-term energy, capture or immobilize the target."
+        ],
+        [
+          "Extreme",
+          "800 zenit",
+          "Alter the nature of an area for a long time, contain the power of a demon, prevent a catastrophe, possess a full intelligence and personality."
+        ]
+      ]
+    },
+    {
+      "name": "Area Table",
+      "table": [
+        ["Area", "Multiplier", "The effects of the invention may affect..."],
+        [
+          "Individual",
+          "×1",
+          "A human-sized creature, a door, a tree, or a weapon."
+        ],
+        [
+          "Small",
+          "×2",
+          "A group of human-sized creatures, a large creature, a small clearing, a room, a railway car, or a hut."
+        ],
+        [
+          "Large",
+          "×3",
+          "A crowd, a small forest, an airship or galleon, a castle hall, a house, or a giant creature."
+        ],
+        [
+          "Huge",
+          "×4",
+          "A fortress, a lake, the top of a mountain, a village, or a city block."
+        ]
+      ]
+    },
+    {
+      "name": "Uses Table",
+      "table": [
+        ["Uses", "Multiplier", "Once activated, the invention..."],
+        [
+          "Consumable",
+          "×1",
+          "Can never be used again unless the inventor creates a different copy of it."
+        ],
+        [
+          "Permanent",
+          "×5",
+          "Remains available for multiple uses in different situations."
+        ]
+      ]
+    },
+    {
+      "name": "Damage and Protection Guidelines",
+      "table": [
+        ["Potency", "Damage/Healing", "Protection"],
+        ["Minor", "Not Available", "One Resistance"],
+        ["Medium", "Minor", "Two Resistances"],
+        ["Major", "Major", "One Immunity or Two Resistances"],
+        ["Extreme", "Massive", "Two Immunities or Three Resistances"]
+      ]
+    },
+    {
+      "name": "Damage/Healing Amounts by Level",
+      "table": [
+        ["Level", "Minor Amount", "Heavy Amount", "Massive Amount"],
+        ["5+", "10", "30", "40"],
+        ["20+", "20", "40", "60"],
+        ["40+", "30", "50", "80"]
+      ]
+    },
+    {
+      "name": "Project Design Rules",
+      "table": [
+        ["Rule", "Description"],
+        [
+          "Physical Immunity",
+          "Avoid creating inventions that grant Immunity to physical damage."
+        ],
+        [
+          "Mixed Effects",
+          "If an invention has mixed effects, such as granting Resistance to a damage type and dealing damage, it should be split into multiple Projects (see step 2)."
+        ],
+        [
+          "Damage Determination",
+          "To determine the amount of damage or healing granted by an invention, use the values corresponding to the current level of its inventor from the damage amounts table."
+        ]
+      ]
+    }
+  ]
+}

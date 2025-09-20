@@ -1,0 +1,121 @@
+{
+  "name": "Conflict",
+  "info": "Combat actions, items, and mechanics",
+  "data": [
+    {
+      "name": "Conflict Actions",
+      "table": [
+        ["Action", "Description"],
+        ["Attack", "You perform a melee or ranged attack."],
+        [
+          "Equipment",
+          "You switch any number of equipped items with any number of items in your backpack. This action doesn't apply to armor."
+        ],
+        [
+          "Guard",
+          "Only once per turn. Until the start of your next turn:\n• You gain resistance to all damage types.\n• You gain a +2 bonus to Opposed Checks.\n• You may cover another creature and prevent foes from performing melee attacks against them."
+        ],
+        [
+          "Hinder",
+          "You perform DL 10 Check against an opponent. If you succeed, you inflict dazed, shaken, slow, or weak upon them."
+        ],
+        [
+          "Inventory",
+          "You spend Inventory Points to produce and use a consumable item."
+        ],
+        [
+          "Objective",
+          "You work towards accomplishing an objective within the conflict. This will require a check, and complex goals will require a Clock."
+        ],
+        ["Spell", "You cast one of the spells you have learned."],
+        [
+          "Study",
+          "You attempt to gain information about someone or something."
+        ],
+        ["Skill", "You perform a skill that requires you to use an action."],
+        [
+          "Other",
+          "You perform an action that is not covered by any of the above."
+        ]
+      ]
+    },
+    {
+      "name": "Consumable Items",
+      "table": [
+        ["Item", "IP Cost", "Effect"],
+        ["Elixir", "3", "One creature recovers 50 Mind Points."],
+        ["Remedy", "3", "One creature recovers 50 Hit Points."],
+        ["Tonic", "2", "One creature recovers from a single status effect."],
+        [
+          "Elemental Shard",
+          "2",
+          "One creature Suffers 10 damage of a type of your choice (air, bolt, earth, fire, or ice)."
+        ],
+        [
+          "Magic Tent",
+          "4",
+          "Allows the entire group to rest in the wilderness."
+        ]
+      ]
+    },
+    {
+      "name": "Opportunities",
+      "table": [
+        ["Opportunity", "Description"],
+        [
+          "Advantage",
+          "The next Check performed by you or an ally will receive a +4 bonus."
+        ],
+        ["Affliction", "A creature suffers dazed, shaken, slow or weak."],
+        [
+          "Bonding",
+          "You create a Bond towards someone or something or add an emotion to one of your existing Bonds."
+        ],
+        [
+          "Faux Pas",
+          "Choose a creature present in the scene: they make a compromising statement chosen by the person who controls them."
+        ],
+        ["Favor", "Your Actions earn you someone's support or admiration."],
+        [
+          "Information",
+          "You spot a useful clue or detail. The GM may tell you what it is or ask you to introduce that detail yourself."
+        ],
+        ["Lost Item", "An item is destroyed, lost, stolen, or left behind."],
+        ["Progress", "You may fill or erase up to two section on a Clock."],
+        [
+          "Plot Twist!",
+          "Someone or something of your choice suddenly appears in the scene."
+        ],
+        [
+          "Scan",
+          "You discover one Vulnerability or one Trait of a creature you can see."
+        ],
+        [
+          "Unmask",
+          "You learn the goals and motivations of a creature of your choice."
+        ]
+      ]
+    },
+    {
+      "name": "Status Effects",
+      "table": [
+        ["Status Effect", "Description"],
+        ["Dazed", "Insight die reduced by one size."],
+        ["Enraged", "Dexterity and Insight die reduced by one size."],
+        ["Poisoned", "Might and Willpower die reduced by one size."],
+        ["Shaken", "Willpower die reduced by one size."],
+        ["Slow", "Dexterity die reduced by one size."],
+        ["Weak", "Might die reduced by one size."]
+      ]
+    },
+    {
+      "name": "Improvised Damage by Level",
+      "table": [
+        ["Level", "Minor Damage", "Heavy Damage", "Massive Damage"],
+        ["5+", "10", "30", "40"],
+        ["20+", "20", "40", "60"],
+        ["40+", "30", "50", "80"]
+      ]
+    }
+  ]
+}

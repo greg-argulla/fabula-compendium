@@ -65,6 +65,11 @@ import armorqualities from "./data/armorqualities";
 import weaponqualities from "./data/weaponqualities";
 import itemdesign from "./data/itemdesign";
 import qualitiesset1 from "./data/qualitiesset1.json";
+import fabulapoints from "./data/fabulapoints.json";
+import clocks from "./data/clocks.json";
+import conflict from "./data/conflict.json";
+import rituals from "./data/rituals.json";
+import projects from "./data/projects.json";
 
 const Text = (props) => {
   const { children } = props;
@@ -130,6 +135,12 @@ export const collection = [
   necromancer,
   quirksbonus,
   npcspells,
+  "Rules Summary",
+  conflict,
+  clocks,
+  fabulapoints,
+  rituals,
+  projects,
 ];
 
 function App() {

@@ -1,0 +1,31 @@
+{
+  "name": "Clocks",
+  "info": "Clock mechanics and advancement",
+  "data": [
+    {
+      "name": "Sections",
+      "table": [
+        ["Sections", "Once Filled..."],
+        ["4", "Invokes a simple, minor, or temporary effect or advantage."],
+        [
+          "6 to 8",
+          "Invokes a major effect which provides a decisive and permanent advantage."
+        ],
+        [
+          "10 to 12",
+          "Invokes a grand effect which is capable of resolving a conflict scene."
+        ]
+      ]
+    },
+    {
+      "name": "Advancing a Clock",
+      "table": [
+        ["Condition", "Sections Filled"],
+        ["Successful Check", "1 section"],
+        ["Exceeded difficulty by 3+", "1 additional section (2 total)"],
+        ["Exceeded difficulty by 6+", "2 additional sections (3 total)"],
+        ["Critical Success + Opportunity", "2 additional sections"]
+      ]
+    }
+  ]
+}
