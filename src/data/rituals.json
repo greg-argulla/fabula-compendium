@@ -20,7 +20,7 @@
         ],
         [
           "3",
-          "The Ritual is cast following the normal procedure for a spell (page 115), but it always requires a Magic Check which must meet or exceed a Difficulty Level based on the Ritual's potency (see below). The Check will rely on the Attributes indicated by the Ritual's discipline (see page on the left). If you succeed, the Ritual has the desired effect; if you fail, the Game Master will describe how its effects have been twisted in a catastrophic way."
+          "The Ritual is cast following the normal procedure for a spell, but it always requires a Magic Check which must meet or exceed a Difficulty Level based on the Ritual's potency (see below). The Check will rely on the Attributes indicated by the Ritual's discipline (see below). If you succeed, the Ritual has the desired effect; if you fail, the Game Master will describe how its effects have been twisted in a catastrophic way."
         ]
       ]
     },
@@ -144,6 +144,34 @@
           "Huge",
           "×4",
           "A fortress, a lake, a mountaintop, a village, a city block."
+        ]
+      ]
+    },
+    {
+      "name": "Rituals as Group Checks",
+      "table": [
+        ["Aspect", "Description"],
+        [
+          "Group Participation",
+          "When a character attempts a Ritual, other characters can help (even if they have no ability to perform Rituals themselves). The Magic Check will become a Group Check (page 50), and the character who performs the Ritual will act as the leader."
+        ]
+      ]
+    },
+    {
+      "name": "Reducing the Cost of a Ritual",
+      "table": [
+        ["Method", "Description"],
+        [
+          "Rare Ingredient",
+          "It is easy to notice that the MP cost of Rituals can be rather high. In order to reduce this cost, the spellcaster may provide an especially rare or powerful ingredient; doing so will cut the MP cost in half."
+        ],
+        [
+          "Adventure Requirement",
+          "This can only be done once per Ritual, and the Game Master should determine the nature of the ingredient — finding it should be its own adventure."
+        ],
+        [
+          "Urgent Sacrifice",
+          "If there is no time to prepare and the Ritual is urgent, an item or ingredient the GM deems suitable can be sacrificed to allow the Ritual to take place."
         ]
       ]
     }
