@@ -3,6 +3,28 @@
   "info": "Magic disciplines and their applications",
   "data": [
     {
+      "name": "Ritual Casting Procedure",
+      "table": [
+        ["Step", "Description"],
+        [
+          "1",
+          "Describe what you want to accomplish with your Ritual and declare which area or creatures you want to affect. The Game Master has final say on whether a given effect can be accomplished, as well as which Ritual discipline it falls within."
+        ],
+        [
+          "2",
+          "If the result of the Ritual can be achieved through simple actions without magical assistance, resolve it as a check only. If not, continue to step 3."
+        ],
+        [
+          "3",
+          "By consulting the area and potency tables below, the Game Master determines the Ritual's total cost in Mind Points."
+        ],
+        [
+          "3",
+          "The Ritual is cast following the normal procedure for a spell (page 115), but it always requires a Magic Check which must meet or exceed a Difficulty Level based on the Ritual's potency (see below). The Check will rely on the Attributes indicated by the Ritual's discipline (see page on the left). If you succeed, the Ritual has the desired effect; if you fail, the Game Master will describe how its effects have been twisted in a catastrophic way."
+        ]
+      ]
+    },
+    {
       "name": "Magic Disciplines",
       "table": [
         ["Discipline", "Magic Check", "You could use it to..."],
