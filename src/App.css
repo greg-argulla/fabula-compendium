@@ -1,6 +1,29 @@
 #root {
   height: 540px;
   width: 550px;
+  scrollbar-width: none !important; /* Firefox - with !important to override any conflicts */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Additional Firefox targeting */
+@-moz-document url-prefix() {
+  body {
+    scrollbar-width: none !important;
+    overflow: -moz-scrollbars-none !important;
+  }
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+body::-webkit-scrollbar-track {
+  display: none !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  display: none !important;
 }
 
 .card {
