@@ -5,6 +5,11 @@
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
+.main-body {
+  scrollbar-width: none !important; /* Firefox - with !important to override any conflicts */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
 /* Additional Firefox targeting */
 @-moz-document url-prefix() {
   body {
