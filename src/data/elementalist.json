@@ -8,7 +8,7 @@
         {
           "name": "Cataclysm",
           "info": "Max SL - 3",
-          "description": "When you cast an `instantaneous` spell, if you have an `arcane` weapon equipped, you may `increase the spell's total MP cost` by up to`【SL × 10】`Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost."
+          "description": "When you cast a spell with a `duration` of \"Instantaneous\", if you have an `arcane` weapon equipped, you may increase the spell's total MP cost by up to`【SL × 10】`Mind Points. If you do so, the spell deals 5 extra damage for every 10 Mind Points by which you increased its cost this way."
         },
         {
           "name": "Elemental Magic",
@@ -26,15 +26,20 @@
           "description": "You may perform Rituals whose effects fall within the `Elementalism` discipline. Elementalism Rituals use`【INS + WLP】`for the Magic Check."
         },
         {
-          "name": "Spell Blade",
+          "name": "Spellblade",
           "info": "Max SL - 3",
-          "description": "When you cast an offensive (*ϟ*) spell that targets `a single creature` and has a `total Mind Point cost of【SL × 20】or lower`, you may choose one `non-arcane` weapon among those you have equipped. If you do, your Magic Check for the spell uses the chosen weapon's Accuracy Check formula; if that formula includes `Dexterity`, the Magic Check also gains a bonus equal to`【SL】`. For instance, casting an Elementalist spell through a `bronze sword` when you have Skill Level 2 in `Spellblade` will cause the Magic Check to be`【DEX + MIG】+3` instead of`【INS + WLP】`."
+          "description": "When you cast an offensive spell (*ϟ*) targeting `a single creature`, if the spell has a `total Mind Point cost of【SL × 20】or lower`, you may choose one `non-arcane` weapon you have equipped. If you do, your Magic Check for the spell uses the chosen weapon's Accuracy Check formula; if that formula includes `Dexterity`, the Magic Check also gains a bonus equal to`【SL】`. For instance, casting an Elementalist spell through a `bronze sword` (page 131) when you have Skill Level 2 in `Spellblade` will cause the Magic Check to be`【DEX + MIG】+3` instead of`【INS + WLP】`."
         }
       ]
     },
     {
       "name": "Elementalist Spells",
       "data": [
+        {
+          "name": "Boulder",
+          "info": "20 MP - One creature - Instantaneous",
+          "description": "(*ϟ*) You summon a colossal block of stone and send it straight towards your enemy. You deal`【HR + 25】earth` damage to the target; this damage ignores Resistances."
+        },
         {
           "name": "Elemental Shroud",
           "info": "5 MP × T - Up to three creatures - Scene",

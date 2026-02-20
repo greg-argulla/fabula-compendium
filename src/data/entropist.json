@@ -28,7 +28,7 @@
         {
           "name": "Stolen Time",
           "info": "Max SL - 4",
-          "description": "During a conflict, you may use an action to interfere with the flow of time by spending up to`【SL × 5】`Mind Points. For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers `slow`; or one creature you can see recovers from `slow`; or one enemy you can see who is suffering from `slow` loses`【10 + (SL × 5)】`Hit Points; or one creature you can see may perform the `Equipment` action for free; or choose one ally you can see who has yet to take a turn during this round: that ally may take their turn immediately after yours during this round.\nEach option can only be chosen `once` per use of this Skill."
+          "description": "During a conflict, you may use an action to interfere with the flow of time by spending up to`【SL × 5】`Mind Points. For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers `slow`; or one creature you can see recovers from `slow`; or one enemy you can see that is suffering from `slow` loses`【10 + (SL × 5)】`Hit Points; or one creature you can see may perform the `Equipment` action for free; or choose one ally you can see that has yet to take a turn during this round: that ally may take their turn immediately after yours during this round.\n\nEach option can only be chosen `once` per use of this Skill."
         }
       ]
     },
@@ -63,7 +63,7 @@
         {
           "name": "Drain Spirit",
           "info": "5 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You consume a creature's psyche. The target loses`【HR + 20】`Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none)."
+          "description": "(*ϟ*) You consume a creature's psyche. The target loses`【HR + 20】`Mind Points. Then, you recover an amount of Mind Points equal to half the total Mind Points loss they suffered (if the target had no MP left, you recover none)."
         },
         {
           "name": "Drain Vigor",
@@ -78,12 +78,12 @@
         {
           "name": "Mirror",
           "info": "10 MP - One creature - Scene",
-          "description": "You twist the laws of magic. Until this spell ends, if an offensive spell (*ϟ*) is cast on the target, the creature who cast that offensive spell (*ϟ*) will be targeted in their stead (any other targets of the offensive spell (*ϟ*) will be targeted as normal). Once that happens, this spell ends."
+          "description": "You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (*ϟ*), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends."
         },
         {
           "name": "Omega",
           "info": "15 MP - One creature - Instantaneous",
-          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to`【30 + half the target's level】`."
+          "description": "(*ϟ*) You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to`【20 + half the target's level】`."
         },
         {
           "name": "Stop",

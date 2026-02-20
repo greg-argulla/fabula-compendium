@@ -82,12 +82,12 @@
             {
               "name": "Frantic",
               "info": "Tone",
-              "description": "Each target suffers`【key type】`damage equal to `twice` your current `Willpower` die size. This tone deals 10 extra damage if you are `level 20 or higher`, or 20 extra damage if you are `level 40 or higher`."
+              "description": "You deal an amount of`【key type】`damage equal to `twice` your current `Willpower` die to each target. This tone deals 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`."
             },
             {
               "name": "Haunting",
               "info": "Tone",
-              "description": "Each target suffers`【key status effect】`. Each target also loses Resistance to`【key type】`damage (if they have it) until the start of your next turn."
+              "description": "Each target suffers`【key status effect】`. Each target also loses Resistance to`【key type】`damage (if they have it) until the start of your next turn, and cannot gain Resistance to that damage type."
             },
             {
               "name": "Lively",

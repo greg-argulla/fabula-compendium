@@ -32,9 +32,9 @@
     },
 
     {
-      "name": "Dynamic Sychronization",
+      "name": "Dynamic Synchronization",
       "info": "Requirements: you must have mastered the Pilot Class.",
-      "description": "At the start of your turn during a conflict, if you are driving your `personal vehicle`, you may choose one option: you `synchronize` with another Player Character who is present on the scene and driving their `personal vehicle`; `or` you `synchronize` with another Player Character among your `personal vehicle`'s passengers. Describe how you join forces! While this synchronization is active, you and the chosen character `both `receive the following benefits in relation to each other:\n\n- When you perform a Check, you may use the current Attribute die sizes of the other Player Character in place of yours (for one or both dice).\n\n- When you deal damage, deal extra damage equal to`【the strength of your Bond towards the other Player Character, plus the strength of their Bond towards you】`.- You may use an action to perform a `free attack` with one `active or inactive weapon module` present on the `personal vehicle` the other Player Character is currently on.\n\n- When your turn ends, if the other Player Character has yet to take their turn during this round, they may take their turn `immediately` after yours.\n\nThis synchronization lasts until the end of the scene, or until you or the other Player Character die, fall unconscious, leave the scene, `synchronize` with someone else, or are no longer aboard a `personal vehicle`."
+      "description": "At the start of your turn during a conflict, if you are driving your `personal vehicle`, you may choose one option: you `synchronize` with another Player Character who is present on the scene and driving their own `personal vehicle`, `or` you `synchronize` with another Player Character who is a passenger on your `personal vehicle`. Describe how the two of you join forces! You and the chosen character `both` receive the following benefits as long as the `synchronization` remains active:\n\n- When you perform a Check, you may use the current Attribute die sizes of the other PC in place of yours (for one or both dice).\n\n- When you deal damage, deal extra damage equal to`【the strength of your Bond towards the other PC, plus the strength of their Bond towards you】`.\n\n- You may use an action to perform a `free attack` with one `enabled or disabled weapon module` present on the `personal vehicle` the other PC is currently on.\n\n- When your turn ends, if the other PC has yet to take their turn during this round, they may take their turn `immediately` after yours.\n\nThis `synchronization` lasts until the end of the scene, or until you or the other Player Character die, fall unconscious, leave the scene, `synchronize` again or are no longer aboard a `personal vehicle`."
     },
 
     {
@@ -93,8 +93,8 @@
 
     {
       "name": "Quantum Armament",
-      "info": "Requirements: you must have mastered the Tinkerer Class, and must have acquired the advanced Magitech Armament benefit from the Gadget Skill.",
-      "description": "Your attacks with your magitech armament deal 5 extra damage.\nWhen you perform the `Attack` action with your magitech armament, you may choose one option: destroy the magitech armament and `immediately` create and equip a new one `for free` (ignore the IP cost), using this newly equipped magitech armament for your attack; or the attack gains `multi (3); or` you perform two separate attacks instead of one, following the rules for `two-weapon fighting`"
+      "info": "Requirements: you must have mastered the Tinkerer Class and acquired the advanced Magitech benefit from the Gadget Skill.",
+      "description": "Your attacks with the `magitech armament` deal 5 extra damage.\nWhen you perform the `Attack` action with your `magitech armament`, if you have `no other weapon equipped`, you may choose one option: destroy the `magitech armament`, then create and equip a new one `for free` (ignore the IP cost), using this newly equipped `magitech armament` for your attack; `or` the attack gains `multi (3)`; `or` you perform two separate attacks instead of one, following the rules for `two-weapon fighting` (Core Rulebook, page 69)."
     },
 
     {

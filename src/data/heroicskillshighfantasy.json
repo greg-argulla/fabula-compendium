@@ -79,12 +79,12 @@
     {
       "name": "Pulverizing Strike",
       "info": "Requirements: you must have mastered one or more Classes among Darkblade, Fury, and Weaponmaster.",
-      "description": "When you use the Breach Skill, if you attack with a `melee` weapon belonging to the `heavy` Category, you may treat your Skill Level in the Breach Skill as being 2 points higher (to a maximum of 6)."
+      "description": "When you use the Breach Skill, if you attack with a `melee` weapon belonging to the `heavy` Category, you may treat your Skill Level in the Breach Skill as being 2 points higher (to a maximum Skill Level of 5)."
     },
     {
       "name": "Rising Tide",
       "info": "Requirements: you must have mastered one or more Classes among Fury and Weaponmaster.",
-      "description": "When you perform a `melee` attack using a weapon that belongs to the `brawling` Category, `if you have no martial armor and no shields equipped`, you gain `1 Bravery Point`.\nYour `melee` attacks using weapons that belong to the `brawling` Category deal extra damage equal to your current `Bravery Points`.\nAt the end of each scene, `or` if you have 5 or more Bravery Points at the end of your turn, you `must` spend all your accumulated `Bravery Points` and recover 10 Hit Points `and` Mind Points."
+      "description": "When you perform a `melee` attack using a weapon that belongs to the `brawling` Category, `if you have no martial armor and no shields equipped`, you gain `1 Bravery Point`.\nAs long as you have no `martial armor` and no `shields` equipped, your `melee` attacks with `brawling` weapons deal extra damage equal to`【2 + your current Bravery Points】`.\nAt the end of each scene, `or` if you have `5 or more Bravery Points` at the end of your turn, you lose all accumulated Bravery Points. Then, if you lost at least 1 point this way, you recover 10 Hit Points `and` 10 Mind Points."
     },
     {
       "name": "Ritual Seals",
@@ -104,7 +104,7 @@
     {
       "name": "Swirling Swarm",
       "info": "Requirements: you must have mastered one or more Classes among Dancer, Fury, and Sharpshooter.",
-      "description": "When you perform a `ranged` attack using a weapon that belongs to the `thrown` Category, `if you have no martial armor and no shields equipped`, you gain `1 Momentum Point`.\n\nYou may never have more than `5 Momentum Points`.\n\nYour `ranged` attacks using weapons that belong to the `thrown` Category deal extra damage equal to your current `Momentum Points`.\n\nWhen a creature hits you with an attack targeting your `Defense`, you `must` spend all your accumulated `Momentum Points` and increase your Defense score by an equal amount against that attack (this may turn the hit into a miss).\n\nYou also lose all `Momentum Points` at the end of each scene."
+      "description": "When you perform a `ranged` attack using a weapon that belongs to the `thrown` Category, `if you have no martial armor and no shields equipped`, you gain `1 Momentum Point`.\n\nYou may never have more than `5 Momentum Points`.\n\nYour `ranged` attacks using weapons that belong to the `thrown` Category deal extra damage equal to your current `Momentum Points`.\n\nWhen a creature hits you with an attack targeting your `Defense`, you `must` spend all your accumulated `Momentum Points` and increase your Defense score by an equal amount against that attack (this may turn the hit into a miss).\n\nYou also lose all `Momentum Points` at the end of each scene, or if you equip a `shield` or `martial armor`."
     },
     {
       "name": "Tabula Rasa",

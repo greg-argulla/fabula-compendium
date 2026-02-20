@@ -23,8 +23,8 @@
     },
     {
       "name": "Comet",
-      "info": "Requirements: You must have mastered the Entropist Class.",
-      "description": "You learn the ultimate Entropist spell: Comet.\n\n*Comet* MP: 50 Target: Special Duration: Instantaneous\n\nYou rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose on option: one creature you can see suffers 60 damage; `or` you deal 40 damage to every enemy you can see. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`. Damage dealt by this spell has no type (thus being unaffected by damage Affinities)."
+      "info": "Requirements: you must have mastered the Entropist Class.",
+      "description": "You learn the ultimate Entropist spell: Comet.\n\n*Comet*        MP: 50        Target: Special        Duration: Instantaneous\n\nYou rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option: you deal 60 damage to one creature you can see; or you deal 40 damage to every enemy you can see. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\nDamage dealt by this spell has no type (thus being unaffected by damage Affinities)."
     },
     {
       "name": "Deep Pockets",
@@ -68,8 +68,8 @@
     },
     {
       "name": "Heroic Companion",
-      "info": "Requirements: You must have mastered the Wayfarer Class, and must have acquired the Faithful Companion Skill.",
-      "description": "Your bond with your companion grows stronger. You gain the following benefits:\n- The companion's maximum Hit Points increase by 10.\n- Choose one of the companion's Attributes: `Dexterity`, `Insight`, `Might`, or `Willpower`. The chosen Attribute is permanently increased by one die size (up to a maximum size of `d12)`.\n- The companion gains an additional Skill. When you reach level `40`, or if you have already reached it, the companion gains an additional Skill. Make sure to discuss your Skill choices with the Game Master and the other Players."
+      "info": "Requirements: you must have mastered the Wayfarer Class, and must have acquired the Faithful Companion Skill.",
+      "description": "You gain the following benefits:\n• The companion's maximum Hit Points increase by 10.\n• The companion deals 5 extra damage.\n• Choose one of the companion's Attributes: `Dexterity`, `Insight`, `Might`, or `Willpower`. The chosen Attribute is permanently increased by one die size (up to a maximum size of `d12`).\n• The companion gains an additional Skill. When you reach level `40`, or if you have already reached it, the companion gains an additional Skill. Make sure to discuss your Skill choices with the Game Master and the other Players."
     },
     {
       "name": "Hope",
@@ -145,18 +145,18 @@
     },
     {
       "name": "Upgrade",
-      "info": "Requirements: You must have mastered the Tinkerer Class.",
-      "description": "When you `rest`, you may choose any number of `armors`, `shields`, and/or `weapons`. For each item chosen this way, you may either `add a Quality` to it (if it doesn't have one) or `replace its current Quality` with a different one. These Qualities must come from the list of default Qualities available for items of that type, and must have an associated cost modifier of +1000 zenit or lower. At the end of the `rest`, you must pay an amount of zenit equal to the total sum of those cost modifiers, reduced by`【your Skill Level in Visionary, multiplied by 100】`. If you do, the items will be modified."
+      "info": "Requirements: you must have mastered the Tinkerer Class.",
+      "description": "When you `rest`, you may choose any number of `weapons`, `armor`, and/or `shields` among those owned by your group. For each item chosen this way, you may either `add a Quality` to it (if it doesn't have one) or `replace its current Quality` with a different one. These new Qualities must come from the list of default Qualities available for items of that type, and must have an associated cost modifier of `+1000 zenit or lower`. At the end of the `rest`, you must pay an amount of zenit equal to the total sum of those cost modifiers, reduced by`【your Skill Level in Visionary, multiplied by 100】`. If you do, the items will be modified according to your choices.\n\nThe default list of `weapon Qualities` can be found on page `269`, while the default list of `armor` and `shield Qualities` can be found on page `280`."
     },
     {
       "name": "Vanish",
-      "info": "Requirements: You must have mastered the Rogue Class.",
-      "description": "When you hit one or more creatures with an attack, you may spend 1 Fabula Point. If you do, each of those creatures will be unable to perform any action that requires them to be able to see you until the start of your next turn."
+      "info": "Requirements: you must have mastered the Rogue Class.",
+      "description": "When you hit one or more creatures with an attack or offensive spell (*ϟ*), you may spend 1 Fabula Point. If you do, each of those creatures becomes unable to see you until the start of your next turn."
     },
     {
-      "name": "Ultimagic",
-      "info": "Requirements: You must have mastered the Elementalist Class.",
-      "description": "Choose a damage type among `air, bolt, earth, fire`, and `ice` when acquired.\n\nYou learn the ultimate Elementalist spell: `Ultimagic`.\n\n*Ultimagic* MP: 40 Target: Special Duration: Instantaneous\n\nChoose one option: you deal 50 damage of the type you have chosen to one enemy you can see; `or` you deal 30 damage of the type you have chosen to every enemy you can see. This damage increases by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\nDamage dealt by this spell ignores Immunities and Resistances."
+      "name": "Volcano",
+      "info": "Requirements: you must have mastered the Elementalist Class.",
+      "description": "You learn the ultimate Elementalist spell: `Volcano` (if it better fits your character, you may give this spell a different name and change its damage to `air`, `bolt`, `earth`, or `ice`).\n\n*Volcano* MP: 40 Target: Special Duration: Instantaneous\n\nYou channel the fury of the planet into a powerful wave of fire and magma. Choose one option: you deal 50 `fire` damage to one creature you can see; `or` you deal 30 `fire` damage to every enemy you can see. These amounts increase by 5 if you are `level 20 or higher`, or by 10 if you are `level 40 or higher`.\nDamage dealt by this spell ignores Resistances and Immunities."
     }
   ]
 }

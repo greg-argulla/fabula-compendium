@@ -14,7 +14,7 @@
         {
           "name": "Flexible Configuration",
           "info": "Max SL - 4",
-          "description": "When you perform the `Equipment` or `Guard` action while driving your `personal vehicle`, you may choose up to`【SL】`of its active modules and make them `inactive`; if you do, choose an equal amount of its inactive modules and make them `active`."
+          "description": "When you perform the `Equipment` or `Guard` action while driving your `personal vehicle`, you may choose up to`【SL】`of its enabled modules and `disable` them. If you do, choose up to`【SL】`among its disabled modules and `enable` them."
         },
 
         {

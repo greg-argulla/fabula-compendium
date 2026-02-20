@@ -80,7 +80,7 @@
           "name": "Effect",
           "table": [
             ["Die", " Each creature affected by the potion..."],
-            ["`Any`", "... As effect 3, but with poison damage."],
+            ["`Any`", "... is dealt 20 `poison` damage. This amount increases to 30 damage if you are `level 20 or higher`, or to 40 damage if you are `level 40 or higher`."],
             ["`Any`", "... recovers 30 Hit Points and 30 Mind Points."],
             [
               "`1`",
@@ -89,7 +89,7 @@
             ["`2`", "As effect 1, but with `Insight` and `Willpower`."],
             [
               "`3`",
-              "... suffers 20 `air` damage. This amount increases to 30 damage if you are `level 20 or higher`, or to 40 damage if you are `level 40 or higher`."
+              "... is dealt 20 `air` damage. This amount increases to 30 damage if you are `level 20 or higher`, or to 40 damage if you are `level 40 or higher`."
             ],
             ["`4`", "As effect `3`, but with `bolt` damage."],
             ["`5`", "As effect `3`, but with `dark` damage."],
