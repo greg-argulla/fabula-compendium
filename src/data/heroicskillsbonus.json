@@ -1,0 +1,70 @@
+{
+  "name": "Bonus",
+  "data": [
+    {
+      "name": "Arcane Sacrifice",
+      "info": "Requirements: you must have mastered one or more Classes among Arcanist and Guardian.",
+      "description": "Once per scene, when you and/or one or more allies you can see are reduced to 0 Hit Points, if you are `merged` with an Arcanum, you may have all creatures that would be reduced to 0 Hit Points be reduced to exactly 1 Hit Point instead. If you do, you must immediately `dismiss` that Arcanum (without applying any `dismiss` effect), and cannot summon that same Arcanum again until the end of the scene."
+    },
+    {
+      "name": "Broken Wing Tactic",
+      "info": "Requirements: you must have mastered one or more Classes among Commander and Guardian.",
+      "description": "After an enemy you can see performs an **Accuracy Check** or a **Magic Check** for an offensive spell (*ϟ*) on their turn during a conflict, you may grant them a +3 bonus to the Result of the Check. If you do, choose one option: you and every ally that is able to hear you gain Resistance to all damage types until the end of this turn; **or** you and every ally that is able to hear you deal 5 extra damage until the end of this turn. Once you use this Skill, you cannot use it again until the start of your next turn."
+    },
+    {
+      "name": "Flow of Yin and Yang",
+      "info": "Requirements: you must have mastered one or more Classes among Dancer, Elementalist, Esper, and Invoker.",
+      "description": "When you deal `dark`, `earth`, `ice`, or `physical` damage for the first time during a turn, you gain **1 Yin Point** and, if you have **at least 1 Yang Point**, you deal 5 extra damage.\nWhen you deal `air`, `bolt`, `fire`, or `light` damage for the first time during a turn, you gain **1 Yang Point** and, if you have **at least 1 Yin Point**, you deal 5 extra damage.\nAt the end of your turn, if you have **3 or more Yin and/or Yang points** and have **at least 1 point of each type**, you lose all Yin and Yang Points and perform one of the following effects based on the points you lost (perform **both** in case of a tie):\n• **Yin majority:** every enemy present on the scene loses an amount of Mind Points equal to `【half your level】`.\n• **Yang majority:** one creature you can see that is present on the scene recovers an amount of Mind Points equal to `【your level】`.\nYou may gain and use **Yin and Yang Points** only during conflicts, and you lose all your **Yin and Yang Points** at the end of each scene."
+    },
+    {
+      "name": "Great Cauldron's Secret",
+      "info": "Requirements: you must have mastered the Tinkerer Class, and have acquired the superior alchemy benefit from the Gadgets Skill.",
+      "description": "When you create a `potion` via `alchemy`, you may treat the die assigned to **\"target\"** as showing a value of **13** or **17** (even if that die shows a different number)."
+    },
+    {
+      "name": "Hunter's Trick",
+      "info": "Requirements: you must have mastered one or more Classes among Sharpshooter and Weaponmaster.",
+      "description": "When you transform a `transforming custom weapon` on your turn, choose **one** option: if you have not performed any attacks during this turn, the next attack you perform with this weapon during this turn deals 5 extra damage; **or** if you have hit one or more creatures with an attack using this weapon during this turn, you recover 5 Hit Points and 5 Mind Points."
+    },
+    {
+      "name": "Impaler Dragon",
+      "info": "Requirements: you must have mastered one or more Classes among Commander and Darkblade, and have acquired the Charging Cavalry and Shadow Strike Skills.",
+      "description": "When you use the `Shadow Strike` Skill, you may treat your **High Roll** as being equal to 0 when determining damage dealt by this attack. If you do, after the effects granted by **Shadow Strike** are resolved, you may immediately perform the `Charging Cavalry` Skill for free (paying the appropriate MP cost)."
+    },
+    {
+      "name": "It Lives!",
+      "info": "Requirements: you must have mastered one or more Classes among Tinkerer and Wayfarer, and have acquired the Faithful Companion (construct Species) and Visionary Skills.",
+      "description": "Your companion's base Affinity towards `bolt` damage is replaced with **Absorption**, and their maximum Hit Point score is increased by an amount equal to `【twice your Skill Level in Visionary】`.\nWhen your companion deals damage, if they have no weapons equipped, they deal extra damage equal to `【your Skill Level in Visionary】`."
+    },
+    {
+      "name": "Like an Open Book",
+      "info": "Requirements: you must have mastered one or more Classes among Esper, Loremaster and Rogue, and have acquired the Soul Steal Skill.",
+      "description": "After you successfully use the `Soul Steal` Skill against one or more enemies, you may choose one of them. If you do, you immediately perform the **Study** action for free against that enemy: treat the Result and High Roll of this Open Check as being equal to the Result and High Roll of the Check you performed for `Soul Steal` (do not roll dice for this Open Check).\nWhen you deal damage to an `elite` or `champion`-rank enemy, if you stole that enemy's `soul treasure` during this scene, you deal extra damage equal to `【your Skill Level in Soul Steal】` to that enemy."
+    },
+    {
+      "name": "Nether Slash",
+      "info": "Requirements: you must have mastered one or more Classes among Darkblade, Elementalist and Pilot, and have acquired the Shadow Strike Skill.",
+      "description": "When you use the `Shadow Strike` Skill, you may choose `fire` or `ice`. If you do, all damage dealt by this attack becomes of the chosen type instead of `dark` (its damage type cannot change, as usual), and you gain Resistance to the damage type you did not choose until the start of your next turn.\nWhen you perform a `free attack` with a `melee` weapon as part of the `Shadow Strike` Skill, the attack may target enemies that cannot be targeted by `melee` attacks."
+    },
+    {
+      "name": "Ofuda Mastery",
+      "info": "Requirements: you must have mastered one or more Classes among Arcanist, Merchant, Symbolist and Spiritist, and have acquired the Symbolism Skill.",
+      "description": "When you use the `Symbolism` Skill during a conflict, you may spend 20 Mind Points to ignore the Skill's normal cost in Inventory Points.\nWhen you perform a `free attack` with a `melee` weapon as part of the `Symbolism` Skill, the attack may target enemies that cannot be targeted by `melee` attacks."
+    },
+    {
+      "name": "Phagomagus",
+      "info": "Requirements: you must have mastered one or more Classes among Chimerist, Entropist, Gourmet and Mutant.",
+      "description": "When you cast the `Dispel` spell, its MP cost becomes \"10 × T\" and its `target` becomes \"Up to three creatures\".\nWhen you cause one or more enemies to stop being affected by one or more spells with a `duration` of \"Scene\", choose **one** option: you recover 20 Mind Points for each different spell whose effects ended on at least one of those enemies this way; **or** for each different spell whose effects ended on at least one of those enemies this way, apply a copy of that spell on yourself (if a spell allowed for choices upon casting it, you must retain the same choices that were made for this casting of the spell). This copying effect does not require actions, Mind Points, or Checks, and is not treated as \"casting a spell\"."
+    },
+    {
+      "name": "Symbiotic Roots",
+      "info": "Requirements: you must have mastered one or more Classes among Chimerist, Floralist, Mutant and Wayfarer, and have acquired the Faithful Companion (plant Species) Skill.",
+      "description": "When you recover Hit Points, you may choose to recover only `half` of that amount; if you do, your companion recovers that many Hit Points.\nAt the end of your turn during a conflict, if your companion's current Hit Points are `equal to or higher than` their maximum Hit Points and your companion has not performed actions or attacks during this turn, you may have your companion perform a `free attack` with one of their basic attacks."
+    },
+    {
+      "name": "Witchvoice",
+      "info": "Requirements: you must have mastered one or more Classes among Chanter and Orator.",
+      "description": "After you sing a `haunting verse`, or after you succeed on an Opposed Check for your `Condemn` Skill, you may choose one enemy among the targets of that verse or Skill. If you do, choose one status effect that enemy is currently suffering from: that enemy becomes `bewitched` until the start of your next turn or until they recover from the chosen status effect. Enemies you have `bewitched` must include you among the targets of their attacks and offensive spells (*ϟ*), if able."
+    }
+  ]
+}

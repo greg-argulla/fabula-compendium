@@ -49,6 +49,8 @@ import quirkshighfantasy from "./data/quirkshighfantasy.json";
 import quirkstechnofantasy from "./data/quirkstechnofantasy.json";
 import quirksnaturalfantasy from "./data/quirksnaturalfantasy.json";
 import quirksbonus from "./data/quirksbonus.json";
+import heroicskillsbonus from "./data/heroicskillsbonus.json";
+import heroicskillsadditional from "./data/heroicskillsadditional.json";
 import customweapons from "./data/customweapons.json";
 import zeropower from "./data/zeropower.json";
 import campactivities from "./data/campactivities.json";
@@ -132,6 +134,8 @@ export const collection = [
   heroicskillshighfantasy,
   heroicskillstechnofantasy,
   heroicskillsnaturalfantasy,
+  heroicskillsbonus,
+  heroicskillsadditional,
   "Other",
   necromancer,
   quirksbonus,
