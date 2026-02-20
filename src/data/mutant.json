@@ -29,6 +29,11 @@
           "name": "Theriomorphosis",
           "info": "Max SL - 6",
           "description": "Each time you acquire this Skill, you learn a `therioform`.\nYou may use an action and spend `one third of your current Hit Points` (rounded down) to manifest the effects of `up to two therioforms` you have learned: the details of this transformation are explained below."
+        },
+        {
+          "name": "Theriomorphosis (Variant)",
+          "info": "+6",
+          "description": "*This variant attempts to solve the problem of needing to wait an entire turn before being able to make use of the transformation, in exchange for a more demanding Hit Point cost. If you play with this variant, the Heroic Skill `Greater Theriomorphosis` cannot be acquired (simply ignore it).*\n\nEach time you acquire this Skill, you learn a `therioform` (see next pages).\n\nYou may use an action and spend `half your current Hit Points` (rounded down) to manifest the effects of `up to two therioforms` you have learned. Then, if you did `not` perform this Skill through `Genoclepsis`, you may perform a `free attack` with a weapon you have equipped."
         }
       ]
     },

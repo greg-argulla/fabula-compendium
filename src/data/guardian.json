@@ -6,11 +6,6 @@
       "name": "Skills",
       "data": [
         {
-          "name": "Retaliation",
-          "info": "Max SL - 5",
-          "description": "When you deal damage during your turn, if you performed the `Guard` action during your previous turn and chose to `cover` an ally, you deal`【SL】`extra damage."
-        },
-        {
           "name": "Defensive Mastery",
           "info": "Max SL - 5",
           "description": "As long as you have a `shield` or a `martial armor` equipped, all damage you suffer is reduced by`【SL】`(applied `before` damage Affinities)."
@@ -34,6 +29,11 @@
           "name": "Bodyguard",
           "info": "Max SL - 1",
           "description": "If you perform the `Guard` action and choose to provide cover to an ally, that creature gains Resistance to all damage types until the start of your next turn."
+        },
+        {
+          "name": "Agile Defender",
+          "info": "+4",
+          "description": "*This variant replaces Bodyguard with an alternative that further enhances `Protect` gameplay and supports a \"dodge tank\" approach. Characters who do not rely on armor and shields can use it to master the Guardian Class without \"wasting\" levels.*\n\nWhen an attack or offensive spell (*ϟ*) `misses` you, if you have used the `Protect` Skill `once` since your last turn, you regain its use. When you use `Protect` during a conflict, if you have no `shields` and no `martial armor` equipped, you gain a bonus to Defense and Magic Defense equal to`【SL + 1】`until the end of this turn."
         }
       ]
     }

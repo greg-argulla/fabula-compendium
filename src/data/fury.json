@@ -16,6 +16,16 @@
           "description": "Your Accuracy Checks with `brawling`, `dagger`, `flail` and `thrown` weapons trigger a `critical success` if both dice show the same number (and the Check is not a `fumble`)."
         },
         {
+          "name": "Frenzy (Unarmed)",
+          "info": "Max SL - 3",
+          "description": "*This variant provides the Fury Class with a way to improve Accuracy on fast-attacking weapons, and introduces a core book option for **unarmed strikes** that does not create problematic stacking with effects such as **Empty Hands** or **Akromorphosis**.*\n\nYou gain a bonus equal to`【SL】`to your Accuracy Checks with `brawling`, `dagger`, `flail`, and `thrown` weapons. Your `unarmed strikes` deal extra damage equal to`【4 + (SL × 2) + (your level, divided by 5)】`, and cannot benefit from any source of extra damage other than this Skill and the `Adrenaline` Skill (above)."
+        },
+        {
+          "name": "Meteor Slam",
+          "info": "Max SL - 3",
+          "description": "*This variant replaces Frenzy with the option to dish out a staggering and accurate hit that leaves enemies reeling for a brief time.*\n\nYou may use an action and spend 5 Mind Points to perform a `free attack` with a weapon you have equipped. This attack gains a bonus equal to`【SL】`to its Accuracy Check, and if you are using a `brawling`, `dagger`, `flail`, or `thrown` weapon, it also deals`【SL × 2】`extra damage. Every enemy that loses Hit Points due to this attack cannot perform `free attacks` nor the `Guard` action until the end of their next turn."
+        },
+        {
           "name": "Indomidable Spirit",
           "info": "Max SL - 4",
           "description": "When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover`【SL × 5】`Hit Points; or you recover`【SL × 5】`Mind Points; `or` you recover from a single status effect of your choice."
