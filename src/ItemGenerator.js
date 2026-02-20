@@ -6,7 +6,6 @@ import heroicskillshighfantasy from "./data/heroicskillshighfantasy.json";
 import heroicskillstechnofantasy from "./data/heroicskillstechnofantasy.json";
 import heroicskillsnaturalfantasy from "./data/heroicskillsnaturalfantasy.json";
 import qualitiesset1 from "./data/qualitiesset1.json";
-import heroicstyles from "./data/heroicstyles.json";
 import npcspells from "./data/npcspells.json";
 import quirksbonus from "./data/quirksbonus.json";
 import quirkshighfantasy from "./data/quirkshighfantasy.json";
@@ -31,7 +30,6 @@ const data = [
   ...heroicskillshighfantasy.data.map((item) => item.description),
   ...heroicskillstechnofantasy.data.map((item) => item.description),
   ...heroicskillsnaturalfantasy.data.map((item) => item.description),
-  ...heroicstyles.data.map((item) => item.description),
   ...npcspells.data.map((item) => item.description),
   ...quirksbonus.data.map((item) => item.description),
   ...quirkshighfantasy.data.map((item) => item.description),
