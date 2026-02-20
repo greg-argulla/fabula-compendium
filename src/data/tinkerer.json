@@ -80,7 +80,10 @@
           "name": "Effect",
           "table": [
             ["Die", " Each creature affected by the potion..."],
-            ["`Any`", "... is dealt 20 `poison` damage. This amount increases to 30 damage if you are `level 20 or higher`, or to 40 damage if you are `level 40 or higher`."],
+            [
+              "`Any`",
+              "... is dealt 20 `poison` damage. This amount increases to 30 damage if you are `level 20 or higher`, or to 40 damage if you are `level 40 or higher`."
+            ],
             ["`Any`", "... recovers 30 Hit Points and 30 Mind Points."],
             [
               "`1`",
@@ -165,6 +168,31 @@
           "name": "Venom",
           "info": "Superior Infusion",
           "description": "The attack deals 5 extra damage, its damage becomes `poison`, and each creature hit by the attack suffers `poisoned`."
+        }
+      ]
+    },
+
+    {
+      "name": "Gadgets - Magitech",
+      "description": "Also: Engineering, Golemcraft, Robotics.\n\nThis invention type grants a variety of different benefits."
+    },
+    {
+      "name": "Magitech",
+      "data": [
+        {
+          "name": "Magitech Override",
+          "info": "Basic",
+          "description": "During a conflict, you may use an action and spend 10 Mind Points to choose a `construct` or `elemental` enemy you can see that does not possess independent intelligence and is suffering from `one or more status effects`. If you do so, that enemy recovers from all status effects, then the Game Master reveals its `entire profile` and you may force it to immediately perform an action of your choice; during that action, the creature is treated as an ally of your group."
+        },
+        {
+          "name": "Magicannon",
+          "info": "Advanced",
+          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magicannon` (see below) and destroy any `magicannon` you previously created. If you do so and both your `hand slots` are empty, you may immediately equip the newly created magicannon and perform a `free attack` with it. Whenever you create a `magicannon`, choose what type of damage it deals among `air`, `bolt`, `earth`, `fire`, `ice`, or `physical`.\n\n*Magicannon*\nAccuracy:`【DEX + INS】+1`\nDamage:`【HR + 10】`\nProperties: Firearm • Two-handed • Ranged • Cannot have Qualities."
+        },
+        {
+          "name": "Magispheres",
+          "info": "Superior",
+          "description": "You develop a `magisphere` for each of `three spells` from among those found in the `Elementalist`, `Entropist`, and `Spiritist` lists; these spells may come from the same list or from different lists (this `does not` count as 'learning' or 'knowing' these spells).\n\nYou develop a new `magisphere` upon reaching `level 20`, and another upon reaching `level 40` (the same applies if you already reached those levels).\n\nYou may perform the `Inventory` action and spend 2 Inventory Points to perform the `Spell` action for free, casting one of the spells you have developed a `magisphere` for. The spell follows the normal rules (including MP costs and Magic Checks)."
         }
       ]
     },

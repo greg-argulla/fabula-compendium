@@ -98,6 +98,12 @@
     },
 
     {
+      "name": "Quantum Magicannon",
+      "info": "Requirements: you must have mastered the Tinkerer Class and acquired the advanced Magitech benefit from the Gadget Skill.",
+      "description": "Your attacks with the `magicannon` deal 5 extra damage.\nWhen you perform the `Attack` action with your `magicannon`, if you have `no other weapon equipped`, you may choose one option: destroy the `magicannon`, then create and equip a new one `for free` (ignore the IP cost), using this newly equipped `magicannon` for your attack; `or` the attack gains `multi (3)`; `or` you perform two separate attacks instead of one, following the rules for `two-weapon fighting` (Core Rulebook, page 69)."
+    },
+
+    {
       "name": "Quick Scan",
       "info": "Requirements: you must have mastered the Loremaster Class.",
       "description": "When you perform the `Study` action during a conflict, you may examine the `profiles` of `all enemies` you can see. If you do, you perform a single`【INS + INS】`Open Check and apply the Result `separately` to each enemy. However, this Check `cannot` trigger your `Flash of Insight` Skill (if you have it)."
