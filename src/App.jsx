@@ -9,6 +9,7 @@ import "./App.css";
 /* Data */
 
 import arcanist from "./data/arcanist.json";
+import arcanistvariant from "./data/arcanistvariant.json";
 import chimerist from "./data/chimerist.json";
 import darkblade from "./data/darkblade.json";
 import elementalist from "./data/elementalist.json";
@@ -83,6 +84,7 @@ const Text = (props) => {
 export const collection = [
   "Base Classes",
   arcanist,
+  arcanistvariant,
   chimerist,
   darkblade,
   elementalist,
