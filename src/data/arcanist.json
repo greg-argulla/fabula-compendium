@@ -1,103 +1,168 @@
 {
   "name": "Arcanist",
-  "info": "Increase HP or MP by 5 (your choice).",
+  "info": "Permanently increase your maximum Mind Points by 5.",
   "data": [
     {
       "name": "Skills",
       "data": [
         {
+          "name": "Arcane Circle",
+          "info": "Max SL - 4",
+          "description": "After you willingly `dismiss` an Arcanum on your turn during a conflict, if that Arcanum had not been `summoned` during this same turn and you have an `arcane` weapon equipped, you may perform the `Spell` action for free (after resolving the `dismiss` effect). The spell you cast this way must have a `total Mind Point cost of 【SL × 5】 or lower` (you must still pay the spell's MP cost)."
+        },
+        {
           "name": "Arcane Regeneration",
-          "info": "Max SL - 6",
-          "description": "After you `willingly dismiss` an Arcanum you are `merged` with, if you are in `Crisis`, you may have yourself and every ally present on the scene recover`【SL × 5】`Hit Points."
+          "info": "Max SL - 2",
+          "description": "When you summon an Arcanum, you recover `【SL × 5】` Hit Points."
         },
         {
           "name": "Bind And Summon",
           "info": "Max SL - 1",
-          "description": "You may `bind` Arcana to your soul and `summon` them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question.\nYou may use an action and spend 30 Mind Points to `summon` an Arcanum you have bound.\nIf you take this Skill at character creation, you begin play with one Arcanum bound to you (you may `choose it` from the sample Arcana or `create it` with your group). Any further Arcana must be obtained through exploration and story progression."
+          "description": "You may `bind` Arcana to your soul and `summon` them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question.\nYou may use an action and spend 40 Mind Points to `summon` an Arcanum you have bound: the details of this process are explained on the next page.\nIf you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression."
         },
         {
-          "name": "Phantom Strength",
+          "name": "Emergency Arcanum",
           "info": "Max SL - 6",
-          "description": "When you perform a `pulse`, before resolving its effects, you may choose to have all damage you deal ignore `Affinities` until the end of this turn. If you do, the next time you deal damage before the end of this turn, you deal `【SL + 4】` extra damage"
-        },
-        {
-          "name": "Quick Summoning",
-          "info": "Max SL - 2",
-          "description": "When you `summon` an Arcanum on your turn during a conflict, choose up to two options: immediately perform that Arcanum's `pulse`; and/or reduce the summoning's Mind Point cost by`【SL × 5】`. If you choose at least one option, you `cannot willingly dismiss` that Arcanum until the start of your next turn; if you choose both options, that Arcanum's `dismiss` effect will not be available for this summoning."
+          "description": "As long as you are in `Crisis`, the cost for summoning your Arcana is reduced by `【SL × 5】` Mind Points."
         },
         {
           "name": "Ritual Arcanism",
-          "maxSL": "Max SL - 1",
-          "description": "You may perform Rituals of the `Arcanism` discipline, as long as their effects fall within the `domains` of one or more Arcana you have bound. Arcanism Rituals use`【WLP + WLP】`for the Magic Check."
+          "info": "Max SL - 1",
+          "description": "You may perform Rituals of the `Arcanism` discipline, as long as their effects fall within the `domains` of one or more Arcana you have bound (see next pages).\nArcanism Rituals use `【WLP + WLP】` for the Magic Check."
         }
       ]
     },
     {
       "name": "Arcanum",
-      "description": "*Merging with an Arcanum*\nWhen you summon an Arcanum, you gain its `merge` benefits; those benefits last until the Arcanum is dismissed.\n You cannot summon an Arcanum while already merged with one; you must first dismiss the current Arcanum.\n\n*Dismissing an Arcanum*\nIf you are merged with an Arcanum, they will be `automatically dismissed` at the end of the scene, if you die or fall unconscious, or if you leave the scene.\n You may also `willingly dismiss` the Arcanum you are currently merged with: this never requires an action, but during a conflict it can only be done on your turn, `before or after` an action.\n\n*Pulse and Dismiss Effects*\nIn addition to their `merge` effects, most Arcana also grant the Arcanist a `pulse` effect and a `dismiss` effect.\n\n- As long as you are merged with a given Arcanum, you may use an action to unleash that Arcanum's `pulse` effect. You may `only` do so during a conflict scene, and `only once` per turn.\n\n- When you `willingly` dismiss an Arcanum, you may use their `dismiss` effect - if the Arcanum is dismissed for any other reason, this effect cannot be used. You are also free to ignore a `dismiss` effect if you don't want to use it.\n\n- If a `pulse` or `dismiss` effect deals damage, it will deal 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`.\n\n Some effects follow unique rules, explained within the Arcanum's text.\n\n*Domains*\nEach Arcanum is associated with a few key concepts or `domains`. The Game Master should use these to establish the trials or conditions needed for the Arcanum to lend their power, and to adjudicate Rituals performed through the `Ritual Arcanism` Skill once that Arcanum has been bound."
+      "description": "*Merging with an Arcanum*\nWhen you summon an Arcanum, you gain its `merge` benefits; those benefits last until the Arcanum is dismissed (see below).\n You cannot summon an Arcanum while already merged with one; you must first dismiss the current Arcanum.\n\n*Dismissing an Arcanum*\nAn Arcanum can be dismissed in several ways:\n\n- Once the current scene ends, all Arcana are automatically dismissed.\n\n- If you die or fall unconscious while merged with an Arcanum, they are dismissed.\n\n- If you leave the scene while merged with an Arcanum, they are dismissed.\n\n- You may `willingly` dismiss your Arcanum: this doesn't require an action, but during a conflict it can only be done on your turn, while no other effect is being resolved.\n\n*Dismiss Effects*\nMost Arcana have a powerful `dismiss` effect, which may only be activated when you `willingly` dismiss the Arcanum as described above — if the Arcanum is dismissed for any other reason, the `dismiss` effect cannot be triggered.\n\nIf the `dismiss` effect of an Arcanum deals damage, it will deal 10 extra damage if you are `level 20 or higher`, or 20 extra damage if you are `level 40 or higher`.\n\nYou are also free to ignore the `dismiss` effect if you don't want to use it.\n\n*Domains*\nEach Arcanum is associated with a few key concepts or `domains`. The Game Master should use these to establish the trials needed to bind the Arcanum, and to adjudicate Rituals performed through the `Ritual Arcanism` Skill.\n If you create new Arcana for your world, make sure to associate them with domains that allow for interesting Rituals."
     },
     {
       "name": "Arcana",
       "data": [
         {
-          "name": "Antikythera",
-          "info": "The enigmatic custodian of time and space. Domains: space, time, void.",
-          "description": "*MERGE: Kaleidoscope Veil*\nAfter you lose Hit Points due to damage, if that damage has a type and that type is not `physical`, you gain Resistance to that damage type and lose any previous Resistance granted by this effect.When this Arcanum is `dismissed`, you lose any Resistance gained through this effect.\n\n*PULSE: Binary Stars*\nYou deal 10 `fire` damage to a creature you can see; then, you deal 10 `ice` damage to a creature you can see (the same or a different one).\n\n*DISMISS: Spacetime subtraction*\nChoose one option: every enemy present on the scene suffers slow; or every enemy present on the scene who is suffering from `slow` will perform one fewer action during their next turn (to a minimum of 0 actions); `or` you teleport yourself and up to five other nearby allies you can see to a location you visited in the past, provided that location is within `1 travel day` of your position.\nOnce the second or third option is chosen, this `dismiss` effect will not be available until the next dawn."
+          "name": "Arcanum of the Forge",
+          "info": "Domains: fire, heat, metal.",
+          "description": "*MERGE*\nYou gain Resistance to `fire` damage.\nAny `fire` damage you deal ignores Resistances.\n\n*DISMISS*\nWhen you dismiss this Arcanum, choose `Forge` or `Inferno`:\n\n**Forge.** You create a `basic weapon`, `armor` or `shield` of your choice (see pages 130 to 133). If you select this option again, the previously created item vanishes. If you create a weapon this way, it deals `fire` damage instead of `physical`.\n\n**Inferno.** Choose any number of creatures you can see: you deal 30 `fire` damage to each of them. This damage ignores Resistances."
         },
         {
-          "name": "Banshee",
-          "info": "The ominous tyrant lord of winds. Domains: birds, storms, winds.",
-          "description": "*MERGE: Impeding catastrophe*\n You have Resistance to `air` damage, and when you deal `air` or `physical` damage, you deal extra damage equal to your current `Whirlwind Points`. When this Arcanum is dismissed, you lose all `Whirlwind Points`.\n\n*PULSE: Zephyr Blades*\nYou deal 10 `air` damage to each of up to two creatures you can see. Then, you gain `1 Whirlwind Point`, or `2 Whirlwind Points` if you dealt damage to `only one` creature\n\n*DISMISS: Hurricane Screech*\nYou deal an amount of `air` damage equal to`【the amount of Whirlwind Points you lost by dismissing this Arcanum, multiplied by 5】`to every enemy present on the scene. This damage ignores Resistances."
+          "name": "Arcanum of the Frost",
+          "info": "Domains: cold, ice, silence.",
+          "description": "*MERGE*\nYou gain Resistance to `ice` damage and are immune to `enraged`.\nAny `ice` damage you deal ignores Resistances.\n\n*DISMISS*\n**Ice Age.** Choose any number of creatures you can see: you deal 30 `ice` damage to each of them. This damage ignores Resistances."
         },
         {
-          "name": "Caladrius",
-          "info": "The winged master of healing magic. Domains: exorcism, healing, sunlight.",
-          "description": "*MERGE: Protective Gaze*\nWhen you summon this Arcanum, choose a status effect: `dazed`, `enraged`, `poisoned`, `shaken`, `slow`, or `weak`. As long as you are merged with this Arcanum, you and every ally present on the scene are immune to the chosen status effect.\n\n*PULSE: Cleansing Sunlight*\nChoose one option: you deal 10 `light` damage to each of up to two creatures you can see; `or` one creature you can see recovers from all status effects.\n\n*DISMISS: Healing Feathers*\nYou and every ally present on the scene recover 30 Hit Points. This amount increases to 40 if you are `level 20 or higher`, or to 50 if you are `level 40 or higher`."
+          "name": "Arcanum of the Gate",
+          "info": "Domains: space, travel, void.",
+          "description": "*MERGE*\nYou gain Resistance to `dark` damage.\nYou gain a +1 bonus to your Magic Defense.\n\n*DISMISS*\nWhen you dismiss this Arcanum, choose `Oblivion` or `Warp`:\n\n**Oblivion.** Choose any number of creatures you can see: you deal 30 `dark` damage to each of them. This damage ignores Resistances.\n\n**Warp.** You teleport yourself and up to five other nearby willing creatures to a location you previously visited, if that location is within `1 travel day`."
         },
         {
-          "name": "Dahaka",
-          "info": "The slithering prince of desert sands. Domains: earth, poison, sandstorms.",
-          "description": "*MERGE: Hardened Scales*\nYou have Resistance to `earth` damage and are immune to `poisoned`.\nYour `melee` attacks can target flying creatures.\n\n*PULSE: Numbing Bite*\nYou deal 10 `poison` damage to each of up to two creatures you can see. Then, each creature who lost Hit Points due to this damage suffers `slow`.\n\n*DISMISS: Tectonic Crush*\nYou deal 20 `earth` damage to every enemy present on the scene who isn't flying, floating, falling, or otherwise in mid-air. This damage ignores Resistances, and also ignores Immunities and Absorptions of creatures afflicted by `slow`."
+          "name": "Arcanum of the Grimoire",
+          "info": "Domains: knowledge, revelations, understanding.",
+          "description": "*MERGE*\nYou are able to read, write, speak and understand all languages.\nYou treat your `Insight` as if it were one die size higher (up to a maximum of `d12`).\n\n*DISMISS*\n**Oracle.** You ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by the Grimoire.\nOnce used, this `dismiss` effect will not be available until the next dawn. Furthermore, the same question may never be asked more than once. The Game Master has final say on which questions are too similar to be asked again."
         },
         {
-          "name": "Kuzunoha",
-          "info": "The fierce protector of witches and beasts. Domains: animals, lightning, sorcery.",
-          "description": "*MERGE: Mantle Of The Fox*\nYou have Resistance to `bolt` damage.\nYou can communicate with creatures of the `beast`, `monster`, and `plant` Species.\n\n*PULSE: Crackling Sigil*\nChoose one option: you perform a `free attack` with a weapon you have equipped; `or` you immediately perform the `Spell` action for free, casting an `offensive` (*ϟ*) spell with a `total Mind Point cost of 20 or lower`. If this attack or spell deals damage, you may change its type to `bolt`.\n\n*DISMISS: Roaring Thunderbolt*\nYou deal 20 `bolt` damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage suffers `dazed`."
+          "name": "Arcanum of the Oak",
+          "info": "Domains: earth, plants, poison.",
+          "description": "*MERGE*\nYou gain Resistance to `earth` and `poison` damage and are immune to `poisoned`.\nWhenever you recover Hit Points, you recover 5 additional Hit Points.\n\n*DISMISS*\n**Blossom.** Choose any number of creatures you can see (you may also choose yourself): each of them recovers from `poisoned` and also recovers 40 Hit Points. This amount increases to 50 Hit Points if you are `level 20 or higher`, or to 60 Hit Points if you are `level 40 or higher`."
         },
         {
-          "name": "Lilith",
-          "info": "She who wages war against Celestial Spheres. Domains: chaos, rebellion, revelation.",
-          "description": "*MERGE: Wings Of Eden*\nYou have Resistance to `dark` and `light` damage.\nYou may never have more than 10 `Gnosis Points`, and you lose all `Gnosis Points` when this Arcanum is dismissed.\n\n*PULSE: Claws Of The Fallen*\nYou perform a `free attack` with a weapon you have equipped; if it is a `melee` attack, it can target `flying` creatures. This attack deals extra damage equal to your current `Gnosis Points`, and an additional 5 extra damage against creatures who Absorb `light` damage or are Immune to it. After this attack is resolved, you gain `1 Gnosis Point` for every creature who lost Hit Points due to its damage.\n\n*DISMISS: Paradise lost*\n Every enemy present on the scene loses an amount of Hit Points equal to`【the amount of Gnosis Points you lost by dismissing this Arcanum, multiplied by 5】`. This Hit Point loss increases by 10 against `Villains`; additionally, it increases by 10 if you are `level 20 or higher`, or by 20 if you are `level 40 or higher`."
+          "name": "Arcanum of the Sky",
+          "info": "Domains: fog, rain, storms.",
+          "description": "*MERGE*\nYou gain Resistance to `air` and `bolt` damage.\nYou may use an action to accurately predict weather conditions for the next day within a range of `two travel days` — the Game Master will tell you what the weather conditions will be.\n\n*DISMISS*\n**Thunderstorm.** Choose any number of creatures you can see: you deal 30 `bolt` damage to each of them. This damage ignores Resistances."
         },
         {
-          "name": "Lorelei",
-          "info": "The serene and inscrutable fey ruler of the glaciers. Domains: cold, ice, silence.",
-          "description": "*MERGE: Subzero Silence*\nYou have Resistance to `ice` damage and are immune to `enraged`. When you deal damage, you may change its type to `ice`.\n\n*PULSE: Winter Melody*\nYou deal 10 `ice` damage to each of up to two creatures you can see. Then, each creature who lost Hit Points due to this damage suffers `weak`.\n\n*DISMISS: Glacier's Disdain*\nYou deal 20 `ice` damage to every enemy present on the scene. This damage ignores Resistances; each creature who lost Hit Points due to this damage also loses an equal amount of Mind Points."
+          "name": "Arcanum of the Sword",
+          "info": "Domains: conquest, heroism, leadership.",
+          "description": "*MERGE*\nYour attacks deal 5 extra damage, and all damage dealt by your attacks loses its type and cannot gain a type for as long as you are merged with this Arcanum (thus being unaffected by damage Affinities).\nWhen you perform an attack, you may have that attack gain the `multi (any number of targets)` property. If you do, this Arcanum will be automatically dismissed after the attack is resolved (this is `not` considered a willing dismiss)."
         },
         {
-          "name": "Nimue",
-          "info": "The wielder of ninety-nine swords. Domains: conquest, heroism, leadership.",
-          "description": "*MERGE: Royal Armaments*\nWhen you deal damage, you deal 5 extra damage; all damage you deal loses its type and cannot gain a type (thus being unaffected by damage Affinities).\n\n*PULSE:Arondight*\nYou perform a `free attack` with a weapon you have equipped. This attack targets Magic Defense instead of Defense.\n\n*DISMISS: Gordian Slice*\nOne creature you can see loses 30 Hit Points, or 40 Hit Points if you are `level 30 or higher`. Then, if that creature is `not a Villain` and their current Hit Points are `equal to or lower than your Crisis score`, you reduce that creature to 0 Hit Points."
+          "name": "Arcanum of the Tower",
+          "info": "Domains: judgment, protection, sacrifice.",
+          "description": "*MERGE*\nWhen you summon this Arcanum, choose a damage type: `air`, `bolt`, `dark`, `earth`, `fire`, or `ice`. Until this Arcanum is dismissed, each of your allies present on the scene gains Resistance to the chosen damage type (you `do not` gain this Resistance).\n\n*DISMISS*\n**Judgment.** Choose any number of creatures you can see: you deal 30 `light` damage to each of them. This damage ignores Resistances."
         },
         {
-          "name": "Qilin",
-          "info": "The elusive herald of wisdom and good fortune. Domains: knowledge, prosperity, temperance.",
-          "description": "*MERGE: Enlightened Serenity*\nYou treat your `Insight` as if it were one die size higher (up to a maximum of `d12`).\n\n*PULSE: Steps of Prosperity*\nChoose one option: one ally you can see treats their `Insight` as if it were one die size higher (up to a maximum of `d12`) until the start of your next turn; `or` you immediately perform the `Spell` action for free, casting a `non-offensive` spell with a `total Mind Point cost of 10 or lower` without paying its MP cost.\n\n*DISMISS: Oracle*\nYou ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by this Arcanum. Once used, this `dismiss` effect will not be available until the next dawn."
+          "name": "Arcanum of the Wheel",
+          "info": "Domains: destiny, speed, time.",
+          "description": "*MERGE*\nYou are immune to `slow`.\nYou gain a +1 bonus to your Defense.\n\n*DISMISS*\n**Time Freeze.** Choose any number of creatures you can see: each of them suffers `slow`. If a creature chosen this way is already `slow`, that creature will instead perform one fewer action during their next turn (to a minimum of 0 actions)."
         },
         {
-          "name": "Seraph",
-          "info": "The guardian of one hundred gates. Domains: judgment, protection, sacrifice.",
-          "description": "*MERGE: Gentle Bastion*\nWhen you summon this Arcanum, choose a damage type: `air`, `bolt`, `dark`, `earth`, `fire`, `ice`, or `poison`. As long as you are merged with this Arcanum, your allies present on the scene have Resistance to the chosen type (you `do not` gain this Resistance).\n\n*PULSE: Exorcism Bolt*\nChoose one option: you deal 20 `light` damage to a creature you can see; `or` one creature you can see that is affected by one or more spells with a `duration` of 'Scene' is no longer affected by any of those spells instead.\n\n*DISMISS: Twilight Of Judgement*\nYou deal 20 `light` damage to every enemy present on the scene. This damage ignores Resistances and Immunities."
+          "name": "Airmid",
+          "info": "Protector of apothecaries and teacher of purifying arts. Domains: exorcism, healing, plants.",
+          "description": "*MERGE: Herbalist's Favor*\nWhen you summon this Arcanum, you gain 3 **Medicine Points**. When this Arcanum is dismissed, you lose all **Medicine Points**.\nOnce per turn during a conflict, you may perform the `Skill` action and spend 1 **Medicine Point** to choose one ally you can see. If you do, that ally recovers an amount of Hit Points equal to your `Crisis` score and recovers from a single status effect of your choice.\n\n*DISMISS: Cleansing Roots*\nYou deal 20 `earth` damage to every enemy you can see, or 30 `earth` damage if you had no **Medicine Points** left when you dismiss this Arcanum. Then, if one or more enemies that lost Hit Points this way are affected by one or more spells with a `duration` of \"Scene\", they stop being affected by those spells."
         },
         {
-          "name": "Tubalcain",
-          "info": "The blazing guardian of the forge. Domains: fire, heat, metal.",
-          "description": "*MERGE: Blessings Of The Anvil*\nYou have Resistance to `fire` damage, and `fire` damage you deal ignores Resistances. When you deal damage, you may change its type to `fire`.\n\n*PULSE: Forge Hammer*\nChoose one weapon you have equipped; you may change that weapon's Category to another Category of your choice until the end of your next turn. Then, perform a `free attack` with that weapon: this attack gains `multi (2)`.\n\n*DISMISS: Molten Wave*\nChoose one option: you deal 20 `fire` damage to every enemy present on the scene, and this damage ignores Resistances; `or`, until the start of your next turn all damage dealt by you and your allies present on the scene becomes `fire` and its type cannot be changed."
+          "name": "Baihu",
+          "info": "The white tiger of the West, ruling over battle and beasts. Domains: beasts, metal, wind.",
+          "description": "*MERGE: Presence of the Great Tiger*\nWhen you deal damage, you may change its type to `air` or `physical`.\nWhen you deal damage for the first time on your turn during a conflict, as long as that damage is `air` or `physical` and your Defense score is equal to or higher than 12, you deal 5 extra damage and that damage ignores Resistances.\n\n*DISMISS: Wind and Steel*\nChoose one option: you deal 30 `air` damage to every enemy you can see; `or` until the end of the current scene, you and every ally present on the scene may treat your Defense score as being equal to 12 (you may use the normal score if better). This score increases to 13 if you are `level 20 or higher`, or to 14 if you are `level 40 or higher`."
         },
         {
-          "name": "Vanagandr",
-          "info": "The dark wolf of the End Times. Domains: death, despair, hunger.",
-          "description": "*MERGE: Shroud of Hunger*\nYou have Resistance to `dark` damage, and all damage you deal ignores Resistances.\n\n*PULSE: Devourer of men*\nYou deal 10 `dark` damage to each of up to two creatures you can see. This effect deals 5 extra damage against `humanoids`.\n\n*DISMISS: Devourer Of Gods*\nYou deal 30 `dark` damage to a creature you can see; this damage ignores Resistances and Immunities. Then, if that creature is in `Crisis` and lost Hit Points due to this damage, you recover an amount of Hit Points equal to `half` the HP loss they suffered."
+          "name": "Damocles",
+          "info": "The ghastly sword, looming over tyrants. Domains: dread, hesitation, punishment.",
+          "description": "*MERGE: Impending Judgment*\nYou gain Resistance to `dark` and `light` damage.\nOnce per turn during a conflict, you may perform the `Skill` action to choose one enemy you can see and choose one action among the following: `Attack`, `Guard`, `Objective`, and `Spell`. If you do, until the start of your next turn that enemy loses 10 Hit Points whenever they perform the chosen action (after the action has been resolved). This amount increases to 20 Hit Points if you are `level 30 or higher`.\n\n*DISMISS: Rain of Swords*\nYou deal 30 `light` damage to every enemy you can see. Each creature that loses Hit Points due to this damage suffers `shaken`."
+        },
+        {
+          "name": "Fafnir",
+          "info": "The invulnerable chthonic dragon, who guards legendary treasures. Domains: fire, protection, wealth.",
+          "description": "*MERGE: Scales of the Ardent Sovereign*\nYou gain Resistance to `fire` damage. Additionally, as long as you are `not in Crisis`, you also gain Resistance to `physical` damage.\nAll damage you deal becomes `fire`, its type cannot change, and it ignores Resistances; as long as you are in `Crisis`, it also ignores Immunities.\nWhen you deal damage to `only one creature` with a spell, you deal 10 extra damage.\n\n*DISMISS: Molten Gold*\nYou deal 20 `fire` damage to every enemy you can see, or 30 `fire` damage if you are in `Crisis`; this damage ignores Immunities and Resistances. Then, you and every ally present on the scene regain 2 Inventory Points for every enemy reduced to 0 Hit Points by this damage."
+        },
+        {
+          "name": "Huginn & Muninn",
+          "info": "The twin ravens, messengers and spies of the gods. Domains: knowledge, memory, storms.",
+          "description": "*MERGE: Winged Messengers*\nYou gain Resistance to `air` and `bolt` damage, and you are immune to `dazed`.\nAt the end of your turn during a conflict, you may choose one creature you can see. If you do, choose one option: the Game Master reveals one of that creature's `Traits`; `or`, the Game Master reveals that creature's Affinity to one damage type of your choice.\n\n*DISMISS: Stormborn Twins*\nChoose `air` or `bolt`. You deal 20 damage of the chosen type to one creature you can see; then, you deal 20 damage of the other type to one creature you can see (the same or a different one). Damage dealt by this effect ignores Resistances, and it ignores the Immunities of any creature you know `two or more Traits` of."
+        },
+        {
+          "name": "Lady Higanbana",
+          "info": "The tearful spirit who mourns those fallen in battle. Domains: death, isolation, melancholy.",
+          "description": "*MERGE: Scarlet Blossoms*\nIf you have acquired the `Counterattack` Skill (see Core Rulebook, page 219), it also applies to enemy `ranged` attacks.\nDuring conflict scenes, as long as you are `merged` with this Arcanum and `it is not your turn`, your attacks deal 5 extra damage, or 10 extra damage if you are also in `Crisis`.\n\n*DISMISS: Sepulchral Shroud*\nYou deal 40 `dark` damage to one creature you can see; damage dealt by this effect ignores Immunities and Resistances. If a creature loses Hit Points this way, they cannot recover Hit Points until the start of your next turn."
+        },
+        {
+          "name": "Maneki-Neko",
+          "info": "The ever-grinning patron of gamblers. Domains: coincidences, prosperity, unforeseen events.",
+          "description": "*MERGE: Paw Slap*\nAfter you roll dice for a Magic Check or Accuracy Check, you may choose one of the numbers shown on those dice: that number becomes your **meowgic nyamber** and replaces any **meowgic nyamber** you previously obtained.\nAfter a creature you can see rolls dice for a Check, if you have a **meowgic nyamber**, you may expend it to replace the number shown by one of those dice with that number. You cannot use this effect on a Check that generated a **meowgic nyamber**, and you cannot generate a **meowgic nyamber** with a Check you used this effect on.\nWhen this Arcanum is `dismissed`, if you have a **meowgic nyamber**, you lose it.\n\n*DISMISS: Coin Cascade*\nYou deal 30 `physical` damage to every enemy you can see. If you lost a **meowgic nyamber** by dismissing this Arcanum, the type of this damage changes based on the number you lost: `air` (1 and 6), `bolt` (2 and 7), `fire` (3 and 8), `ice` (4 and 9), `earth` (5 and 10), `dark` (11 or higher)."
+        },
+        {
+          "name": "Marchosias",
+          "info": "The most courageous and loyal among fallen celestials. Domains: fire, loyalty, vigor.",
+          "description": "*MERGE: Glyphclaws*\nYou are immune to `shaken` and `weak`.\nOnce per turn during a conflict, you may perform the `Skill` action to deal an amount of `physical` damage equal to `【10 + twice the number of Heroic Skills you have acquired】` to each of up to two enemies you can see. If you do and at least one of those enemies loses Hit Points due to this damage, you gain 1 **Glyph Point**.\nWhen this Arcanum is dismissed, you lose all **Glyph Points**.\n\n*DISMISS: Seal of Fire*\nYou deal 30 `fire` damage to one enemy you can see; this damage ignores Immunities and Resistances. If you lost `3 or more Glyph Points` by dismissing this Arcanum, choose one option for this effect: it deals 10 extra damage; `or` it deals damage to each of up to two enemies you can see (instead of only one enemy)."
+        },
+        {
+          "name": "Rangda",
+          "info": "The powerful witch queen, teacher of dark arts. Domains: medicine, poisons, witchcraft.",
+          "description": "*MERGE: Haunting Dance*\nAfter you and/or one or more allies you can see lose Hit Points, you gain 1 **Sorcery Point**.\nAll damage you deal becomes `poison`, its type cannot change, and you deal extra damage equal to your current **Sorcery Points**.\nWhen this Arcanum is dismissed, you lose all **Sorcery Points**.\n\n*DISMISS: Feast of Body and Soul*\nYou deal an amount of `poison` damage equal to `【the amount of Sorcery Points you lost by dismissing this Arcanum, multiplied by 5】` to one enemy you can see. If this damage reduces that enemy to 0 Hit Points, you and every ally you can see recover an amount of HP and MP equal to that enemy's `Crisis` score."
+        },
+        {
+          "name": "Tiamat",
+          "info": "The Dragonmother, reigning over oceans and serpents. Domains: chaos, saltwater, serpents.",
+          "description": "*MERGE: Supreme Serpent*\nYou gain Resistance to `ice` damage.\nWhen you deal damage, as long as that damage is `ice`, you deal 5 extra damage and all that damage ignores Resistances.\nOnce per turn during a conflict, you may perform the `Skill` action to perform a `free attack` with a weapon you have equipped. If you do, all damage dealt by the attack becomes `ice`, its type cannot change, and each creature that loses Hit Points due to it suffers `slow`.\n\n*DISMISS: Tides of an Endless Ocean*\nChoose one option: fill 2 sections of every Clock present on the scene; `or` erase 2 sections of every Clock present on the scene; `or` you force every `soldier`-rank enemy present on the scene that is in `Crisis` and is not a `Villain` to immediately leave the scene.\nOnce you use any of its options, this `dismiss` effect is no longer available until next dawn."
+        },
+        {
+          "name": "Gorgon",
+          "info": "The Cardinal Guardian of the Western Desert. Domains: earth, meditation, understanding.",
+          "description": "*MERGE: Titanic Embrace*\nYou gain Resistance to `earth` damage.\nWhen you deal damage, you may have its type become `earth`.\nWhen you deal damage, as long as that damage is `earth`, you deal 5 extra damage.\nOnce per turn during a conflict, when you perform an attack with a weapon you have equipped, you may choose one option: the attack gains `multi (2)`; `or` if the attack is a `melee` attack, it may target creatures that cannot normally be targeted by `melee` attacks; `or` all enemies that lose Hit Points due to damage dealt by this attack suffer `dazed`.\n\n*DISMISS: Strength Emergent*\nChoose `one` option: you and every ally present on the scene treat your `Might` and `Willpower` as being one die size higher (up to a maximum of `d12`) until the end of your next turn; `or` you deal 30 `earth` damage to every enemy you can see that isn't flying, floating, falling, or otherwise in mid-air. This damage ignores the Resistances and Immunities of creatures suffering from `dazed`."
+        },
+        {
+          "name": "Harpy",
+          "info": "The Cardinal Guardian of the Eastern Ocean. Domains: determination, speed, wind.",
+          "description": "*MERGE: Turbulent Updraft*\nYou gain Resistance to `air` damage.\nAs long as you have no `martial` armor equipped, you treat your `Dexterity` as if it were one die size higher (up to a maximum of `d12`).\nOnce per turn during a conflict, you may perform the `Skill` action to deal an amount of `air` damage equal to `【10 + your current Dexterity die size】` to each of up to two enemies you can see; enemies that lose Hit Points this way also suffer `weak`. After this effect is resolved, you gain 1 **Turbulence Point**, or 2 **Turbulence Points** if you chose to affect `only one` enemy. This effect deals 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`.\nWhen this Arcanum is dismissed, you lose all **Turbulence Points**.\n\n*DISMISS: Hurricane Slash*\nChoose `air` or `physical`: you deal an amount of damage of the chosen type equal to `【10 + (the amount of Turbulence Points you lost by dismissing this Arcanum, multiplied by 10)】` to an enemy you can see. If you lost `2 or more Turbulence Points` by dismissing this Arcanum, this damage ignores Resistances. If a flying enemy loses Hit Points due to this damage, they are immediately forced to land."
+        },
+        {
+          "name": "Phoenix",
+          "info": "The Cardinal Guardian of the Northern Volcano. Domains: cleansing, fire, rebirth.",
+          "description": "*MERGE: Blazing Corona*\nYou gain Resistance to `fire` damage.\nOnce per turn during a conflict, you may perform the `Skill` action to choose one option: you deal an amount of `fire` damage equal to `【10 + (5, multiplied by the highest strength among your Bonds)】` to each of up to two enemies you can see; `or` one creature you can see recovers from all status effects and, if you are `ablaze`, also recovers 20 Hit Points. This effect deals 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`.\nWhen you are reduced to 0 Hit Points, if you are not `ablaze`, instead you are left standing with exactly 1 Hit Point and become `ablaze`.\nWhen this Arcanum is dismissed, if you are `ablaze`, you stop being `ablaze`.\n\n*DISMISS: Blessings of Fire*\nChoose one option:\n- **Cleansing warmth:** you and every ally present on the scene recover 30 Hit Points and recover from all status effects. This amount increases to 40 Hit Points if you are `level 30 or higher`, and also increases by 10 Hit Points if you were `ablaze` when you dismissed this Arcanum.\n- **Emberfeather rain:** you deal 20 `fire` damage to every enemy you can see. This damage ignores Resistances, and you also deal 10 extra damage if you were `ablaze` when you dismissed this Arcanum."
+        },
+        {
+          "name": "Undine",
+          "info": "The Cardinal Guardian of the Southern Mountains. Domains: ice, perception, protection.",
+          "description": "*MERGE: Empress of Everlasting Snow*\nYou gain Resistance to `ice` damage.\nWhen you `merge` with this Arcanum, you gain 5 **Permafrost Points**. You can never have more than 5 **Permafrost Points**, and you lose any remaining **Permafrost Points** when this Arcanum is dismissed.\nOnce per turn during a conflict, you may perform the `Skill` action to deal an amount of `ice` damage equal to `【20 + your current Permafrost Points】` to an enemy you can see; after this effect is resolved, you lose 1 **Permafrost Point**. This effect deals 5 extra damage if you are `level 20 or higher`, or 10 extra damage if you are `level 40 or higher`.\nWhen you and/or one or more allies present on the scene suffer damage, that damage is reduced by an amount equal to your current **Permafrost Points** (before applying Affinities); then, you lose 1 **Permafrost Point**.\n\n*DISMISS: Subzero Decree*\nChoose one option:\n- **Avalanche rift:** you deal 30 `ice` damage to every enemy you can see. This damage ignores Resistances, and is reduced by 5 for every **Permafrost Point** you lost by dismissing this Arcanum.\n- **Wintersoul barrier:** for every **Permafrost Point** you lost by dismissing this Arcanum, choose a damage type among `dark`, `ice`, `light`, `physical`, and `poison`. Until the end of your next turn, you and every ally present on the scene gain Resistance to each of the chosen damage types. If you lost `fewer than 2 Permafrost Points` by dismissing this Arcanum, you instead choose a single damage type from the list and the effect lasts until the end of the scene or until you use **Wintersoul barrier** again."
+        },
+        {
+          "name": "Unicorn",
+          "info": "The Cardinal Guardian of the Central Plains. Domains: divination, lightning, punishment.",
+          "description": "*MERGE: Crackling Aura*\nYou gain Resistance to `bolt` damage.\nWhen you suffer damage of a type other than `earth`, you gain 1 **Voltage Point**, or 2 **Voltage Points** if you are in `Crisis`.\nAll damage you deal becomes `bolt`, its type cannot change, and it ignores Resistances.\nWhen you deal damage, as long as that damage is `bolt` and you are `hyperconductive`, you deal extra damage equal to your **Voltage Points**.\nWhen this Arcanum is dismissed, you lose all **Voltage Points**.\n\n*DISMISS: Thundering Discharge*\nYou deal 40 `bolt` damage to an enemy you can see, and this damage ignores Resistances if you are `hyperconductive`. If a creature loses Hit Points due to this damage and is affected by one or more spells with a `duration` of \"Scene\", instead they are no longer affected by any of those spells.\nAfter this effect is resolved, if you lost `5 or more Voltage Points` by dismissing this Arcanum and you are not `hyperconductive`, you may immediately summon this Arcanum again (this requires no action and no Mind Points). If you do, you become `hyperconductive` and cannot willingly dismiss this Arcanum again until the start of your next turn."
+        },
+        {
+          "name": "Zirnitra",
+          "info": "The ancient dragon goddess of souls and sorcery. Domains: energy, magic, renewal.",
+          "description": "*MERGE: Shadowlight Halo*\nYou gain Resistance to `dark` and `light` damage.\nYou are able to cast the following spells, even if you have not learned them: `Dispel`, `Fulgur`, `Glacies`, `Ignis`, and `Reinforce` (see the Elementalist, Entropist, and Spiritist spell lists inside the Core Rulebook).\nWhen you cast an offensive (*ϟ*) spell, you may use `【WLP + WLP】` for the Magic Check. If you do so, you also gain a bonus to that Check equal to `【twice the number of creatures targeted by the spell】`.\nWhen you cast a spell, you may ignore its Mind Point cost; after you have ignored `two` costs this way, this Arcanum is automatically dismissed (after the spell is resolved; this is `not` considered a willing dismiss).\n\n*DISMISS: Truths of Destruction and Creation*\nChoose one option:\n- **Favor of the Dragon Goddess:** choose one creature you can see. The chosen creature recovers 999 Hit Points, and also recovers from all status effects.\n- **Keeper of the Grand Ritual:** until the end of this scene, you gain the ability to perform Rituals whose effects fall within the `Elementalism`, `Entropism`, `Ritualism`, and `Spiritism` disciplines. The first time you perform a Ritual during this scene, its Mind Point cost is `halved` and cannot be altered by any other effect. You may only choose this option once per scene, and never during a conflict scene.\n- **Nitraclysm:** you deal 30 damage to every enemy you can see. The type of this damage is `light` if you are `not in Crisis`, or `dark` if you are in `Crisis`; damage dealt by this effect ignores Resistances, and also ignores the Immunities and Absorptions of `champion`-rank enemies."
         }
       ]
     }
