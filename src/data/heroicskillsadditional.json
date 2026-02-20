@@ -39,12 +39,12 @@
     {
       "name": "Fast Learner",
       "info": "Requirements: you must have mastered one or more Classes among Chimerist and Wayfarer.",
-      "description": "Once per conflict scene when another Player Character you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill, if you have not learned or acquired that spell or Skill, you can `temporarily` learn or acquire that spell or Skill until the end of the scene (this includes Heroic Skills).\nIf you learn an offensive spell (⚡) this way and have also acquired the `Spell Mimic` Skill, you may use your `Spell Mimic` Attributes for its Magic Check.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any of the additional benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `keys`, or `tones` by temporarily acquiring the `Magichant` Skill (High Fantasy Atlas, page 137)."
+      "description": "Once per conflict scene when another Player Character you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill, if you have not learned or acquired that spell or Skill, you can `temporarily` learn or acquire that spell or Skill until the end of the scene (this includes Heroic Skills).\nIf you learn an offensive spell (*ϟ*) this way and have also acquired the `Spell Mimic` Skill, you may use your `Spell Mimic` Attributes for its Magic Check.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any of the additional benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `keys`, or `tones` by temporarily acquiring the `Magichant` Skill (High Fantasy Atlas, page 137)."
     },
     {
       "name": "Foul-Mouthed",
       "info": "Requirements: you must have mastered the Fury Class, and must have acquired the Provoke Skill.",
-      "description": "After you successfully `Provoke` an enemy during a conflict, you may perform the `Provoke` Skill again, ignoring its Mind Point cost and targeting an enemy you have not attempted to `Provoke` during this turn (you can keep doing so as long as you succeed and there are other enemies for you to `Provoke`).\nWhen an enemy `hits` you with an attack or offensive spell (⚡), if that enemy is suffering from `enraged`, you recover 5 Mind Points."
+      "description": "After you successfully `Provoke` an enemy during a conflict, you may perform the `Provoke` Skill again, ignoring its Mind Point cost and targeting an enemy you have not attempted to `Provoke` during this turn (you can keep doing so as long as you succeed and there are other enemies for you to `Provoke`).\nWhen an enemy `hits` you with an attack or offensive spell (*ϟ*), if that enemy is suffering from `enraged`, you recover 5 Mind Points."
     },
     {
       "name": "Fūma Shuriken",
@@ -89,12 +89,12 @@
     {
       "name": "Inspiring Presence",
       "info": "Requirements: you must have mastered the Orator Class.",
-      "description": "Once per turn, when you use the `My Trust in You` Skill during an ally's Accuracy Check or Magic Check for an offensive spell (⚡), you may have that attack or spell deal 5 extra damage.\nWhen you use the `Unexpected Ally` Skill on a creature, you may have that creature become a `follower` until you use `Unexpected Ally` again. `Followers` are always willing to help the group in dangerous situations; during conflict scenes, they follow the rules for `NPCs as Special Abilities` in the Game Master's Booklet (page 17). Essentially, the NPC does not have a dedicated profile and is instead represented by a passive benefit for the group, or by an active or reactive benefit that can be used two or three times per conflict scene. The specific benefits granted by a `Guest` are created together by the entire group, and the Game Master has final say on them."
+      "description": "Once per turn, when you use the `My Trust in You` Skill during an ally's Accuracy Check or Magic Check for an offensive spell (*ϟ*), you may have that attack or spell deal 5 extra damage.\nWhen you use the `Unexpected Ally` Skill on a creature, you may have that creature become a `follower` until you use `Unexpected Ally` again. `Followers` are always willing to help the group in dangerous situations; during conflict scenes, they follow the rules for `NPCs as Special Abilities` in the Game Master's Booklet (page 17). Essentially, the NPC does not have a dedicated profile and is instead represented by a passive benefit for the group, or by an active or reactive benefit that can be used two or three times per conflict scene. The specific benefits granted by a `Guest` are created together by the entire group, and the Game Master has final say on them."
     },
     {
       "name": "Just a Humble Merchant!",
       "info": "Requirements: you must have mastered one or more Classes among Merchant and Tinkerer.",
-      "description": "When a creature you can see `hits you` with an attack or offensive spell (⚡), you may spend 3 Inventory Points. If you do, that attack or spell automatically `misses` you (any other targets are affected as normal). This Skill has no effect if the Accuracy Check or Magic Check was a `critical success`, and after you use it, you cannot use it again until the start of your next turn."
+      "description": "When a creature you can see `hits you` with an attack or offensive spell (*ϟ*), you may spend 3 Inventory Points. If you do, that attack or spell automatically `misses` you (any other targets are affected as normal). This Skill has no effect if the Accuracy Check or Magic Check was a `critical success`, and after you use it, you cannot use it again until the start of your next turn."
     },
     {
       "name": "Knuckle Sandwich",
@@ -114,12 +114,12 @@
     {
       "name": "Peacock Strut",
       "info": "Requirements: you must have mastered the Dancer Class.",
-      "description": "When you perform a `Peacock Dance` (High Fantasy Atlas, page XXX), you may replace its effect with \"Choose another creature that is able to see you and is suffering from one or more status effects. Until the start of your next turn, that creature must include you among the targets of its attacks and offensive spells (⚡), if able.\""
+      "description": "When you perform a `Peacock Dance` (High Fantasy Atlas, page XXX), you may replace its effect with \"Choose another creature that is able to see you and is suffering from one or more status effects. Until the start of your next turn, that creature must include you among the targets of its attacks and offensive spells (*ϟ*), if able.\""
     },
     {
       "name": "Piercing Sorcery",
       "info": "Requirements: you must have mastered the Elementalist Class.",
-      "description": "Once per turn, when you use the `Cataclysm` Skill to increase the total MP cost of an offensive spell (⚡) with a `target` of \"Up to three creatures\" by 10 or more Mind Points, if that spell targets `only one creature`, you may `double` the extra damage granted by `Cataclysm`. If you do and the spell hits its target, you may choose `up to two` options: if the target is `flying`, you force them to land immediately; `or` the target suffers `dazed`; `or` the target cannot perform the `Guard` action during their next turn; `or` the target cannot perform `free attacks` until the end of their next turn."
+      "description": "Once per turn, when you use the `Cataclysm` Skill to increase the total MP cost of an offensive spell (*ϟ*) with a `target` of \"Up to three creatures\" by 10 or more Mind Points, if that spell targets `only one creature`, you may `double` the extra damage granted by `Cataclysm`. If you do and the spell hits its target, you may choose `up to two` options: if the target is `flying`, you force them to land immediately; `or` the target suffers `dazed`; `or` the target cannot perform the `Guard` action during their next turn; `or` the target cannot perform `free attacks` until the end of their next turn."
     },
     {
       "name": "Prophetic Defender",
@@ -134,7 +134,7 @@
     {
       "name": "Punisher Stance",
       "info": "Requirements: you must have mastered the Weaponmaster Class.",
-      "description": "When you perform the `Guard` action, if you did not perform the `Guard` action on your previous turn during this scene, choose `ranged attacks` or `offensive spells (⚡)`. You gain the following benefits until the start of your next turn:\n- Your `Counterattack` Skill triggers against all `melee` attacks that `hit or miss you`, even if the Result of the Accuracy Check is not an even number.\n- When you perform a `free attack` with your `Counterattack` Skill, if the triggering attack or spell `hit you`, you deal 5 extra damage.\n- If you chose `ranged attacks`, your `Counterattack` Skill also triggers against `ranged` attacks that `hit or miss you`, regardless of the Accuracy Check's Result.\n- If you chose `offensive spells (⚡)`, your `Counterattack` Skill also triggers against `offensive spells (⚡)` that `hit or miss you`, regardless of the Magic Check's Result."
+      "description": "When you perform the `Guard` action, if you did not perform the `Guard` action on your previous turn during this scene, choose `ranged attacks` or `offensive spells (*ϟ*)`. You gain the following benefits until the start of your next turn:\n- Your `Counterattack` Skill triggers against all `melee` attacks that `hit or miss you`, even if the Result of the Accuracy Check is not an even number.\n- When you perform a `free attack` with your `Counterattack` Skill, if the triggering attack or spell `hit you`, you deal 5 extra damage.\n- If you chose `ranged attacks`, your `Counterattack` Skill also triggers against `ranged` attacks that `hit or miss you`, regardless of the Accuracy Check's Result.\n- If you chose `offensive spells (*ϟ*)`, your `Counterattack` Skill also triggers against `offensive spells (*ϟ*)` that `hit or miss you`, regardless of the Magic Check's Result."
     },
     {
       "name": "Quaking Titan",
@@ -204,12 +204,12 @@
     {
       "name": "Versatile Tactics",
       "info": "Requirements: you must have mastered the Commander Class.",
-      "description": "When you use `Charging Cavalry` on an ally, that ally may choose not to perform their `free attack`. If they do, they choose one option: they perform the `Equipment` action for free; `or` they perform the `Hinder` action for free; `or` they perform the `Study` action for free; `or` they perform the `Spell` action for free, casting a spell with a total Mind Point cost of 20 or lower (they must still pay its MP cost and perform a Magic Check if required). If that ally casts an `offensive spell (⚡)` this way, they treat their `High Roll` as 0 when determining damage dealt by that spell."
+      "description": "When you use `Charging Cavalry` on an ally, that ally may choose not to perform their `free attack`. If they do, they choose one option: they perform the `Equipment` action for free; `or` they perform the `Hinder` action for free; `or` they perform the `Study` action for free; `or` they perform the `Spell` action for free, casting a spell with a total Mind Point cost of 20 or lower (they must still pay its MP cost and perform a Magic Check if required). If that ally casts an `offensive spell (*ϟ*)` this way, they treat their `High Roll` as 0 when determining damage dealt by that spell."
     },
     {
       "name": "Warp Reaper",
       "info": "Requirements: you must have mastered one or more Classes among Entropist and Rogue, and must have acquired the High Speed and/or Stolen Time Skills.",
-      "description": "You gain a +5 bonus to your `Accuracy Checks` and `Magic Checks` for attacks and offensive spells (⚡) that include one or more enemies in `Crisis` among the targets.\nAfter you reduce one or more enemies to 0 Hit Points, if at least one of them is defeated this way, you recover from `all` status effects and may choose one option: you perform a `free attack` with a weapon you have equipped, and that attack deals 5 extra damage; `or` you perform the `Spell` action for free, casting an `offensive spell (⚡)` with a `total MP cost equal to or lower than 10` without paying its MP cost. This attack or spell must target `a single enemy`; once you use this Skill during a conflict, you may not use it again until the beginning of your next turn."
+      "description": "You gain a +5 bonus to your `Accuracy Checks` and `Magic Checks` for attacks and offensive spells (*ϟ*) that include one or more enemies in `Crisis` among the targets.\nAfter you reduce one or more enemies to 0 Hit Points, if at least one of them is defeated this way, you recover from `all` status effects and may choose one option: you perform a `free attack` with a weapon you have equipped, and that attack deals 5 extra damage; `or` you perform the `Spell` action for free, casting an `offensive spell (*ϟ*)` with a `total MP cost equal to or lower than 10` without paying its MP cost. This attack or spell must target `a single enemy`; once you use this Skill during a conflict, you may not use it again until the beginning of your next turn."
     },
     {
       "name": "Wheel of Moon and Sun",
