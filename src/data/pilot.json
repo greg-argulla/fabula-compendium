@@ -60,7 +60,7 @@
         {
           "name": "Exoskeleton",
           "info": "Passengers: None - Distance: No Modifier",
-          "description": "his vehicle may have `up to 2 active weapon modules`, `up to 1 active armor module`, and `any number of active support modules`. If you use the `Compression Tech` Skill with this vehicle, ignore the IP cost."
+          "description": "This vehicle may have `up to 2 active weapon modules`, `up to 1 active armor module`, and `any number of active support modules`. If you use the `Compression Tech` Skill with this vehicle, ignore the IP cost."
         },
         {
           "name": "Mech",
