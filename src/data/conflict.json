@@ -78,6 +78,22 @@
         ["20+", "20", "40", "60"],
         ["40+", "30", "50", "80"]
       ]
+    },
+    {
+      "name": "Optional: Combat Rows",
+      "description": "*Battle conflicts only.* At the start of every conflict round, each Player Character and ally must choose whether they will be in the `front row` or `back row` until the beginning of the next round.\n\n`Back row` benefits and penalties:\n\n- All damage you suffer is reduced by 5 (before damage Affinities). This reduction is not cumulative with any other damage reduction; use only the highest reduction.\n\n- All damage you deal with `melee` attacks is reduced by 5 (before damage Affinities).\n\n- When you perform the `Guard` action, you cannot cover other creatures.\n\n- Effects that would force enemies to include you among the targets of their attacks and offensive spells (*ϟ*), such as Fury's `Provoke` Skill, are ignored.\n\n- The Game Master may apply situational modifiers or increase the Difficulty Level of Checks you make as part of your `Hinder` and `Objective` actions if your approach relies on being close to the enemy.\n\nIf, at any point, the number of creatures in the back row is equal to or greater than the number of creatures in the front row, all creatures in the back row are immediately forced to switch to the front row.\n\nCreatures that have `Surrendered` do not count as being in a row; if they return to the conflict, they do so in a row of their choice."
+    },
+    {
+      "name": "Optional: Alternative Surrender Rules",
+      "description": "You can use one or both of these rules.\n\n**0 HP in conflicts only.** A Player Character's current Hit Points cannot be reduced below 1 unless the current scene is a conflict.\n\n**Hope dies last.** During conflict scenes, `Surrender` consequences only apply at the end of the conflict, and only if all Player Characters in the scene have `Surrendered` or `Sacrificed` themselves. The Game Master applies a single Surrender consequence, regardless of how many Player Characters Surrendered, and that consequence may concern a single PC or all of them (Game Master's choice). Each PC who Surrenders still receives 2 Fabula Points, even if the conflict ends up having no Surrender consequence."
+    },
+    {
+      "name": "Optional: Initiative",
+      "description": "Conflict scenes follow a simple rule for determining which side goes first: if the conflict features no Villains, the heroes' side wins initiative. If the conflict features one or more Villains, the enemy side wins initiative.\n\nConsequences: rules and effects that affect initiative no longer exist (ignore replacement benefits). Armor no longer gives initiative penalties; `Combat Tunic` and rare items based on it grant `+2` Defense and `+0` Magic Defense. NPCs no longer have Initiative, and the NPC Skill `Improved Initiative` is unavailable."
+    },
+    {
+      "name": "Optional: Critical Damage",
+      "description": "When a creature rolls a `critical success` on an Accuracy Check for an attack or a Magic Check for an offensive spell (*ϟ*), that attack or spell deals 5 extra damage. This extra damage is in addition to the opportunity granted by a critical success."
     }
   ]
 }

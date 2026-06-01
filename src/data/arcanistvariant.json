@@ -22,7 +22,7 @@
         },
         {
           "name": "Quick Summoning",
-          "info": "Max SL - 2",
+          "info": "Max SL - 4",
           "description": "When you `summon` an Arcanum on your turn during a conflict, choose up to two options: reduce its Mind Point cost by 【SL × 5】; and/or after you summon the Arcanum, immediately perform its `pulse`. If you choose at least one option, you `cannot willingly dismiss` that Arcanum until the start of your next turn; if you choose both, that Arcanum's `dismiss` effect will not be available for this summoning."
         },
         {

@@ -28,7 +28,7 @@
         {
           "name": "Visionary",
           "info": "Max SL - 5",
-          "description": "When you work on a `Project`, up to`【SL × 100】`zenit of material costs are automatically paid; additionally, you generate an additional`【SL】progress` every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative."
+          "description": "When you work on a `Project`, up to`【SL × 100】`zenit of material costs are automatically paid; additionally, you generate an additional`【SL】progress` every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative.\n\n*If your group uses the optional rule for `Cinematic Projects`:* when you or another Player Character create a `quick Project`, its cost in materials is reduced by`【SL × 100】`zenit. When your group works on a `slow Project`, the invention's maximum cost is increased by`【SL × 200】`zenit, and`【SL × 100】`zenit of its material costs are automatically paid."
         }
       ]
     },
@@ -209,7 +209,7 @@
         },
         {
           "name": "Advanced Magispheres",
-          "description": "Choose `two different spells` from the list of `NPC spells` (see page 310); you may not choose the `Devastation` spell. You develop a `magisphere` for each spell chosen this way (this `does not` count as 'learning' or 'knowing' these spells),and must customize the chosen spells as required (for instance, if you select `Cursed Breath` for a `magisphere`, you could choose `ice` and `slow` and rename it freezing grenade)."
+          "description": "Choose `two different spells` from the list of `NPC spells` (see page 310); you may not choose the `Devastation` spell. You develop a `magisphere` for each spell chosen this way (this `does not` count as 'learning' or 'knowing' these spells), and must customize the chosen spells as required (for instance, if you select `Cursed Breath` for a `magisphere`, you could choose `ice` and `slow` and rename it freezing grenade).\n\nYou also gain a +2 bonus to your Magic Checks for offensive spells (*ϟ*) you cast through your `magispheres`."
         },
         {
           "name": "Superior Magispheres",
@@ -219,22 +219,22 @@
     },
     {
       "name": "Gadgets - Magitech Armament",
-      "description": "This invention type allows you to create powerful customizable weapons that combine magic and technology."
+      "description": "*Branching Magitech: if you play with magitech armament, you cannot acquire the `Quantum Magicannon` Heroic Skill.*\n\nThis invention type allows you to create powerful customizable weapons that combine magic and technology."
     },
     {
       "name": "Magitech Armament",
       "data": [
         {
           "name": "Basic Armament",
-          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a magitech armament, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + INS】+1` and`【INS + MIG】+1` for it. Magitech armaments are always two-handed weapons and cannot benefit from the `Monkey Grip` Heroic Skill (in short, the armament will always occupy both hand slots).\n\n*Magitech Armament*\nAccuracy: (as chosen above)\nDamage:`【HR + 12】`physical\nProperties: One Category of your choice among `arcane`, `brawling`, `firearm`, `heavy`, `spear`, or `sword` • Two-handed • Melee or Ranged • Cannot have Qualities (but see `Superior Armament`, below)."
+          "description": "You may perform the `Inventory` action and spend 2 Inventory Points to create a `magitech armament` (see below) and destroy any magitech armament you previously created. Whenever you create a magitech armament, choose a Category for it, choose whether it is a `melee` or `ranged` weapon, and choose an Accuracy formula between`【DEX + INS】+1` and`【INS + MIG】+1` for it. Magitech armaments are always two-handed weapons.\n\n*Magitech Armament*\nAccuracy: (as chosen above)\nDamage:`【HR + 12】`physical\nProperties: One Category of your choice among `arcane`, `bow`, `brawling`, `dagger`, `firearm`, `flail`, `heavy`, `spear`, `sword`, and `thrown` • Two-handed • Melee or Ranged • Cannot have Qualities (but see `Superior Armament`, below)."
         },
         {
           "name": "Advanced Armament",
-          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if both your `hand slots` are empty, you may immediately equip that magitech armament and perform a `free attack` with it.\n\nAdditionally, whenever you create a magitech armament, you may have it deal `air`, `bolt`, `earth`, `fire`, or `ice` damage instead of `physical`."
+          "description": "When you create a `magitech armament` using the `Basic Armament` benefit above, if both your `hand slots` are empty, you may immediately equip that magitech armament and perform a `free attack` with it.\n\nAdditionally, whenever you create a magitech armament, you may choose `air`, `bolt`, `earth`, `fire`, or `ice`. If you do, the armament you create deals damage of that type instead of `physical`."
         },
         {
           "name": "Superior Armament",
-          "description": "If you have your magitech armament equipped, you may use an action to choose one weapon in your `backpack`. If you do, that weapon is destroyed and all your magitech armaments gain its Quality (if any) until you use this effect again (this includes any future magitech armaments you create as well).\n\nAdditionally, as long as you have your magitech armament equipped, you gain a bonus to Defense and Magic Defense equal to`【half your Skill Level in Gadgets】`."
+          "description": "While you have your `magitech armament` equipped, you may use an action to choose one weapon in your `backpack` and `sublimate` it. When you do so, the chosen weapon disappears, and the previous weapon you sublimated (if any) reappears inside your backpack.\n\nEvery `magitech armament` you create has the same Quality as the last weapon you sublimated."
         }
       ]
     }

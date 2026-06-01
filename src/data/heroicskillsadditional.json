@@ -2,6 +2,11 @@
   "name": "Additional",
   "data": [
     {
+      "name": "Optional: Heroic Skill at Character Creation",
+      "info": "Optional rule from playtest materials (May 2026).",
+      "description": "Each Player Character gains an additional Heroic Skill during character creation; however, the first time they would normally gain a Heroic Skill by mastering one of their Classes, they gain no Heroic Skill from that.\n\n- If a Heroic Skill requires mastery of one or more specific Classes, the character must have at least one of those Classes at character creation. Any other requirements remain unchanged.\n\n- No two characters may acquire the same Heroic Skill this way.\n\n- The following Core Rulebook Heroic Skills cannot be obtained: `Deep Pockets`, `Extra HP`, `Extra IP`, `Extra MP`, `Powerful Shot`, `Powerful Spell`, `Powerful Strike`, `Revelation`.\n\n- `Deep Pockets` and `Revelation` are also unavailable as Heroic Skills at character creation when not using this optional rule."
+    },
+    {
       "name": "Adversity",
       "info": "Requirements: You must have mastered the Darkblade Class.",
       "description": "As long as you are suffering from one or more status effects, you gain a +1 bonus on all Checks you perform for every status effect you are suffering from (up to a maximum of +3), and you also deal 2 extra damage for every status effect you are suffering from (be it with attacks, spells, Arcana, items, or any other method; up to a maximum of 6 extra damage)."
@@ -14,7 +19,7 @@
     {
       "name": "Battlefield Investigator",
       "info": "Requirements: you must have mastered one or more Classes among Commander and Loremaster.",
-      "description": "When you perform a Check to examine a creature, item or location during a conflict scene, you may `memorize` the `High Roll` of that Check.\nWhen a source deals damage to one or more creatures you can see, you may `forget` one of your memorized `High Rolls` to choose one option: that source deals extra damage to each creature equal to the forgotten `High Roll`; `or` reduce damage dealt by that source to each creature by an amount equal to the forgotten `High Roll` (before applying Affinities).\nYou automatically forget `all` memorized `High Rolls` at the end of each scene."
+      "description": "When you perform a Check to examine a creature, item or location during a conflict scene, you may `memorize` the `High Roll` of that Check. If you do, you cannot memorize `High Rolls` this way until the start of your next turn.\nWhen a source deals damage to one or more creatures you can see, you may `forget` one of your memorized `High Rolls` to choose one option: that source deals extra damage to each creature equal to the forgotten `High Roll`; `or` reduce damage dealt by that source to each creature by an amount equal to the forgotten `High Roll` (before applying Affinities).\nYou automatically forget `all` memorized `High Rolls` at the end of each scene."
     },
     {
       "name": "Broad Strokes",
@@ -32,7 +37,7 @@
       "description": "When you lose Hit Points due to your `Shadow Strike` Skill, if doing so does not reduce you to 0 Hit Points, every ally present on the scene recovers an amount of Hit Points equal to 【`the amount of Hit Points you lost this way + your Skill Level in Shadow Strike`】. This amount increases by 10 Hit Points if you are `level 30 or higher`."
     },
     {
-      "name": "Dungeon Cooking",
+      "name": "Dungeon Chef",
       "info": "Requirements: you must have mastered the Gourmet Class.",
       "description": "You always know the Species of all creatures you can see.\nWhen you prepare a `delicacy` during a conflict, you may treat one or more enemies you can see as `ingredients` for that `delicacy`. Each enemy may only be treated as an `ingredient` once per scene, and their `taste` varies based on the Species: `bitter` (plant), `salty` (construct), `sour` (demon), `sweet` (undead), `umami` (elemental); `monsters` can be treated as an `ingredient` with a `taste` of your choice. On the other hand, `beasts` and `humanoids` aren't strange enough for this magical effect to work, apparently!\nWhen you `rest`, if you are `at least one travel day` away from any settlements, you may choose one option: you gain three `ingredients`, each with a random `taste`; `or` you create a single `invention` with a materials cost of `400 or lower`, without needing any materials, zenit, special ingredients, or even progress. This invention must be a `consumable` food or drink, and choosing this option doesn't prevent you from working on other `Projects` during the same rest."
     },
@@ -59,12 +64,12 @@
     {
       "name": "Group Dance",
       "info": "Requirements: you must have mastered one or more Classes among Chanter and Dancer.",
-      "description": "When you use the `Follow My Lead` Skill on a `dance` other than `Hydra Dance`, you may extend the effect of that `dance` to every ally you can see that you have a bond of `affection` towards (instead of using `Follow My Lead`'s normal effect).\nWhen one or more allies suffer damage during a conflict, if `each` of those allies is currently affected by a `dance` or `verse` of yours that grants them Resistance to the type of that damage, you may end the effects of that `dance` or `verse` on those allies. If you do, those allies gain Immunity to that damage type until the end of this turn."
+      "description": "If you have acquired the `Follow My Lead` Skill, you may use it on any ally you can see, regardless of Bonds.\nWhen you use the `Follow My Lead` Skill on a `dance` other than `Hydra Dance`, you may extend the effect of that `dance` to every ally you can see (instead of using `Follow My Lead`'s normal effect).\nWhen one or more allies suffer damage during a conflict, if `each` of those allies is currently affected by a `dance` or `verse` of yours that grants them Resistance to the type of that damage, you may end the effects of that `dance` or `verse` on those allies. If you do, those allies gain Immunity to that damage type until the end of this turn (this Immunity already applies to the damage that triggered this effect)."
     },
     {
       "name": "Gunbreaker",
       "info": "Requirements: you must have acquired both the Sharpshooter and Weaponmaster Classes (even if you have not mastered them).",
-      "description": "As long as you have a `transforming custom weapon` equipped, if one of its forms is `melee` and the other is `ranged`, you may use the `Bone Crusher` and `Counterattack` Skills with its `ranged` form, and may use the `Crossfire` and `Warning Shot` Skills with its `melee` form; however, you cannot use both `Bone Crusher` and `Warning Shot` with the same attack.\nAfter you use the `Bone Crusher` Skill or the `Warning Shot` Skill with a `melee` weapon against one or more enemies, each of those enemies becomes `ruptured` until the end of the scene. When a `ruptured` enemy suffers damage from a `ranged` attack, they suffer 5 extra damage and stop being `ruptured`."
+      "description": "As long as you have a `transforming custom weapon` equipped, if one of its forms is `melee` and the other is `ranged`, you may use the `Bone Crusher` and `Counterattack` Skills with its `ranged` form, and may use the `Crossfire` and `Warning Shot` Skills with its `melee` form; however, you cannot use both `Bone Crusher` and `Warning Shot` with the same attack.\nAfter you use the `Bone Crusher` Skill or the `Warning Shot` Skill with a `melee` weapon against one or more enemies, each of those enemies becomes `ruptured` until the end of the scene. When a `ruptured` enemy suffers damage from a source `other than a melee attack`, they suffer 5 extra damage and stop being `ruptured`."
     },
     {
       "name": "Herbalist Lore",
@@ -84,17 +89,17 @@
     {
       "name": "Inner Alchemy",
       "info": "Requirements: you must have mastered the Fury Class.",
-      "description": "When you use the `Withstand` Skill, you may choose any one Attribute (you are no longer restricted to `Might` or `Willpower`) and you recover an amount of Mind Points equal to 【`5 + (your Skill Level in Withstand, multiplied by the highest strength among your Bonds)`】."
+      "description": "When you use the `Withstand` Skill, you may choose any one Attribute (you are no longer restricted to `Might` or `Willpower`) and you recover an amount of Mind Points equal to 【`5 + (your Skill Level in Withstand, multiplied by the highest strength among your Bonds)`】 (in addition to the default Hit Point recovery). Additionally, the first time you deal damage before the end of your next turn, you deal extra damage equal to your Skill Level in `Withstand`."
     },
     {
       "name": "Inspiring Presence",
       "info": "Requirements: you must have mastered the Orator Class.",
-      "description": "Once per turn, when you use the `My Trust in You` Skill during an ally's Accuracy Check or Magic Check for an offensive spell (*ϟ*), you may have that attack or spell deal 5 extra damage.\nWhen you use the `Unexpected Ally` Skill on a creature, you may have that creature become a `follower` until you use `Unexpected Ally` again. `Followers` are always willing to help the group in dangerous situations; during conflict scenes, they follow the rules for `NPCs as Special Abilities` in the Game Master's Booklet (page 17). Essentially, the NPC does not have a dedicated profile and is instead represented by a passive benefit for the group, or by an active or reactive benefit that can be used two or three times per conflict scene. The specific benefits granted by a `Guest` are created together by the entire group, and the Game Master has final say on them."
+      "description": "Once per turn, when you use the `My Trust in You` Skill during an ally's Accuracy Check or Magic Check for an offensive spell (*ϟ*), you may have that attack or spell deal 5 extra damage.\nWhen you use the `Unexpected Ally` Skill on a creature, you may have that creature become a `follower` of your group until your group gains another follower. `Followers` are always willing to help the group in dangerous situations; during conflict scenes, they follow the rules for `NPCs as Special Abilities` in the Game Master's Booklet (page 17). Essentially, the NPC does not have a dedicated profile and is instead represented by a passive benefit for the group, or by an active or reactive benefit that can be used two or three times per conflict scene. The specific benefits granted by a follower are created together by the entire group, and the Game Master has final say on them."
     },
     {
       "name": "Just a Humble Merchant!",
       "info": "Requirements: you must have mastered one or more Classes among Merchant and Tinkerer.",
-      "description": "When a creature you can see `hits you` with an attack or offensive spell (*ϟ*), you may spend 3 Inventory Points. If you do, that attack or spell automatically `misses` you (any other targets are affected as normal). This Skill has no effect if the Accuracy Check or Magic Check was a `critical success`, and after you use it, you cannot use it again until the start of your next turn."
+      "description": "After a creature you can see performs an Accuracy Check or a Magic Check for an attack or offensive spell (*ϟ*) that includes you among its targets, you may spend 3 Inventory Points (you do so after seeing the Result of the Check). If you do, you gain a +20 bonus to your Defense and Magic Defense until the end of this turn, and cannot use this Skill again until the start of your next turn."
     },
     {
       "name": "Knuckle Sandwich",
@@ -119,17 +124,17 @@
     {
       "name": "Piercing Sorcery",
       "info": "Requirements: you must have mastered the Elementalist Class.",
-      "description": "Once per turn, when you use the `Cataclysm` Skill to increase the total MP cost of an offensive spell (*ϟ*) with a `target` of \"Up to three creatures\" by 10 or more Mind Points, if that spell targets `only one creature`, you may `double` the extra damage granted by `Cataclysm`. If you do and the spell hits its target, you may choose `up to two` options: if the target is `flying`, you force them to land immediately; `or` the target suffers `dazed`; `or` the target cannot perform the `Guard` action during their next turn; `or` the target cannot perform `free attacks` until the end of their next turn."
+      "description": "Once per turn, when you use the `Cataclysm` Skill to increase the total MP cost of an offensive spell (*ϟ*) by 10 or more Mind Points, if that spell targets `exactly one creature`, you may increase the extra damage granted by `Cataclysm` by 5. If you do, all damage dealt by the spell ignores Resistances, and if it already ignored Resistances, it also ignores Immunities; additionally, when the spell hits the target, you may choose one option: if the target is `flying`, you force them to land immediately; `or` the target suffers `shaken`; `or` the target suffers `weak`; `or` the target cannot perform the `Guard` action during their next turn; `or` the target cannot perform `free attacks` until the end of this turn."
     },
     {
       "name": "Prophetic Defender",
       "info": "Requirements: you must have mastered one or more Classes among Entropist and Guardian.",
-      "description": "Your maximum Hit Points are permanently increased by an amount equal to your base `Insight` die size (update your maximum HP if this size changes).\nWhen a conflict scene begins, you gain `1 Prophecy Point`. You also gain `1 Prophecy Point` at the end of each `even-numbered` round, but only if you have learned the `Divination` spell (Core Rulebook, page XXX). You lose all `Prophecy Points` at the end of each scene.\nWhen `two or more` creatures are threatened by a single `attack`, `spell`, or other `danger`, you may spend `1 Prophecy Point` to take the place of `all` those creatures (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill before or after the Checks have been made). The danger will affect you once for each creature it was threatening (including yourself, if you were among those creatures). Resolve each of these instances separately, and describe what magical distortion or superhuman ability allowed you to accomplish this."
+      "description": "Your maximum Hit Points are permanently increased by an amount equal to your base `Insight` die size (update your maximum HP if this size changes).\nWhen a conflict scene begins, if you have learned the `Divination` spell (Core Rulebook, page 192), you gain `1 Prophecy Point`. You also gain `1 Prophecy Point` at the start of each `even-numbered` round (regardless of whether you have learned `Divination`). You lose all `Prophecy Points` at the end of each scene.\nWhen one or more allies are threatened by a single `attack`, `spell`, or other `danger`, you may spend `1 Prophecy Point` to take the place of all those allies (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill before or after the Checks have been made). The danger will affect you once for each creature it was threatening (including yourself, if you were among those creatures). Resolve each of these instances separately."
     },
     {
       "name": "Psychic Ascension",
       "info": "Requirements: you must have mastered the Esper Class.",
-      "description": "As long as your `Brainwave Clock` is full, weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills that require it.\nAt the start of your turn, if your `Brainwave Clock` is full, you may choose one option: you and every ally that is able to hear you recover from `dazed`, `enraged`, and `shaken`; `or` you and every ally that is able to hear you recover 5 Hit Points. This amount increases to 10 Hit Points if you are `level 30 or higher`."
+      "description": "Weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills and effects that require it.\nAt the end of your turn, if your `Brainwave Clock` is full, you may choose one option: you and every ally that is able to hear you recover from `dazed`, `enraged`, and `shaken`; `or` you and every ally that is able to hear you recover 5 Hit Points. This amount increases to 10 Hit Points if you are `level 30 or higher`."
     },
     {
       "name": "Punisher Stance",
@@ -139,7 +144,7 @@
     {
       "name": "Quaking Titan",
       "info": "Requirements: you must have mastered one or more Classes among Guardian and Pilot.",
-      "description": "As long as your `personal vehicle` has a `steed` frame, it may have `up to 2 active weapon modules` (instead of 1).\nDuring a conflict, if you have a `martial armor` or `martial armor module` equipped, you may use an action and spend 30 Mind Points to choose `earth` or `physical`. If you do, you deal 30 damage of the chosen type to every enemy you can see. Then, each enemy who lost Hit Points due to this damage and is in `Crisis` cannot perform `free attacks` until the start of their next turn."
+      "description": "As long as your `personal vehicle` has a `steed` frame, it may have `up to 2 active weapon modules` (instead of 1).\nDuring a conflict, if you have a `martial armor` or `martial armor module` equipped, you may use an action and spend 30 Mind Points to choose `earth` or `physical`. If you do, you deal 20 damage of the chosen type to every enemy you can see, and enemies that lose Hit Points this way cannot perform `free attacks` until the start of their next turn.\nThis effect deals 10 extra damage if you are driving a `personal vehicle` with a `mech` frame and/or have two shields equipped, and also deals 10 extra damage if you are `level 30 or higher`."
     },
     {
       "name": "Refrain",
@@ -154,7 +159,7 @@
     {
       "name": "See You in Hell",
       "info": "Requirements: you must have mastered the Darkblade Class.",
-      "description": "As long as your current Hit Points are `lower` than your maximum Hit Points, you may use an action and spend 20 Mind Points to deal an amount of `dark` damage equal to 【`the difference between your maximum Hit Points and your current Hit Points, divided by two`】 to one enemy you can see. The type of this damage cannot change, and it ignores Affinities."
+      "description": "As long as your current Hit Points are `lower` than your maximum Hit Points, you may use an action and spend 20 Mind Points to deal an amount of `dark` damage equal to 【`10 + (the difference between your maximum Hit Points and your current Hit Points, divided by two)`】 to one enemy you can see. The type of this damage cannot change, and it ignores Absorptions, Immunities, and Resistances."
     },
     {
       "name": "Seeds of Rebirth",
@@ -169,7 +174,7 @@
     {
       "name": "Stabilized Mutation",
       "info": "Requirements: you must have mastered the Mutant Class, and must have acquired the Theriomorphosis Skill.",
-      "description": "When you acquire this Heroic Skill, you learn two `therioforms` of your choice.\nYou may ignore the Mind Point cost for extending your current `therioforms` between scenes (this also applies to Resting scenes, and even between sessions).\nAs long as you are manifesting one or more of the following `therioforms`, you also gain Resistance to the corresponding damage type: `amphibia (ice)`, `electrophora (bolt)`, `placophora (earth)`, `pneumophora (air)`, `pyrophora (fire)`, `toxicophora (poison)`."
+      "description": "When you acquire this Heroic Skill, you learn two `therioforms` of your choice.\nWhen you `rest`, choose two `therioforms` among those you have learned so far; you cannot choose `polypoda`, and can only choose one among `arpaktida`, `dynamotheria`, and `tachytheria`. The chosen `therioforms` become `stabilized` until you rest again.\nAs long as you are not manifesting any non-stabilized `therioforms`, you are treated as if you were manifesting both your stabilized `therioforms` and receive their benefits (these benefits do not end between scenes, nor if you perform the `Guard` action).\nAs long as you are manifesting one or more of the following `therioforms`, you also gain Resistance to the corresponding damage type: `amphibia (ice)`, `electrophora (bolt)`, `placophora (earth)`, `pneumophora (air)`, `pyrophora (fire)`, `toxicophora (poison)`."
     },
     {
       "name": "Surplus Stock",
@@ -178,7 +183,7 @@
     },
     {
       "name": "Thaumaturge",
-      "info": "Requirements: you must have mastered the Spiritist Class, and must have learned the Cleanse and/or Heal spells.",
+      "info": "Requirements: you must have mastered the Spiritist Class.",
       "description": "All `brawling` and `dagger` weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills and effects that require it.\nYou may use an action to perform a `free attack` with an `arcane` weapon you have equipped. This attack must target `a single enemy`, and you treat your `High Roll (HR)` as 0 when determining damage dealt by the attack. After this attack has been resolved, if it was successful, you may perform the `Spell` action for free, casting the `Cleanse` spell or the `Heal` spell (Core Rulebook, page XXX) on `exactly one creature` (you must have learned the spell and must pay its MP cost)."
     },
     {
@@ -199,12 +204,12 @@
     {
       "name": "Vampiric Elation",
       "info": "Requirements: you must have mastered one or more Classes among Esper and Mutant.",
-      "description": "When you cause a creature to recover Hit Points through the `Biophagy` Skill (Techno Fantasy Atlas, page XXX) or the `Life Transference` gift (Techno Fantasy Atlas, page XXX), that creature recovers 10 additional Hit Points and gains Resistance to `physical` and `poison` damage until the start of your next turn."
+      "description": "When you cause a creature to recover Hit Points through the `Biophagy` Skill (Techno Fantasy Atlas, page 155) or the `Life Transference` gift (Techno Fantasy Atlas, page 153), that creature recovers 10 additional Hit Points and chooses one option: they gain immunity to one status of their choice among `poisoned`, `slow`, and `weak` until the start of your next turn; `or` they gain Resistance to `physical` and `poison` damage until the start of your next turn."
     },
     {
       "name": "Versatile Tactics",
       "info": "Requirements: you must have mastered the Commander Class.",
-      "description": "When you use `Charging Cavalry` on an ally, that ally may choose not to perform their `free attack`. If they do, they choose one option: they perform the `Equipment` action for free; `or` they perform the `Hinder` action for free; `or` they perform the `Study` action for free; `or` they perform the `Spell` action for free, casting a spell with a total Mind Point cost of 20 or lower (they must still pay its MP cost and perform a Magic Check if required). If that ally casts an `offensive spell (*ϟ*)` this way, they treat their `High Roll` as 0 when determining damage dealt by that spell."
+      "description": "When you use `Charging Cavalry` on an ally, that ally may choose not to perform their `free attack`. If they do, they choose one option: they perform one action for free, chosen among `Equipment`, `Hinder`, and `Study`; `or` they perform the `Spell` action for free, casting a spell with a total Mind Point cost of 20 or lower (they must still pay its MP cost and perform a Magic Check if required). If that ally casts an offensive spell (*ϟ*) this way, they receive a bonus to their Magic Check equal to your Skill Level in `Charging Cavalry`, and also treat their `High Roll` as 0 when determining damage dealt by that spell."
     },
     {
       "name": "Warp Reaper",
@@ -233,7 +238,7 @@
             },
             {
               "name": "Whisper",
-              "description": "Choose `dark`, `earth`, or `ice`. The target gains Resistance to the chosen damage type until the start of your next turn."
+              "description": "Choose `dark`, `earth`, `ice`, or `poison`. The target gains Resistance to the chosen damage type until the start of your next turn."
             },
             {
               "name": "Midnight",
@@ -255,7 +260,7 @@
             },
             {
               "name": "Laughter",
-              "description": "Choose `air`, `fire`, or `light`. The target gains Resistance to the chosen damage type until the start of your next turn."
+              "description": "Choose `air`, `bolt`, `fire`, or `light`. The target gains Resistance to the chosen damage type until the start of your next turn."
             },
             {
               "name": "Midday",

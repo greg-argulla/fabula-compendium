@@ -52,7 +52,7 @@
     {
       "name": "Greater Theriomorphosis",
       "info": "Requirements: you must have mastered the Mutant Class.",
-      "description": "When you use the `Theriomorphosis` Skill on your turn during a conflict, if this `did not` happen through the `Genoclepsis` Skill, you may manifest the effects of `up to three Therioforms` among those you have learned (instead of two); then, you may immediately perform an additional action. This additional action `cannot` be used for the `Theriomorphosis` Skill."
+      "description": "When you use the `Theriomorphosis` Skill on your turn during a conflict, if this `did not` happen through the `Genoclepsis` Skill, you may manifest the effects of `up to three therioforms` among those you have learned (instead of two); then, you may immediately perform an additional action. This additional action `cannot` be used for the `Theriomorphosis` Skill.\n\n*If you play with the `Theriomorphosis (Variant)` Skill, use this text instead:* When you use the `Theriomorphosis` Skill on your turn during a conflict, if this `did not` happen through the `Genoclepsis` Skill, you may manifest the effects of `up to three therioforms` from those you have learned (instead of two). When you perform a `free attack` through the `Theriomorphosis` Skill, you may add your `High Roll` to the damage dealt by the attack (you do not have to treat it as being 0)."
     },
 
     {
@@ -99,7 +99,7 @@
 
     {
       "name": "Quantum Magicannon",
-      "info": "Requirements: you must have mastered the Tinkerer Class and acquired the advanced Magitech benefit from the Gadget Skill.",
+      "info": "Requirements: you must have mastered the Tinkerer Class and acquired the advanced Magitech benefit from the Gadget Skill. You cannot acquire this Heroic Skill if you play with `magitech armament`.",
       "description": "Your attacks with the `magicannon` deal 5 extra damage.\nWhen you perform the `Attack` action with your `magicannon`, if you have `no other weapon equipped`, you may choose one option: destroy the `magicannon`, then create and equip a new one `for free` (ignore the IP cost), using this newly equipped `magicannon` for your attack; `or` the attack gains `multi (3)`; `or` you perform two separate attacks instead of one, following the rules for `two-weapon fighting` (Core Rulebook, page 69)."
     },
 

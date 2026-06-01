@@ -30,6 +30,14 @@
         ["Surrender at zero HP", "+2 FP"],
         ["Invoke Bond/Trait to intentionally fail", "+1 FP"]
       ]
+    },
+    {
+      "name": "Optional: Experience from Fabula Points",
+      "description": "At the end of a session, each character gains XP equal to the amount of Fabula Points spent by the group during the session, divided by the number of Player Characters that took part. Record the remainder and add it to the Fabula Points spent during the next session so no FP goes wasted."
+    },
+    {
+      "name": "Optional: Applause Points",
+      "description": "Each Player begins the session with 1 Applause Point (represented by distinct physical tokens).\n\nWhen someone feels that another Player's actions, decisions, ideas, or descriptions led to an especially memorable, epic, or heartwarming moment, they can give that Player their starting Applause Point as a sign of appreciation. The Game Master cannot give nor receive Applause Points.\n\nWhen a Player spends one or more Fabula Points, they may instead spend one Applause Point from those they have received (they cannot spend the point they started the session with). Doing so does not count as spending a Fabula Point, and spent Applause Points do not generate XP at the end of a session. All remaining Applause Points are discarded at the end of each session."
     }
   ]
 }

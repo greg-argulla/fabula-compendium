@@ -33,7 +33,7 @@
         {
           "name": "Agile Defender",
           "info": "Max SL - 4",
-          "description": "*This variant replaces Bodyguard with an alternative that further enhances `Protect` gameplay and supports a \"dodge tank\" approach. Characters who do not rely on armor and shields can use it to master the Guardian Class without \"wasting\" levels.*\n\nWhen an attack or offensive spell (*ϟ*) `misses` you, if you have used the `Protect` Skill `once` since your last turn, you regain its use. When you use `Protect` during a conflict, if you have no `shields` and no `martial armor` equipped, you gain a bonus to Defense and Magic Defense equal to`【SL + 1】`until the end of this turn."
+          "description": "*This variant replaces Bodyguard with an alternative that further enhances `Protect` gameplay and supports a \"dodge tank\" approach. Characters who do not rely on armor and shields can use it to master the Guardian Class without \"wasting\" levels.*\n\nDuring conflict scenes, as long as you have no `martial armor` and no `shield` equipped, you gain the following benefits:\n\n- When an attack or offensive spell (*ϟ*) `misses` you, if you have used the `Protect` Skill `exactly once` since the end of your last turn, you regain its use.\n\n- When you use the `Protect` Skill, you gain a bonus equal to`【SL + 1】`to your Defense and Magic Defense scores until the end of this turn."
         }
       ]
     }

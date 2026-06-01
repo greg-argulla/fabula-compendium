@@ -31,9 +31,9 @@
           "description": "During a conflict, you may use an action to interfere with the flow of time by spending up to`【SL × 5】`Mind Points. For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers `slow`; or one creature you can see recovers from `slow`; or one enemy you can see that is suffering from `slow` loses`【10 + (SL × 5)】`Hit Points; or one creature you can see may perform the `Equipment` action for free; or choose one ally you can see that has yet to take a turn during this round: that ally may take their turn immediately after yours during this round.\n\nEach option can only be chosen `once` per use of this Skill."
         },
         {
-          "name": "Stolen Time (Daggers)",
+          "name": "Second Slicer",
           "info": "Max SL - 4",
-          "description": "You may use an action and spend 10 Mind Points to perform a `free attack` with a weapon you have equipped; this attack must target **a single creature** and gains a bonus equal to`【SL】`to its Accuracy Check. If the attack hits, the target suffers `slow` and, if they were already suffering from `slow` or you used a `dagger` to perform this attack, you may choose up to two options: the attack deals`【SL + 1】`extra damage; **or** the target of the attack loses`【SL × 10】`Mind Points; **or** one creature you can see recovers from `slow`; **or** one ally you can see who is yet to take their turn during this round may take their turn immediately after yours."
+          "description": "*Treat this Skill's name as \"Stolen Time\" for the sake of Heroic Skill requirements.*\n\nYou may use an action and spend 10 Mind Points to perform a `free attack` with a weapon you have equipped; this attack must target a single enemy and gains a bonus equal to`【SL】`to its Accuracy Check. When the attack hits, the target suffers `slow` and, if they were already suffering from `slow` or you used a `dagger` to perform this attack, you may choose up to two options: the attack deals`【SL + 1】`extra damage; `or` the target of the attack loses`【SL × 10】`Mind Points; `or` one creature you can see recovers from `slow`; `or` one ally you can see that is yet to take their turn during this round may take their turn immediately after yours."
         }
       ]
     },

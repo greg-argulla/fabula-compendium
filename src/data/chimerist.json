@@ -29,6 +29,11 @@
           "name": "Spell Mimic",
           "info": "Max SL - 10",
           "description": "After a `beast`, `monster`, or `plant` creature you can see casts a spell and resolves its effects, you may learn that spell as a Chimerist spell of your own; if you do, record the `Species` of the creature you learned it from.\n\nWhen you first acquire this Skill, choose`【INS + WLP】or【MIG + WLP】`. From now on, your offensive (*ϟ*) Chimerist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from.\n\nYou may have up to`【SL + 2】different Chimerist spells` memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell."
+        },
+        {
+          "name": "Spell Buffet",
+          "info": "Max SL - 6",
+          "description": "*This variant allows for a different playstyle, an homage to Quina's gameplay in Final Fantasy 9. Treat this Skill's name as \"Spell Mimic\" for the sake of Heroic Skill requirements. If you use this variant, you cannot acquire the `Chimeric Mastery` Heroic Skill.*\n\nYou always know which among the non-humanoid enemies you can see have current Hit Points equal to or lower than`【15 + half your level】`. During a conflict, you may use an action to choose one of those enemies: if you do, that enemy is reduced to 0 Hit Points and the Game Master reveals all spells they know. Then, you may learn any number of those spells as Chimerist spells of your own; if you do, record the `Species` of the enemy you learned them from.\n\nWhen you first acquire this Skill, choose`【INS + WLP】or【MIG + WLP】`. From now on, your offensive (*ϟ*) Chimerist spells use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creatures you learned those spells from.\n\nYou may have up to`【SL + 4】different Chimerist spells` memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell."
         }
       ]
     }

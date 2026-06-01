@@ -136,6 +136,14 @@
           "To determine the amount of damage or healing granted by an invention, use the values corresponding to the current level of its inventor from the damage amounts table."
         ]
       ]
+    },
+    {
+      "name": "Optional: Limited Resting Scenes",
+      "description": "Once the group plays a `resting scene` (Core Rulebook, page 91), they cannot do so again until at least one of the following events has happened (but they can still rest to heal HP, MP, and status effects):\n\n- One or more Player Characters have gained levels.\n\n- One or more Player Characters have `Sacrificed` themselves.\n\n- One or more Villains have escalated.\n\nBonds can still be created via opportunities (Core Rulebook, page 41)."
+    },
+    {
+      "name": "Optional: Cinematic Projects",
+      "description": "Replaces steps 5 and 6 of the standard Project process (Core Rulebook, page 134). Also ignore the rules for hiring helpers (page 137); the Tinkerer's `Visionary` Skill changes when using this rule (see Tinkerer class data).\n\n**Quick Projects.** Outside conflict scenes, a Player Character with access to Projects can spend a few seconds to assemble a consumable invention of minor or medium potency with an individual, small, or large area. The group must have enough materials and/or zenit to cover the Project's cost immediately, and must also consume a special ingredient or material even if potency is minor. Characters may directly spend zenit rather than procuring materials first.\n\n**Slow Projects.** Once per rest, a group that includes one or more Player Characters with access to Projects can assemble a single invention with a material cost equal to or lower than 1000 zenit. Increase this limit by `【SL × 200】` from the highest `Visionary` Skill Level in the group, by 1000 if resting in a place that facilitates the Project, and double it if adapting or repairing an existing object (the object does not count as a special ingredient for medium+ potency). Only one slow Project per rest, regardless of how many PCs have Projects."
     }
   ]
 }
