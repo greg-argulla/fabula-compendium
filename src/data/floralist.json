@@ -11,7 +11,7 @@
           "description": "After you `plant a magiseed` through the `Chloromancy` Skill (not when using `Graft`), you may choose one option: you perform a `free attack` with an equipped weapon; `or` you immediately perform the `Spell` action for free, casting a spell with a `total Mind Point cost equal to or lower than【5 + (SL × 5)】`(you must still pay its MP cost). Treat the `High Roll (HR)` of your Accuracy Check or Magic Check as being equal to 0 when determining damage dealt by this attack or spell."
         },
         {
-          "name": "Chloromacy",
+          "name": "Chloromancy",
           "info": "Max SL - 10",
           "description": "Each time you acquire this Skill, you discover `a new type of magiseed`. The rules for `discovering magiseeds` can be found below.\nDuring a conflict, if there are `no magiseeds` in your `garden`, you may use an action and spend 20 Mind Points to `plant a magiseed` among those you have discovered. The rules for the `garden` and for growing `magiseeds` can be found below."
         },

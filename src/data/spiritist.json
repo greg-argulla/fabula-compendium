@@ -6,11 +6,6 @@
       "name": "Skills",
       "data": [
         {
-          "name": "Encourage",
-          "info": "Max SL - 6",
-          "description": "You may use an action and spend 5 Mind Points to choose an ally that can hear and understand you. That ally recovers`【SL × 10】`Hit Points and chooses `Dexterity`, `Insight`, `Might`, or `Willpower`: they treat the chosen Attribute as being one die size higher (up to a maximum of `d12`) until the start of your next turn."
-        },
-        {
           "name": "Healing Power",
           "info": "Max SL - 2",
           "description": "When you cast a spell that targets one or more allies, if you have an `arcane` weapon equipped, you may have each of those allies recover an amount of Hit Points equal to`【3 + (SL, multiplied by the number of Bonds you have)】`.\n\nThis healing is separate from any healing caused by the effects of the spell."
@@ -21,7 +16,7 @@
           "description": "You may perform Rituals whose effects fall within the `Spiritism` discipline. Spiritism Rituals use`【INS + WLP】`for the Magic Check."
         },
         {
-          "name": "Sprititual Magic",
+          "name": "Spiritual Magic",
           "info": "Max SL - 10",
           "description": "Each time you acquire this Skill, learn one Spiritist spell. Offensive Spiritist spells (*ϟ*) use`【INS + WLP】`for the Magic Check."
         },
