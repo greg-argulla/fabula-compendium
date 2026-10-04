@@ -28,7 +28,7 @@
         {
           "name": "Visionary",
           "info": "Max SL - 5",
-          "description": "When you work on a `Project`, up to`【SL × 100】`zenit of material costs are automatically paid; additionally, you generate an additional`【SL】progress` every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative.\n\n*If your group uses the optional rule for `Cinematic Projects`:* when you or another Player Character create a `quick Project`, its cost in materials is reduced by`【SL × 100】`zenit. When your group works on a `slow Project`, the invention's maximum cost is increased by`【SL × 200】`zenit, and`【SL × 100】`zenit of its material costs are automatically paid."
+          "description": "When you work on a `Project`, up to`【SL × 100】`zenit of material costs are automatically paid; additionally, you generate an additional`【SL】progress` every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative.\n\nIf you adopt the optional rule for cinematic Projects, you must ignore the rules for hiring helpers (see Core Rulebook, page 137), and the Tinkerer's Visionary Skill changes to the following:\nWhen you or another Player Character create a quick Project, its cost in materials is reduced by (SL x 100) zenit. When your group works on a slow Project, the invention's maximum cost is increased by (SL x 200) zenit, and (SL x 100) zenit of its material costs are automatically paid."
         }
       ]
     },
@@ -234,7 +234,7 @@
         },
         {
           "name": "Superior Armament",
-          "description": "As long as you have your `magitech armament` equipped, you may perform the `Skill` action to choose one weapon in your backpack and `sublimate` it. When a weapon is sublimated, it disappears, and the weapon you previously sublimated (if any) reappears inside your backpack.\nYour magitech armament always has the same Quality as the last weapon you have sublimated, and deals extra damage equal to (your Skill Level in `Gadgets`)."
+          "description": "As long as you have your magitech armament equipped, you may perform the Skill action to choose one weapon in your backpack and sublimate it. When a weapon is sublimated, it disappears, and the weapon you previously sublimated (if any) reappears inside your backpack.\nYour magitech armament always has the same Quality as the last weapon you have sublimated, and deals extra damage equal to (your Skill Level in Gadgets)."
         }
       ]
     }

@@ -23,7 +23,7 @@
         {
           "name": "Quick Summoning",
           "info": "Max SL - 4",
-          "description": "When you `summon` an Arcanum during your turn, choose up to two options: reduce its Mind Point cost by 【SL × 5】; and/or after you summon the Arcanum, if you are `merged` with it, perform its `pulse`. If you choose at least one option, you `cannot willingly dismiss` that Arcanum until the start of your next turn; if you choose both, that Arcanum's `dismiss` effect will not be available during this summoning."
+          "description": "When you summon an Arcanum during your turn, choose up to two options: reduce its Mind Point cost by (SL × 5); and/or after you summon the Arcanum, if you are merged with it, perform its pulse. If you choose at least one option, you cannot willingly dismiss that Arcanum until the start of your next turn; if you choose both, that Arcanum's dismiss effect will not be available during this summoning."
         },
         {
           "name": "Ritual Arcanism",

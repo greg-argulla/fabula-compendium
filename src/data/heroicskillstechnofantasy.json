@@ -52,7 +52,7 @@
     {
       "name": "Greater Theriomorphosis",
       "info": "Requirements: you must have mastered the Mutant Class.",
-      "description": "When you use the `Theriomorphosis` Skill on your turn during a conflict, if this `did not` happen through the `Genoclepsis` Skill, you may manifest the effects of `up to three therioforms` among those you have learned (instead of two); then, you may immediately perform an additional action. This additional action `cannot` be used for the `Theriomorphosis` Skill.\n\n*If you play with the `Theriomorphosis (Variant)` Skill, use this text instead:* When you use the `Theriomorphosis` Skill on your turn during a conflict, if this `did not` happen through the `Genoclepsis` Skill, you may manifest the effects of `up to three therioforms` from those you have learned (instead of two)."
+      "description": "When you use the Theriomorphosis Skill on your turn during a conflict, if this did not happen through the Genoclepsis Skill, you may manifest the effects of up to three therioforms among those you have learned (instead of two); then, you may immediately perform an additional action. This additional action cannot be used for the Theriomorphosis Skill.\n\nIf you play with this variant, the text of the Greater Theriomorphosis Heroic Skill changes to the following: When you use the Theriomorphosis Skill on your turn during a conflict, if this did not happen through the Genoclepsis Skill, you may manifest the effects of up to three therioforms from those you have learned (instead of two)."
     },
 
     {
