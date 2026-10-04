@@ -256,7 +256,7 @@
             },
             {
               "name": "Sun Hex",
-              "description": "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal `dark`."
+              "description": "Until the start of your next turn, the target suffers 5 extra damage from all sources that deal `dark` damage."
             },
             {
               "name": "Laughter",
