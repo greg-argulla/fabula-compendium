@@ -3,8 +3,8 @@
   "data": [
     {
       "name": "Optional: Heroic Skill at Character Creation",
-      "info": "Optional rule from playtest materials (May 2026).",
-      "description": "Each Player Character gains an additional Heroic Skill during character creation; however, the first time they would normally gain a Heroic Skill by mastering one of their Classes, they gain no Heroic Skill from that.\n\n- If a Heroic Skill requires mastery of one or more specific Classes, the character must have at least one of those Classes at character creation. Any other requirements remain unchanged.\n\n- No two characters may acquire the same Heroic Skill this way.\n\n- The following Core Rulebook Heroic Skills cannot be obtained: `Deep Pockets`, `Extra HP`, `Extra IP`, `Extra MP`, `Powerful Shot`, `Powerful Spell`, `Powerful Strike`, `Revelation`.\n\n- `Deep Pockets` and `Revelation` are also unavailable as Heroic Skills at character creation when not using this optional rule."
+      "info": "Optional rule from playtest materials (October 1, 2026).",
+      "description": "Each Player Character gains an additional Heroic Skill during character creation; however, the first time they would normally gain a Heroic Skill by mastering one of their Classes, they gain no Heroic Skill from that.\n\n- If a Heroic Skill requires mastery of one or more specific Classes, the character must have at least one of those Classes at character creation. Any other requirements of the Skill, such as being a specific level or having acquired specific Skills or learned specific spells, remain unchanged.\n\n- No two characters may acquire the same Heroic Skill this way.\n\n- The following Core Rulebook Heroic Skills cannot be obtained: `Deep Pockets`, `Extra HP`, `Extra IP`, `Extra MP`, `Powerful Shot`, `Powerful Spell`, `Powerful Strike`, `Revelation`."
     },
     {
       "name": "Adversity",
@@ -44,7 +44,7 @@
     {
       "name": "Fast Learner",
       "info": "Requirements: you must have mastered one or more Classes among Chimerist and Wayfarer.",
-      "description": "Once per conflict scene when another Player Character you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill, if you have not learned or acquired that spell or Skill, you can `temporarily` learn or acquire that spell or Skill until the end of the scene (this includes Heroic Skills).\nIf you learn an offensive spell (*ϟ*) this way and have also acquired the `Spell Mimic` Skill, you may use your `Spell Mimic` Attributes for its Magic Check.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any of the additional benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `keys`, or `tones` by temporarily acquiring the `Magichant` Skill (High Fantasy Atlas, page 137)."
+      "description": "Once per conflict scene when another Player Character you can see performs the `Skill` or `Spell` action to cast a spell or activate a Skill, if you have not learned or acquired that spell or Skill, you can `temporarily` learn or acquire that spell or Skill until the end of the scene (this includes Heroic Skills).\nIf you learn an offensive spell (*ϟ*) this way and have also acquired the `Spell Mimic` Skill, you may use your `Spell Mimic` Attributes for its Magic Check; otherwise, you use the same Attributes as the Player Character you learned it from.\nIf you acquire a Skill this way, you are treated as having `1 Skill Level` in it, and you `do not` gain any of the additional benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the `Faithful Companion` Skill, nor would you learn any `volumes`, `keys`, or `tones` by temporarily acquiring the `Magichant` Skill (High Fantasy Atlas, page 137)."
     },
     {
       "name": "Foul-Mouthed",
@@ -54,7 +54,7 @@
     {
       "name": "Fūma Shuriken",
       "info": "Requirements: you must have mastered the Sharpshooter Class, and must have acquired the Barrage Skill.",
-      "description": "During a conflict, you may use an action to perform a `free attack` with a `two-handed ranged thrown` custom weapon you have equipped. If you do, that attack gains the `multi (2)` property (which can still be enhanced to 3 via the `Barrage` Skill); if the attack hits one or more creatures, you may send your equipped weapon `spinning`.\nAt the start of your turn, if your equipped weapon is still `spinning`, it stops `spinning` and you choose up to two options: every enemy you can see loses 5 Hit Points; `or` every enemy you can see loses 5 Mind Points; `or` every enemy you can see suffers `slow`; `or` fill or erase `1 section` of a Clock. The amount of Hit Points and/or Mind Points lost increases to 10 if you are `level 30 or higher`.\nYour weapon stops `spinning` immediately if you no longer have it equipped, if you perform another attack with it, or if the scene ends."
+      "description": "Two-handed `thrown` weapons you have equipped are treated as also belonging to the `firearm` Category for the sake of Skills and effects that require it.\nOnce per turn, when you hit one or more enemies with an attack using a two-handed `thrown` weapon, you may choose one option, or choose up to two options if the attack was not a `free attack`: this attack deals 5 extra damage; `or` all damage dealt by this attack becomes `air`; `or` the next attack you perform with that weapon during this scene gains `multi (2)`; `or` you gain a +2 bonus to Defense and Magic Defense until the start of your next turn, until you use this Skill again, or until you no longer have that weapon equipped; `or` fill or erase 1 section of a Clock."
     },
     {
       "name": "Detonation Artist",
@@ -84,7 +84,7 @@
     {
       "name": "Humble Strength",
       "info": "Requirements: None.",
-      "description": "When you acquire this Heroic Skill, choose two `different` Attributes among `Dexterity`, `Insight`, `Might`, and `Willpower`: when you perform an `Accuracy Check` with a `non-martial` weapon, you may replace its Attributes with those you have chosen.\nAs long as the `only` weapon you have equipped is a `staff` (Core Rulebook, page 130), that `staff` is treated as also belonging to the `brawling`, `heavy`, `spear`, and `sword` Categories for the sake of Skills that require it, and your attacks with that weapon deal 10 extra damage.\nAdditionally, when you perform an attack using an `improvised weapon`, you deal 5 extra damage and may have that weapon not be destroyed after the attack."
+      "description": "When you acquire this Heroic Skill, choose two `different` Attributes among `Dexterity`, `Insight`, `Might`, and `Willpower`: when you perform an `Accuracy Check` with a `non-martial` weapon, you may replace its Attributes with those you have chosen.\nAs long as the `only` weapon you have equipped is a `staff` (the basic weapon found on page 130 of the Core Rulebook), that `staff` is treated as also belonging to the `brawling`, `heavy`, `spear`, and `sword` Categories for the sake of Skills and effects that require it, and your attacks with that weapon deal 10 extra damage.\nAdditionally, when you perform an attack using an `improvised weapon`, you deal 5 extra damage and may have that weapon not be destroyed after the attack."
     },
     {
       "name": "Inner Alchemy",
@@ -99,7 +99,7 @@
     {
       "name": "Just a Humble Merchant!",
       "info": "Requirements: you must have mastered one or more Classes among Merchant and Tinkerer.",
-      "description": "After a creature you can see performs an Accuracy Check or a Magic Check for an attack or offensive spell (*ϟ*) that includes you among its targets, you may spend 3 Inventory Points (you do so after seeing the Result of the Check). If you do, you gain a +20 bonus to your Defense and Magic Defense until the end of this turn, and cannot use this Skill again until the start of your next turn."
+      "description": "After a creature you can see performs an Accuracy Check or a Magic Check for an attack or offensive spell (*ϟ*) that includes you among its targets, you may spend 2 Inventory Points (you do so after seeing the Result of the Check). If you do, you gain a +20 bonus to your Defense and Magic Defense until the end of this turn, and cannot use this Skill again until the start of your next turn."
     },
     {
       "name": "Knuckle Sandwich",
@@ -109,7 +109,7 @@
     {
       "name": "Miasma",
       "info": "Requirements: you must have mastered one or more Classes among Chimerist and Elementalist.",
-      "description": "You learn the forbidden poison spell: `Miasma`.\nWhen you acquire this Skill, choose 【INS + WLP】 or 【MIG + WLP】; you will use the chosen Attributes for `Miasma`'s Magic Check.\n\n*Miasma* ⚡ MP: 20 Target: One creature Duration: Instantaneous\n\nYou manipulate the elemental balance within the target's body. You deal 【HR + 30】 `poison` damage to the target, and this damage ignores Resistances.\nIf the `High Roll` of the Magic Check was `8 or higher`, or if you have acquired the `Pathogenesis` Skill (Core Rulebook, page XXX), the target suffers `poisoned`."
+      "description": "You learn the forbidden poison spell: `Miasma`.\nWhen you acquire this Skill, choose 【INS + WLP】 or 【MIG + WLP】; you will use the chosen Attributes for `Miasma`'s Magic Check.\n\n*Miasma* ⚡ MP: 20 Target: One creature Duration: Instantaneous\n\nYou manipulate the elemental balance within the target's body. You deal 【HR + 30】 `poison` damage to the target, and this damage ignores Resistances.\nIf the `High Roll` of the Magic Check was `8 or higher`, or if you have acquired the `Pathogenesis` Skill (Core Rulebook, page 183), the target suffers `poisoned`."
     },
     {
       "name": "Overpaint",
@@ -119,7 +119,7 @@
     {
       "name": "Peacock Strut",
       "info": "Requirements: you must have mastered the Dancer Class.",
-      "description": "When you perform a `Peacock Dance` (High Fantasy Atlas, page XXX), you may replace its effect with \"Choose another creature that is able to see you and is suffering from one or more status effects. Until the start of your next turn, that creature must include you among the targets of its attacks and offensive spells (*ϟ*), if able.\""
+      "description": "When you perform a `Peacock Dance` (High Fantasy Atlas, page 145), you may replace its effect with \"Choose another creature that is able to see you and is suffering from one or more status effects. Until the start of your next turn, that creature must include you among the targets of its attacks and offensive spells (*ϟ*), if able.\""
     },
     {
       "name": "Piercing Sorcery",
@@ -134,7 +134,7 @@
     {
       "name": "Psychic Ascension",
       "info": "Requirements: you must have mastered the Esper Class.",
-      "description": "Weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills and effects that require it.\nAt the end of your turn, if your `Brainwave Clock` is full, you may choose one option: you and every ally that is able to hear you recover from `dazed`, `enraged`, and `shaken`; `or` you and every ally that is able to hear you recover 5 Hit Points. This amount increases to 10 Hit Points if you are `level 30 or higher`."
+      "description": "Weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills and effects that require it.\nAt the end of your turn, if your `Brainwave Clock` is full, you may choose one option: you and every ally present on the scene recover from `dazed`, `enraged`, and `shaken`; `or` you and every ally present on the scene recover 5 Hit Points and 5 Mind Points; `or` every enemy present on the scene suffers `dazed` and `shaken`; `or` the Game Master reveals the current damage Affinities of your `cognitive focus`."
     },
     {
       "name": "Punisher Stance",
@@ -144,7 +144,7 @@
     {
       "name": "Quaking Titan",
       "info": "Requirements: you must have mastered one or more Classes among Guardian and Pilot.",
-      "description": "As long as your `personal vehicle` has a `steed` frame, it may have `up to 2 active weapon modules` (instead of 1).\nDuring a conflict, if you have a `martial armor` or `martial armor module` equipped, you may use an action and spend 30 Mind Points to choose `earth` or `physical`. If you do, you deal 20 damage of the chosen type to every enemy you can see, and enemies that lose Hit Points this way cannot perform `free attacks` until the start of their next turn.\nThis effect deals 10 extra damage if you are driving a `personal vehicle` with a `mech` frame and/or have two shields equipped, and also deals 10 extra damage if you are `level 30 or higher`."
+      "description": "As long as your `personal vehicle` has a `steed` frame, it may have up to 2 active weapon modules (instead of 1).\nAs long as you have a `martial armor` equipped, you may use an action and spend 30 Mind Points to choose `earth` or `physical`. If you do, you deal 20 damage of the chosen type to every enemy you can see, and enemies that lose Hit Points this way cannot perform `free attacks` until the start of their next turn. This effect deals 10 extra damage if you are driving a `personal vehicle` with a `mech` frame, or if you have two shields equipped and are not driving a `personal vehicle` with a `steed` frame; it also deals another 10 extra damage if you are level 30 or higher."
     },
     {
       "name": "Refrain",
@@ -168,13 +168,13 @@
     },
     {
       "name": "Skyjump",
-      "info": "Requirements: you must have learned the Soaring Strike spell (Core Rulebook, page XXX).",
+      "info": "Requirements: you must have learned Soaring Strike (Core Rulebook, page 189). You may not acquire this Heroic Skill if another Player Character in your group has already acquired it.",
       "description": "You may use an action and spend 10 Mind Points to become `airborne`. As long as you are `airborne`, your `melee` attacks can target creatures that cannot normally be targeted by `melee` attacks, and other creatures are unable to see you.\nAt the start of your turn, if you are `airborne`, you stop being `airborne` and, until the end of that turn, you may ignore the Mind Point cost of the `Soaring Strike` spell. If you cast `Soaring Strike` during that turn and attack with a `spear`, the attack gains `multi (2)` and deals another 10 extra damage."
     },
     {
       "name": "Stabilized Mutation",
       "info": "Requirements: you must have mastered the Mutant Class, and must have acquired the Theriomorphosis Skill.",
-      "description": "When you acquire this Heroic Skill, you learn two `therioforms` of your choice.\nWhen you `rest`, choose two `therioforms` among those you have learned so far; you cannot choose `polypoda`, and can only choose one among `arpaktida`, `dynamotheria`, and `tachytheria`. The chosen `therioforms` become `stabilized` until you rest again.\nAs long as you are not manifesting any non-stabilized `therioforms`, you are treated as if you were manifesting both your stabilized `therioforms` and receive their benefits (these benefits do not end between scenes, nor if you perform the `Guard` action).\nAs long as you are manifesting one or more of the following `therioforms`, you also gain Resistance to the corresponding damage type: `amphibia (ice)`, `electrophora (bolt)`, `placophora (earth)`, `pneumophora (air)`, `pyrophora (fire)`, `toxicophora (poison)`."
+      "description": "When you acquire this Heroic Skill, you learn two `therioforms` of your choice.\nWhen you `rest`, choose up to two `therioforms` among those you know; you cannot choose `polypoda`, and can only choose one among `arpaktida`, `dynamotheria`, and `tachytheria`. The chosen `therioforms` become `stabilized` until you rest again.\nAs long as you are not manifesting any non-stabilized `therioforms`, you are treated as if you were manifesting both your stabilized `therioforms` and receive their benefits (these benefits do not end between scenes, nor if you perform the `Guard` action).\nAs long as you are manifesting one or more of the following `therioforms`, you also gain Resistance to the corresponding damage type: `amphibia (ice)`, `electrophora (bolt)`, `placophora (earth)`, `pneumophora (air)`, `pyrophora (fire)`, `toxicophora (poison)`."
     },
     {
       "name": "Surplus Stock",
@@ -184,7 +184,7 @@
     {
       "name": "Thaumaturge",
       "info": "Requirements: you must have mastered the Spiritist Class.",
-      "description": "All `brawling` and `dagger` weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills and effects that require it.\nYou may use an action to perform a `free attack` with an `arcane` weapon you have equipped. This attack must target `a single enemy`, and you treat your `High Roll (HR)` as 0 when determining damage dealt by the attack. After this attack has been resolved, if it was successful, you may perform the `Spell` action for free, casting the `Cleanse` spell or the `Heal` spell (Core Rulebook, page XXX) on `exactly one creature` (you must have learned the spell and must pay its MP cost)."
+      "description": "All `brawling` and `dagger` weapons you have equipped are treated as also belonging to the `arcane` Category for the sake of Skills and effects that require it.\nYou may use an action to perform a `free attack` with an `arcane` weapon you have equipped. This attack must target `a single enemy`, and you treat your `High Roll (HR)` as 0 when determining damage dealt by the attack. After this attack has been resolved, you may perform the `Spell` action for free, casting the `Cleanse` spell or the `Heal` spell (Core Rulebook, page 208) on `exactly one creature` (you must have learned the spell and must pay its MP cost)."
     },
     {
       "name": "Thorough Analysis",
@@ -194,7 +194,7 @@
     {
       "name": "Trapmaster",
       "info": "Requirements: you must have mastered the Wayfarer Class.",
-      "description": "You may initiate `Projects` to create unique traps; these are always `consumable` (and are separate from the `traps` created by the other effects of this Skill).\nAt the start of your turn, if the number of `traps` present on the scene is `lower than` 【`1+ your Skill Level in Resourceful`】, you may spend 1 Inventory Point to set a `trap`. For each trap, you secretly assign a damage type among `physical`, `air`, `bolt`, `dark`, `earth`, `fire`, `ice`, `light`, and `poison`; a status effect among `dazed`, `shaken`, `slow`, and `weak`; and an action among `Attack`, `Guard`, `Skill`, and `Spell`.\nAt the end of each enemy turn, if that enemy performed one or more actions you have set `traps` for, those `traps` are automatically sprung: for each `trap` sprung by an enemy, you deal 5 damage of that `trap`'s type to that enemy, and that enemy suffers the status effect assigned to that `trap`.\nAll `traps` vanish after they are sprung, or at the end of each scene."
+      "description": "At the start of your turn, if the number of `traps` present on the scene is lower than (1 + your Skill Level in `Resourceful`), you may spend 2 Inventory Points to set a `trap`. When you set a trap, you secretly assign it a damage type among `physical`, `air`, `bolt`, `dark`, `earth`, `fire`, `ice`, `light`, and `poison`; a status effect among `dazed`, `shaken`, `slow`, and `weak`; and an action among `Attack`, `Guard`, `Skill`, and `Spell`. Take note of your choices in secret (such as on a piece of scrap paper).\nAt the end of each enemy turn, if that enemy performed one or more actions you have set `traps` for, those `traps` are automatically sprung: for each `trap` sprung by that enemy, you deal 10 damage of that `trap`'s type to that enemy, and that enemy suffers the status effect assigned to that `trap`.\nAll `traps` vanish after they are sprung, or at the end of each scene.\nAdditionally, you may initiate `Projects` to create unique traps and rigged devices; these are always `consumable` (and they have no rules in common with the traps created by the other effects of this Skill)."
     },
     {
       "name": "Twilight Dismissal",

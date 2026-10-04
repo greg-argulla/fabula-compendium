@@ -234,7 +234,7 @@
         },
         {
           "name": "Superior Armament",
-          "description": "While you have your `magitech armament` equipped, you may use an action to choose one weapon in your `backpack` and `sublimate` it. When you do so, the chosen weapon disappears, and the previous weapon you sublimated (if any) reappears inside your backpack.\n\nEvery `magitech armament` you create has the same Quality as the last weapon you sublimated."
+          "description": "As long as you have your `magitech armament` equipped, you may perform the `Skill` action to choose one weapon in your backpack and `sublimate` it. When a weapon is sublimated, it disappears, and the weapon you previously sublimated (if any) reappears inside your backpack.\nYour magitech armament always has the same Quality as the last weapon you have sublimated, and deals extra damage equal to (your Skill Level in `Gadgets`)."
         }
       ]
     }
